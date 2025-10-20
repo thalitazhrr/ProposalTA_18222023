@@ -8,7 +8,7 @@
 \documentclass[12pt,a4paper,oneside]{book}
 
 % ==========================================
-% PAKET DASAR
+% BASIC PACKAGES
 % ==========================================
 \usepackage[utf8]{inputenc}
 \usepackage{fontspec}
@@ -250,7 +250,7 @@
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
 
 
-
+% --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
 
 \mainmatter
 
@@ -272,7 +272,6 @@
 \captionsetup[table]{labelsep=space}
 \floatsetup[table]{capposition=top}
 
-\hypersetup{colorlinks=true, linkcolor=black}
 
 % -- Change page number style to arabic ---
 \pagenumbering{arabic} 
@@ -371,20 +370,38 @@ Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tab
 \subsection{Subsection Kedua}
 \lipsum[3]
 
-% ==========================================
+% ============================================================================================
 % BAB III ANALISIS MASALAH
-% ==========================================
+% Pembagian subbab tidak rigid dan dapat bervariasi. Bab ini minimal berisi analisis kebutuhan
+% fungsional dan nonfungsional, analisis berbagai alternatif solusi yang dapat ditawarkan, dan
+% metode pemilihan solusi yang diusulkan.
+% ============================================================================================
 \chapter{ANALISIS MASALAH}
 \section{Analisis Kondisi Saat Ini}
 Menurut \textcite{laudon2020}, gambarkan terlebih dahulu model konseptual sistem yang ada saat ini. Model konseptual ini berisi berbagai komponen atau subsitem dan interaksi antarsubsistem tersebut. Setelah itu, berikan penjelasan tentang masalah yang ada pada sistem tersebut. Paragraf berikut berisi contoh penjabaran masalah sistem informasi fasilitas kesehatan untuk pasien \autocite{pressman2019}. 
 \section{Analisis Kebutuhan}
-\lipsum[1]
+\lipsum[4]
+\subsection{Identifikasi Masalah Pengguna}
+\lipsum[5]
+\subsection{Kebutuhan Fungsional}
+\lipsum[6]
+\subsection{Kebutuhan Nonfungsional}
+\lipsum[7]
+
+\section{Analisis Pemilihan Solusi}
+\subsection{Alternatif Solusi}
+\lipsum[8]
+\subsection{Analisis Penentuan Solusi}
+\lipsum[9]
 
 % ==========================================
 % BAB IV DESAIN KONSEP SOLUSI
 % ==========================================
 \chapter{DESAIN KONSEP SOLUSI}
-Bagian ini menjelaskan hasil implementasi dan evaluasi dari sistem informasi yang dirancang.
+Ilustrasikan desain konsep solusi dalam bentuk model konseptual dan penjelasan secara ringkas, 
+beserta perbedaannya dengan sistem saat ini. Ilustrasi harus dapat dibandingkan (\textit{before} and \textit{after}). 
+Karena masih berupa proposal, bab ini hanya berisi gambar desain konsep solusi tersebut dan 
+penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergambar di awal Bab III).
 
 % ==========================================
 % BAB V RENCANA SELANJUTNYA
@@ -405,12 +422,14 @@ Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlu
 % ==========================================
 \printbibliography[title={DAFTAR PUSTAKA}]
 
+% ==========================================
+% LAMPIRAN (optional)
+% ==========================================
 \appendix
 
-\chapter{LAMPIRAN A: Source Code}
+\chapter{LAMPIRAN A: SOURCE CODE}
 
-
-\chapter{LAMPIRAN B: Foto Lapangan}
+\chapter{LAMPIRAN B: HASIL SURVEI}
 
 
 \end{document}

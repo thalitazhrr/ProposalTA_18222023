@@ -1,9 +1,70 @@
-% Urutan cara kompilasi (command line) jika menggunakan XeLaTeX (berlaku juga untuk LaTeX, pdflatexmk, LuaLaTeX dll.)
+%! TEX program = xelatex
+% 
+% Template Proposal Tugas Akhir
+% Program Studi Sistem dan Teknologi Informasi
+% Sekolah Teknik Elektro dan Informatika
+% Institut Teknologi Bandung
+% 
+% Dibuat oleh: IGB Baskara Nugraha 
+% Email: baskara@itb.ac.id 
+% 
+% Last updated: 20 Oktober 2025
 %
+% Petunjuk penggunaan:
+% 1. Ada 2 file utama, yaitu ProposalTA.tex (file ini) dan daftar-pustaka.bib (file daftar pustaka).
+% 2. Sunting ProposalTA.tex sesuai dengan kebutuhan Anda.
+% 3. Sunting atau generate isi daftar-pustaka.bib dengan referensi yang Anda gunakan, sesuai dengan format BibLaTeX.
+% 4. Simpan kedua file tersebut dalam satu folder yang sama.
+% 5. Kompilasi file ProposalTA.tex menggunakan XeLaTeX dan Biber (lihat urutan cara kompilasi di bawah).
+% 6. Hasil kompilasi adalah file ProposalTA.pdf yang siap dicetak.
+% 
+% Urutan cara kompilasi (command line):
 % 1. xelatex ProposalTA.tex
 % 2. biber ProposalTA      
 % 3. xelatex  ProposalTA.tex
 % 4. xelatex  ProposalTA.tex
+%
+% Catatan:
+% - Pastikan Anda telah menginstal paket-paket LaTeX yang diperlukan, termasuk
+%   biblatex-chicago dan fontspec.
+% - Gunakan editor LaTeX yang mendukung XeLaTeX, seperti TeXstudio, Overleaf, atau lainnya.
+% - Jika meenggunakan Visual Studio Code sebagai editor, pastikan mengatur "latex-workshop.latex.tools" dan
+%   "latex-workshop.latex.recipes" untuk mendukung XeLaTeX dan Biber dengan cara menambahkan konfigurasi berikut:
+%   "latex-workshop.latex.tools": [ 
+%       {
+%           "name": "xelatex",
+%           "command": "xelatex",
+%           "args": [
+%               "-synctex=1",
+%               "-interaction=nonstopmode",
+%               "-file-line-error",
+%               "%DOC%"
+%           ]
+%       },
+%       {
+%           "name": "biber",
+%           "command": "biber",
+%           "args": [
+%               "%DOCFILE%"
+%           ]
+%       }
+%   ],
+%   "latex-workshop.latex.recipes": [
+%       {
+%           "name": "xelatex -> biber -> xelatex*2",
+%           "tools": [
+%               "xelatex",
+%               "biber",
+%               "xelatex",
+%               "xelatex"
+%           ]
+%       }
+%   ]
+% - Untuk referensi lebih lanjut tentang penggunaan BibLaTeX dengan gaya Chicago, silakan merujuk ke dokumentasi resmi BibLaTeX.
+%   https://ctan.org/pkg/biblatex-chicago
+% - Untuk referensi lebih lanjut tentang penggunaan XeLaTeX dan fontspec, silakan merujuk ke dokumentasi resmi fontspec.
+%   https://ctan.org/pkg/fontspec
+% - Selamat menyusun proposal tugas akhir Anda!
 %
 \documentclass[12pt,a4paper,oneside]{book}
 
@@ -33,12 +94,8 @@
 \setcounter{secnumdepth}{4}
 
 
-
-
-
-
 % ==========================================
-% SITASI DAN DAFTAR PUSTAKA (CHICAGO)
+% SITASI DAN DAFTAR PUSTAKA (MENGGUNAKAN CHICAGO MANUAL OF STYLE)
 % ==========================================
 \usepackage[
     backend=biber,
@@ -92,12 +149,9 @@
     urlcolor=black
 }
 
-%\fancyhf{}
-%\fancyhead[R]{\thepage}
-%\fancyhead[L]{\leftmark}
+% -- No Header dan No Footer ---
 \pagestyle{plain}
-%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
-%\setlength{\parindent}{1.25cm}
+
 
 % ==========================================
 % AWAL DOKUMEN
@@ -156,33 +210,34 @@
 \thispagestyle{empty}
 \pagenumbering{gobble}
 \begin{center}
-    \textbf{\large LEMBAR PENGESAHAN}\\[1cm]
-    \vspace*{1.5cm}
+  \textbf{\large LEMBAR PENGESAHAN}\\[1cm]
+  \vspace*{1.5cm}
     
-    {\large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+  {\large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
      \vspace{2cm}
 
-    {\Large \textbf{Proposal Tugas Akhir}}\\
+  {\Large \textbf{Proposal Tugas Akhir}}\\
 
 
-    \vspace{1.5cm}
+  \vspace{1.5cm}
     
     
-    {\large Oleh}\\[0.3cm]
+  {\large Oleh}\\[0.3cm]
     \textbf{
     {\large John Doe}\\
     {\large 18299000}
-    }\\
+  }\\
     
- \vspace{0.5cm}
+  \vspace{0.5cm}
  
-    {\large Program Studi Sistem dan Teknologi Informasi}\\
-    {\large Sekolah Teknik Elektro dan Informatika}\\
-    {\large Institut Teknologi Bandung}\\
+  {\large Program Studi Sistem dan Teknologi Informasi}\\
+  {\large Sekolah Teknik Elektro dan Informatika}\\
+  {\large Institut Teknologi Bandung}\\
 
- \vspace{1.5cm}
+  \vspace{1.5cm}
 
-    Proposal Tugas Akhir ini telah disetujui dan disahkan\\ di Bandung, pada tanggal 20 November 2025\\[1cm]
+  Proposal Tugas Akhir ini telah disetujui dan disahkan\\ 
+  di Bandung, pada tanggal 20 November 2025\\[1cm]
 
 % ==========================================
 % Versi 1 pembimbing (default)
@@ -198,7 +253,9 @@
 \noindent
 
 % ==========================================
-% Uncomment dan edit untuk versi 2 pembimbing
+% Jika ada 2 pembimbing TA, uncomment dan edit 
+% tabular di bawah ini. Kemudian, comment out atau hapus
+% bagian versi 1 pembimbing di atas.
 % ==========================================
 
 %\begin{tabular}{p{1cm}p{7cm}p{7cm}}
@@ -328,7 +385,7 @@ Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab in
 
 \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
 	\centering
-    	\includegraphics[width=0.5\textwidth]{gambar1.png}
+    	\includegraphics[width=0.7\textwidth]{gambar1.png}
 	\caption{Contoh gambar jaringan}
 	\label{gambar:jaringan}
 \end{figure}
@@ -366,6 +423,14 @@ Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tab
 \caption{Tabel harga bahan sekunder}
 \label{tbl:harga2}
 \end{table}
+
+\subsubsection{Rumus}
+Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
+Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
+\begin{equation}
+E = mc^2
+\label{eq:contoh1}
+\end{equation}
 
 \subsection{Subsection Kedua}
 \lipsum[3]

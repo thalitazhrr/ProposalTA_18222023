@@ -71,24 +71,25 @@
 % ==========================================
 % BASIC PACKAGES
 % ==========================================
-\usepackage[utf8]{inputenc}
-\usepackage{fontspec}
-\setmainfont{Times New Roman}
-\usepackage[a4paper, left=4cm, right=3cm, top=3cm, bottom=3cm]{geometry}
-\usepackage[indonesian]{babel}
-\usepackage{csquotes}
-\usepackage{setspace}
-\onehalfspacing
-\usepackage{graphicx}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{hyperref}
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage{tocloft}
-\usepackage{lipsum}
-\usepackage{hyperref}
-\usepackage{floatrow}
+\usepackage[utf8]{inputenc} % for UTF-8 encoding
+\usepackage{fontspec} % for font selection
+\setmainfont{Times New Roman} % set main font to Times New Roman
+\usepackage[a4paper, left=4cm, right=3cm, top=3cm, bottom=3cm]{geometry} % set page margins
+\usepackage[indonesian]{babel} % untuk bahasa Indonesia
+\usepackage{csquotes} % for context-sensitive quotation facilities
+\usepackage{setspace} % for line spacing
+\onehalfspacing % spasi 1.5
+\usepackage{graphicx} % for images
+\usepackage{caption} % for customizing captions
+\usepackage{subcaption} % for sub-figures
+\usepackage{hyperref} % for hyperlinks
+\usepackage{titlesec} % for customizing titles
+\usepackage{tocloft} % for customizing table of contents
+\usepackage{lipsum} % for dummy text (lorem ipsum text)
+\usepackage{floatrow} % for customizing float (figure and table) positions
+\usepackage{listings} % for code listing
+\usepackage{amsmath} % for math
+\usepackage{amssymb} % for math symbols
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
 \setcounter{secnumdepth}{4} % kedalaman penomoran sampai subsubbab
@@ -152,6 +153,14 @@
 % -- No Header dan No Footer ---
 \pagestyle{plain}
 
+% --- Ubah nama daftar listing ke "DAFTAR ALGORITMA" ---
+% --- Harus diletakkan sebelum \begin{document} ---
+\renewcommand{\lstlistlistingname}{\centering\normalsize DAFTAR ALGORITMA} 
+\renewcommand{\lstlistingname}{Algoritma}
+\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
+
+
+\renewcommand \cftchapdotsep{4.5}
 
 % ==========================================
 % AWAL DOKUMEN
@@ -290,7 +299,7 @@
 \renewcommand{\cfttoctitlefont}{\hfill\large\bfseries\MakeUppercase}
 \renewcommand{\cftaftertoctitle}{\hfill}
 \tableofcontents
-\addcontentsline{toc}{chapter}{DAFTAR ISI}
+%\addcontentsline{toc}{chapter}{DAFTAR ISI}
 
 % --- DAFTAR GAMBAR ---
 \newpage
@@ -305,6 +314,12 @@
 \renewcommand{\cftafterlottitle}{\hfill}
 \listoftables
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
+
+% --- DAFTAR LISTING (ALGORITMA, PSEUDOCODE, SOURCE CODE) ---
+\newpage
+
+\lstlistoflistings
+\addcontentsline{toc}{chapter}{\lstlistlistingname}
 
 \mainmatter
 % --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
@@ -325,6 +340,7 @@
 \captionsetup[figure]{labelsep=space}
 \captionsetup[table]{labelsep=space}
 \floatsetup[table]{capposition=top}
+\captionsetup[lstlisting]{labelsep=space}
 
 % --- Atur indentasi paragraf ---
 \setlength{\parindent}{0pt}
@@ -430,8 +446,28 @@ E = mc^2
 \label{eq:contoh1}
 \end{equation}
 
-\subsection{Subsection Kedua}
-\lipsum[3]
+\subsection{Algoritma, Pseudocode, atau Source Code}
+Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Algoritma \ref{alg:contoh1} di bawah ini. 
+Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Contoh \ref{lst:contoh1}. 
+
+
+\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, label={lst:contoh1}]
+def hello_world():
+    print("Hello, World!")       
+hello_world()
+\end{lstlisting}
+
+
+
+
+\begin{lstlisting}[frame=lines, caption={Contoh pseudocode}, label={alg:contoh1}]
+ALGORITHM HelloWorld
+   PRINT "Hello, World!"
+END ALGORITHM
+\end{lstlisting}
+
+
+
 
 % ============================================================================================
 % BAB III ANALISIS MASALAH

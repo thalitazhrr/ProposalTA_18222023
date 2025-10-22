@@ -94,6 +94,8 @@
 \setlist[enumerate]{nosep, topsep=-10pt} % mengurangi spasi antar item dan atas bawah daftar
 \setlist[itemize]{nosep, topsep=-10pt} % mengurangi spasi antar item dan atas bawah daftar
 \usepackage[skip=12pt]{parskip}
+\usepackage{longtable}
+\usepackage{booktabs}
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
 \setcounter{secnumdepth}{4} % kedalaman penomoran sampai subsubbab
@@ -340,6 +342,10 @@
 \titleformat{\subsection}
 	{\normalfont\bfseries}
 	{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+	{\normalfont\bfseries}
+	{\thesubsubsection}{1em}{}
+
 
 % --- Format judul gambar dan tabel ---
 \captionsetup[figure]{labelsep=space}
@@ -399,7 +405,7 @@ Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan
 \section{Penulisan Gambar, Tabel, Rumus, dan Kode}
 \lipsum[1]
 
-\subsubsection{Gambar}
+\subsection{Gambar}
 Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
 
 \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
@@ -425,7 +431,9 @@ Untuk mendapatkan gambar yang tidak kabur (blur), langkah-langkah berikut dapat 
 \item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-copy-paste ke Word.
 \end{enumerate}
 
-\subsubsection{Tabel}
+\subsection{Tabel}
+Tabel ada dua jenis, yaitu tabel yang bisa termuat dalam satu halaman dan tabel yang sangat panjang sehingga tidak muat dalam satu halaman.
+\subsubsection{Tabel yang Muat dalam Satu Halaman}
 Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
 
 \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
@@ -455,6 +463,87 @@ Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tab
 \caption{Tabel harga bahan sekunder}
 \label{tbl:harga2}
 \end{table}
+
+\subsubsection{Tabel yang Sangat Panjang}
+Jika tabel terlalu panjang sehingga tidak muat dalam satu halaman, gunakan paket 
+\textit{longtable} untuk membuat tabel yang dapat terpotong ke halaman berikutnya, 
+seperti pada Tabel \ref{tbl:longtable1}.
+
+\begin{longtable}{@{\extracolsep{\fill}} l c r r}
+\caption{Comprehensive Data Table Example}\label{tbl:longtable1} \\
+\toprule
+\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+\midrule
+\endfirsthead
+
+\caption*{Comprehensive Data Table Example (lanjutan)} \\
+\toprule
+\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\bottomrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+% === Table Data ===
+1 & Alice Smith & 89 & 5 \\
+2 & Bob Johnson & 93 & 3 \\
+3 & Carol Davis & 95 & 2 \\
+4 & Daniel Wilson & 88 & 6 \\
+5 & Eve Thompson & 97 & 1 \\
+6 & Frank Brown & 85 & 7 \\
+7 & Grace Lee & 91 & 4 \\
+8 & Henry Miller & 80 & 9 \\
+9 & Irene Garcia & 83 & 8 \\
+10 & Jack Robinson & 78 & 10 \\
+% Repeat with more rows to make it long
+11 & Kevin Harris & 76 & 11 \\
+12 & Laura Martin & 75 & 12 \\
+13 & Michael Clark & 74 & 13 \\
+14 & Natalie Lewis & 73 & 14 \\
+15 & Olivia Walker & 72 & 15 \\
+16 & Peter Hall & 71 & 16 \\
+17 & Quinn Allen & 70 & 17 \\
+18 & Rachel Young & 69 & 18 \\
+19 & Samuel King & 68 & 19 \\
+20 & Tina Wright & 67 & 20 \\
+21 & Uma Scott & 66 & 21 \\
+22 & Victor Green & 65 & 22 \\
+23 & Wendy Adams & 64 & 23 \\
+24 & Xavier Nelson & 63 & 24 \\
+25 & Yolanda Carter & 62 & 25 \\
+26 & Zachary Perez & 61 & 26 \\
+27 & Amelia Baker & 60 & 27 \\
+28 & Benjamin Rivera & 59 & 28 \\
+29 & Charlotte Rogers & 58 & 29 \\
+30 & David Murphy & 57 & 30 \\
+31 & Ethan Cooper & 56 & 31 \\
+32 & Fiona Reed & 55 & 32 \\
+33 & George Bailey & 54 & 33 \\
+34 & Hannah Cox & 53 & 34 \\
+35 & Isaac Howard & 52 & 35 \\
+36 & Julia Ward & 51 & 36 \\
+37 & Kyle Flores & 50 & 37 \\
+38 & Lily Bell & 49 & 38 \\
+39 & Mason Sanders & 48 & 39 \\
+40 & Nora Patterson & 47 & 40 \\
+41 & Owen Ramirez & 46 & 41 \\
+42 & Penelope Torres & 45 & 42 \\
+43 & Quentin Foster & 44 & 43 \\
+44 & Rebecca Gonzales & 43 & 44 \\
+45 & Sebastian Bryant & 42 & 45 \\
+46 & Taylor Alexander & 41 & 46 \\
+47 & Ursula Russell & 40 & 47 \\
+48 & Vincent Griffin & 39 & 48 \\
+49 & William Diaz & 38 & 49 \\
+50 & Zoe Simmons & 37 & 50 \\
+% (You can easily extend this list to hundreds of rows)
+\end{longtable}
 
 \subsubsection{Rumus}
 Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 

@@ -553,6 +553,35 @@ E = mc^2
 \label{eq:contoh1}
 \end{equation}
 
+Contoh lain penulisan rumus matematika yang lebih kompleks dapat ditulis seperti pada Persamaan \ref{eq:rumus2}.
+
+\begin{align}
+f(x) &= ax^2 + bx + c \\
+f'(x) &= \frac{d}{dx}(ax^2 + bx + c) \notag \\ % tidak menampilkan nomor pada baris ini
+      &= 2ax + b \label{eq:rumus2}
+\end{align}
+
+Jika rumus terlalu panjang untuk ditulis dalam satu baris, gunakan lingkungan \textit{multline} seperti pada Persamaan \ref{eq:rumus3} di bawah ini.
+\begin{multline} 
+y = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\
+    + a_8x^8 + a_9x^9 + a_{10}x^{10} \label{eq:rumus3}
+\end{multline}
+
+Jika ada penurunan rumus yang terdiri dari beberapa baris, namun tidak memerlukan penomoran pada setiap baris, gunakan lingkungan \textit{align*}, misalnya:
+
+\begin{align*} 
+S &= \sum_{i=1}^{n} i^2 \\
+  &= 1^2 + 2^2 + 3^2 + \cdots + n^2 \\
+  &= \frac{n(n + 1)(2n + 1)}{6}
+\intertext{Contoh lainnya adalah rumus untuk mencari nilai rata-rata fungsi $f(x)$ pada interval $[p, q]$:}
+\bar{f} &= \frac{1}{q - p} \int_{p}^{q} f(x) \, dx \\
+        &= \frac{1}{q - p} \int_{p}^{q} (ax^2 + bx + c) \, dx \\
+        &= \frac{1}{q - p} \left[ \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx \right]_p^q \\
+        &= \frac{a(q^3 - p^3)}{3(q - p)} + \frac{b(q^2 - p^2)}{2(q - p)} + c \label{eq:rumus4}
+\end{align*}
+
+
+
 \subsection{Algoritma, Pseudocode, atau Kode}
 Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
 Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 

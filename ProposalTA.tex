@@ -155,9 +155,10 @@
 
 % --- Ubah nama daftar listing ke "DAFTAR ALGORITMA" ---
 % --- Harus diletakkan sebelum \begin{document} ---
-\renewcommand{\lstlistlistingname}{\centering\normalsize DAFTAR ALGORITMA} 
-\renewcommand{\lstlistingname}{Algoritma}
-\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
+\renewcommand{\lstlistlistingname}{\centering\normalsize DAFTAR KODE} 
+\renewcommand{\lstlistingname}{Kode}
+\lstset{basicstyle=\ttfamily\footnotesize,breaklines=true}
+%\captionsetup[lstlisting]{justification=raggedright,singlelinecheck=false}
 
 
 \renewcommand \cftchapdotsep{4.5}
@@ -341,6 +342,7 @@
 \captionsetup[table]{labelsep=space}
 \floatsetup[table]{capposition=top}
 \captionsetup[lstlisting]{labelsep=space}
+\floatsetup[lstlisting]{capposition=top}
 
 % --- Atur indentasi paragraf ---
 \setlength{\parindent}{0pt}
@@ -390,15 +392,15 @@ Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan
 % BAB II STUDI LITERATUR
 % ==========================================
 \chapter{STUDI LITERATUR}
-\section{Section Pertama}
+\section{Penulisan Gambar, Tabel, Rumus, dan Kode}
 \lipsum[1]
-\subsection{Subsection Pertama}
-\lipsum[2]
+
 \subsubsection{Gambar}
 Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab ini. Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
 
 \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
 	\centering
+  \captionsetup{justification=centering}
     	\includegraphics[width=0.7\textwidth]{gambar1.png}
 	\caption{Contoh gambar jaringan}
 	\label{gambar:jaringan}
@@ -409,8 +411,7 @@ Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab in
 Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
 
 \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-\centering
-	\begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
+  \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
 	\hline
 	Nama 	& Satuan 		& Harga \\
 	\hline
@@ -424,7 +425,6 @@ Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tab
 \end{table}
 
 \begin{table}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-\centering
 	\begin{tabular}{ | l | c | r | }
 	\hline
 	Nama 	& Satuan 		& Harga \\
@@ -446,25 +446,76 @@ E = mc^2
 \label{eq:contoh1}
 \end{equation}
 
-\subsection{Algoritma, Pseudocode, atau Source Code}
-Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Algoritma \ref{alg:contoh1} di bawah ini. 
-Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Contoh \ref{lst:contoh1}. 
+\subsection{Algoritma, Pseudocode, atau Kode}
+Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
+Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 
 
 
-\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, label={lst:contoh1}]
-def hello_world():
-    print("Hello, World!")       
-hello_world()
-\end{lstlisting}
-
-
-
-
-\begin{lstlisting}[frame=lines, caption={Contoh pseudocode}, label={alg:contoh1}]
+% -- Example of pseudocode and source code listing --
+% -- Gunakan minipage agar listing tidak terpotong ke halaman berikutnya --
+\begin{minipage}{\textwidth} 
+\begin{lstlisting}[frame=lines, captionpos=t, caption={Contoh pseudocode}, label={alg:contoh1}]
 ALGORITHM HelloWorld
    PRINT "Hello, World!"
 END ALGORITHM
 \end{lstlisting}
+\end{minipage}
+
+\begin{minipage}{\textwidth}
+\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, captionpos=t, label={lst:contoh1}]
+def hello_world():
+    print("Hello, World!")       
+hello_world()
+\end{lstlisting}
+\end{minipage}
+
+
+\section{Beberapa Kesalahan Penulisan yang Sering Terjadi}
+\subsection{Penggunaan kata "di mana" atau "dimana"}
+Banyak yang menuliskan kata "di mana" atau "dimana" sebagai pengganti kata "which" dalam bahasa Inggris. 
+Padahal, penggunaan kata "di mana" atau "dimana" tidak tepat dalam konteks tersebut. Demikian juga untuk kata serupa, misalnya "yang mana".
+Kata "di mana" atau "dimana" ini harus diganti dengan kata lain, seperti "dengan", "tempat", "yang", dan sebagainya tergantung kalimatnya.
+Penjelasan lengkap dapat dilihat pada.
+
+\subsection{Penggunaan kata "sedangkan" dan "sehingga"}
+
+\begin{table}[htbp]
+  \begin{tabular}{|c|c|c|}
+  \hline
+  Penggunaan kata & Salah & Benar \\ \hline
+  sedangkan & \begin{tabular}[c]{@{}c@{}}Sedangkan sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna,\\ sedangkan sistem baru belum siap.\end{tabular} \\ \hline
+  sehingga & \begin{tabular}[c]{@{}c@{}}Sehingga sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna sehingga\\ sistem baru belum siap.\end{tabular} \\ \hline
+  \end{tabular}
+  \caption{Contoh penggunaan kata "sedangkan" dan "sehingga"}
+  \label{tbl:sedangkan_sehingga}
+\end{table}
+
+Kata "sedangkan" dan "sehingga" adalah kata hubung atau konjungsi. 
+Konjungsi adalah kata atau ungkapan yang menghubungkan satuan bahasa 
+(kata, frasa, klausa, dan kalimat). 
+Konjungsi dapat dibagi menjadi konjungsi intrakalimat dan antarkalimat.  
+Kata "sedangkan" menghubungkan dua klausa yang bersifat kontrasif, 
+sedangkan "sehingga" menghubungkan dua klausa yang bersifat kausal. 
+Dalam ragam formal, kata hubung “sedangkan” dan “sehingga” hanya dapat digunakan 
+sebagai konjungsi intrakalimat sehingga kedua konjungsi itu \textbf{tidak dapat diletakkan pada awal kalimat}.
+Selain itu, penggunaan kata "sedangkan" harus didahului oleh koma (,), sedangkan kata "sehingga" tidak perlu didahului oleh koma (,).
+Contoh penggunaan yang benar dan salah dapat dilihat pada Tabel \ref{tbl:sedangkan_sehingga}.
+
+
+\subsection{Penggunaan Istilah yang Tidak Baku}
+Ada beberapa istilah yang sering digunakan dalam pembicaraan sehari-hari, tetapi tidak baku dalam penulisan ilmiah.
+Beberapa istilah tersebut antara lain:
+\begin{enumerate}
+  \item analisa $\rightarrow$ analisis
+  \item eksisting atau existing $\rightarrow$ yang ada atau saat ini
+  \item bisnis proses $\rightarrow$ proses bisnis
+  \item user $\rightarrow$ pengguna
+  \item system $\rightarrow$ sistem
+  \item database $\rightarrow$ basis data
+  \item aktifitas $\rightarrow$ aktivitas
+  \item efektifitas $\rightarrow$ efektivitas
+  \item sosial media $\rightarrow$ media sosial
+\end{enumerate}
 
 
 

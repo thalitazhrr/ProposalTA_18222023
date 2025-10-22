@@ -90,6 +90,8 @@
 \usepackage{listings} % for code listing
 \usepackage{amsmath} % for math
 \usepackage{amssymb} % for math symbols
+\usepackage[shortlabels]{enumitem} % for customizing lists
+\usepackage[skip=12pt]{parskip}
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
 \setcounter{secnumdepth}{4} % kedalaman penomoran sampai subsubbab
@@ -396,7 +398,7 @@ Tuliskan semua tahapan yang akan dilalui selama pelaksanaan tugas akhir. Tahapan
 \lipsum[1]
 
 \subsubsection{Gambar}
-Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab ini. Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
+Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
 
 \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
 	\centering
@@ -406,6 +408,20 @@ Penomoran subbab maksimum adalah 4 (empat) tingkat, seperti pada nomor subbab in
 	\label{gambar:jaringan}
 \end{figure}
 
+Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
+\begin{enumerate}[a., nosep, topsep=-10pt] % gunakan nosep untuk menghilangkan spasi antar item, dan topsep untuk mengatur spasi atas dan bawah daftar
+  \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
+  \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
+  \item disimpan dalam resolusi kecil
+\end{enumerate}
+Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
+
+Untuk mendapatkan gambar yang tidak kabur (blur), langkah-langkah berikut dapat digunakan:
+\begin{enumerate}[(a), nosep, topsep=-10pt]
+\item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
+\item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (export as), lakukan zoom ke minimal 300% (the default value is 100%). 
+\item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-copy-paste ke Word.
+\end{enumerate}
 
 \subsubsection{Tabel}
 Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
@@ -558,7 +574,7 @@ penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergamba
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
-\begin{enumerate}
+\begin{enumerate}[nosep]
 \item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
 \item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
 \item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.

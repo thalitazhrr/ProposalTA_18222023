@@ -91,6 +91,8 @@
 \usepackage{amsmath} % for math
 \usepackage{amssymb} % for math symbols
 \usepackage[shortlabels]{enumitem} % for customizing lists
+\setlist[enumerate]{nosep, topsep=-10pt} % mengurangi spasi antar item dan atas bawah daftar
+\setlist[itemize]{nosep, topsep=-10pt} % mengurangi spasi antar item dan atas bawah daftar
 \usepackage[skip=12pt]{parskip}
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
@@ -329,7 +331,7 @@
 % --- Judul Bab ---
 \titleformat{\chapter}[display]
       {\centering\normalfont\large\bfseries} % Commands for the entire chapter title
-      {\MakeUppercase \chaptertitlename\ \thechapter}{14pt}{\large} % Chapter number format
+      {\MakeUppercase \chaptertitlename\ \thechapter}{0pt}{\large} % Chapter number format
 \renewcommand\thechapter{\Roman{chapter}}
 % --- Judul Subbab dan Subsubbab ---
 \titleformat{\section}
@@ -409,7 +411,7 @@ Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan juduln
 \end{figure}
 
 Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
-\begin{enumerate}[a., nosep, topsep=-10pt] % gunakan nosep untuk menghilangkan spasi antar item, dan topsep untuk mengatur spasi atas dan bawah daftar
+\begin{enumerate}[a.]
   \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
   \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
   \item disimpan dalam resolusi kecil
@@ -417,7 +419,7 @@ Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
 Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
 
 Untuk mendapatkan gambar yang tidak kabur (blur), langkah-langkah berikut dapat digunakan:
-\begin{enumerate}[(a), nosep, topsep=-10pt]
+\begin{enumerate}[(a)]
 \item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
 \item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (export as), lakukan zoom ke minimal 300% (the default value is 100%). 
 \item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-copy-paste ke Word.
@@ -440,7 +442,7 @@ Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tab
 \label{tbl:harga1}
 \end{table}
 
-\begin{table}[h] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
 	\begin{tabular}{ | l | c | r | }
 	\hline
 	Nama 	& Satuan 		& Harga \\
@@ -495,7 +497,7 @@ Penjelasan lengkap dapat dilihat pada \autocite{BPBI}.
 
 \subsection{Penggunaan kata "sedangkan" dan "sehingga"}
 
-\begin{table}[htbp]
+\begin{table}[t]
   \begin{tabular}{|c|c|c|}
   \hline
   Penggunaan kata & Salah & Benar \\ \hline
@@ -574,7 +576,7 @@ penjelasan perbandingannya dengan gambar sistem yang ada saat ini (yang tergamba
 % ==========================================
 \chapter{RENCANA SELANJUTNYA}
 Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlukan atau akan disiapkan, dan risiko dan mitigasinya, yang meliputi:
-\begin{enumerate}[nosep]
+\begin{enumerate}
 \item	Rencana implementasi, termasuk alat dan bahan yang diperlukan, lingkungan, konfigurasi, biaya, dan sebagainya.
 \item	Desain pengujian dan evaluasi, misalnya metode verifikasi dan validasi.
 \item	Analisis risiko dan mitigasi, misalnya tindakan selanjutnya jika ada yang tidak berjalan sesuai rencana.
@@ -586,6 +588,7 @@ Jelaskan secara detail langkah-langkah rencana selanjutnya, hal-hal yang diperlu
 % ==========================================
 % DAFTAR PUSTAKA
 % ==========================================
+\nocite{*}
 \printbibliography[title={DAFTAR PUSTAKA}]
 
 % ==========================================

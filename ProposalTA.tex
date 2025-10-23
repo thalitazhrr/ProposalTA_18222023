@@ -96,6 +96,8 @@
 \usepackage[skip=12pt]{parskip}
 \usepackage{longtable}
 \usepackage{booktabs}
+\usepackage[id-ID]{datetime2}
+
 
 \setcounter{tocdepth}{4} % kedalaman daftar isi sampai subsubbab
 \setcounter{secnumdepth}{4} % kedalaman penomoran sampai subsubbab
@@ -213,7 +215,7 @@
     {\large PROGRAM STUDI SISTEM DAN TEKNOLOGI INFORMASI}\\
     {\large SEKOLAH TEKNIK ELEKTRO DAN INFORMATIKA}\\
     {\large INSTITUT TEKNOLOGI BANDUNG}\\
-    {\large Desember 2025}
+    {\large \DTMlangsetup{showdayofmonth=false,showmonthname=true,showyear=true}\today}
     }
 \end{center}
 \end{titlepage}

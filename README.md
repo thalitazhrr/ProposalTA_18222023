@@ -6,4 +6,4 @@ Dokumen utama:
 1. ProposalTA.tex
 2. daftar-pustaka.bib
 
-by baskara @ itb.ac.id
+by baskara at itb dot ac dot id

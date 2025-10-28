@@ -2,276 +2,613 @@
 % BAB II STUDI LITERATUR
 % ==========================================
 \chapter{STUDI LITERATUR}
-\label{chap:studi-literatur}
-\section{Penulisan Gambar, Tabel, Rumus, dan Kode}
-\lipsum[1]
 
-\subsection{Gambar}
-Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
+Bab ini menyajikan kajian teoretis dan tinjauan pustaka yang relevan dengan topik penelitian. Pembahasan meliputi konsep \textit{Business Intelligence}, teknologi chatbot dan \textit{Conversational AI}, pemrosesan bahasa alami, serta peramalan deret waktu yang mendukung analisis dan prediksi permintaan layanan pelanggan.
 
-\begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-	\centering
-  \captionsetup{justification=centering}
-    	\includegraphics[width=0.7\textwidth]{image/gambar1.png}
-	\caption{Contoh gambar jaringan}
-	\label{gambar:jaringan}
-\end{figure}
+% ==============================================================================
+\section{Business Intelligence dan Arsitektur Sistem}
+% ==============================================================================
 
-Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
-\begin{enumerate}[a.]
-  \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
-  \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
-  \item disimpan dalam resolusi kecil
+\subsection{Konsep Business Intelligence}
+
+\textit{Business Intelligence} (BI) merupakan sistem teknologi yang mengumpulkan, mengorganisasi, dan menganalisis data dari berbagai sumber dalam suatu bisnis untuk membantu perusahaan mengubah data mentah menjadi wawasan yang berguna sehingga mereka dapat membuat keputusan yang lebih baik \parencite{sorour2020business}. Evolusi BI dari sistem berbasis aturan tradisional ke platform berbasis kecerdasan buatan telah meningkatkan secara signifikan analitik prediktif, otomatisasi, dan kemampuan pengambilan keputusan waktu nyata di seluruh industri \parencite{khaddam2025ai}.
+
+Menurut \textcite{sorour2020business}, implementasi BI di institusi pendidikan tinggi telah menunjukkan kemampuan untuk memantau aktivitas jaminan kualitas dan mendukung pengambilan keputusan strategis. Penelitian \textcite{shah2025hybrid} menunjukkan bahwa organisasi yang mengimplementasikan arsitektur analitik hibrida melaporkan peningkatan kemampuan penanganan data sebesar 85\% dibandingkan sistem tradisional, dengan konsistensi dan standar kualitas data yang terjaga.
+
+\subsection{Arsitektur Business Intelligence Hibrida}
+
+Arsitektur BI hibrida mengintegrasikan sistem BI tradisional dengan kemampuan kecerdasan buatan untuk meningkatkan pengambilan keputusan, analitik prediktif, dan efisiensi operasional. \textcite{shah2025hybrid} menyajikan pendekatan terstruktur yang memanfaatkan model pembelajaran mesin bersama pelaporan BI tradisional untuk menjembatani kesenjangan antara analisis historis dan wawasan berbasis data waktu nyata.
+
+Komponen utama arsitektur BI hibrida meliputi \parencite{shah2025hybrid}:
+
+\begin{enumerate}
+\item \textbf{Lapisan Sumber Data}: Mencakup sumber internal (sistem CRM, perangkat lunak keuangan) dan eksternal (data media sosial, laporan pasar).
+
+\item \textbf{Gudang Data (\textit{Data Warehouse})}: Fasilitas penyimpanan terpusat untuk data yang terorganisasi dan siap digunakan untuk pelaporan.
+
+\item \textbf{Mesin Analitik}: Bertanggung jawab untuk pengenalan pola dan analisis tren, memberikan wawasan prediktif untuk perencanaan strategis.
+
+\item \textbf{Lapisan Visualisasi}: Dashboard interaktif dan laporan yang meningkatkan adopsi pengguna melalui presentasi data yang intuitif.
 \end{enumerate}
-Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
 
-Untuk mendapatkan gambar yang tidak kabur (\textit{blur}), langkah-langkah berikut dapat digunakan:
-\begin{enumerate}[(a)]
-\item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
-\item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (\textit{export as}), lakukan \textit{zoom} ke minimal 300\% (\textit{the default value is} 100\%). 
-\item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-\textit{copy-paste} ke Word.
+Penelitian menunjukkan bahwa implementasi arsitektur analitik hibrida menghasilkan peningkatan 27\% dalam proses pengambilan keputusan dan peningkatan 31\% dalam metrik kinerja organisasi secara keseluruhan \parencite{shah2025hybrid}.
+
+\subsection{Semantic Layer dalam Business Intelligence}
+
+\textit{Semantic layer} adalah antarmuka berorientasi bisnis yang menjembatani kesenjangan antara model data yang kompleks dan pengguna bisnis, bertindak sebagai lapisan abstraksi yang menerjemahkan struktur data teknis ke dalam istilah dan konsep bisnis yang familiar \parencite{databricks2025semantic}. Lapisan semantik menyediakan pandangan bisnis terpadu terhadap data di seluruh organisasi, terlepas dari  data berada atau bagaimana secara teknis terstruktur.
+
+Menurut \textcite{atscale2025semantic}, lapisan semantik menyederhanakan konsep dan teknis data untuk pengguna bisnis sehingga mereka tidak perlu mengubah data bisnis yang mendasarinya untuk bekerja dengan cara baru. Lapisan ini memungkinkan pengguna bisnis untuk berinteraksi dengan data menggunakan terminologi yang mereka pahami tanpa perlu memahami struktur teknis basis data yang mendasarinya.
+
+\subsubsection{Komponen Inti Semantic Layer}
+
+Lapisan semantik memiliki lima komponen inti yang bertindak sebagai fondasi struktural dan teknis \parencite{dbt2024semantic}:
+
+\begin{enumerate}
+\item \textbf{Definisi Model Semantik}: Menciptakan representasi logis dari domain bisnis, memetakan struktur basis data teknis ke konsep bisnis. Alih-alih bekerja dengan tabel mentah seperti \texttt{usr\_tbl} atau \texttt{trx\_hist}, entitas seperti \texttt{Customer} atau \texttt{Order} didefinisikan yang merangkum kompleksitas yang mendasarinya.
+
+\item \textbf{Manajemen Metadata}: Menangani informasi tentang data, seperti deskripsi bidang, garis keturunan data (\textit{data lineage}), frekuensi pembaruan, dan metrik kualitas.
+
+\item \textbf{Lapisan Logika Bisnis (\textit{Business Logic Layer})}: Berisi aturan perhitungan spesifik untuk metrik bisnis.
+
+\item \textbf{Lapisan Akses Data (\textit{Data Access Layer})}: Menerjemahkan permintaan bisnis menjadi kueri basis data yang dioptimalkan, menerapkan filter keamanan yang diperlukan.
+
+\item \textbf{Mekanisme \textit{Caching}}: Memeriksa apakah hasil perhitungan sudah tersedia dalam tembolok sebelum menjalankan kueri.
 \end{enumerate}
 
-\subsection{Tabel}
-Tabel ada dua jenis, yaitu tabel yang bisa termuat dalam satu halaman dan tabel yang sangat panjang sehingga tidak muat dalam satu halaman.
-\subsubsection{Tabel yang Muat dalam Satu Halaman}
-Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
+% ==============================================================================
+\section{Rule-Based Query Optimization}
+% ==============================================================================
 
-\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-  \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan pokok}
-\label{tbl:harga1}
-\end{table}
+\subsection{Konsep Rule-Based Query}
 
-\begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
-	\begin{tabular}{ | l | c | r | }
-	\hline
-	Nama 	& Satuan 		& Harga \\
-	\hline
-	Buku 	& Exemplar	& 25000 \\
-	Komputer	& Unit		& 2500000 \\
-	Pensil	& Buah		& 118900 \\
-	\hline
-	\end{tabular}
-\caption{Tabel harga bahan sekunder}
-\label{tbl:harga2}
-\end{table}
+Sistem optimasi kueri berbasis aturan (\textit{rule-based query optimization}) mengandalkan heuristik yang telah ditentukan sebelumnya dan aturan transformasi untuk menghasilkan rencana eksekusi kueri. Pendekatan ini menggunakan sekumpulan aturan yang dikodekan untuk menentukan bagaimana kueri harus diproses berdasarkan pola yang dikenali dalam struktur kueri \parencite{shah2024ai}.
 
-\subsubsection{Tabel yang Sangat Panjang}
-Jika tabel terlalu panjang sehingga tidak muat dalam satu halaman, gunakan paket 
-\textit{longtable} untuk membuat tabel yang dapat terpotong ke halaman berikutnya, 
-seperti pada Tabel \ref{tbl:longtable1}.
+Menurut \textcite{finance1994rule}, optimisator kueri berbasis aturan menggunakan bahasa aturan tingkat tinggi yang seragam untuk memodelkan transformasi kueri dan strategi optimasi. Pendekatan ini memungkinkan pemodelan berbagai strategi pencarian dan teknik optimasi dalam kerangka kerja yang terpadu.
 
-\begin{longtable}{@{\extracolsep{\fill}} l c r r}
-\caption{Comprehensive Data Table Example}\label{tbl:longtable1} \\
-\toprule
-\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
-\midrule
-\endfirsthead
+\subsection{AI-Driven Query Optimization}
 
-\caption*{Comprehensive Data Table Example (lanjutan)} \\
-\toprule
-\textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
-\midrule
-\endhead
+Evolusi dari optimasi berbasis aturan tradisional menuju teknik berbasis kecerdasan buatan menawarkan kemampuan adaptabilitas waktu nyata dan pengambilan keputusan berbasis intelijen \parencite{shah2024ai}. Sistem berbasis AI menganalisis data eksekusi kueri historis untuk memprediksi konsumsi sumber daya dan menyesuaikan rencana eksekusi secara dinamis.
 
-\midrule
-\multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
-\bottomrule
-\endfoot
+\textcite{shah2024ai} menunjukkan bahwa optimisator berbasis AI dapat meningkatkan efisiensi pemanfaatan sumber daya dari 72\% (optimasi berbasis aturan) menjadi 89\%, dengan peningkatan efisiensi penulisan ulang kueri dari 15\% menjadi 40\%. Model pembelajaran mesin menganalisis data eksekusi kueri masa lalu untuk mengidentifikasi pola yang dapat digunakan untuk mengoptimalkan kueri masa depan.
 
-\bottomrule
-\endlastfoot
+\subsection{Automated Query Rewriting}
 
-% === Table Data ===
-1 & Alice Smith & 89 & 5 \\
-2 & Bob Johnson & 93 & 3 \\
-3 & Carol Davis & 95 & 2 \\
-4 & Daniel Wilson & 88 & 6 \\
-5 & Eve Thompson & 97 & 1 \\
-6 & Frank Brown & 85 & 7 \\
-7 & Grace Lee & 91 & 4 \\
-8 & Henry Miller & 80 & 9 \\
-9 & Irene Garcia & 83 & 8 \\
-10 & Jack Robinson & 78 & 10 \\
-% Repeat with more rows to make it long
-11 & Kevin Harris & 76 & 11 \\
-12 & Laura Martin & 75 & 12 \\
-13 & Michael Clark & 74 & 13 \\
-14 & Natalie Lewis & 73 & 14 \\
-15 & Olivia Walker & 72 & 15 \\
-16 & Peter Hall & 71 & 16 \\
-17 & Quinn Allen & 70 & 17 \\
-18 & Rachel Young & 69 & 18 \\
-19 & Samuel King & 68 & 19 \\
-20 & Tina Wright & 67 & 20 \\
-21 & Uma Scott & 66 & 21 \\
-22 & Victor Green & 65 & 22 \\
-23 & Wendy Adams & 64 & 23 \\
-24 & Xavier Nelson & 63 & 24 \\
-25 & Yolanda Carter & 62 & 25 \\
-26 & Zachary Perez & 61 & 26 \\
-27 & Amelia Baker & 60 & 27 \\
-28 & Benjamin Rivera & 59 & 28 \\
-29 & Charlotte Rogers & 58 & 29 \\
-30 & David Murphy & 57 & 30 \\
-31 & Ethan Cooper & 56 & 31 \\
-32 & Fiona Reed & 55 & 32 \\
-33 & George Bailey & 54 & 33 \\
-34 & Hannah Cox & 53 & 34 \\
-35 & Isaac Howard & 52 & 35 \\
-36 & Julia Ward & 51 & 36 \\
-37 & Kyle Flores & 50 & 37 \\
-38 & Lily Bell & 49 & 38 \\
-39 & Mason Sanders & 48 & 39 \\
-40 & Nora Patterson & 47 & 40 \\
-41 & Owen Ramirez & 46 & 41 \\
-42 & Penelope Torres & 45 & 42 \\
-43 & Quentin Foster & 44 & 43 \\
-44 & Rebecca Gonzales & 43 & 44 \\
-45 & Sebastian Bryant & 42 & 45 \\
-46 & Taylor Alexander & 41 & 46 \\
-47 & Ursula Russell & 40 & 47 \\
-48 & Vincent Griffin & 39 & 48 \\
-49 & William Diaz & 38 & 49 \\
-50 & Zoe Simmons & 37 & 50 \\
-% (You can easily extend this list to hundreds of rows)
-\end{longtable}
+Penulisan ulang kueri otomatis (\textit{automated query rewriting}) adalah teknik optimasi berbasis AI yang meningkatkan kinerja basis data dengan merestrukturisasi kueri SQL yang tidak efisien tanpa mengubah hasil yang dimaksudkan \parencite{shah2024ai}. Model pembelajaran mendalam menilai rencana eksekusi kueri untuk mendeteksi ketidakefisienan seperti \textit{join} yang berlebihan, agregasi yang tidak perlu, atau kondisi penyaringan yang tidak optimal.
 
-\subsubsection{Rumus}
-Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
-Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
+Keuntungan utama penulisan ulang kueri berbasis AI adalah kemampuannya untuk mengidentifikasi operasi yang berlebihan dan menghilangkan komputasi yang tidak perlu. Dengan menulis ulang kueri ke dalam struktur yang lebih efisien, optimisator berbasis AI mengurangi waktu eksekusi dan meminimalkan overhead komputasi \parencite{shah2024ai}.
+
+% ==============================================================================
+\section{Chatbot dan Conversational AI}
+% ==============================================================================
+
+\subsection{Konsep dan Arsitektur Chatbot}
+
+Chatbot adalah agen percakapan yang menggunakan \textit{Named Entity Recognition} (NER) dan model klasifikasi \textit{intent} yang terintegrasi ke dalam NLU untuk memahami maksud pengguna dan mengekstraksi entitas bernama \parencite{ali2020chatbot}. Penelitian \textcite{jumriyah2025influence} menunjukkan bahwa pengguna yang berinteraksi dengan chatbot berbasis bahasa alami melaporkan tingkat kepuasan dan efisiensi yang lebih tinggi dibandingkan dengan mereka yang menggunakan metode layanan pelanggan tradisional.
+
+\subsection{Komponen Utama Chatbot}
+
+\subsubsection{Natural Language Understanding (NLU)}
+
+NLU adalah komponen arsitektur chatbot yang bertanggung jawab untuk memahami dan memproses masukan bahasa manusia \parencite{ali2020chatbot,rizou2023efficient}. Dua sub-tugas inti NLU dalam konteks agen percakapan adalah:
+
+\begin{enumerate}
+\item \textbf{Named Entity Recognition (NER)}: Mengidentifikasi entitas yang telah ditentukan sebelumnya dari teks masukan pengguna, seperti nama orang, lokasi, organisasi, tanggal, atau metrik bisnis \parencite{rizou2023efficient}.
+
+\item \textbf{Intent Classification}: Menentukan niat atau tujuan pengguna dari masukan mereka, seperti apakah pengguna ingin "memeriksa pesanan", "memprediksi penjualan", atau "menganalisis churn pelanggan" \parencite{perdana2025multi}.
+\end{enumerate}
+
+\subsection{Multi-task Learning untuk NLU}
+
+Pendekatan \textit{multi-task learning} menggabungkan tugas klasifikasi \textit{intent} dan pengenalan entitas menggunakan model bersama berdasarkan representasi bersama dan dependensi tugas \parencite{perdana2025multi}. Penelitian \textcite{annisa2024kombinasi} menunjukkan bahwa kombinasi \textit{intent classification} dan NER menggunakan mekanisme \textit{multi-task learning} dalam bentuk model \textit{Dual Intent and Entity Transformer} (DIET) dapat mengatasi masalah representasi numerik yang berbeda yang digunakan dalam setiap model.
+
+Hasil penelitian \textcite{perdana2025multi} menunjukkan efektivitas pendekatan yang diusulkan dengan beberapa eksperimen, baik dari klasifikasi \textit{intent} maupun pengenalan entitas bernama. Kombinasi hyperparameter optimal terdiri dari \textit{warm-up step} sebesar 60, probabilitas \textit{early stopping} sebesar 10, \textit{weight decay} sebesar 0,001, bobot kerugian NER sebesar 0,58, dan bobot kerugian klasifikasi \textit{intent} sebesar 0,4.
+
+% ==============================================================================
+\section{Natural Language Processing untuk Chatbot}
+% ==============================================================================
+
+\subsection{Konsep NLP dalam Aplikasi Chatbot}
+
+\textit{Natural Language Processing} (NLP) telah merevolusi chatbot menjadi instrumen penting baik untuk perusahaan maupun individu dengan meningkatkan kapasitas chatbot untuk meniru interaksi mirip manusia melalui teknik seperti identifikasi \textit{intent}, analisis sentimen, dan pemahaman kontekstual \parencite{shinde2025applications}. NLP memungkinkan chatbot untuk memproses, memahami, dan menghasilkan bahasa manusia secara efisien.
+
+\subsection{Implementasi NLP dalam Layanan Pelanggan}
+
+Penelitian \textcite{mulyatun2021pendekatan} mengimplementasikan pendekatan NLP pada aplikasi chatbot sebagai alat bantu \textit{customer service} menggunakan metode \textit{Fuzzy String Matching} sebagai media penalarannya. Teknologi chatbot merupakan salah satu bentuk aplikasi NLP yang mempelajari komunikasi antara manusia dengan komputer melalui bahasa alami.
+
+Implementasi chatbot berbasis NLP menggunakan model BERT untuk meningkatkan pelayanan menunjukkan bahwa chatbot dapat memberikan respons yang relevan dan akurat, mempercepat proses konsultasi awal \parencite{ibadurrahman2025implementasi}. Sistem dikembangkan dengan metode Agile, dengan tahapan termasuk analisis kebutuhan, desain antarmuka pengguna, pelatihan model, dan implementasi chatbot.
+
+\subsection{Model BERT untuk Intent Classification}
+
+BERT (\textit{Bidirectional Encoder Representations from Transformers}) adalah model yang dilatih secara dua arah untuk memahami konteks kata dari kiri dan kanan. Proyek menggunakan BERT untuk klasifikasi \textit{intent} dalam chatbot kontekstual yang menggunakan NLU untuk memahami maksud pengguna dan merespons dengan sesuai \parencite{vasist2021intent}.
+
+Penelitian \textcite{vasist2021intent} menunjukkan bahwa akurasi percakapan lebih baik dengan BERT dan dapat ditingkatkan untuk dataset besar. Model BERT memiliki keuntungan utama karena dilatih pada Wikipedia dan \textit{Book Corpus}, dengan kode model \textit{open-source} yang memecahkan beberapa rekor untuk tugas berbasis bahasa yang sulit.
+
+\subsection{Pattern Matching dalam NLP}
+
+Implementasi metode NLP berbasis pola (\textit{pattern-based}) pada chatbot menggunakan pola bahasa untuk memahami dan merespons masukan pengguna. Penelitian \textcite{rahayu2024implementation} mengevaluasi kinerja menggunakan metrik BLEU, presisi BLEU-2 mencapai nilai 0,75 atau 75\%. Hasil ini menunjukkan bahwa metode berbasis pola mampu menghasilkan respons yang relevan tetapi masih memerlukan penyempurnaan untuk mencapai akurasi yang lebih tinggi.
+
+Data percakapan dikumpulkan dan dianalisis untuk mengidentifikasi pola umum, yang kemudian dipetakan ke dalam respons yang sesuai. Pengujian dilakukan dengan mengukur tingkat kecocokan \textit{bigram} antara respons chatbot dan respons referensi \parencite{rahayu2024implementation}.
+
+% ==============================================================================
+\section{Time Series Forecasting}
+% ==============================================================================
+
+\subsection{Konsep Time Series dan Peramalan}
+
+\textit{Time series} adalah serangkaian titik data yang diindeks dalam urutan waktu, dan peramalan deret waktu adalah proses menggunakan model untuk memprediksi nilai masa depan berdasarkan nilai yang diamati sebelumnya. Peramalan akurat sangat penting untuk perencanaan strategis dan pengambilan keputusan di berbagai domain bisnis.
+
+\subsection{Model ARIMA untuk Time Series}
+
+ARIMA (\textit{AutoRegressive Integrated Moving Average}) adalah model statistik populer untuk peramalan deret waktu yang menggabungkan tiga komponen: AutoRegressive (AR), Integrated (I), dan Moving Average (MA). Model ARIMA dinyatakan sebagai ARIMA$(p, d, q)$:
+\begin{itemize}
+\item $p$ = jumlah \textit{lag} observasi dalam model (\textit{order} dari komponen AR)
+\item $d$ = jumlah kali deret waktu harus dibedakan untuk menjadi stasioner
+\item $q$ = ukuran jendela \textit{moving average} (\textit{order} dari komponen MA)
+\end{itemize}
+
+Persamaan umum model ARIMA dapat ditulis sebagai:
 \begin{equation}
-E = mc^2
-\label{eq:contoh1}
+\phi(B)(1-B)^d X_t = \theta(B) \epsilon_t
 \end{equation}
 
-Contoh lain penulisan rumus matematika yang lebih kompleks dapat ditulis seperti pada Persamaan \ref{eq:rumus2}.
+$X_t$ adalah nilai deret waktu pada waktu $t$, $B$ adalah operator \textit{backshift}, $\phi(B)$ adalah polinomial autoregresif, $\theta(B)$ adalah polinomial \textit{moving average}, $\epsilon_t$ adalah \textit{white noise error term}, dan $d$ adalah \textit{order} pembedaan.
 
+\subsection{Model SARIMA untuk Data Musiman}
+
+SARIMA (\textit{Seasonal ARIMA}) adalah ekstensi dari ARIMA yang dirancang untuk menangani data deret waktu musiman dengan lebih baik. SARIMA dinyatakan sebagai SARIMA$(p, d, q)(P, D, Q, m)$, $(p, d, q)$ adalah parameter non-musiman dan $(P, D, Q)$ adalah parameter musiman, dengan $m$ sebagai jumlah langkah waktu untuk satu siklus musiman penuh.
+
+Persamaan SARIMA dapat ditulis sebagai:
+\begin{equation}
+\phi(B)\Phi(B^m)(1-B)^d(1-B^m)^D X_t = \theta(B)\Theta(B^m) \epsilon_t
+\end{equation}
+
+$\Phi(B^m)$ dan $\Theta(B^m)$ adalah polinomial autoregresif dan \textit{moving average} musiman.
+
+\subsection{Model LSTM untuk Time Series}
+
+LSTM (\textit{Long Short-Term Memory}) adalah jenis jaringan saraf tiruan berulang yang dirancang khusus untuk mengatasi masalah \textit{vanishing gradient} dalam RNN tradisional. LSTM mampu mempelajari dependensi jangka panjang dalam data sekuens, menjadikannya sangat efektif untuk peramalan deret waktu.
+
+Arsitektur LSTM terdiri dari sel memori dan tiga gerbang:
+\begin{itemize}
+\item \textbf{Gerbang Lupa (\textit{Forget Gate})}: Menentukan informasi apa dari sel memori yang harus dibuang.
+\item \textbf{Gerbang Masukan (\textit{Input Gate})}: Menentukan informasi baru apa yang akan disimpan dalam sel memori.
+\item \textbf{Gerbang Keluaran (\textit{Output Gate})}: Menentukan bagian mana dari sel memori yang akan menjadi keluaran.
+\end{itemize}
+
+Persamaan matematis LSTM:
 \begin{align}
-f(x) &= ax^2 + bx + c \\
-f'(x) &= \frac{d}{dx}(ax^2 + bx + c) \notag \\ % tidak menampilkan nomor pada baris ini
-      &= 2ax + b \label{eq:rumus2}
+f_t &= \sigma(W_f \cdot [h_{t-1}, x_t] + b_f) \\
+i_t &= \sigma(W_i \cdot [h_{t-1}, x_t] + b_i) \\
+\tilde{C}_t &= \tanh(W_C \cdot [h_{t-1}, x_t] + b_C) \\
+C_t &= f_t * C_{t-1} + i_t * \tilde{C}_t \\
+o_t &= \sigma(W_o \cdot [h_{t-1}, x_t] + b_o) \\
+h_t &= o_t * \tanh(C_t)
 \end{align}
 
-Jika rumus terlalu panjang untuk ditulis dalam satu baris, gunakan lingkungan \textit{multline} seperti pada Persamaan \ref{eq:rumus3} di bawah ini.
-\begin{multline} 
-y = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\
-    + a_8x^8 + a_9x^9 + a_{10}x^{10} \label{eq:rumus3}
-\end{multline}
+$f_t$ adalah gerbang lupa, $i_t$ adalah gerbang masukan, $o_t$ adalah gerbang keluaran, $C_t$ adalah keadaan sel, $h_t$ adalah keadaan tersembunyi, $\sigma$ adalah fungsi sigmoid, dan $W$ serta $b$ adalah parameter bobot dan \textit{bias} yang dipelajari.
 
-Jika ada penurunan rumus yang terdiri dari beberapa baris, namun tidak memerlukan penomoran pada setiap baris, gunakan lingkungan \textit{align*}, misalnya:
+\subsection{Perbandingan ARIMA, SARIMA, dan LSTM}
 
-\begin{align*} 
-S &= \sum_{i=1}^{n} i^2 \\
-  &= 1^2 + 2^2 + 3^2 + \cdots + n^2 \\
-  &= \frac{n(n + 1)(2n + 1)}{6}
-\intertext{Contoh lainnya adalah rumus untuk mencari nilai rata-rata fungsi $f(x)$ pada interval $[p, q]$:}
-\bar{f} &= \frac{1}{q - p} \int_{p}^{q} f(x) \, dx \\
-        &= \frac{1}{q - p} \int_{p}^{q} (ax^2 + bx + c) \, dx \\
-        &= \frac{1}{q - p} \left[ \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx \right]_p^q \\
-        &= \frac{a(q^3 - p^3)}{3(q - p)} + \frac{b(q^2 - p^2)}{2(q - p)} + c \label{eq:rumus4}
-\end{align*}
+\subsubsection{Studi Empiris Perbandingan Model}
 
+Penelitian \textcite{siami2018comparison} melakukan studi empiris yang menunjukkan bahwa algoritma berbasis \textit{deep learning} seperti LSTM mengungguli algoritma tradisional seperti ARIMA. Rata-rata pengurangan tingkat kesalahan yang diperoleh oleh LSTM adalah antara 84-87\% bila dibandingkan dengan ARIMA, menunjukkan keunggulan LSTM atas ARIMA.
 
+\textcite{sirisha2022profit} membandingkan ketiga model untuk prediksi profit dan memperoleh akurasi sebesar 93,84\% (ARIMA), 94,378\% (SARIMA), dan 97,01\% (LSTM). Penelitian ini menemukan bahwa LSTM memberikan akurasi tertinggi untuk prediksi profit. Hasil metrik kinerja menunjukkan \parencite{sirisha2022profit}:
+\begin{itemize}
+\item ARIMA: MAE = 33,05; RMSE = 39,28; $R^2$ = 0,912
+\item SARIMA: MAE = 31,48; RMSE = 38,06; $R^2$ = 0,921
+\item LSTM: MAE = 28,63; RMSE = 34,91; $R^2$ = 0,937
+\end{itemize}
 
-\subsection{Algoritma, Pseudocode, atau Kode}
-Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
-Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 
+\textcite{sunendar2025comparison} melakukan perbandingan ARIMA, LSTM, dan GRU, dengan hasil menunjukkan bahwa LSTM mengungguli model lain dengan MAPE sebesar 10,76\%, diikuti oleh ARIMA pada 11,23\% dan GRU pada 11,47\%. Temuan ini mengonfirmasi bahwa LSTM memiliki kemampuan generalisasi terbaik, terutama dalam menangani lompatan mendadak dan struktur temporal yang kompleks.
 
+\subsubsection{Model Hibrida ARIMA-LSTM}
 
-% -- Example of pseudocode and source code listing --
-% -- Gunakan minipage agar listing tidak terpotong ke halaman berikutnya --
-\begin{minipage}{\textwidth} 
-\begin{lstlisting}[frame=lines, captionpos=t, caption={Contoh pseudocode}, label={alg:contoh1}]
-ALGORITHM HelloWorld
-   PRINT "Hello, World!"
-END ALGORITHM
-\end{lstlisting}
-\end{minipage}
+Model hibrida ARIMA-LSTM menggabungkan keunggulan komplementer dari kedua pendekatan, menyediakan kerangka kerja yang lebih kuat dan akurat untuk peramalan deret waktu \parencite{alharbi2025prediction}. ARIMA, dikenal karena efektivitasnya dalam mengidentifikasi pola linear dan tren, membentuk fondasi model dengan menangani elemen stasioner dan linear dari deret waktu.
 
-\begin{minipage}{\textwidth}
-\begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, captionpos=t, label={lst:contoh1}]
-def hello_world():
-    print("Hello, World!")       
-hello_world()
-\end{lstlisting}
-\end{minipage}
+Di sisi lain, LSTM dirancang khusus untuk menangani dependensi non-linear dan hubungan temporal jangka panjang dalam data. Dengan menggabungkan kedua pendekatan ini, model hibrida ARIMA-LSTM mendapatkan manfaat dari kemampuan pemodelan linear ARIMA dan pengenalan pola non-linear LSTM \parencite{alharbi2025prediction}. Integrasi ini memungkinkan model untuk menangkap dengan efektif baik fluktuasi jangka pendek maupun tren jangka panjang.
 
+\subsubsection{Perbandingan Karakteristik Model}
 
-\section{Beberapa Kesalahan Penulisan yang Sering Terjadi}
-\subsection{Penggunaan Kata "di mana" atau "dimana"}
-Banyak yang menuliskan kata "di mana" atau "dimana" sebagai pengganti kata "which" dalam bahasa Inggris. 
-Padahal, penggunaan kata "di mana" atau "dimana" tidak tepat dalam konteks tersebut. Demikian juga untuk kata serupa, misalnya "yang mana".
-Kata "di mana" atau "dimana" ini harus diganti dengan kata lain, seperti "dengan", "tempat", "yang", dan sebagainya tergantung kalimatnya.
-Penjelasan lengkap dapat dilihat pada \autocite{BPBI}.
+\textcite{dubey2021study} melakukan studi komparatif yang menunjukkan bahwa LSTM lebih baik dalam menangkap pola musiman dan tren jangka panjang dibandingkan dengan ARIMA dan SARIMA untuk data konsumsi energi. Tabel~\ref{tab:forecasting-comparison} menunjukkan perbandingan karakteristik metode peramalan berdasarkan sintesis dari berbagai penelitian.
 
-\subsection{Penggunaan Kata "sedangkan" dan "sehingga"}
-
-\begin{table}[t]
-  \begin{tabular}{|c|l|l|}
-  \hline
-  Kata & Salah & Benar \\ \hline
-  sedangkan & \begin{tabular}[c]{@{}c@{}}Sedangkan sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna,\\ sedangkan sistem baru belum siap.\end{tabular} \\ \hline
-  sehingga & \begin{tabular}[c]{@{}c@{}}Sehingga sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna sehingga\\ sistem baru belum siap.\end{tabular} \\ \hline
-  \end{tabular}
-  \caption{Contoh penggunaan kata "sedangkan" dan "sehingga"}
-  \label{tbl:sedangkan_sehingga}
+\begin{table}[htbp]
+\centering
+\caption{Perbandingan Metode Peramalan Deret Waktu}
+\label{tab:forecasting-comparison}
+\small
+\setlength{\tabcolsep}{6pt}
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|p{2.2cm}|p{5.2cm}|p{5.2cm}|p{2.2cm}|}
+\hline
+\textbf{Metode} & \textbf{Kelebihan} & \textbf{Kekurangan} & \textbf{MAPE Tipikal} \\
+\hline
+ARIMA &
+\begin{tabular}[t]{@{}l@{}}
+-- \textit{Interpretable}\\
+-- Tidak memerlukan data besar\\
+-- Cepat untuk dilatih
+\end{tabular} &
+\begin{tabular}[t]{@{}l@{}}
+-- Sulit menangkap pola non-\textit{linear}\\
+-- Memerlukan data stasioner
+\end{tabular} &
+11--15\% \\
+\hline
+SARIMA &
+\begin{tabular}[t]{@{}l@{}}
+-- Menangani musiman\\
+-- \textit{Interpretable}\\
+-- Baik untuk pola periodik
+\end{tabular} &
+\begin{tabular}[t]{@{}l@{}}
+-- Memerlukan pengetahuan\\
+-- Parameter banyak
+\end{tabular} &
+10--14\% \\
+\hline
+LSTM &
+\begin{tabular}[t]{@{}l@{}}
+-- Menangkap dependensi\\
+-- Baik untuk pola kompleks\\
+-- Tidak perlu stasioner
+\end{tabular} &
+\begin{tabular}[t]{@{}l@{}}
+-- Memerlukan data besar\\
+-- \textit{Black box}\\
+-- Lama untuk dilatih
+\end{tabular} &
+8--12\% \\
+\hline
+\end{tabular}
 \end{table}
 
-Kata "sedangkan" dan "sehingga" adalah kata hubung atau konjungsi. 
-Konjungsi adalah kata atau ungkapan yang menghubungkan satuan bahasa 
-(kata, frasa, klausa, dan kalimat). 
-Konjungsi dapat dibagi menjadi konjungsi intrakalimat dan antarkalimat.  
-Kata "sedangkan" menghubungkan dua klausa yang bersifat kontrasif, 
-sedangkan "sehingga" menghubungkan dua klausa yang bersifat kausal. 
-Dalam ragam formal, kata hubung “sedangkan” dan “sehingga” hanya dapat digunakan 
-sebagai konjungsi intrakalimat sehingga kedua konjungsi itu \textbf{tidak dapat diletakkan pada awal kalimat}.
-Selain itu, penggunaan kata "sedangkan" harus didahului oleh koma (,), sedangkan kata "sehingga" tidak perlu didahului oleh koma (,).
-Contoh penggunaan yang benar dan salah dapat dilihat pada Tabel \ref{tbl:sedangkan_sehingga}.
+% ==============================================================================
+\section{Metrik Evaluasi}
+% ==============================================================================
+
+\subsection{Metrik untuk Klasifikasi NLP}
+
+Dalam evaluasi model klasifikasi \textit{intent} dalam NLP, metrik yang umum digunakan meliputi \parencite{ali2020chatbot,perdana2025multi}:
+
+\subsubsection{Accuracy (Akurasi)}
+Proporsi prediksi yang benar dari total prediksi:
+\begin{equation}
+\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}
+\end{equation}
+
+\subsubsection{Precision (Presisi)}
+Proporsi prediksi positif yang benar:
+\begin{equation}
+\text{Precision} = \frac{TP}{TP + FP}
+\end{equation}
+
+\subsubsection{Recall (Daya Ingat)}
+Proporsi kasus positif aktual yang diprediksi dengan benar:
+\begin{equation}
+\text{Recall} = \frac{TP}{TP + FN}
+\end{equation}
+
+\subsubsection{F1-Score}
+Rata-rata harmonik dari \textit{precision} dan \textit{recall}:
+\begin{equation}
+\text{F1-Score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+\end{equation}
+
+$TP$ = \textit{True Positive}, $TN$ = \textit{True Negative}, $FP$ = \textit{False Positive}, dan $FN$ = \textit{False Negative}.
+
+\subsection{Metrik untuk Time Series Forecasting}
+
+Dalam evaluasi model peramalan deret waktu, metrik yang umum digunakan meliputi \parencite{sirisha2022profit,sunendar2025comparison}:
+
+\subsubsection{Mean Absolute Error (MAE)}
+Rata-rata dari nilai absolut kesalahan:
+\begin{equation}
+\text{MAE} = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|
+\end{equation}
+
+\subsubsection{Root Mean Square Error (RMSE)}
+Akar kuadrat dari rata-rata kesalahan kuadrat:
+\begin{equation}
+\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}
+\end{equation}
+
+\subsubsection{Mean Absolute Percentage Error (MAPE)}
+Rata-rata persentase kesalahan absolut:
+\begin{equation}
+\text{MAPE} = \frac{100\%}{n} \sum_{i=1}^n \left|\frac{y_i - \hat{y}_i}{y_i}\right|
+\end{equation}
+
+$y_i$ adalah nilai aktual, $\hat{y}_i$ adalah nilai prediksi, dan $n$ adalah jumlah observasi.
+
+% ==============================================================================
+\section{Integrasi Sistem dan Penelitian Terkait}
+% ==============================================================================
+
+\subsection{Sistem Hibrida Rule-Based dan NLP}
+
+Sistem hibrida yang menggabungkan pendekatan \textit{rule-based} dan NLP menawarkan keseimbangan antara kontrol deterministik dan fleksibilitas berbasis pembelajaran mesin. Pendekatan \textit{rule-based} cocok untuk kueri terstruktur yang sering diulang, sementara NLP menangani kueri yang lebih kompleks dan bervariasi \parencite{shah2024ai}.
+
+Penelitian \textcite{shah2024ai} menunjukkan bahwa optimisator berbasis AI dapat meningkatkan efisiensi pemanfaatan sumber daya dari 72\% (optimasi berbasis aturan) menjadi 89\%, dengan peningkatan efisiensi penulisan ulang kueri dari 15\% menjadi 40\%. Sistem berbasis AI juga meningkatkan akurasi deteksi anomali dari 60\% menjadi 95\% dan mengurangi biaya infrastruktur cloud sebesar 30\%.
+
+\subsection{Customer Churn Prediction}
+
+Prediksi \textit{customer churn} adalah aplikasi penting dari pembelajaran mesin dalam analisis bisnis pelanggan. Penelitian \textcite{lalwani2022customer} menunjukkan bahwa \textit{Random Forest}, SVM, dan XGBoost mampu mencapai akurasi tinggi dalam memprediksi \textit{churn} pelanggan pada industri telekomunikasi, memungkinkan perusahaan bertindak lebih proaktif terhadap potensi pelanggan yang akan keluar.
+
+Fitur-fitur yang umum digunakan untuk prediksi \textit{churn} meliputi \textit{tenure} (lama berlangganan), nilai transaksi rata-rata, frekuensi transaksi, riwayat keluhan atau masalah layanan, demografi pelanggan, dan pola penggunaan produk atau layanan \parencite{lalwani2022customer}.
 
 
-\subsection{Penggunaan Istilah yang Tidak Baku}
-Ada beberapa istilah yang sering digunakan dalam pembicaraan sehari-hari, tetapi tidak baku dalam penulisan ilmiah.
-Beberapa istilah tersebut antara lain:
-\begin{enumerate}
-  \item analisa $\rightarrow$ analisis
-  \item eksisting atau existing $\rightarrow$ yang ada atau saat ini
-  \item bisnis proses $\rightarrow$ proses bisnis
-  \item user $\rightarrow$ pengguna
-  \item system $\rightarrow$ sistem
-  \item database $\rightarrow$ basis data
-  \item aktifitas $\rightarrow$ aktivitas
-  \item efektifitas $\rightarrow$ efektivitas
-  \item sosial media $\rightarrow$ media sosial
-\end{enumerate}
 
-\subsection{Pemisah Desimal dan Ribuan}
-Tanda pemisah desimal dalam bahasa Indonesia adalah tanda koma, contoh:
-\begin{enumerate}
-  \item (Salah) Akurasi naik menjadi 50.6\% 
-  \item (Benar) Akurasi naik menjadi 50,6\% 
-\end{enumerate}
+% \label{chap:studi-literatur}
+% \section{Penulisan Gambar, Tabel, Rumus, dan Kode}
+% \lipsum[1]
 
-\subsection{Daftar atau \textit{List}}
-Ada beberapa aturan penulisan daftar atau \textit{list} yang perlu diperhatikan, antara lain:
-\begin{enumerate}[a)]
-\item Jika memungkinkan, hindari penggunaan “bullet points” atau sejenisnya. Sebaiknya, gunakan angka (1, 2, 3, ...) atau huruf (a, b, c, …). Dengan demikian, pembaca dapat dengan mudah melihat jumlah \textit{item} atau \textit{list}. 
-\item Jika dalam daftar hanya ada satu item, tidak perlu menggunakan nomor urut.
-\item Penjelasan atau deskripsi suatu item sebaiknya menyatu dengan judul item tersebut, tidak berbeda halaman. Contoh yang salah: judul item ada di halaman 10, namun deskripsinya di halaman 11. Sebaiknya pindahkan judul tersebut ke halaman 11.
-\item Jika penjelasan atau deskripsi suatu item cukup panjang, misalnya lebih dari 1 halaman atau terdiri atas beberapa paragraf, sebaiknya setiap item tersebut dijadikan judul subbab, kecuali jika level subbab sudah mencapai level 4. 
-\end{enumerate}
+% \subsection{Gambar}
+% Contoh gambar dapat dilihat pada Gambar \ref{gambar:jaringan}. Gambar dan judulnya diposisikan di tengah. Nomor gambar tidak diakhiri tanda titik. Gambar tersebut dibuat menggunakan aplikasi draw.io dan disimpan ke format PNG setelah dengan zoom setting pada angka 300\%. Ukuran gambar yang ditampilkan dapat diatur dengan mengubah nilai \textit{width} dalam sintaks \textit{includegraphics}.
 
-\subsection{Penggunaan Kata "masing-masing" dan "setiap"}
-Kata “masing-masing” digunakan di belakang kata yang diterangkan, misalnya 
-"Setiap proses menggunakan algoritma masing-masing". Kata “tiap-tiap” atau “setiap”
-ditempatkan di depan kata yang diterangkan, misalnya
-"Setiap proses menggunakan algoritma tertentu".
+% \begin{figure}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+% 	\centering
+%   \captionsetup{justification=centering}
+%     	\includegraphics[width=0.7\textwidth]{image/gambar1.png}
+% 	\caption{Contoh gambar jaringan}
+% 	\label{gambar:jaringan}
+% \end{figure}
+
+% Gambar umumnya tidak jelas atau kabur jika gambar tersebut:
+% \begin{enumerate}[a.]
+%   \item diperoleh dari hasil cropping pada suatu halaman buku atau situs web;
+%   \item hasil pembesaran gambar yang gambar aslinya sebenarnya berukuran kecil; atau
+%   \item disimpan dalam resolusi kecil
+% \end{enumerate}
+% Ketidakjelasan gambar ini dapat dilihat pada garis-garis diagram yang tidak tegas dan tulisan-tulisan dalam gambar yang tampak kabur dan kurang jelas terbaca.
+
+% Untuk mendapatkan gambar yang tidak kabur (\textit{blur}), langkah-langkah berikut dapat digunakan:
+% \begin{enumerate}[(a)]
+% \item Gambar yang didapat di suatu pustaka atau referensi sebaiknya digambar ulang, misalnya menggunakan PowerPoint, Canva, Figma, draw.io, atau yang lainnya.
+% \item Jika diagram atau ilustrasi digambar menggunakan draw.io, saat gambar disimpan ke format PNG atau JPG (\textit{export as}), lakukan \textit{zoom} ke minimal 300\% (\textit{the default value is} 100\%). 
+% \item Jika diagram digambar dengan menggunakan PowerPoint, gambar dapat langsung di-\textit{copy-paste} ke Word.
+% \end{enumerate}
+
+% \subsection{Tabel}
+% Tabel ada dua jenis, yaitu tabel yang bisa termuat dalam satu halaman dan tabel yang sangat panjang sehingga tidak muat dalam satu halaman.
+% \subsubsection{Tabel yang Muat dalam Satu Halaman}
+% Contoh tabel dapat dilihat pada Tabel \ref{tbl:harga1} dan \ref{tbl:harga2}. Tabel dan judulnya dibuat rata kiri dan judul tabel diletakkan di atas tabel. Usahakan tabel dapat ditulis dalam satu halaman, tidak terpotong ke halaman berikutnya.
+
+% \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+%   \begin{tabular}{ | p{2cm} | p{2cm} | p{3cm} |}
+% 	\hline
+% 	Nama 	& Satuan 		& Harga \\
+% 	\hline
+% 	Buku 	& Exemplar	& 25000 \\
+% 	Komputer	& Unit		& 2500000 \\
+% 	Pensil	& Buah		& 118900 \\
+% 	\hline
+% 	\end{tabular}
+% \caption{Tabel harga bahan pokok}
+% \label{tbl:harga1}
+% \end{table}
+
+% \begin{table}[t] % pilihan opsi yang disarankan: t = top, b = bottom, h = here
+% 	\begin{tabular}{ | l | c | r | }
+% 	\hline
+% 	Nama 	& Satuan 		& Harga \\
+% 	\hline
+% 	Buku 	& Exemplar	& 25000 \\
+% 	Komputer	& Unit		& 2500000 \\
+% 	Pensil	& Buah		& 118900 \\
+% 	\hline
+% 	\end{tabular}
+% \caption{Tabel harga bahan sekunder}
+% \label{tbl:harga2}
+% \end{table}
+
+% \subsubsection{Tabel yang Sangat Panjang}
+% Jika tabel terlalu panjang sehingga tidak muat dalam satu halaman, gunakan paket 
+% \textit{longtable} untuk membuat tabel yang dapat terpotong ke halaman berikutnya, 
+% seperti pada Tabel \ref{tbl:longtable1}.
+
+% \begin{longtable}{@{\extracolsep{\fill}} l c r r}
+% \caption{Comprehensive Data Table Example}\label{tbl:longtable1} \\
+% \toprule
+% \textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+% \midrule
+% \endfirsthead
+
+% \caption*{Comprehensive Data Table Example (lanjutan)} \\
+% \toprule
+% \textbf{ID} & \textbf{Name} & \textbf{Score} & \textbf{Rank} \\
+% \midrule
+% \endhead
+
+% \midrule
+% \multicolumn{4}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+% \bottomrule
+% \endfoot
+
+% \bottomrule
+% \endlastfoot
+
+% % === Table Data ===
+% 1 & Alice Smith & 89 & 5 \\
+% 2 & Bob Johnson & 93 & 3 \\
+% 3 & Carol Davis & 95 & 2 \\
+% 4 & Daniel Wilson & 88 & 6 \\
+% 5 & Eve Thompson & 97 & 1 \\
+% 6 & Frank Brown & 85 & 7 \\
+% 7 & Grace Lee & 91 & 4 \\
+% 8 & Henry Miller & 80 & 9 \\
+% 9 & Irene Garcia & 83 & 8 \\
+% 10 & Jack Robinson & 78 & 10 \\
+% % Repeat with more rows to make it long
+% 11 & Kevin Harris & 76 & 11 \\
+% 12 & Laura Martin & 75 & 12 \\
+% 13 & Michael Clark & 74 & 13 \\
+% 14 & Natalie Lewis & 73 & 14 \\
+% 15 & Olivia Walker & 72 & 15 \\
+% 16 & Peter Hall & 71 & 16 \\
+% 17 & Quinn Allen & 70 & 17 \\
+% 18 & Rachel Young & 69 & 18 \\
+% 19 & Samuel King & 68 & 19 \\
+% 20 & Tina Wright & 67 & 20 \\
+% 21 & Uma Scott & 66 & 21 \\
+% 22 & Victor Green & 65 & 22 \\
+% 23 & Wendy Adams & 64 & 23 \\
+% 24 & Xavier Nelson & 63 & 24 \\
+% 25 & Yolanda Carter & 62 & 25 \\
+% 26 & Zachary Perez & 61 & 26 \\
+% 27 & Amelia Baker & 60 & 27 \\
+% 28 & Benjamin Rivera & 59 & 28 \\
+% 29 & Charlotte Rogers & 58 & 29 \\
+% 30 & David Murphy & 57 & 30 \\
+% 31 & Ethan Cooper & 56 & 31 \\
+% 32 & Fiona Reed & 55 & 32 \\
+% 33 & George Bailey & 54 & 33 \\
+% 34 & Hannah Cox & 53 & 34 \\
+% 35 & Isaac Howard & 52 & 35 \\
+% 36 & Julia Ward & 51 & 36 \\
+% 37 & Kyle Flores & 50 & 37 \\
+% 38 & Lily Bell & 49 & 38 \\
+% 39 & Mason Sanders & 48 & 39 \\
+% 40 & Nora Patterson & 47 & 40 \\
+% 41 & Owen Ramirez & 46 & 41 \\
+% 42 & Penelope Torres & 45 & 42 \\
+% 43 & Quentin Foster & 44 & 43 \\
+% 44 & Rebecca Gonzales & 43 & 44 \\
+% 45 & Sebastian Bryant & 42 & 45 \\
+% 46 & Taylor Alexander & 41 & 46 \\
+% 47 & Ursula Russell & 40 & 47 \\
+% 48 & Vincent Griffin & 39 & 48 \\
+% 49 & William Diaz & 38 & 49 \\
+% 50 & Zoe Simmons & 37 & 50 \\
+% % (You can easily extend this list to hundreds of rows)
+% \end{longtable}
+
+% \subsubsection{Rumus}
+% Contoh rumus matematika dapat ditulis seperti pada Persamaan \ref{eq:contoh1} di bawah ini. 
+% Penomoran persamaan diletakkan di sebelah kanan, dan rumus ditulis dalam mode \textit{display math}.
+% \begin{equation}
+% E = mc^2
+% \label{eq:contoh1}
+% \end{equation}
+
+% Contoh lain penulisan rumus matematika yang lebih kompleks dapat ditulis seperti pada Persamaan \ref{eq:rumus2}.
+
+% \begin{align}
+% f(x) &= ax^2 + bx + c \\
+% f'(x) &= \frac{d}{dx}(ax^2 + bx + c) \notag \\ % tidak menampilkan nomor pada baris ini
+%       &= 2ax + b \label{eq:rumus2}
+% \end{align}
+
+% Jika rumus terlalu panjang untuk ditulis dalam satu baris, gunakan lingkungan \textit{multline} seperti pada Persamaan \ref{eq:rumus3} di bawah ini.
+% \begin{multline} 
+% y = a_0 + a_1x + a_2x^2 + a_3x^3 + a_4x^4 + a_5x^5 + a_6x^6 + a_7x^7 \\
+%     + a_8x^8 + a_9x^9 + a_{10}x^{10} \label{eq:rumus3}
+% \end{multline}
+
+% Jika ada penurunan rumus yang terdiri dari beberapa baris, namun tidak memerlukan penomoran pada setiap baris, gunakan lingkungan \textit{align*}, misalnya:
+
+% \begin{align*} 
+% S &= \sum_{i=1}^{n} i^2 \\
+%   &= 1^2 + 2^2 + 3^2 + \cdots + n^2 \\
+%   &= \frac{n(n + 1)(2n + 1)}{6}
+% \intertext{Contoh lainnya adalah rumus untuk mencari nilai rata-rata fungsi $f(x)$ pada interval $[p, q]$:}
+% \bar{f} &= \frac{1}{q - p} \int_{p}^{q} f(x) \, dx \\
+%         &= \frac{1}{q - p} \int_{p}^{q} (ax^2 + bx + c) \, dx \\
+%         &= \frac{1}{q - p} \left[ \frac{a}{3}x^3 + \frac{b}{2}x^2 + cx \right]_p^q \\
+%         &= \frac{a(q^3 - p^3)}{3(q - p)} + \frac{b(q^2 - p^2)}{2(q - p)} + c \label{eq:rumus4}
+% \end{align*}
+
+
+
+% \subsection{Algoritma, Pseudocode, atau Kode}
+% Contoh penulisan algoritma atau pseudocode dapat ditulis seperti pada Kode \ref{alg:contoh1} di bawah ini. 
+% Gunakan paket \textit{listings} untuk menulis source code dalam bahasa pemrograman tertentu, seperti pada Kode \ref{lst:contoh1}. 
+
+
+% % -- Example of pseudocode and source code listing --
+% % -- Gunakan minipage agar listing tidak terpotong ke halaman berikutnya --
+% \begin{minipage}{\textwidth} 
+% \begin{lstlisting}[frame=lines, captionpos=t, caption={Contoh pseudocode}, label={alg:contoh1}]
+% ALGORITHM HelloWorld
+%    PRINT "Hello, World!"
+% END ALGORITHM
+% \end{lstlisting}
+% \end{minipage}
+
+% \begin{minipage}{\textwidth}
+% \begin{lstlisting}[language=Python, frame=single, caption={Contoh source code Python}, captionpos=t, label={lst:contoh1}]
+% def hello_world():
+%     print("Hello, World!")       
+% hello_world()
+% \end{lstlisting}
+% \end{minipage}
+
+
+% \section{Beberapa Kesalahan Penulisan yang Sering Terjadi}
+% \subsection{Penggunaan Kata "di mana" atau "dimana"}
+% Banyak yang menuliskan kata "di mana" atau "dimana" sebagai pengganti kata "which" dalam bahasa Inggris. 
+% Padahal, penggunaan kata "di mana" atau "dimana" tidak tepat dalam konteks tersebut. Demikian juga untuk kata serupa, misalnya "yang mana".
+% Kata "di mana" atau "dimana" ini harus diganti dengan kata lain, seperti "dengan", "tempat", "yang", dan sebagainya tergantung kalimatnya.
+% Penjelasan lengkap dapat dilihat pada \autocite{BPBI}.
+
+% \subsection{Penggunaan Kata "sedangkan" dan "sehingga"}
+
+% \begin{table}[t]
+%   \begin{tabular}{|c|l|l|}
+%   \hline
+%   Kata & Salah & Benar \\ \hline
+%   sedangkan & \begin{tabular}[c]{@{}c@{}}Sedangkan sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna,\\ sedangkan sistem baru belum siap.\end{tabular} \\ \hline
+%   sehingga & \begin{tabular}[c]{@{}c@{}}Sehingga sistem lama masih\\ digunakan oleh banyak pengguna.\end{tabular} & \begin{tabular}[c]{@{}c@{}}Sistem lama masih digunakan\\ oleh banyak pengguna sehingga\\ sistem baru belum siap.\end{tabular} \\ \hline
+%   \end{tabular}
+%   \caption{Contoh penggunaan kata "sedangkan" dan "sehingga"}
+%   \label{tbl:sedangkan_sehingga}
+% \end{table}
+
+% Kata "sedangkan" dan "sehingga" adalah kata hubung atau konjungsi. 
+% Konjungsi adalah kata atau ungkapan yang menghubungkan satuan bahasa 
+% (kata, frasa, klausa, dan kalimat). 
+% Konjungsi dapat dibagi menjadi konjungsi intrakalimat dan antarkalimat.  
+% Kata "sedangkan" menghubungkan dua klausa yang bersifat kontrasif, 
+% sedangkan "sehingga" menghubungkan dua klausa yang bersifat kausal. 
+% Dalam ragam formal, kata hubung “sedangkan” dan “sehingga” hanya dapat digunakan 
+% sebagai konjungsi intrakalimat sehingga kedua konjungsi itu \textbf{tidak dapat diletakkan pada awal kalimat}.
+% Selain itu, penggunaan kata "sedangkan" harus didahului oleh koma (,), sedangkan kata "sehingga" tidak perlu didahului oleh koma (,).
+% Contoh penggunaan yang benar dan salah dapat dilihat pada Tabel \ref{tbl:sedangkan_sehingga}.
+
+
+% \subsection{Penggunaan Istilah yang Tidak Baku}
+% Ada beberapa istilah yang sering digunakan dalam pembicaraan sehari-hari, tetapi tidak baku dalam penulisan ilmiah.
+% Beberapa istilah tersebut antara lain:
+% \begin{enumerate}
+%   \item analisa $\rightarrow$ analisis
+%   \item eksisting atau existing $\rightarrow$ yang ada atau saat ini
+%   \item bisnis proses $\rightarrow$ proses bisnis
+%   \item user $\rightarrow$ pengguna
+%   \item system $\rightarrow$ sistem
+%   \item database $\rightarrow$ basis data
+%   \item aktifitas $\rightarrow$ aktivitas
+%   \item efektifitas $\rightarrow$ efektivitas
+%   \item sosial media $\rightarrow$ media sosial
+% \end{enumerate}
+
+% \subsection{Pemisah Desimal dan Ribuan}
+% Tanda pemisah desimal dalam bahasa Indonesia adalah tanda koma, contoh:
+% \begin{enumerate}
+%   \item (Salah) Akurasi naik menjadi 50.6\% 
+%   \item (Benar) Akurasi naik menjadi 50,6\% 
+% \end{enumerate}
+
+% \subsection{Daftar atau \textit{List}}
+% Ada beberapa aturan penulisan daftar atau \textit{list} yang perlu diperhatikan, antara lain:
+% \begin{enumerate}[a)]
+% \item Jika memungkinkan, hindari penggunaan “bullet points” atau sejenisnya. Sebaiknya, gunakan angka (1, 2, 3, ...) atau huruf (a, b, c, …). Dengan demikian, pembaca dapat dengan mudah melihat jumlah \textit{item} atau \textit{list}. 
+% \item Jika dalam daftar hanya ada satu item, tidak perlu menggunakan nomor urut.
+% \item Penjelasan atau deskripsi suatu item sebaiknya menyatu dengan judul item tersebut, tidak berbeda halaman. Contoh yang salah: judul item ada di halaman 10, namun deskripsinya di halaman 11. Sebaiknya pindahkan judul tersebut ke halaman 11.
+% \item Jika penjelasan atau deskripsi suatu item cukup panjang, misalnya lebih dari 1 halaman atau terdiri atas beberapa paragraf, sebaiknya setiap item tersebut dijadikan judul subbab, kecuali jika level subbab sudah mencapai level 4. 
+% \end{enumerate}
+
+% \subsection{Penggunaan Kata "masing-masing" dan "setiap"}
+% Kata “masing-masing” digunakan di belakang kata yang diterangkan, misalnya 
+% "Setiap proses menggunakan algoritma masing-masing". Kata “tiap-tiap” atau “setiap”
+% ditempatkan di depan kata yang diterangkan, misalnya
+% "Setiap proses menggunakan algoritma tertentu".

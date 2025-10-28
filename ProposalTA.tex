@@ -113,6 +113,8 @@
     autolang=other
 ]{biblatex-chicago}
 
+
+
 \addbibresource{daftar-pustaka.bib}
 
 % ==========================================
@@ -170,6 +172,28 @@
 
 
 \renewcommand \cftchapdotsep{4.5}
+% ==== Heading bab & jarak atas seragam (berlaku juga utk LoF/LoT/LoL) ====
+\renewcommand\thechapter{\Roman{chapter}}
+\titleformat{\chapter}[display]
+  {\centering\normalfont\Large\bfseries}
+  {\MakeUppercase{\chaptertitlename}\ \thechapter}{0pt}{\Large}
+\titlespacing*{\chapter}{0pt}{-2.0cm}{0.8em} % atur -2.0cm jika perlu lebih/kurang rapat
+
+% ToC/LoF/LoT: judul besar, rata tengah, tanpa jarak ekstra di atas
+\renewcommand{\cfttoctitlefont}{\hfill\Large\bfseries\MakeUppercase}
+\renewcommand{\cftaftertoctitle}{\hfill}
+\setlength{\cftbeforetoctitleskip}{0pt}
+
+\renewcommand{\cftloftitlefont}{\hfill\Large\bfseries\MakeUppercase}
+\renewcommand{\cftafterloftitle}{\hfill}
+\setlength{\cftbeforeloftitleskip}{0pt}
+
+\renewcommand{\cftlottitlefont}{\hfill\Large\bfseries\MakeUppercase}
+\renewcommand{\cftafterlottitle}{\hfill}
+\setlength{\cftbeforelottitleskip}{0pt}
+
+% Nama daftar listing (tanpa \centering/\normalsize agar format heading tidak kacau)
+\renewcommand{\lstlistlistingname}{DAFTAR KODE}
 
 % ==========================================
 % AWAL DOKUMEN
@@ -183,9 +207,7 @@
 \begin{center}
 
     
-    \vspace*{2cm}
-    
-    {\Large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+    {\large\bfseries PERANCANGAN SISTEM \textit{BUSINESS INTELLIGENCE} BERBASIS \textit{CHATBOT} DENGAN \textit{RULE-BASED QUERY}, \textit{NATURAL LANGUAGE PROCESSING}, DAN \textit{TIME SERIES FORECASTING} UNTUK ANALISIS DAN PREDIKSI PERMINTAAN LAYANAN PELANGGAN}\\
      \vspace{4cm}
 
     {\Large \textbf{Proposal Tugas Akhir}}\\
@@ -196,8 +218,8 @@
     
     {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Thalita Zahra Sutejo}\\
+    {\large 18222023}
     }\\
 
     \vspace{2cm}
@@ -232,7 +254,7 @@
   \textbf{\large LEMBAR PENGESAHAN}\\[1cm]
   \vspace*{1.5cm}
     
-  {\large\bfseries PERANCANGAN SISTEM INFORMASI AKADEMIK BERBASIS WEB}\\
+  {\large\bfseries PERANCANGAN SISTEM \textit{BUSINESS INTELLIGENCE} BERBASIS \textit{CHATBOT} DENGAN \textit{RULE-BASED QUERY}, \textit{NATURAL LANGUAGE PROCESSING}, DAN \textit{TIME SERIES FORECASTING} UNTUK ANALISIS DAN PREDIKSI PERMINTAAN LAYANAN PELANGGAN}\\
      \vspace{2cm}
 
   {\Large \textbf{Proposal Tugas Akhir}}\\
@@ -243,8 +265,8 @@
     
   {\large Oleh}\\[0.3cm]
     \textbf{
-    {\large John Doe}\\
-    {\large 18299000}
+    {\large Thalita Zahra Sutejo}\\
+    {\large 18222023}
   }\\
     
   \vspace{0.5cm}
@@ -262,8 +284,8 @@
 % Versi 1 pembimbing (default)
 % ==========================================
 	Pembimbing  \\[3cm]
-	Dr. Ir. John Doe, M.T.   \\[0.2cm]
-	NIP. 123456789 
+	Dr. Ir. Dimitri Mahayana, M.Eng.   \\[0.2cm]
+	NIP. 196808091991021001 
 % ==========================================
 
 \end{center}
@@ -325,29 +347,50 @@
 \listoftables
 \addcontentsline{toc}{chapter}{DAFTAR TABEL}
 
-% --- DAFTAR LISTING (ALGORITMA, PSEUDOCODE, SOURCE CODE) ---
-\newpage
-
-\lstlistoflistings
-\addcontentsline{toc}{chapter}{\lstlistlistingname}
+% % --- DAFTAR LISTING (ALGORITMA, PSEUDOCODE, SOURCE CODE) ---
+% % --- DAFTAR KODE (list of listings) ---
+% \newpage
+% \thispagestyle{plain}
+% \lstlistoflistings
+% \addcontentsline{toc}{chapter}{DAFTAR KODE}
 
 \mainmatter
 % --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
-% --- Judul Bab ---
-\titleformat{\chapter}[display]
-      {\centering\normalfont\large\bfseries} % Commands for the entire chapter title
-      {\MakeUppercase \chaptertitlename\ \thechapter}{0pt}{\large} % Chapter number format
+% % --- Judul Bab ---
+% \titleformat{\chapter}[display]
+%       {\centering\normalfont\large\bfseries} % Commands for the entire chapter title
+%       {\MakeUppercase \chaptertitlename\ \thechapter}{0pt}{\large} % Chapter number format
+% \renewcommand\thechapter{\Roman{chapter}}
+% % --- Judul Subbab dan Subsubbab ---
+% \titleformat{\section}
+% 	{\normalfont\bfseries}
+% 	{\thesection}{1em}{}
+% \titleformat{\subsection}
+% 	{\normalfont\bfseries}
+% 	{\thesubsection}{1em}{}
+% \titleformat{\subsubsection}
+% 	{\normalfont\bfseries}
+% 	{\thesubsubsection}{1em}{}
+
+% --- FORMAT TAMPILAN JUDUL BAB, SUBBAB, JUDUL GAMBAR DAN TABEL ---
+
+% Judul Bab (BAB I, BAB II, ... dengan jarak atas diperkecil)
 \renewcommand\thechapter{\Roman{chapter}}
-% --- Judul Subbab dan Subsubbab ---
-\titleformat{\section}
-	{\normalfont\bfseries}
-	{\thesection}{1em}{}
-\titleformat{\subsection}
-	{\normalfont\bfseries}
-	{\thesubsection}{1em}{}
-\titleformat{\subsubsection}
-	{\normalfont\bfseries}
-	{\thesubsubsection}{1em}{}
+\titleformat{\chapter}[display]
+  {\centering\normalfont\Large\bfseries}
+  {\MakeUppercase{\chaptertitlename}\ \thechapter}{0pt}{\Large}
+%             left  before-sep  after-sep
+\titlespacing*{\chapter}{0pt}{-2.6cm}{0.8em}
+
+% Judul Subbab dan Subsubbab (rapi + jarak wajar)
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{0.8em}{0.4em}
+
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{0.6em}{0.3em}
+
+\titleformat{\subsubsection}{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+\titlespacing*{\subsubsection}{0pt}{0.5em}{0.2em}
 
 
 % --- Format judul gambar dan tabel ---
@@ -356,6 +399,8 @@
 \floatsetup[table]{capposition=top}
 \captionsetup[lstlisting]{labelsep=space}
 \floatsetup[lstlisting]{capposition=top}
+
+
 
 % --- Atur indentasi paragraf ---
 \setlength{\parindent}{0pt}

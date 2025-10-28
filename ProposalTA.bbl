@@ -1,0 +1,1307 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global/global}
+    \entry{alharbi2025prediction}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d6340a9bac50153d2a9dbf015bc7ae79}{%
+           family={Alharbi},
+           familyi={A\bibinitperiod},
+           given={Nada},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{fullhash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{fullhashraw}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{bibnamehash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{authorbibnamehash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{authornamehash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{authorfullhash}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \strng{authorfullhashraw}{d6340a9bac50153d2a9dbf015bc7ae79}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Natural Sciences Publishing}
+      \field{number}{1}
+      \field{title}{Prediction of Stock Market Using LSTM, ARIMA, and Hybrid ARIMA-LSTM Models: A Comparative Analysis}
+      \field{volume}{19}
+      \field{year}{2025}
+      \field{pages}{45\bibrangedash 58}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18576/amis/190105
+      \endverb
+    \endentry
+    \entry{ali2020chatbot}{misc}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=85436adf23d1282461a592b18dad2a79}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Mohd\bibnamedelimb Hilmi\bibnamedelima Hasan},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f510a66a72dd3a9f631bf7a39f1d477d}{%
+           family={Zolkepli},
+           familyi={Z\bibinitperiod},
+           given={Masnizah},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbdd98f61d390b5ebe2594ed26ee9fa7}{%
+           family={Bin\bibnamedelima Anuar},
+           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Nor\bibnamedelima Badrul},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c75637ccf8280c73f5c865b6065cf98b}{%
+           family={Zainal},
+           familyi={Z\bibinitperiod},
+           given={Mohamad\bibnamedelima Zulhaimi},
+           giveni={M\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f18f652a69196dde85baac7913e8eee5}
+      \strng{fullhash}{45274df304fecd07f0ff8be0b40b9cd9}
+      \strng{fullhashraw}{45274df304fecd07f0ff8be0b40b9cd9}
+      \strng{bibnamehash}{45274df304fecd07f0ff8be0b40b9cd9}
+      \strng{authorbibnamehash}{45274df304fecd07f0ff8be0b40b9cd9}
+      \strng{authornamehash}{f18f652a69196dde85baac7913e8eee5}
+      \strng{authorfullhash}{45274df304fecd07f0ff8be0b40b9cd9}
+      \strng{authorfullhashraw}{45274df304fecd07f0ff8be0b40b9cd9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{howpublished}{arXiv preprint}
+      \field{title}{Chatbot: A Conversational Agent Employed with Named Entity Recognition Model Using Recurrent Neural Network}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2007.04248
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2007.04248
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2007.04248
+      \endverb
+    \endentry
+    \entry{annisa2024kombinasi}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3613f52ff2e7ef74a98437c3ff93d65f}{%
+           family={Annisa},
+           familyi={A\bibinitperiod},
+           given={Puput\bibnamedelima Triandini},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{fullhash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{fullhashraw}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{bibnamehash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{authorbibnamehash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{authornamehash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{authorfullhash}{dc6a420484883e9fd1880ad4e6b50359}
+      \strng{authorfullhashraw}{dc6a420484883e9fd1880ad4e6b50359}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Teknologi Informasi dan Ilmu Komputer (JTIIK)}
+      \field{number}{5}
+      \field{title}{Kombinasi Intent Classification dan Named Entity Recognition dengan Pendekatan Multi-task Learning pada Dataset ATIS}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1055\bibrangedash 1064}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.25126/jtiik.2024117985
+      \endverb
+    \endentry
+    \entry{atscale2025semantic}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0599d0ac9d4ebf339effd77726caba85}{%
+           family={AtScale},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{fullhash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{fullhashraw}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{bibnamehash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{authorbibnamehash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{authornamehash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{authorfullhash}{0599d0ac9d4ebf339effd77726caba85}
+      \strng{authorfullhashraw}{0599d0ac9d4ebf339effd77726caba85}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Why Semantic Layers? A Key Technical Architecture}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.atscale.com/blog/semantic-layers-key-technical-architecture/
+      \endverb
+      \verb{url}
+      \verb https://www.atscale.com/blog/semantic-layers-key-technical-architecture/
+      \endverb
+    \endentry
+    \entry{databricks2025semantic}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e3f864ba9cf3c62d471e1c62414d098}{%
+           family={Databricks},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{fullhash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{fullhashraw}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{bibnamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorbibnamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authornamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorfullhash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorfullhashraw}{4e3f864ba9cf3c62d471e1c62414d098}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Role of Semantic Layers in Modern Data Analytics}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.databricks.com/glossary/semantic-layer
+      \endverb
+      \verb{url}
+      \verb https://www.databricks.com/glossary/semantic-layer
+      \endverb
+    \endentry
+    \entry{dubey2021study}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=db0fdf521e660a52b345f0b58dd4eefe}{%
+           family={Dubey},
+           familyi={D\bibinitperiod},
+           given={Ashish\bibnamedelima Kumar},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f760ca30acf637bd3ec08e61e594522}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=25e1b01e455ab723bef748c7455e2a91}{%
+           family={Narang},
+           familyi={N\bibinitperiod},
+           given={Sandeep},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{fullhash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{fullhashraw}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{bibnamehash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{authorbibnamehash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{authornamehash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{authorfullhash}{3d0ea59320414df88cab35e9cd9de993}
+      \strng{authorfullhashraw}{3d0ea59320414df88cab35e9cd9de993}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Sustainable Energy Technologies and Assessments}
+      \field{title}{Study and Analysis of SARIMA and LSTM in Forecasting Time Series Data}
+      \field{volume}{47}
+      \field{year}{2021}
+      \field{pages}{101474}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.seta.2021.101474
+      \endverb
+    \endentry
+    \entry{EastVC2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e9b722e818f2a5b71ae472b6b8781c9}{%
+           family={{East.vc}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{fullhash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{fullhashraw}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{bibnamehash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{authorbibnamehash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{authornamehash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{authorfullhash}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \strng{authorfullhashraw}{8e9b722e818f2a5b71ae472b6b8781c9}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The potential of AI to drive Indonesia’s digital competitiveness growth}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://east.vc/news/insights/the-potential-of-ai-to-drive-indonesias-digital-competitiveness-growth
+      \endverb
+      \verb{url}
+      \verb https://east.vc/news/insights/the-potential-of-ai-to-drive-indonesias-digital-competitiveness-growth
+      \endverb
+    \endentry
+    \entry{finance1994rule}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75c8e1b1cc207270e248f3b3ae04a58e}{%
+           family={Finance},
+           familyi={F\bibinitperiod},
+           given={Beatrice},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd38ac2a4f90c3852e957e163e416dd5}{%
+           family={Gardarin},
+           familyi={G\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{fullhash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{fullhashraw}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{bibnamehash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{authorbibnamehash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{authornamehash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{authorfullhash}{9f6839ac447c300d2a2b39a77b118243}
+      \strng{authorfullhashraw}{9f6839ac447c300d2a2b39a77b118243}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Information Systems}
+      \field{number}{5}
+      \field{title}{A Rule-Based Query Optimizer with Multiple Search Strategies}
+      \field{volume}{19}
+      \field{year}{1994}
+      \field{pages}{465\bibrangedash 486}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1016/0169-023X(94)90045-0
+      \endverb
+    \endentry
+    \entry{Fullview2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1cfae5511f3de2705ca477ac06df9900}{%
+           family={{Fullview}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{fullhash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{fullhashraw}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{bibnamehash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{authorbibnamehash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{authornamehash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{authorfullhash}{1cfae5511f3de2705ca477ac06df9900}
+      \strng{authorfullhashraw}{1cfae5511f3de2705ca477ac06df9900}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{80+ AI Customer Service Statistics \& Trends in 2025}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fullview.io/blog/ai-customer-service-stats
+      \endverb
+      \verb{url}
+      \verb https://www.fullview.io/blog/ai-customer-service-stats
+      \endverb
+    \endentry
+    \entry{ibadurrahman2025implementasi}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7f2e550db48f62dcee9f711e1c68a4b0}{%
+           family={Ibadurrahman},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{fullhash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{fullhashraw}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{bibnamehash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{authorbibnamehash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{authornamehash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{authorfullhash}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \strng{authorfullhashraw}{7f2e550db48f62dcee9f711e1c68a4b0}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Informatika Teknologi dan Sains}
+      \field{number}{3}
+      \field{title}{Implementasi Chatbot Berbasis Natural Language Processing dengan Model BERT untuk Meningkatkan Pelayanan}
+      \field{volume}{7}
+      \field{year}{2025}
+      \field{pages}{1521\bibrangedash 1528}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.51401/jinteks.v7i3.8176
+      \endverb
+    \endentry
+    \entry{Intimedia2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=97e03bf6cf33cc01997cf539b0aa09a7}{%
+           family={{Intimedia}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{fullhash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{fullhashraw}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{bibnamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{authorbibnamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{authornamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{authorfullhash}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \strng{authorfullhashraw}{97e03bf6cf33cc01997cf539b0aa09a7}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Indonesia accelerates digital transformation with AI adoption to achieve Golden Indonesia 2045}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://intimedia.id/read/indonesia-accelerates-digital-transformation-with-ai-adoption-to-achieve-golden-indonesia-2045
+      \endverb
+      \verb{url}
+      \verb https://intimedia.id/read/indonesia-accelerates-digital-transformation-with-ai-adoption-to-achieve-golden-indonesia-2045
+      \endverb
+    \endentry
+    \entry{Iqbal2021}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c63bdef63b74a9a83c28e620647b7a94}{%
+           family={Iqbal},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60327ac9d2b2d9c192e1e7f4581038b8}{%
+           family={Siregar},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi N.\bibnamedelimi H.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdd5e20033a5d1e9d47fdf7457f9be97}{%
+           family={Rismayanti},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{fullhash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{fullhashraw}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{bibnamehash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{authorbibnamehash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{authornamehash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{authorfullhash}{f8cfb493afe40c4688728ced545ef85c}
+      \strng{authorfullhashraw}{f8cfb493afe40c4688728ced545ef85c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Computer Science and Informatics Engineering}
+      \field{number}{1}
+      \field{title}{Implementation of Natural Language Processing for Chatbots in Customer Service}
+      \field{volume}{1}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.64803/jocsaic.v1i1.4
+      \endverb
+    \endentry
+    \entry{jumriyah2025influence}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8faa10be072d85a6b591b11f30cce0fb}{%
+           family={Jumriyah},
+           familyi={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{fullhash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{fullhashraw}{a700b2f968cf259a654f06c638dc1601}
+      \strng{bibnamehash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{authorbibnamehash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{authornamehash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{authorfullhash}{a700b2f968cf259a654f06c638dc1601}
+      \strng{authorfullhashraw}{a700b2f968cf259a654f06c638dc1601}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Innovation in Learning and Technology}
+      \field{number}{2}
+      \field{title}{The Influence of Natural Language-Based Chatbot Usage on Customer Satisfaction and Service Efficiency}
+      \field{volume}{2}
+      \field{year}{2025}
+      \field{pages}{78\bibrangedash 89}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.61650/jiltech.v2i2.821
+      \endverb
+    \endentry
+    \entry{khaddam2025ai}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bf18a99c101da0139a70fbd20670c063}{%
+           family={Khaddam},
+           familyi={K\bibinitperiod},
+           given={Ibrahim},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ee92e871671901e7668ab2c24f98e22}{%
+           family={Alzghoul},
+           familyi={A\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{fullhash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{fullhashraw}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{bibnamehash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{authorbibnamehash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{authornamehash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{authorfullhash}{a70057deb6552aeda46660382d9c6c9b}
+      \strng{authorfullhashraw}{a70057deb6552aeda46660382d9c6c9b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Energy Economics and Policy}
+      \field{number}{1}
+      \field{title}{Artificial Intelligence-Driven Business Intelligence: Systematic Literature Review}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{45\bibrangedash 54}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.32479/ijeep.19820
+      \endverb
+    \endentry
+    \entry{dbt2024semantic}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e7d44861685e5736cdb4b5638376107}{%
+           family={Labs},
+           familyi={L\bibinitperiod},
+           prefix={dbt},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \strng{namehash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{fullhash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{fullhashraw}{5e7d44861685e5736cdb4b5638376107}
+      \strng{bibnamehash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{authorbibnamehash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{authornamehash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{authorfullhash}{5e7d44861685e5736cdb4b5638376107}
+      \strng{authorfullhashraw}{5e7d44861685e5736cdb4b5638376107}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Understanding Semantic Layer Architecture}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.getdbt.com/blog/semantic-layer-architecture
+      \endverb
+      \verb{url}
+      \verb https://www.getdbt.com/blog/semantic-layer-architecture
+      \endverb
+    \endentry
+    \entry{Lalwani2022}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=925212d941209d2d24e6e3ba6bf2244a}{%
+           family={Lalwani},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=cf8a7d5e78ec9e793cab38e0422c5cd8}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f3d99d4526bc5c64653e78b20cdd48f}{%
+           family={Chadha},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4309c2b0421469dbd89717160ee5bf11}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5883cb42a3e4adc0637316851f2c9aa1}
+      \strng{fullhash}{06bfb85fa28f102788155d1b768ce97e}
+      \strng{fullhashraw}{06bfb85fa28f102788155d1b768ce97e}
+      \strng{bibnamehash}{06bfb85fa28f102788155d1b768ce97e}
+      \strng{authorbibnamehash}{06bfb85fa28f102788155d1b768ce97e}
+      \strng{authornamehash}{5883cb42a3e4adc0637316851f2c9aa1}
+      \strng{authorfullhash}{06bfb85fa28f102788155d1b768ce97e}
+      \strng{authorfullhashraw}{06bfb85fa28f102788155d1b768ce97e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Computing}
+      \field{number}{8}
+      \field{title}{Customer Churn Prediction System: A Machine Learning Approach}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s00607-021-00908-y
+      \endverb
+    \endentry
+    \entry{lalwani2022customer}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=2,uniquepart=given,hash=bdf560ea136a39ee0cecb81014478bf2}{%
+           family={Lalwani},
+           familyi={L\bibinitperiod},
+           given={Praveen},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=d5bbb100f8449b4a17659ab94b737a9b}{%
+           family={Mishra},
+           familyi={M\bibinitperiod},
+           given={Manas\bibnamedelima Kumar},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8922828832ba40b11827b0720148cb6a}{%
+           family={Chadha},
+           familyi={C\bibinitperiod},
+           given={Jasroop\bibnamedelima Singh},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=327e0170b12c224fa0b84a5b80dabfb0}{%
+           family={Sethi},
+           familyi={S\bibinitperiod},
+           given={Pratyush},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9aa4e31b941735f9685abaf384e14344}
+      \strng{fullhash}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \strng{fullhashraw}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \strng{bibnamehash}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \strng{authorbibnamehash}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \strng{authornamehash}{9aa4e31b941735f9685abaf384e14344}
+      \strng{authorfullhash}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \strng{authorfullhashraw}{c1881c8ebf450c0b6c42e8d322b11d79}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Computing}
+      \field{number}{2}
+      \field{title}{Customer Churn Prediction System: A Machine Learning Approach}
+      \field{volume}{104}
+      \field{year}{2022}
+      \field{pages}{271\bibrangedash 294}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.1007/s00607-021-00908-y
+      \endverb
+    \endentry
+    \entry{mulyatun2021pendekatan}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=66d2d67577a59737074e1256b2393fca}{%
+           family={Mulyatun},
+           familyi={M\bibinitperiod},
+           given={Mulyatun},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b9977bc04318449df007b675d9b815b}{%
+           family={Kurniawan},
+           familyi={K\bibinitperiod},
+           given={Dedi},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=691797df7263bb3be02a0759d222b659}{%
+           family={Hudaya},
+           familyi={H\bibinitperiod},
+           given={Agus},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{fullhash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{fullhashraw}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{bibnamehash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{authorbibnamehash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{authornamehash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{authorfullhash}{e91c8f11bedae438f31dbc2235738f73}
+      \strng{authorfullhashraw}{e91c8f11bedae438f31dbc2235738f73}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Teknologi Sistem Informasi dan Aplikasi}
+      \field{number}{1}
+      \field{title}{Pendekatan Natural Language Processing pada Aplikasi Chatbot sebagai Alat Bantu Customer Service}
+      \field{volume}{4}
+      \field{year}{2021}
+      \field{pages}{55\bibrangedash 62}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.32493/jtsi.v4i1.7751
+      \endverb
+    \endentry
+    \entry{perdana2025multi}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e7640e073cb6dae256c0602ebcd942af}{%
+           family={Perdana},
+           familyi={P\bibinitperiod},
+           given={Rizki\bibnamedelima Maulana},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{fullhash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{fullhashraw}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{bibnamehash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{authorbibnamehash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{authornamehash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{authorfullhash}{efbd6c57d83d878c37b3de28351b2071}
+      \strng{authorfullhashraw}{efbd6c57d83d878c37b3de28351b2071}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Information Systems Engineering and Business Intelligence}
+      \field{number}{1}
+      \field{title}{Multi-task Learning for Named Entity Recognition and Intent Classification in Task-Oriented Dialogue Systems}
+      \field{volume}{11}
+      \field{year}{2025}
+      \field{pages}{143\bibrangedash 155}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.20473/jisebi.11.1.143-155
+      \endverb
+    \endentry
+    \entry{Precedence2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0c3f01448aff7f96913afee9bc89f659}{%
+           family={{Precedence Research}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{fullhash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{fullhashraw}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{bibnamehash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{authorbibnamehash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{authornamehash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{authorfullhash}{0c3f01448aff7f96913afee9bc89f659}
+      \strng{authorfullhashraw}{0c3f01448aff7f96913afee9bc89f659}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Natural Language Processing Market Size to Hit USD 438.08 Bn by 2034}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.precedenceresearch.com/natural-language-processing-market
+      \endverb
+      \verb{url}
+      \verb https://www.precedenceresearch.com/natural-language-processing-market
+      \endverb
+    \endentry
+    \entry{Qaltivate2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4a91ac35cb75693c02d20be1b48d88ff}{%
+           family={{Qaltivate}},
+           familyi={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{fullhash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{fullhashraw}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{bibnamehash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{authorbibnamehash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{authornamehash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{authorfullhash}{4a91ac35cb75693c02d20be1b48d88ff}
+      \strng{authorfullhashraw}{4a91ac35cb75693c02d20be1b48d88ff}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Conversational AI market summary: 2025 edition}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://qaltivate.com/blog/conversational-ai-market/
+      \endverb
+      \verb{url}
+      \verb https://qaltivate.com/blog/conversational-ai-market/
+      \endverb
+    \endentry
+    \entry{rahayu2024implementation}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c04fa9761d4ccbd65b0f746ebe17814f}{%
+           family={Rahayu},
+           familyi={R\bibinitperiod},
+           given={Ika\bibnamedelima Yuniar},
+           giveni={I\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56304010c7ae6f4a69510bfa8f1209d8}{%
+           family={Supriyono},
+           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=f64dec50d338dc31f55f00f2dbef2c84}{%
+           family={Prasatya},
+           familyi={P\bibinitperiod},
+           given={Siva},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{fullhash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{fullhashraw}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{bibnamehash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{authorbibnamehash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{authornamehash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{authorfullhash}{1ec54be75ae1f9b8a296237061922f2f}
+      \strng{authorfullhashraw}{1ec54be75ae1f9b8a296237061922f2f}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Sistem Informasi dan Informatika (Systems and Information Journal)}
+      \field{number}{2}
+      \field{title}{Implementation of Pattern-Based Natural Language Processing for Chatbot Responses}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{738\bibrangedash 748}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.33480/josai.v12i2.6739
+      \endverb
+    \endentry
+    \entry{rizou2023efficient}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=99852b1101ce9093953123bf36c89102}{%
+           family={Rizou},
+           familyi={R\bibinitperiod},
+           given={Spyridoula},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17aeca948e8056a7b6d4e5e272fc3851}{%
+           family={Giannoulakis},
+           familyi={G\bibinitperiod},
+           given={Stelios},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=507da617a01c99807f36b6fffe53b4a9}{%
+           family={Tsapatsoulis},
+           familyi={T\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{fullhash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{fullhashraw}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{bibnamehash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{authorbibnamehash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{authornamehash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{authorfullhash}{72334824dfcf4bda39514119d7e6a1c8}
+      \strng{authorfullhashraw}{72334824dfcf4bda39514119d7e6a1c8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{SN Computer Science}
+      \field{number}{6}
+      \field{title}{Efficient Intent Classification and Entity Recognition for E-Commerce Queries Using Transformer-Based Models}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{pages}{Article 728}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.socs.2023.100728
+      \endverb
+    \endentry
+    \entry{shah2024ai}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89c887fd6cd263b082aa519a5a7b8538}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Nisarg},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{fullhash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{fullhashraw}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{bibnamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorbibnamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authornamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorfullhash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorfullhashraw}{89c887fd6cd263b082aa519a5a7b8538}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{World Journal of Advanced Research and Reviews}
+      \field{number}{1}
+      \field{title}{AI-Driven Autonomous Database Management: Self-Tuning Query Optimization, Predictive Maintenance, and Intelligent Workload Distribution}
+      \field{volume}{24}
+      \field{year}{2024}
+      \field{pages}{1519\bibrangedash 1533}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.30574/wjarr.2024.24.1.3430
+      \endverb
+    \endentry
+    \entry{shah2025hybrid}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=89c887fd6cd263b082aa519a5a7b8538}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Nisarg},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{fullhash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{fullhashraw}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{bibnamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorbibnamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authornamehash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorfullhash}{89c887fd6cd263b082aa519a5a7b8538}
+      \strng{authorfullhashraw}{89c887fd6cd263b082aa519a5a7b8538}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{World Journal of Advanced Engineering Technology and Sciences}
+      \field{number}{02}
+      \field{title}{Hybrid Analytics Architecture: Integrating Traditional BI with AI-Driven Insights}
+      \field{volume}{14}
+      \field{year}{2025}
+      \field{pages}{256\bibrangedash 271}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.30574/wjaets.2025.14.2.0037
+      \endverb
+    \endentry
+    \entry{shinde2025applications}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3705ee9d8b32cc90318f9346eac87a7a}{%
+           family={Shinde},
+           familyi={S\bibinitperiod},
+           given={Amruta\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed9346df148b60bfac397cf4920e3858}{%
+           family={Ambika},
+           familyi={A\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{fullhash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{fullhashraw}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{bibnamehash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{authorbibnamehash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{authornamehash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{authorfullhash}{32e26b5cc539d821b2ab0826a46340f0}
+      \strng{authorfullhashraw}{32e26b5cc539d821b2ab0826a46340f0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Information Systems and Engineering Management}
+      \field{number}{2}
+      \field{title}{Applications of Natural Language Processing in Chatbot}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{pages}{25936}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.55267/iadt.07.15936
+      \endverb
+    \endentry
+    \entry{siami2018comparison}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=379b300ed9cd8f9d0f239adb607eb674}{%
+           family={Siami-Namini},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={Sima},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3e53622236d9f272d40b6c71a23b3c5}{%
+           family={Tavakoli},
+           familyi={T\bibinitperiod},
+           given={Neda},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c227cf94db6389a4c92e6af9d888c29}{%
+           family={Namin},
+           familyi={N\bibinitperiod},
+           given={Akbar\bibnamedelima Siami},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{fullhash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{fullhashraw}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{bibnamehash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{authorbibnamehash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{authornamehash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{authorfullhash}{ed490c5c48a7abeaa43317a87bbf185a}
+      \strng{authorfullhashraw}{ed490c5c48a7abeaa43317a87bbf185a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 17th IEEE International Conference on Machine Learning and Applications (ICMLA)}
+      \field{title}{A Comparison of ARIMA and LSTM in Forecasting Time Series}
+      \field{year}{2018}
+      \field{pages}{1394\bibrangedash 1401}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ICMLA.2018.00227
+      \endverb
+    \endentry
+    \entry{sirisha2022profit}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2f56a03bd0170c4fe7ad515e96ccce0e}{%
+           family={Sirisha},
+           familyi={S\bibinitperiod},
+           given={U.\bibnamedelimi M.},
+           giveni={U\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{fullhash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{fullhashraw}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{bibnamehash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{authorbibnamehash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{authornamehash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{authorfullhash}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \strng{authorfullhashraw}{d665b94647e6d6d83e9718ddc81cb3cc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{International Journal of Current Research and Review (IJCRR)}
+      \field{number}{24}
+      \field{title}{Profit Prediction Using ARIMA, SARIMA and LSTM Models in Time Series Forecasting: A Comparison}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{pages}{32\bibrangedash 42}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.31782/IJCRR.2022.142410
+      \endverb
+    \endentry
+    \entry{sorour2020business}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9524e8c11d30cc18ef416c85c0630118}{%
+           family={Sorour},
+           familyi={S\bibinitperiod},
+           given={Mohamed\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{fullhash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{fullhashraw}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{bibnamehash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{authorbibnamehash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{authornamehash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{authorfullhash}{9524e8c11d30cc18ef416c85c0630118}
+      \strng{authorfullhashraw}{9524e8c11d30cc18ef416c85c0630118}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE Global Engineering Education Conference (EDUCON)}
+      \field{title}{The Role of Business Intelligence and Analytics in Higher Education Decision Making}
+      \field{year}{2020}
+      \field{pages}{1849\bibrangedash 1856}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/EDUCON45650.2020.9194157
+      \endverb
+    \endentry
+    \entry{Straits2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5cc0d3eec75ec93f1867b2100837afcc}{%
+           family={{Straits Research}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{fullhash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{fullhashraw}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{bibnamehash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{authorbibnamehash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{authornamehash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{authorfullhash}{5cc0d3eec75ec93f1867b2100837afcc}
+      \strng{authorfullhashraw}{5cc0d3eec75ec93f1867b2100837afcc}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Business Intelligence Market Size \& Outlook, 2025--2033}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://straitsresearch.com/report/business-intelligence-market
+      \endverb
+      \verb{url}
+      \verb https://straitsresearch.com/report/business-intelligence-market
+      \endverb
+    \endentry
+    \entry{sunendar2025comparison}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe3d34faefdb3638d3e350e41584681e}{%
+           family={Sunendar},
+           familyi={S\bibinitperiod},
+           given={Agus},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aa6e3b0428376f7168b567bf5f225db}{%
+           family={Wibirama},
+           familyi={W\bibinitperiod},
+           given={Sunu},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5538eefd5e8ae898a53546ee5dca9e64}{%
+           family={Setiawan},
+           familyi={S\bibinitperiod},
+           given={Noor\bibnamedelima Akhmad},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{fullhash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{fullhashraw}{762d4999c3fb471c9227b01910a366f2}
+      \strng{bibnamehash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{authorbibnamehash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{authornamehash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{authorfullhash}{762d4999c3fb471c9227b01910a366f2}
+      \strng{authorfullhashraw}{762d4999c3fb471c9227b01910a366f2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{PILAR: Physics, Informatics, and Applied Research}
+      \field{number}{1}
+      \field{title}{Comparison of ARIMA, LSTM, and GRU Models for Sales Prediction in Indonesian Banking Stock Market}
+      \field{volume}{3}
+      \field{year}{2025}
+      \field{pages}{67\bibrangedash 78}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.25273/pilar.v3i1.6412
+      \endverb
+    \endentry
+    \entry{vasist2021intent}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6f4133934376e9b587fd86a87248f30d}{%
+           family={Vasist},
+           familyi={V\bibinitperiod},
+           given={P.\bibnamedelimi Naga\bibnamedelima Sai},
+           giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d65a2782655a164616ad2149f4c161bd}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={Ajay\bibnamedelima Sukumar},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{fullhash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{fullhashraw}{4541c524cf9cdc817896b5702a26db49}
+      \strng{bibnamehash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{authorbibnamehash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{authornamehash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{authorfullhash}{4541c524cf9cdc817896b5702a26db49}
+      \strng{authorfullhashraw}{4541c524cf9cdc817896b5702a26db49}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{EAI International Conference on Multimedia, Signal Processing and Communication Technologies}
+      \field{title}{Intent Classification using BERT for Chatbot Application}
+      \field{year}{2021}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.4108/eai.7-12-2021.2314563
+      \endverb
+    \endentry
+    \entry{WiseGuyReports2024}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22320d1376e81a50906944719c36d093}{%
+           family={{WiseGuyReports}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{22320d1376e81a50906944719c36d093}
+      \strng{fullhash}{22320d1376e81a50906944719c36d093}
+      \strng{fullhashraw}{22320d1376e81a50906944719c36d093}
+      \strng{bibnamehash}{22320d1376e81a50906944719c36d093}
+      \strng{authorbibnamehash}{22320d1376e81a50906944719c36d093}
+      \strng{authornamehash}{22320d1376e81a50906944719c36d093}
+      \strng{authorfullhash}{22320d1376e81a50906944719c36d093}
+      \strng{authorfullhashraw}{22320d1376e81a50906944719c36d093}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Estimasi: USD 9{.}62 miliar (2023) $\rightarrow$ USD 36{.}9 miliar (2032), CAGR $\sim$16{.}12\%}
+      \field{title}{Time Series Forecasting Market}
+      \field{urlday}{28}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.wiseguyreports.com/reports/time-series-forecasting-market
+      \endverb
+      \verb{url}
+      \verb https://www.wiseguyreports.com/reports/time-series-forecasting-market
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -23,7 +23,6 @@ Metode \textit{forecasting} yang lazim meliputi model statistik seperti ARIMA da
 Integrasi tiga komponen utama, \textit{rule-based query}, NLP, dan \textit{time series forecasting}, ke dalam satu sistem BI berbasis \textit{chatbot} menawarkan solusi komprehensif bagi kebutuhan analisis dan prediksi di lingkungan bisnis modern. Sistem demikian berpotensi memperkuat pengambilan keputusan proaktif berbasis data serta meningkatkan efisiensi operasional internal perusahaan.
 
 % --- Rumusan Masalah ---
-% --- Rumusan Masalah ---
 \section{Rumusan Masalah}
 
 Sebagian besar sistem \textit{Business Intelligence} untuk analisis indikator permintaan terkait pelanggan di lingkungan internal perusahaan pada saat ini masih mengandalkan pelaporan manual, belum terintegrasi dengan antarmuka percakapan berbasis \textit{chatbot}, dan minim pemanfaatan kecerdasan buatan untuk analisis prediktif serta interaksi berbasis bahasa alami. Kondisi ini memunculkan sejumlah permasalahan sebagai berikut.
@@ -31,7 +30,7 @@ Sebagian besar sistem \textit{Business Intelligence} untuk analisis indikator pe
 \begin{enumerate}
   \item \textbf{Keterbatasan akses analitik berbasis percakapan.}
   
-  Tidak tersedia sistem yang mampu memproses dan memahami permintaan data serta analisis bisnis secara otomatis dari pengguna internal melalui percakapan dalam bahasa alami. Hal ini menyebabkan pegawai mengalami kendala dalam memperoleh \textit{insight} terkait pesanan (order), pencapaian target penjualan, \textit{churn} pelanggan, serta pendapatan secara cepat dan intuitif untuk mendukung pengambilan keputusan harian.
+  Tidak tersedia sistem yang mampu memproses dan memahami permintaan data serta analisis bisnis secara otomatis dari pengguna internal melalui percakapan dalam bahasa alami. Hal ini menyebabkan pegawai mengalami kendala dalam memperoleh \textit{insight} terkait pesanan (\textit{order}), pencapaian target penjualan, \textit{churn} pelanggan, serta pendapatan secara cepat dan intuitif untuk mendukung pengambilan keputusan harian.
 
   \item \textbf{Ketiadaan fitur prediksi yang mudah diakses pengguna nonteknis.}
   
@@ -92,13 +91,18 @@ Dalam memfokuskan ruang lingkup penelitian dan memastikan kelayakan pelaksanaan 
 % --- Metodologi ---
 \section{Metodologi}
 
-Metodologi pelaksanaan tugas akhir ini mengadopsi kerangka kerja hibrida yang menggabungkan \textit{CRISP-DM} (\textit{Cross-Industry Standard Process for Data Mining}) untuk tahapan pengolahan data dan analitik dengan prinsip \textit{Agile} untuk pengembangan perangkat lunak. Pendekatan ini dipilih agar proses penelitian berjalan secara iteratif, luwes, dan tetap sistematis dalam menyelesaikan permasalahan yang telah dirumuskan.
+\begin{figure}[H] 
+  \centering
+  \includegraphics[width=0.46\textwidth,
+                   height=0.32\textheight,
+                   keepaspectratio]{image/CRISP-DM.jpg}
+  \caption{Metodologi \textit{CRISP-DM}}
+  \label{fig:crispdm}
+\end{figure}
 
-\textbf{CRISP-DM} (\textit{Cross-Industry Standard Process for Data Mining}) adalah metodologi standar lintas industri untuk penambangan data yang menyediakan pendekatan terstruktur dalam enam fase utama: pemahaman bisnis (\textit{business understanding}), pemahaman data (\textit{data understanding}), persiapan data (\textit{data preparation}), pemodelan (\textit{modeling}), evaluasi (\textit{evaluation}), dan penyebaran (\textit{deployment}) (DataScience-PM, 2024). Metodologi ini bersifat iteratif, yang memungkinkan pengulangan fase jika diperlukan untuk meningkatkan kualitas hasil.
+Metodologi pelaksanaan tugas akhir ini mengadopsi kerangka kerja hibrida yang menggabungkan CRISP-DM (\textit{Cross-Industry Standard Process for Data Mining}) untuk tahapan pengolahan data dan analitik. Pendekatan ini dipilih agar proses penelitian berjalan secara iteratif, luwes, dan tetap sistematis dalam menyelesaikan permasalahan yang telah dirumuskan.
 
-\textbf{Agile} adalah pendekatan pengembangan perangkat lunak yang menekankan keluwesan, kerja sama, dan pengiriman nilai secara berkelanjutan melalui prinsip-prinsip iterasi pendek (\textit{sprint}), kolaborasi dengan pemangku kepentingan, dan adaptasi terhadap perubahan kebutuhan (Asana, 2025).
-
-Dalam penelitian ini, \textbf{CRISP-DM digunakan} untuk mengelola aspek penambangan data dan analitik prediktif (khususnya pengembangan model peramalan deret waktu dan NLP), sementara \textbf{Agile digunakan} untuk mengelola pengembangan perangkat lunak \textit{chatbot} dan sistem BI secara keseluruhan dengan pembagian kerja dalam \textit{sprint} iteratif.
+\textbf{CRISP-DM} (\textit{Cross-Industry Standard Process for Data Mining}) adalah metodologi standar lintas industri untuk penambangan data yang menyediakan pendekatan terstruktur dalam enam fase utama: pemahaman bisnis (\textit{business understanding}), pemahaman data (\textit{data understanding}), persiapan data (\textit{data preparation}), pemodelan (\textit{modeling}), evaluasi (\textit{evaluation}), dan penyebaran (\textit{deployment}) (DataScience-PM, 2024). Metodologi ini bersifat iteratif, yang memungkinkan pengulangan fase jika diperlukan untuk meningkatkan kualitas hasil. Dalam penelitian ini, \textbf{CRISP-DM digunakan} untuk mengelola aspek penambangan data dan analitik prediktif (khususnya pengembangan model peramalan deret waktu dan NLP).
 
 \subsection{Tahapan Investigasi dan Pengumpulan Fakta}
 

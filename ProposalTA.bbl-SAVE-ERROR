@@ -385,44 +385,6 @@
       \verb 10.1016/j.seta.2021.101474
       \endverb
     \endentry
-    \entry{EastVC2025}{report}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c89a5440a6d44789d463737e9b0281c2}{%
-           family={{East Ventures}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {East Ventures}%
-      }
-      \list{location}{1}{%
-        {Jakarta, Indonesia}%
-      }
-      \strng{namehash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{fullhash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{fullhashraw}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{bibnamehash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{authorbibnamehash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{authornamehash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{authorfullhash}{c89a5440a6d44789d463737e9b0281c2}
-      \strng{authorfullhashraw}{c89a5440a6d44789d463737e9b0281c2}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{7}
-      \field{note}{Diakses: 4 November 2025}
-      \field{title}{{AI}-first: Decoding Southeast Asia Trends}
-      \field{type}{White Paper}
-      \field{year}{2025}
-      \verb{urlraw}
-      \verb https://east.vc/press-release-3/east-ventures-launched-a-white-paper-focusing-on-ai
-      \endverb
-      \verb{url}
-      \verb https://east.vc/press-release-3/east-ventures-launched-a-white-paper-focusing-on-ai
-      \endverb
-    \endentry
     \entry{edpb2025privacy}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=74d1e10fcee75ce98ed9bd00812ec2fb}{%
@@ -700,84 +662,6 @@
       \endverb
       \verb{url}
       \verb https://www.cis.upenn.edu/wp-content/uploads/2021/10/Xufei-Huang-thesis.pdf
-      \endverb
-    \endentry
-    \entry{Intimedia2024}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=97e03bf6cf33cc01997cf539b0aa09a7}{%
-           family={{Intimedia}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{fullhash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{fullhashraw}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{bibnamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{authorbibnamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{authornamehash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{authorfullhash}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \strng{authorfullhashraw}{97e03bf6cf33cc01997cf539b0aa09a7}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Intimedia News}
-      \field{month}{Desember}
-      \field{note}{Diakses: 4 November 2025}
-      \field{title}{Indonesia's Digital Transformation in 2024: How {AI} is Turning Dreams into Reality}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://intimedia.id/read/indonesias-digital-transformation-in-2024-how-ai-is-turning-dreams-into-reality
-      \endverb
-      \verb{url}
-      \verb https://intimedia.id/read/indonesias-digital-transformation-in-2024-how-ai-is-turning-dreams-into-reality
-      \endverb
-    \endentry
-    \entry{Iqbal2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=5d776d54a842e1940ec5195f59b1019f}{%
-           family={Iqbal},
-           familyi={I\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=158e27212d3ea7e124812425aa845eb1}{%
-           family={Ahmad},
-           familyi={A\bibinitperiod},
-           given={Rashid},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=da92606238d3ef6239d17e597781b8fb}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Saif\bibnamedelimb Ur\bibnamedelima Rehman},
-           giveni={S\bibinitperiod\bibinitdelim U\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{fullhash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{fullhashraw}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{bibnamehash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{authorbibnamehash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{authornamehash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{authorfullhash}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \strng{authorfullhashraw}{89b6ed412bd3df91246bb65a1ffd6c2a}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{International Journal of Pattern Recognition and Artificial Intelligence}
-      \field{number}{8}
-      \field{title}{Combined Support Vector Machine and Pattern Matching for Arabic Question Classification}
-      \field{volume}{35}
-      \field{year}{2021}
-      \field{pages}{287\bibrangedash 299}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1007/978-3-319-99007-1_27
       \endverb
     \endentry
     \entry{itconvergence2024generative}{online}{}{}
@@ -1114,67 +998,6 @@
       \verb{url}
       \verb https://www.getdbt.com/blog/semantic-layer-architecture
       \endverb
-    \endentry
-    \entry{Lalwani2022}{inproceedings}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=363f5b36fea475f0f59b8d3f25e09c2d}{%
-           family={Lalwani},
-           familyi={L\bibinitperiod},
-           given={Tushar},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=317c251da9a320191cf0b062d378d65c}{%
-           family={Bhalotia},
-           familyi={B\bibinitperiod},
-           given={Shashank},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=658b4a16c3267f786663be072838d06c}{%
-           family={Pal},
-           familyi={P\bibinitperiod},
-           given={Astha},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ffe7703e9269ceda368abae10ac0e49}{%
-           family={Bisen},
-           familyi={B\bibinitperiod},
-           given={Sanjana},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a98806a71ba9dc2062f3bf8c215f2dc}{%
-           family={Rathod},
-           familyi={R\bibinitperiod},
-           given={Vasundhara},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Singapore}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{98c137a0d7376c8c5d512c72a8b1b13e}
-      \strng{fullhash}{6ebf038982634080215790ca94fbf600}
-      \strng{fullhashraw}{6ebf038982634080215790ca94fbf600}
-      \strng{bibnamehash}{6ebf038982634080215790ca94fbf600}
-      \strng{authorbibnamehash}{6ebf038982634080215790ca94fbf600}
-      \strng{authornamehash}{98c137a0d7376c8c5d512c72a8b1b13e}
-      \strng{authorfullhash}{6ebf038982634080215790ca94fbf600}
-      \strng{authorfullhashraw}{6ebf038982634080215790ca94fbf600}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the International Conference on Advances in Computing and Data Sciences}
-      \field{series}{Communications in Computer and Information Science}
-      \field{title}{Implementation of a Chatbot System Using {AI} and {NLP}}
-      \field{volume}{1614}
-      \field{year}{2022}
-      \field{pages}{440\bibrangedash 451}
-      \range{pages}{12}
     \endentry
     \entry{nature2024hybrid}{article}{}{}
       \name{author}{4}{}{%
@@ -2183,6 +2006,10 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{EastVC2025}
+  \missing{Intimedia2024}
+  \missing{Iqbal2021}
+  \missing{Lalwani2022}
 \endrefsection
 \endinput
 

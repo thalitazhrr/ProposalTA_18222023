@@ -7,18 +7,18 @@
 Bab ini menyajikan kajian teoretis dan tinjauan pustaka yang relevan dengan topik penelitian. Pembahasan meliputi konsep \textit{Business Intelligence}, teknologi \textit{chatbot} dan \textit{Conversational AI}, klasifikasi \textit{intent} berbasis pola, pembangkitan bahasa alami berbasis templat, serta peramalan deret waktu yang mendukung analisis dan prediksi permintaan layanan pelanggan. Kajian literatur ini disusun secara sistematis untuk memberikan landasan teoretis yang kuat bagi pengembangan sistem yang diusulkan, dengan fokus pada integrasi \textit{pattern-based intent classification}, \textit{template-based natural language generation}, dan \textit{time series forecasting} dalam satu platform terintegrasi.
 
 % ==============================================================================
-\section{Business Intelligence dan Arsitektur Sistem}
+\section{\textit{Business Intelligence} dan Arsitektur Sistem}
 % ==============================================================================
 
 Bagian ini membahas konsep dasar \textit{Business Intelligence}, evolusinya, serta arsitektur sistem yang mendukung implementasi BI modern. Pembahasan mencakup komponen-komponen utama arsitektur BI dan peran \textit{semantic layer} dalam menjembatani kesenjangan antara data teknis dan kebutuhan bisnis. Pemahaman yang komprehensif tentang arsitektur BI menjadi fondasi penting dalam merancang sistem yang mampu mengintegrasikan berbagai komponen teknologi secara efektif.
 
-\subsection{Konsep Business Intelligence}
+\subsection{Konsep \textit{Business Intelligence}}
 
 \textit{Business Intelligence} (BI) merupakan sistem teknologi yang mengumpulkan, mengorganisasi, dan menganalisis data dari berbagai sumber dalam suatu bisnis untuk membantu perusahaan mengubah data mentah menjadi wawasan yang berguna sehingga mereka dapat membuat keputusan yang lebih baik \parencite{sorour2020business}. Evolusi BI dari sistem berbasis aturan tradisional ke platform berbasis kecerdasan buatan telah meningkatkan secara signifikan analitik prediktif, otomatisasi, dan kemampuan pengambilan keputusan waktu nyata di seluruh industri \parencite{khaddam2025ai}.
 
 Implementasi BI di institusi pendidikan tinggi telah menunjukkan kemampuan untuk memantau aktivitas jaminan kualitas dan mendukung pengambilan keputusan strategis \parencite{sorour2020business}. Penelitian \textcite{shah2025hybrid} menunjukkan bahwa organisasi yang mengimplementasikan arsitektur analitik hibrida melaporkan peningkatan kemampuan penanganan data sebesar 85\% dibandingkan sistem tradisional, dengan konsistensi dan standar kualitas data yang terjaga. Pasar BI global terus menunjukkan pertumbuhan yang signifikan, dengan proyeksi mencapai USD 53,8 miliar pada tahun 2033, meningkat dari USD 25,9 miliar pada tahun 2024, dengan CAGR sebesar 8,48\% \parencite{Straits2024}. Pertumbuhan ini menunjukkan relevansi dan kebutuhan akan solusi BI yang inovatif dalam menghadapi kompleksitas data bisnis modern.
 
-\subsection{Arsitektur Business Intelligence Hibrida}
+\subsection{Arsitektur \textit{Business Intelligence} Hibrida}
 
 Arsitektur BI hibrida mengintegrasikan sistem BI tradisional dengan kemampuan kecerdasan buatan untuk meningkatkan pengambilan keputusan, analitik prediktif, dan efisiensi operasional. Pendekatan ini menyajikan struktur yang memanfaatkan model pembelajaran mesin bersama pelaporan BI tradisional untuk menjembatani kesenjangan antara analisis historis dan wawasan berbasis data waktu nyata \parencite{shah2025hybrid}.
 
@@ -26,13 +26,13 @@ Komponen utama arsitektur BI hibrida mencakup beberapa lapisan yang saling terin
 
 Implementasi arsitektur analitik hibrida menghasilkan peningkatan 27\% dalam proses pengambilan keputusan dan peningkatan 31\% dalam metrik kinerja organisasi secara keseluruhan \parencite{shah2025hybrid}. Integrasi komponen-komponen ini membentuk fondasi yang kuat untuk sistem BI modern yang responsif dan dapat diandalkan. Keberhasilan implementasi arsitektur hibrida ini membuka jalan bagi pengembangan sistem yang lebih kompleks dan terintegrasi dengan teknologi percakapan.
 
-\subsection{Semantic Layer dalam Business Intelligence}
+\subsection{\textit{Semantic Layer} dalam \textit{Business Intelligence}}
 
 \textit{Semantic layer} adalah antarmuka berorientasi bisnis yang menjembatani kesenjangan antara model data yang kompleks dan pengguna bisnis, bertindak sebagai lapisan abstraksi yang menerjemahkan struktur data teknis ke dalam istilah dan konsep bisnis yang familiar \parencite{databricks2025semantic}. Lapisan semantik menyediakan pandangan bisnis terpadu terhadap data di seluruh organisasi, terlepas dari lokasi data atau bagaimana secara teknis terstruktur.
 
 Lapisan semantik menyederhanakan konsep dan teknis data untuk pengguna bisnis sehingga mereka tidak perlu mengubah data bisnis yang mendasarinya untuk bekerja dengan cara baru \parencite{atscale2025semantic}. Lapisan ini memungkinkan pengguna bisnis untuk berinteraksi dengan data menggunakan terminologi yang mereka pahami tanpa perlu memahami struktur teknis basis data yang mendasarinya. Kemampuan ini sangat penting dalam konteks sistem \textit{chatbot} BI, dengan memfasilitasi interpretasi kueri bahasa alami menjadi operasi basis data yang sesuai.
 
-\subsubsection{Komponen Inti Semantic Layer}
+\subsubsection{Komponen Inti \textit{Semantic Layer}}
 
 Lapisan semantik memiliki lima komponen inti yang bertindak sebagai fondasi struktural dan teknis \parencite{dbt2024semantic}. Komponen pertama adalah definisi model semantik yang menciptakan representasi logis dari domain bisnis, memetakan struktur basis data teknis ke konsep bisnis. Alih-alih bekerja dengan tabel mentah seperti \texttt{usr\_tbl} atau \texttt{trx\_hist}, entitas seperti \texttt{Customer} atau \texttt{Order} didefinisikan untuk merangkum kompleksitas yang mendasarinya.
 
@@ -41,7 +41,7 @@ Komponen kedua adalah manajemen metadata yang menangani informasi tentang data, 
 Implementasi \textit{semantic layer} yang efektif memungkinkan organisasi untuk mencapai konsistensi dalam pelaporan dan analisis, sekaligus mengurangi kompleksitas teknis yang dihadapi oleh pengguna bisnis. Pemahaman tentang \textit{semantic layer} ini menjadi dasar penting dalam merancang sistem klasifikasi \textit{intent} yang akan dibahas pada bagian selanjutnya.
 
 % ==============================================================================
-\section{Pattern-Based Intent Classification dengan Confidence Level}
+\section{\textit{Pattern-Based Intent Classification} dengan \textit{Confidence Level}}
 % ==============================================================================
 
 \begin{figure}[H] 
@@ -55,25 +55,25 @@ Implementasi \textit{semantic layer} yang efektif memungkinkan organisasi untuk 
 
 Bagian ini membahas pendekatan klasifikasi \textit{intent} berbasis pola untuk sistem \textit{chatbot}, dengan fokus pada mekanisme pencocokan pola, penggunaan \textit{confidence score}, dan evaluasi performa. Klasifikasi \textit{intent} merupakan komponen kritis dalam memahami maksud pengguna dari kueri bahasa alami dan menentukan respons yang sesuai berdasarkan data internal perusahaan.
 
-\subsection{Konsep Intent Classification}
+\subsection{Konsep \textit{Intent Classification}}
 
 Klasifikasi \textit{intent} adalah proses menentukan niat atau tujuan pengguna dari masukan mereka, yang merupakan tugas fundamental dalam sistem \textit{chatbot} percakapan \parencite{ouaddi2025comparative}. Inti dari \textit{chatbot} berbasis AI adalah komponen NLU yang mengklasifikasikan \textit{intent} pengguna untuk menghasilkan respons yang sesuai. Tugas klasifikasi ini sangat penting karena menentukan alur percakapan dan tindakan yang akan diambil sistem.
 
 Pasar \textit{Conversational AI} global diproyeksikan mencapai USD 49,9 miliar pada tahun 2030, meningkat dari USD 10,7 miliar pada tahun 2023, dengan CAGR sebesar 25,2\% \parencite{Qaltivate2025}. Pertumbuhan eksponensial ini didorong oleh meningkatnya adopsi teknologi AI dalam layanan pelanggan dan operasional bisnis. \textit{Chatbot} dapat menjawab hampir 80\% dari semua pertanyaan standar, yang secara signifikan mengurangi beban kerja agen manusia dan mempercepat waktu respons \parencite{Fullview2025}. Statistik ini menunjukkan potensi besar klasifikasi \textit{intent} dalam meningkatkan efisiensi operasional dan kepuasan pengguna.
 
-\subsection{Pattern Matching untuk Intent Classification}
+\subsection{\textit{Pattern Matching} untuk \textit{Intent Classification}}
 
 Pendekatan berbasis pola (\textit{pattern matching}) dalam klasifikasi \textit{intent} menggunakan aturan dan templat yang telah ditentukan sebelumnya untuk mencocokkan masukan pengguna dengan kategori \textit{intent} yang sesuai. Sistem ini menyimpan pola-pola pertanyaan atau \textit{utterances} untuk setiap \textit{intent}, kemudian membandingkan input pengguna dengan pola-pola yang telah didefinisikan untuk menemukan kecocokan terbaik.
 
 Pendekatan \textit{pattern matching} efektif untuk menangani kueri terstruktur dan berulang dalam domain spesifik. Implementasi dapat dilakukan menggunakan ekspresi reguler, pencocokan \textit{n-gram}, atau algoritma kesamaan string seperti \textit{Fuzzy String Matching} \parencite{mulyatun2021pendekatan}. Keuntungan utama pendekatan ini adalah kecepatan eksekusi yang tinggi, prediktabilitas hasil, dan kontrol penuh atas logika pencocokan, menjadikannya pilihan yang tepat untuk sistem yang memerlukan respons cepat dan deterministic based pada data internal perusahaan.
 
-\subsection{Confidence Score dalam Intent Classification}
+\subsection{\textit{Confidence Score} dalam \textit{Intent Classification}}
 
 \textit{Confidence score} atau skor keyakinan adalah nilai numerik antara 0 dan 1 yang menunjukkan tingkat kepercayaan sistem terhadap prediksi klasifikasi \textit{intent} \parencite{khosla2022evaluating}. Skor ini dihitung berdasarkan tingkat kecocokan antara input pengguna dengan pola yang telah didefinisikan. Semakin tinggi kecocokan, semakin tinggi nilai \textit{confidence score}, dan semakin besar kemungkinan respons yang diberikan adalah benar.
 
 Sistem menghitung \textit{confidence score} dengan membandingkan input pengguna terhadap semua pola \textit{utterances} atau frasa pelatihan yang tersedia. Sistem kemudian memilih \textit{intent} dengan skor tertinggi sebagai prediksi. Implementasi \textit{confidence score} memungkinkan sistem untuk mengidentifikasi kapan prediksi mungkin tidak akurat dan memerlukan mekanisme \textit{fallback} \parencite{kuligowska2024enhancing}.
 
-\subsubsection{Confidence Threshold}
+\subsubsection{\textit{Confidence Threshold}}
 
 \textit{Confidence threshold} adalah nilai ambang batas minimum yang harus dicapai oleh \textit{confidence score} agar sistem memicu respons \textit{intent} tertentu. Nilai threshold adalah angka numerik antara 0 dan 1, dengan nilai default yang umum digunakan adalah 0,45 atau 45\% \parencite{teneo2022intent}. Sistem yang lebih konservatif dapat menggunakan threshold lebih tinggi seperti 0,70 atau 70\% untuk mengurangi risiko respons yang salah.
 
@@ -81,11 +81,11 @@ Jika \textit{confidence score} terbaik jatuh di bawah threshold, sistem akan mem
 
 Analisis threshold membantu menentukan pengaturan yang optimal berdasarkan \textit{Key Performance Indicators} (KPI) bisnis. Organisasi dapat menyesuaikan threshold berdasarkan tiga pendekatan utama. Pendekatan pertama adalah menyesuaikan threshold untuk mencapai persentase target respons yang benar. Pendekatan kedua adalah membatasi persentase maksimal respons yang salah. Pendekatan ketiga adalah mengoptimalkan trade-off antara tingkat otomasi dan risiko kesalahan berdasarkan toleransi bisnis \parencite{cyara2024optimum,genesys2023threshold}.
 
-\subsection{Evaluasi Performa Intent Classification}
+\subsection{Evaluasi Performa \textit{Intent Classification}}
 
 Evaluasi performa klasifikasi \textit{intent} dilakukan dengan mengukur beberapa metrik kunci yang mencerminkan akurasi dan keandalan sistem dalam memprediksi niat pengguna. Evaluasi yang komprehensif memastikan bahwa sistem dapat beroperasi sesuai dengan standar yang ditetapkan dan memberikan pengalaman pengguna yang optimal.
 
-\subsubsection{Metrik Evaluasi Intent Classification}
+\subsubsection{Metrik Evaluasi \textit{Intent Classification}}
 
 Model klasifikasi \textit{intent} dievaluasi menggunakan beberapa metrik standar yang memberikan gambaran komprehensif tentang performa sistem \parencite{spotintelligence2023intent,svm2025comparative}. Metrik pertama adalah \textit{Accuracy} yang mengukur proporsi prediksi yang benar dari total prediksi:
 
@@ -110,20 +110,20 @@ Metrik terakhir adalah \textit{F1-Score} yang merupakan rata-rata harmonik dari 
 
 Dalam formula-formula ini, $TP$ = \textit{True Positive}, $TN$ = \textit{True Negative}, $FP$ = \textit{False Positive}, dan $FN$ = \textit{False Negative}. Keempat metrik ini saling melengkapi dan memberikan perspektif yang berbeda tentang performa model.
 
-\subsubsection{Confusion Matrix dan Confidence Score Analysis}
+\subsubsection{\textit{Confusion Matrix} dan \textit{Confidence Score Analysis}}
 
 \textit{Confusion matrix} menyediakan visualisasi detail tentang performa klasifikasi untuk setiap kelas \textit{intent}. Analisis \textit{confusion matrix} memungkinkan identifikasi \textit{intent} yang sering salah diklasifikasikan dan pola kesalahan sistematis yang dapat diperbaiki melalui penyesuaian pola atau threshold.
 
 Analisis distribusi \textit{confidence score} penting untuk memahami bagaimana sistem membedakan antara \textit{intent} yang benar (in-domain) dan pertanyaan di luar domain (out-of-domain atau OOD). Sistem yang baik harus menghasilkan \textit{confidence score} tinggi untuk \textit{intent} in-domain dan score rendah untuk OOD \parencite{khosla2022evaluating,zhang2022disentangling}. Masalah \textit{overconfidence}, dengan sistem menghasilkan score tinggi bahkan untuk sampel OOD yang abnormal, perlu dimitigasi melalui kalibrasi model yang tepat.
 
-\subsubsection{Target Performa Intent Classification}
+\subsubsection{Target Performa \textit{Intent Classification}}
 
 Berdasarkan literatur dan praktik industri terkini, target performa yang ditetapkan untuk sistem klasifikasi \textit{intent} berbasis pola mencakup beberapa metrik kunci \parencite{spotintelligence2023intent,svm2025comparative}. \textit{Accuracy} harus mencapai minimal 85\%, yang berarti minimal 85\% dari semua prediksi \textit{intent} harus benar. \textit{F1-Score} ditargetkan minimal 0,80 untuk memastikan keseimbangan antara presisi dan \textit{recall}. \textit{Precision} ditetapkan minimal 0,82, yang berarti minimal 82\% dari \textit{intent} yang diprediksi positif benar-benar positif. \textit{Recall} ditargetkan minimal 0,78, yang berarti minimal 78\% dari \textit{intent} positif aktual berhasil terdeteksi.
 
 Metrik tambahan terkait \textit{confidence score} meliputi \textit{Average Confidence Score} untuk prediksi benar minimal 0,75, dan \textit{Coverage Rate} atau persentase kueri yang mencapai threshold minimal 80\%. \textit{Response Time} harus di bawah 100 milidetik untuk 95\% kueri agar memberikan pengalaman pengguna yang responsif. Pencapaian target-target ini memastikan bahwa sistem klasifikasi \textit{intent} dapat memberikan pengalaman pengguna yang akurat dan responsif, dengan tingkat kesalahan yang minimal dan kemampuan untuk menangani variasi pertanyaan pengguna yang luas.
 
 % ==============================================================================
-\section{Template-Based Natural Language Generation}
+\section{\textit{Template-Based Natural Language Generation}}
 % ==============================================================================
 \begin{figure}[H] 
   \centering
@@ -136,13 +136,13 @@ Metrik tambahan terkait \textit{confidence score} meliputi \textit{Average Confi
 
 Bagian ini membahas pendekatan pembangkitan bahasa alami berbasis templat untuk menghasilkan variasi respons dari data internal perusahaan. Pembahasan mencakup konsep NLG berbasis templat, keamanan data dalam implementasi NLG internal, dan evaluasi kualitas teks yang dihasilkan. Pendekatan ini memastikan bahwa respons yang dihasilkan bervariasi dan natural sambil tetap menjaga keamanan dan privasi data perusahaan.
 
-\subsection{Konsep Natural Language Generation}
+\subsection{Konsep \textit{Natural Language Generation}}
 
 \textit{Natural Language Generation} (NLG) adalah proses menghasilkan teks bahasa alami dari representasi data terstruktur. Dalam konteks \textit{chatbot} Business Intelligence, NLG digunakan untuk mengubah hasil kueri basis data menjadi respons bahasa natural yang mudah dipahami pengguna \parencite{kale2020template}. NLG memungkinkan sistem untuk menyajikan informasi numerik dan data terstruktur dalam format naratif yang lebih mudah dicerna.
 
 Pasar NLP global diproyeksikan tumbuh dari USD 35,43 miliar pada tahun 2024 menjadi USD 438,08 miliar pada tahun 2034, dengan CAGR sebesar 28,6\% \parencite{Precedence2025}. Pertumbuhan eksponensial ini didorong oleh meningkatnya adopsi teknologi AI, \textit{cloud computing}, dan kebutuhan akan analisis data tidak terstruktur di berbagai sektor industri. Pertumbuhan pasar ini menunjukkan relevansi dan urgensi pengembangan sistem NLG untuk mendukung kebutuhan bisnis modern.
 
-\subsection{Template-Based Natural Language Generation}
+\subsection{\textit{Template-Based Natural Language Generation}}
 
 Sistem NLG berbasis templat memetakan input non-linguistik secara langsung ke struktur linguistik yang berisi "celah" atau \textit{placeholders} yang diisi selama output \parencite{vandeemter2005template}. Pendekatan ini menggunakan templat yang telah ditentukan sebelumnya dengan slot yang dapat diisi dengan data aktual dari hasil kueri basis data.
 
@@ -150,7 +150,7 @@ Contoh implementasi templat sederhana mencakup struktur seperti "Penjualan pada 
 
 Keuntungan utama pendekatan berbasis templat adalah kontrol penuh atas output, kecepatan generasi yang tinggi, tidak memerlukan dataset pelatihan besar, dan kemudahan maintenance dan modifikasi. Sistem dapat menghasilkan variasi output dengan mendefinisikan multiple templat untuk skenario yang sama, menghindari respons yang monoton \parencite{kapoor2023implementing}.
 
-\subsection{Template Rewriting dengan Pre-trained Language Models}
+\subsection{\textit{Template Rewriting} dengan \textit{Pre-trained Language Models}}
 
 Pendekatan lanjutan dalam NLG berbasis templat melibatkan penggunaan model bahasa pre-trained untuk menulis ulang templat sederhana menjadi teks yang lebih koheren dan natural. Metode ini menggabungkan keuntungan templat dengan fleksibilitas model bahasa neural \parencite{kale2020template,rebuffel2020fewshot}.
 
@@ -162,7 +162,7 @@ Pendekatan ini memungkinkan sistem untuk menghasilkan respons yang secara semant
 
 Implementasi NLG dalam lingkungan perusahaan memerlukan pertimbangan keamanan yang ketat untuk melindungi data sensitif dan mencegah kebocoran informasi. Sistem NLG internal harus dirancang dengan prinsip \textit{privacy-by-design} untuk memastikan data perusahaan tetap aman.
 
-\subsubsection{Differential Privacy untuk NLG}
+\subsubsection{\textit{Differential Privacy} untuk NLG}
 
 \textit{Differential Privacy} (DP) adalah kerangka kerja yang memberikan jaminan privasi secara matematis, memastikan bahwa kontribusi individu dalam dataset dibatasi \parencite{feyisetan2022differential,mireshghallah2022differentially}. Dalam konteks NLG, DP dapat diterapkan melalui dua pendekatan utama. Pendekatan pertama adalah pelatihan model dengan DP-SGD yang menambahkan noise pada gradien selama pelatihan. Pendekatan kedua adalah perturbasi representasi teks yang menambahkan noise pada embedding sebelum generasi.
 
@@ -180,7 +180,7 @@ Risiko utama dalam implementasi NLG internal mencakup kebocoran data sensitif me
 
 Teknik mitigasi mencakup pemfilteran output untuk memeriksa dan menyensor informasi sensitif sebelum ditampilkan ke pengguna. \textit{Input validation} digunakan untuk memvalidasi semua input dan menolak pola yang mencurigakan. \textit{Template whitelisting} membatasi generasi hanya pada templat yang telah disetujui. Implementasi \textit{role-based access control} (RBAC) memastikan pengguna hanya dapat mengakses data sesuai peran mereka. Regular security assessment dilakukan untuk menguji kerentanan sistem secara berkala \parencite{edpb2025privacy,velotix2025security}.
 
-\subsection{Evaluasi Kualitas Natural Language Generation}
+\subsection{Evaluasi Kualitas \textit{Natural Language Generation}}
 
 Evaluasi kualitas output NLG merupakan aspek kritis dalam memastikan bahwa teks yang dihasilkan memenuhi standar kualitas dan sesuai dengan kebutuhan bisnis. Evaluasi dilakukan menggunakan berbagai metrik otomatis dan penilaian manusia.
 
@@ -196,7 +196,7 @@ dengan $p_n$ adalah presisi \textit{n-gram} dan $BP$ adalah \textit{brevity pena
 
 Kategori kedua adalah metrik berbasis embedding yang menggunakan representasi neural untuk mengukur kesamaan semantik. Contohnya adalah BERTScore yang menggunakan embedding BERT untuk menghitung kesamaan kontekstual antara tokens output dan referensi \parencite{nimah2023nlg}.
 
-\subsubsection{Metrik Task-Specific untuk BI Chatbot}
+\subsubsection{Metrik \textit{Task-Specific} untuk BI \textit{Chatbot}}
 
 Evaluasi NLG dalam konteks \textit{chatbot} BI memerlukan metrik tambahan yang spesifik untuk domain. Metrik pertama adalah \textit{Factual Accuracy} yang mengukur kebenaran faktual dari informasi numerik dan data yang disajikan dalam respons. Metrik kedua adalah \textit{Coherence} yang menilai koherensi dan alur logis dari respons yang dihasilkan. \textit{Fluency} sebagai metrik ketiga mengukur kealamian dan kelancaran bahasa yang dihasilkan. Metrik keempat adalah \textit{Relevance} yang menilai relevansi respons terhadap konteks kueri. Metrik terakhir adalah \textit{Variability} yang mengukur keragaman respons untuk input yang sama atau serupa \parencite{nimah2023nlg}.
 
@@ -207,7 +207,7 @@ Berdasarkan literatur dan praktik industri, target performa yang ditetapkan untu
 Pencapaian target-target ini memastikan bahwa sistem NLG dapat menghasilkan respons yang akurat, natural, dan bervariasi sambil tetap menjaga keamanan data internal perusahaan. Evaluasi berkelanjutan dan penyempurnaan templat diperlukan untuk mempertahankan kualitas output yang tinggi.
 
 % ==============================================================================
-\section{Time Series Forecasting}
+\section{\textit{Time Series Forecasting}}
 % ==============================================================================
 \begin{figure}[H] 
   \centering
@@ -220,13 +220,13 @@ Pencapaian target-target ini memastikan bahwa sistem NLG dapat menghasilkan resp
 
 Bagian ini membahas konsep peramalan deret waktu, model-model statistik dan pembelajaran mendalam yang digunakan, serta evaluasi performa yang komprehensif. Pembahasan mencakup ARIMA, SARIMA, LSTM, serta perbandingan karakteristik dan performa masing-masing metode. Pemahaman yang mendalam tentang berbagai pendekatan peramalan ini menjadi fondasi penting dalam memilih dan mengimplementasikan model yang sesuai dengan karakteristik data dan kebutuhan aplikasi.
 
-\subsection{Konsep Time Series dan Peramalan}
+\subsection{Konsep \textit{Time Series} dan Peramalan}
 
 \textit{Time series} adalah serangkaian titik data yang diindeks dalam urutan waktu, dan peramalan deret waktu adalah proses menggunakan model untuk memprediksi nilai masa depan berdasarkan nilai yang diamati sebelumnya. Peramalan akurat sangat penting untuk perencanaan strategis dan pengambilan keputusan di berbagai domain bisnis.
 
 Pasar \textit{time series forecasting} global mencapai USD 9,62 miliar pada tahun 2023 dan diperkirakan tumbuh menjadi USD 36,9 miliar pada tahun 2032 dengan CAGR sebesar 16,12\% \parencite{WiseGuyReports2024}. Pertumbuhan ini menunjukkan meningkatnya adopsi teknik peramalan deret waktu di berbagai industri untuk mendukung pengambilan keputusan berbasis data, termasuk peramalan permintaan layanan pelanggan, prediksi penjualan, dan analisis tren bisnis. Proyeksi pertumbuhan pasar ini mengindikasikan relevansi dan urgensi pengembangan sistem peramalan yang akurat dan dapat diandalkan.
 
-\subsection{Model ARIMA untuk Time Series}
+\subsection{Model ARIMA untuk \textit{Time Series}}
 
 ARIMA (\textit{AutoRegressive Integrated Moving Average}) adalah model statistik populer untuk peramalan deret waktu yang menggabungkan tiga komponen utama. Model ARIMA dinyatakan sebagai ARIMA$(p, d, q)$, dengan $p$ adalah jumlah \textit{lag} observasi dalam model atau \textit{order} dari komponen AR, $d$ adalah jumlah kali deret waktu harus dibedakan untuk menjadi stasioner, dan $q$ adalah ukuran jendela \textit{moving average} atau \textit{order} dari komponen MA.
 
@@ -252,7 +252,7 @@ Dalam persamaan ini, $\Phi(B^m)$ dan $\Theta(B^m)$ adalah polinomial autoregresi
 
 SARIMA sangat cocok untuk data yang menunjukkan pola berulang pada interval waktu tetap, seperti penjualan bulanan yang cenderung meningkat pada bulan-bulan tertentu atau permintaan layanan pelanggan yang bervariasi mengikuti siklus musiman. Penambahan komponen musiman memungkinkan model untuk menangkap dan memprediksi pola periodik yang tidak dapat ditangani oleh ARIMA standar. Kemampuan ini menjadikan SARIMA pilihan yang tepat untuk data bisnis yang umumnya menunjukkan pola musiman yang kuat.
 
-\subsection{Model LSTM untuk Time Series}
+\subsection{Model LSTM untuk \textit{Time Series}}
 
 LSTM (\textit{Long Short-Term Memory}) adalah jenis jaringan saraf tiruan berulang yang dirancang khusus untuk mengatasi masalah \textit{vanishing gradient} dalam RNN tradisional. LSTM mampu mempelajari dependensi jangka panjang dalam data sekuens, menjadikannya sangat efektif untuk peramalan deret waktu.
 
@@ -351,11 +351,11 @@ LSTM &
 
 Perbandingan ini menunjukkan bahwa pemilihan model harus disesuaikan dengan karakteristik data dan kebutuhan aplikasi spesifik. ARIMA dan SARIMA cocok untuk aplikasi yang memerlukan interpretabilitas tinggi dan memiliki data terbatas, sementara LSTM lebih sesuai untuk aplikasi dengan data yang berlimpah dan pola kompleks yang sulit dimodelkan dengan pendekatan statistik tradisional. Pemahaman tentang trade-off ini penting dalam membuat keputusan yang tepat untuk implementasi sistem peramalan.
 
-\subsection{Evaluasi Performa Time Series Forecasting}
+\subsection{Evaluasi Performa \textit{Time Series Forecasting}}
 
 Evaluasi performa model peramalan deret waktu merupakan langkah kritis untuk memastikan bahwa prediksi yang dihasilkan memiliki akurasi yang memadai untuk mendukung pengambilan keputusan bisnis. Evaluasi yang komprehensif mencakup berbagai metrik dan teknik analisis yang saling melengkapi untuk memberikan gambaran menyeluruh tentang kualitas model.
 
-\subsubsection{Metrik Evaluasi Forecasting}
+\subsubsection{Metrik Evaluasi \textit{Forecasting}}
 
 Model peramalan deret waktu dievaluasi menggunakan tiga metrik utama yang masing-masing memberikan perspektif berbeda tentang akurasi prediksi \parencite{sirisha2022profit,sunendar2025comparison}. Metrik pertama adalah \textit{Mean Absolute Error} (MAE) yang mengukur rata-rata dari nilai absolut kesalahan:
 
@@ -379,17 +379,17 @@ Metrik ketiga adalah \textit{Mean Absolute Percentage Error} (MAPE) yang menguku
 
 Dalam formula-formula ini, $y_i$ adalah nilai aktual, $\hat{y}_i$ adalah nilai prediksi, dan $n$ adalah jumlah observasi. MAPE memberikan ukuran kesalahan dalam bentuk persentase, memudahkan interpretasi dan perbandingan antar dataset dengan skala berbeda. Namun, MAPE tidak dapat digunakan ketika nilai aktual bernilai nol dan sangat sensitif terhadap nilai aktual yang kecil.
 
-\subsubsection{Residual Analysis}
+\subsubsection{\textit{Residual Analysis}}
 
 Analisis residual merupakan komponen penting dalam evaluasi model peramalan untuk memastikan bahwa asumsi model terpenuhi dan tidak ada pola sistematis yang tersisa dalam kesalahan prediksi. Analisis ini mencakup beberapa teknik yang saling melengkapi.
 
 Teknik pertama adalah plot residual terhadap waktu untuk mendeteksi pola temporal yang mungkin tersisa. Residual yang baik harus terdistribusi secara acak di sekitar nol tanpa tren atau pola musiman yang jelas. Teknik kedua adalah uji normalitas residual menggunakan uji Shapiro-Wilk untuk menguji apakah residual mengikuti distribusi normal. Normalitas residual mengindikasikan bahwa model telah menangkap sebagian besar struktur dalam data. Teknik ketiga adalah uji autokorelasi residual menggunakan uji Ljung-Box untuk mendeteksi autokorelasi dalam residual. Autokorelasi yang signifikan mengindikasikan bahwa masih ada informasi temporal yang belum ditangkap oleh model. Ketiga teknik ini memberikan pemeriksaan komprehensif terhadap kualitas model dan asumsi yang mendasarinya.
 
-\subsubsection{Cross-Validation untuk Time Series}
+\subsubsection{\textit{Cross-Validation} untuk \textit{Time Series}}
 
 Validasi silang khusus untuk deret waktu (\textit{time series cross-validation}) menggunakan pendekatan \textit{walk-forward validation} atau \textit{expanding window} untuk menghindari kebocoran informasi dari masa depan ke masa lalu. Pendekatan ini membagi data secara berurutan dan melatih model pada data historis untuk memprediksi periode mendatang, mensimulasikan kondisi \textit{deployment} aktual dengan model harus memprediksi masa depan berdasarkan data masa lalu. Validasi silang deret waktu memberikan estimasi performa yang lebih realistis dibandingkan validasi silang standar yang dapat menghasilkan overfitting karena kebocoran informasi temporal.
 
-\subsubsection{Target Performa Forecasting}
+\subsubsection{Target Performa \textit{Forecasting}}
 
 Berdasarkan literatur dan praktik industri terkini, target performa yang ditetapkan untuk model peramalan deret waktu dalam konteks permintaan layanan pelanggan mencakup beberapa kriteria utama \parencite{siami2018comparison,sunendar2025comparison,sirisha2022profit}. MAPE harus mencapai maksimal 15\%, dengan kesalahan persentase rata-rata maksimal 15\% yang dianggap dapat diterima untuk sebagian besar aplikasi bisnis. RMSE harus seminimal mungkin dan dibandingkan dengan standar deviasi data aktual, dengan RMSE yang kurang dari setengah standar deviasi data aktual umumnya dianggap baik. MAE harus seminimal mungkin dan diinterpretasikan dalam konteks skala data, dengan MAE yang secara signifikan lebih kecil dari mean nilai aktual menunjukkan performa yang baik.
 
@@ -401,29 +401,29 @@ Berdasarkan literatur dan praktik industri terkini, target performa yang ditetap
 
 Bagian ini membahas integrasi berbagai komponen teknologi dalam sistem \textit{chatbot} Business Intelligence, penelitian terkait arsitektur \textit{chatbot} hibrida, serta aplikasi pembelajaran mesin untuk prediksi \textit{customer churn}. Pembahasan mencakup strategi integrasi, arsitektur sistem, dan studi kasus implementasi yang menunjukkan efektivitas pendekatan terintegrasi. Pemahaman tentang integrasi sistem menjadi kunci dalam mengembangkan solusi yang komprehensif dan koheren.
 
-\subsection{Arsitektur Chatbot Hibrida}
+\subsection{Arsitektur \textit{Chatbot} Hibrida}
 
 Arsitektur \textit{chatbot} hibrida menggabungkan pendekatan berbasis aturan (\textit{rule-based}) dengan kemampuan kecerdasan buatan untuk menciptakan sistem yang seimbang antara kontrol deterministik dan fleksibilitas adaptif. Pendekatan hibrida ini memungkinkan sistem untuk menangani berbagai jenis kueri dengan efisiensi optimal sambil mempertahankan akurasi dan keamanan data.
 
-\subsubsection{Komponen Arsitektur Chatbot Modern}
+\subsubsection{Komponen Arsitektur \textit{Chatbot} Modern}
 
 Arsitektur \textit{chatbot} modern terdiri dari lima komponen utama yang bekerja secara terintegrasi \parencite{huang2021chatbot,xenonstack2023chatbots}. Komponen pertama adalah antarmuka pengguna (\textit{User Interface}) yang memungkinkan pengguna berkomunikasi dengan \textit{chatbot} melalui platform perpesanan atau antarmuka berbasis web. Komponen ini dapat mencakup konversi \textit{speech-to-text} untuk input suara dan \textit{text-to-speech} untuk output suara.
 
 Komponen kedua adalah modul pemahaman bahasa alami (\textit{Natural Language Understanding}) yang bertanggung jawab untuk menginterpretasikan masukan pengguna dan mengekstraksi \textit{intent} serta entitas. Komponen ketiga adalah manajemen dialog (\textit{Dialogue Management}) yang mengelola alur percakapan, memelihara konteks, dan menentukan tindakan yang sesuai berdasarkan \textit{intent} yang teridentifikasi. Komponen keempat adalah \textit{backend} yang terhubung dengan basis data, sistem eksternal, dan API untuk mengambil informasi yang diperlukan. Komponen terakhir adalah pembangkitan respons (\textit{Response Generation}) yang menghasilkan output bahasa alami berdasarkan data yang diperoleh dan konteks percakapan \parencite{huang2021chatbot}.
 
-\subsubsection{Chatbot Hibrida dengan AI dan Human Oversight}
+\subsubsection{\textit{Chatbot} Hibrida dengan AI dan \textit{Human Oversight}}
 
 Pendekatan \textit{chatbot} hibrida yang mengintegrasikan model NLP ringan dengan pengawasan manusia telah menunjukkan efektivitas tinggi dalam konteks pendidikan tinggi. Kerangka kerja hibrida ini menggunakan pohon keputusan, pemetaan \textit{intent}, dan alur percakapan terstruktur untuk mengotomatisasi tugas rutin sambil mempertahankan dukungan kontekstual dan empatik melalui protokol eskalasi dinamis \parencite{bamurange2025hybrid}.
 
 Implementasi kerangka kerja hibrida pada Universitas Kigali menunjukkan akurasi 85\% dalam menyelesaikan pertanyaan akademik dan mengurangi beban kerja staf sebesar 30\% dalam simulasi \parencite{bamurange2025hybrid}. Inovasi kunci mencakup fungsi \textit{offline} untuk pengaturan dengan keterbatasan sumber daya, pemeriksaan kesesuaian budaya untuk menginterpretasikan kueri tidak langsung, dan strategi mitigasi bias yang selaras dengan pedoman etika. Temuan ini menekankan kelayakan platform \textit{no-code} untuk deployment yang scalable, menekankan keseimbangan antara otomasi dan intervensi manusia.
 
-\subsubsection{Pasar Chatbot AI Global}
+\subsubsection{Pasar \textit{Chatbot} AI Global}
 
 Pasar \textit{chatbot} berbasis AI global akan melebihi USD 3 miliar pada tahun 2025, dengan pasar \textit{chatbot} hibrida suara dan teks mencapai USD 534 juta secara global pada tahun yang sama \parencite{businesswire2020chatbot}. Penggunaan \textit{Conversational AI} akan merevolusi manajemen hubungan pelanggan, dengan lebih dari 50\% kueri pelanggan dapat dikelola melalui \textit{chatbot} berbasis AI. Pertumbuhan eksponensial ini menunjukkan bahwa \textit{chatbot} berbasis AI akan menjadi norma pada tahun 2025 ketika pusat kontak meningkatkan otomasi.
 
 Transformasi dari antarmuka operasional tradisional ke antarmuka percakapan akan mengubah secara dramatis ekspektasi tentang bagaimana manusia berkomunikasi, mengonsumsi konten, menggunakan aplikasi, dan terlibat dalam perdagangan \parencite{businesswire2020chatbot}. Transformasi ini akan berdampak pada hampir setiap aspek operasi pemasaran dan penjualan untuk setiap vertikal industri, termasuk sektor Business Intelligence.
 
-\subsection{Integrasi Pattern-Based Intent dan Template-Based NLG}
+\subsection{Integrasi \textit{Pattern-Based Intent} dan \textit{Template-Based} NLG}
 
 Integrasi antara klasifikasi \textit{intent} berbasis pola dan pembangkitan bahasa alami berbasis templat menciptakan alur kerja yang efisien dan aman untuk sistem \textit{chatbot} Business Intelligence. Integrasi ini memastikan bahwa kueri pengguna diproses dengan akurat sambil respons yang dihasilkan tetap bervariasi dan natural.
 
@@ -441,35 +441,35 @@ Evaluasi sistem terintegrasi memerlukan pengukuran performa pada setiap komponen
 
 Pengujian integrasi juga mencakup skenario pengujian end-to-end yang mensimulasikan percakapan nyata, pengujian beban untuk memastikan sistem dapat menangani volume kueri tinggi, dan pengujian keamanan untuk memverifikasi bahwa tidak ada kebocoran data sensitif. Pendekatan evaluasi holistik ini memastikan bahwa sistem tidak hanya berfungsi dengan baik pada tingkat komponen individual, tetapi juga memberikan pengalaman pengguna yang koheren dan memuaskan.
 
-\subsection{Customer Churn Prediction dengan Machine Learning}
+\subsection{\textit{Customer Churn Prediction} dengan \textit{Machine Learning}}
 
 Prediksi \textit{customer churn} adalah aplikasi pembelajaran mesin yang kritis dalam analisis bisnis pelanggan, memungkinkan organisasi untuk mengidentifikasi pelanggan berisiko dan mengambil tindakan retensi proaktif. Integrasi prediksi \textit{churn} ke dalam sistem \textit{chatbot} BI memberikan aksesibilitas yang mudah terhadap \textit{insight} prediktif bagi pengguna internal.
 
-\subsubsection{Model Machine Learning untuk Churn Prediction}
+\subsubsection{Model \textit{Machine Learning} untuk \textit{Churn Prediction}}
 
 Beberapa model pembelajaran mesin telah terbukti efektif untuk prediksi \textit{customer churn} \parencite{pecan2024churn,kumar2024xgboost}. Model \textit{Logistic Regression} dikenal karena kesederhanaannya dan kemudahan interpretasi, cocok untuk kasus dengan hubungan linear antara fitur dan \textit{churn}. Model \textit{Random Forest} memberikan akurasi superior dalam skenario kompleks dengan kemampuan menangani hubungan non-linear dan interaksi antar variabel. Model \textit{Gradient Boosting Machines} (GBM) dan XGBoost sangat efektif dalam menangkap hubungan kompleks dan non-linear dengan membangun pohon secara sekuensial untuk memperbaiki kesalahan.
 
 Studi terbaru menunjukkan bahwa XGBoost adalah algoritma paling efisien untuk prediksi \textit{churn} pelanggan \parencite{kumar2024xgboost}. Model hibrida berbasis jaringan saraf yang mengkombinasikan \textit{Multi-Head Self-Attention}, BiLSTM, dan CNN telah diusulkan untuk meningkatkan ekstraksi fitur kompleks dan dependensi temporal \parencite{nature2024hybrid}. Model CCP-Net ini menggunakan algoritma sampling ADASYN untuk menyeimbangkan ukuran sampel pelanggan yang \textit{churn} dan tidak \textit{churn}, mengatasi dampak negatif ketidakseimbangan sampel pada performa model.
 
-\subsubsection{Evaluasi Model Churn Prediction}
+\subsubsection{Evaluasi Model \textit{Churn Prediction}}
 
 Evaluasi model prediksi \textit{churn} menggunakan metrik standar pembelajaran mesin dengan pertimbangan khusus untuk ketidakseimbangan kelas. Metrik evaluasi mencakup \textit{Accuracy}, \textit{Precision}, \textit{Recall}, \textit{F1-Score}, dan \textit{ROC-AUC}. Studi \textcite{computing2025churn} menunjukkan bahwa \textit{Random Forest} mencapai akurasi 90,30\% dengan semua atribut dan 90,90\% dengan dataset atribut yang dikurangi, mengindikasikan bahwa dataset dengan atribut yang dikurangi dapat berguna untuk tugas prediksi \textit{churn}.
 
 Studi lain menunjukkan bahwa \textit{Random Forest} mencapai akurasi 90,30\%, presisi 89,5\%, \textit{recall} 91,2\%, dan \textit{ROC-AUC} 0,94 \parencite{infosains2024churn}. Model dengan \textit{hyperparameter tuning} menggunakan teknik seperti SMOTE, ENN, dan K-fold cross-validation menghasilkan peningkatan performa yang signifikan. Penggunaan dataset dengan atribut yang dikurangi tidak hanya meningkatkan akurasi tetapi juga mengurangi kompleksitas komputasi, menjadikannya lebih praktis untuk deployment produksi.
 
-\subsubsection{Fitur-fitur untuk Churn Prediction}
+\subsubsection{Fitur-fitur untuk \textit{Churn Prediction}}
 
 Fitur-fitur yang umum digunakan untuk prediksi \textit{churn} mencakup karakteristik demografis dan behavioral pelanggan \parencite{pecan2024churn,computing2025churn}. Karakteristik demografis meliputi usia, jenis kelamin, lokasi geografis, dan tingkat pendapatan. Karakteristik behavioral mencakup \textit{tenure} atau lama berlangganan, frekuensi transaksi, nilai transaksi rata-rata, variasi produk yang dibeli, dan pola penggunaan layanan.
 
 Fitur tambahan yang relevan adalah riwayat keluhan atau masalah layanan, tingkat keterlibatan dengan program loyalitas, responsivitas terhadap kampanye pemasaran, dan perubahan pola penggunaan dari waktu ke waktu. \textit{Feature engineering} yang efektif, termasuk pembuatan fitur agregat temporal dan fitur interaksi, dapat meningkatkan performa model secara signifikan.
 
-\subsubsection{Real-Time Churn Prediction}
+\subsubsection{\textit{Real-Time Churn Prediction}}
 
 Pendekatan tradisional prediksi \textit{churn} menggunakan pelatihan berbasis \textit{batch} dengan dataset tetap yang dikumpulkan pada interval periodik. Pendekatan ini gagal menangkap sifat dinamis industri dengan preferensi pelanggan yang berubah cepat \parencite{thesai2025realtime}. Model RCE (\textit{Real-time Continual learning-based Enhancement}) telah diusulkan untuk mengatasi keterbatasan ini dengan memanfaatkan pendekatan pengembangan \textit{event-driven} untuk prediksi \textit{churn} waktu nyata.
 
 RCE menggunakan mekanisme \textit{continual learning} berbasis \textit{replay}, memungkinkannya beradaptasi dengan perilaku pelanggan baru sambil mengurangi efek \textit{catastrophic forgetting}. Berbeda dengan model berbasis \textit{batch} tradisional, RCE memproses aliran data yang berkelanjutan, memungkinkan bisnis untuk bereaksi dengan cepat terhadap perubahan pasar \parencite{thesai2025realtime}. Pendekatan ini memastikan bahwa pembuat keputusan menerima \textit{insight} terkini ketika perilaku pelanggan berkembang, meningkatkan efektivitas strategi retensi.
 
-\subsection{Integrasi Churn Prediction dengan Chatbot BI}
+\subsection{Integrasi \textit{Churn Prediction} dengan \textit{Chatbot} BI}
 
 Integrasi model prediksi \textit{churn} ke dalam sistem \textit{chatbot} Business Intelligence memungkinkan pengguna internal untuk dengan mudah mengakses analisis risiko \textit{churn} melalui antarmuka percakapan yang intuitif. Pengguna dapat mengajukan kueri seperti "Tampilkan pelanggan berisiko tinggi \textit{churn} bulan ini" atau "Analisis faktor utama yang mempengaruhi \textit{churn} di segmen premium", dan sistem akan mengeksekusi model prediksi serta menyajikan hasil dalam format bahasa alami yang mudah dipahami.
 

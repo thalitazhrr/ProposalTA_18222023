@@ -1,19 +1,19 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'ProposalTA.blg'
-[30] biber-darwin:340> INFO - === Wed Nov 19, 2025, 14:07:35
-[40] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
-[108] Biber.pm:994> INFO - Found 54 citekeys in bib section 0
+[29] biber-darwin:340> INFO - === Wed Nov 19, 2025, 14:12:26
+[39] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
+[109] Biber.pm:994> INFO - Found 54 citekeys in bib section 0
 [114] Biber.pm:4463> INFO - Processing section 0
-[119] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
-[120] bibtex.pm:1713> INFO - LaTeX decoding ...
-[138] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
-[281] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
-[281] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[281] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[281] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
-[281] Biber.pm:4289> INFO - No sort tailoring available for locale 'indonesian'
-[305] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
-[315] bbl.pm:779> INFO - Output to ProposalTA.bbl
-[315] Biber.pm:131> WARN - legacy month field 'Desember' in entry 'Intimedia2024' is not an integer - this will probably not sort properly.
-[315] Biber.pm:131> WARN - legacy month field 'Juli' in entry 'EastVC2025' is not an integer - this will probably not sort properly.
-[315] Biber.pm:133> INFO - WARNINGS: 2
+[120] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[121] bibtex.pm:1713> INFO - LaTeX decoding ...
+[141] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[288] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[288] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[288] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[288] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[288] Biber.pm:4289> INFO - No sort tailoring available for locale 'indonesian'
+[314] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[324] bbl.pm:779> INFO - Output to ProposalTA.bbl
+[324] Biber.pm:131> WARN - legacy month field 'Desember' in entry 'Intimedia2024' is not an integer - this will probably not sort properly.
+[324] Biber.pm:131> WARN - legacy month field 'Juli' in entry 'EastVC2025' is not an integer - this will probably not sort properly.
+[324] Biber.pm:133> INFO - WARNINGS: 2

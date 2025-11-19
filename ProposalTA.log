@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 NOV 2025 23:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  19 NOV 2025 13:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1321,22 +1321,22 @@ Overfull \hbox (0.21024pt too wide) in paragraph at lines 111--112
 
 
 [40]
-Overfull \hbox (3.45673pt too wide) in alignment at lines 126--132
+Overfull \hbox (16.7454pt too wide) in alignment at lines 126--132
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 132--139
+Overfull \hbox (16.7454pt too wide) in alignment at lines 132--139
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 139--143
+Overfull \hbox (16.7454pt too wide) in alignment at lines 139--143
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 143--146
+Overfull \hbox (16.7454pt too wide) in alignment at lines 143--146
  [] [] [] 
  []
 
@@ -1396,29 +1396,29 @@ Underfull \hbox (badness 5563) in paragraph at lines 214--214
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 146--220
+Overfull \hbox (16.7454pt too wide) in alignment at lines 146--220
  [] [] [] 
  []
 
 
 
 [41] [42] [43] [44]
-Overfull \hbox (3.45673pt too wide) in alignment at lines 230--236
+Overfull \hbox (37.41142pt too wide) in alignment at lines 230--236
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 236--243
+Overfull \hbox (37.41142pt too wide) in alignment at lines 236--243
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 243--247
+Overfull \hbox (37.41142pt too wide) in alignment at lines 243--247
  [] [] [] 
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 247--250
+Overfull \hbox (37.41142pt too wide) in alignment at lines 247--250
  [] [] [] 
  []
 
@@ -1448,7 +1448,7 @@ Underfull \hbox (badness 1629) in paragraph at lines 279--280
  []
 
 
-Overfull \hbox (3.45673pt too wide) in alignment at lines 250--282
+Overfull \hbox (37.41142pt too wide) in alignment at lines 250--282
  [] [] [] 
  []
 
@@ -2126,6 +2126,26 @@ Overfull \hbox (1.66588pt too wide) in alignment at lines 320--384
 [50] [51] [52]
 
 [53]
+Overfull \hbox (104.23174pt too wide) in alignment at lines 400--406
+ [] [] 
+ []
+
+
+Overfull \hbox (104.23174pt too wide) in alignment at lines 406--413
+ [] [] 
+ []
+
+
+Overfull \hbox (104.23174pt too wide) in alignment at lines 413--417
+ [] [] 
+ []
+
+
+Overfull \hbox (104.23174pt too wide) in alignment at lines 417--420
+ [] [] 
+ []
+
+
 Underfull \hbox (badness 5578) in paragraph at lines 425--425
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2136,8 +2156,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--428
  []
 
 
+Overfull \hbox (104.23174pt too wide) in alignment at lines 420--434
+ [] [] 
+ []
+
+
 
 [54] [55]
+Overfull \hbox (57.25713pt too wide) in alignment at lines 438--444
+ [] [] 
+ []
+
+
+Overfull \hbox (57.25713pt too wide) in alignment at lines 444--451
+ [] [] 
+ []
+
+
+Overfull \hbox (57.25713pt too wide) in alignment at lines 451--455
+ [] [] 
+ []
+
+
+Overfull \hbox (57.25713pt too wide) in alignment at lines 455--458
+ [] [] 
+ []
+
+
 Underfull \hbox (badness 5578) in paragraph at lines 463--463
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2153,8 +2198,33 @@ Underfull \hbox (badness 1117) in paragraph at lines 469--470
  []
 
 
+Overfull \hbox (57.25713pt too wide) in alignment at lines 458--472
+ [] [] 
+ []
+
+
 
 [56] [57] [58] [59]
+Overfull \hbox (38.57744pt too wide) in alignment at lines 476--482
+ [] [] 
+ []
+
+
+Overfull \hbox (38.57744pt too wide) in alignment at lines 482--489
+ [] [] 
+ []
+
+
+Overfull \hbox (38.57744pt too wide) in alignment at lines 489--493
+ [] [] 
+ []
+
+
+Overfull \hbox (38.57744pt too wide) in alignment at lines 493--496
+ [] [] 
+ []
+
+
 Underfull \hbox (badness 5578) in paragraph at lines 501--501
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2170,6 +2240,11 @@ Underfull \hbox (badness 2229) in paragraph at lines 507--508
  []
 
 
+Overfull \hbox (38.57744pt too wide) in alignment at lines 496--510
+ [] [] 
+ []
+
+
 
 [60] [61]
 
@@ -2179,8 +2254,28 @@ Overfull \hbox (5.4908pt too wide) in paragraph at lines 520--520
  []
 
 
+Overfull \hbox (14.98174pt too wide) in alignment at lines 516--522
+ [] [] [] [] [] [] 
+ []
+
+
 Overfull \hbox (5.4908pt too wide) in paragraph at lines 527--527
 []|\TU/TimesNewRoman(0)/b/it/12 Customer| 
+ []
+
+
+Overfull \hbox (14.98174pt too wide) in alignment at lines 522--529
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.98174pt too wide) in alignment at lines 529--533
+ [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.98174pt too wide) in alignment at lines 533--536
+ [] [] [] [] [] [] 
  []
 
 
@@ -2389,6 +2484,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--560
  []
 
 
+Overfull \hbox (14.98174pt too wide) in alignment at lines 536--562
+ [] [] [] [] [] [] 
+ []
+
+
 
 [63]
 Overfull \hbox (0.5286pt too wide) in paragraph at lines 577--578
@@ -2487,7 +2587,7 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 Here is how much of TeX's memory you used:
  31827 strings out of 473832
  634941 string characters out of 5729482
- 2011058 words of memory out of 5000000
+ 2011061 words of memory out of 5000000
  54510 multiletter control sequences out of 15000+600000
  565622 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

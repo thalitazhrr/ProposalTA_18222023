@@ -132,10 +132,6 @@
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {indonesian}{}\relax 
-\babel@toc {english}{}\relax 
-\babel@toc {indonesian}{}\relax 
 \contentsline {subsubsection}{\numberline {II.2.5.2}\textit {Confusion Matrix} dan \textit {Confidence Score Analysis}}{21}{subsubsection.2.2.5.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
@@ -305,8 +301,6 @@
 \contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{53}{section.3.3}%
 \contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{54}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{58}{subsection.3.3.2}%
-\babel@toc {english}{}\relax 
-\babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

@@ -1570,41 +1570,6 @@
       \verb 10.61628/jsce.v6i3.2058
       \endverb
     \endentry
-    \entry{JATITTransformerIntent}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=8506da364e9c2de5576090dcad0f92cf}{%
-           family={Nama},
-           familyi={N\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ccb93c527f14cf40faa71610154899eb}{%
-           family={Nama},
-           familyi={N\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{fullhash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{fullhashraw}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{bibnamehash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{authorbibnamehash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{authornamehash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{authorfullhash}{255eb965e04f3512d39ff584a35ca75a}
-      \strng{authorfullhashraw}{255eb965e04f3512d39ff584a35ca75a}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Journal of Theoretical and Applied Information Technology}
-      \field{number}{13}
-      \field{title}{Utilizing Transformer-Based Deep Learning for Intent Classification}
-      \field{volume}{101}
-      \field{year}{2023}
-    \endentry
     \entry{nimah2023nlg}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=cf29b766bdfdd32a1518dbe514254e0f}{%
@@ -2418,6 +2383,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{JATITTransformerIntent}
 \endrefsection
 \endinput
 

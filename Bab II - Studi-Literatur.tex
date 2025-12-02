@@ -63,13 +63,13 @@ Pasar \textit{Conversational AI} global diproyeksikan mencapai USD 49,9 miliar p
 
 \subsection{Klasifikasi \textit{Intent} Berbasis \textit{Transformer}}
 
-Klasifikasi \textit{intent} berbasis \textit{Transformer} merupakan pendekatan modern yang memanfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\textit{self-attention}) untuk memahami konteks ujaran pengguna secara dua arah dan menyeluruh.\parencite{Merugu2024IntentLLM} Model-model seperti BERT (\textit{Bidirectional Encoder Representations from Transformers}), RoBERTa, IndoBERT, dan berbagai \textit{sentence transformer} telah menunjukkan kinerja yang unggul pada tugas klasifikasi teks, termasuk klasifikasi \textit{intent} dalam sistem percakapan.\parencite{Ozerova2022IntentModule,Gehweiler2024IntentModeration} Pendekatan ini merepresentasikan setiap kalimat sebagai vektor berdimensi tinggi yang memuat informasi semantik kaya, kemudian menambahkan lapisan klasifikasi di bagian akhir untuk memetakan representasi tersebut ke label \textit{intent} yang telah didefinisikan.
+Klasifikasi \textit{intent} berbasis \textit{Transformer} merupakan pendekatan modern yang memanfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\textit{self-attention}) untuk memahami konteks ujaran pengguna secara dua arah dan menyeluruh \parencite{Merugu2024IntentLLM}. Model-model seperti BERT (\textit{Bidirectional Encoder Representations from Transformers}), RoBERTa, IndoBERT, dan berbagai \textit{sentence transformer} telah menunjukkan kinerja yang unggul pada tugas klasifikasi teks, termasuk klasifikasi \textit{intent} dalam sistem percakapan \parencite{Ozerova2022IntentModule,Gehweiler2024IntentModeration}. Pendekatan ini merepresentasikan setiap kalimat sebagai vektor berdimensi tinggi yang memuat informasi semantik kaya, kemudian menambahkan lapisan klasifikasi di bagian akhir untuk memetakan representasi tersebut ke label \textit{intent} yang telah didefinisikan.
 
-Berbagai penelitian melaporkan bahwa model berbasis \textit{Transformer} mampu melampaui pendekatan tradisional seperti LSTM, CNN, maupun metode berbasis fitur manual dalam hal akurasi, skor F1, dan kemampuan menangkap nuansa konteks.\parencite{Gehweiler2024IntentModeration} Studi yang membandingkan BERT, RoBERTa, dan IndoBERT untuk klasifikasi \textit{intent} \textit{chatbot} berbahasa Indonesia menunjukkan bahwa IndoBERT dapat mencapai akurasi hingga sekitar 0{,}94 berkat proses prapelatihan yang selaras dengan struktur bahasa Indonesia dan korpus yang digunakan. Penelitian lain yang memanfaatkan MiniLM dan RoBERTa untuk modul deteksi \textit{intent} dalam asisten percakapan melaporkan peningkatan akurasi 10--15 persen dibandingkan solusi sebelumnya, sekaligus menekankan pentingnya memperhatikan kecepatan inferensi dan kebutuhan perangkat keras saat model \textit{Transformer} diintegrasikan ke dalam sistem produksi.\parencite{Ozerova2022IntentModule}
+Berbagai penelitian melaporkan bahwa model berbasis \textit{Transformer} mampu melampaui pendekatan tradisional seperti LSTM, CNN, maupun metode berbasis fitur manual dalam hal akurasi, skor F1, dan kemampuan menangkap nuansa konteks \parencite{Gehweiler2024IntentModeration}. Studi yang membandingkan BERT, RoBERTa, dan IndoBERT untuk klasifikasi \textit{intent} \textit{chatbot} berbahasa Indonesia menunjukkan bahwa IndoBERT dapat mencapai akurasi hingga sekitar 0{,}94 berkat proses prapelatihan yang selaras dengan struktur bahasa Indonesia dan korpus yang digunakan. Penelitian lain yang memanfaatkan MiniLM dan RoBERTa untuk modul deteksi \textit{intent} dalam asisten percakapan melaporkan peningkatan akurasi 10--15 persen dibandingkan solusi sebelumnya, sekaligus menekankan pentingnya memperhatikan kecepatan inferensi dan kebutuhan perangkat keras saat model \textit{Transformer} diintegrasikan ke dalam sistem produksi \parencite{Ozerova2022IntentModule}.
 
-Perkembangan model bahasa besar berbasis \textit{Transformer} juga mendorong kajian terbaru yang mengevaluasi penggunaan \textit{sentence transformer}, model BERT terkontrasif, dan bahkan model bahasa besar generatif untuk tugas deteksi \textit{intent} pada agen percakapan tugas-orientasi.\parencite{Merugu2024IntentLLM,Gehweiler2025IntentSurvey} Hasil kajian tersebut menyoroti adanya kompromi yang jelas antara kualitas prediksi, kemampuan menangani \textit{intent} di luar cakupan (\textit{out-of-scope}), latensi sistem, serta konsumsi sumber daya komputasi, sehingga pemilihan arsitektur perlu mempertimbangkan kebutuhan dan batasan operasional sistem yang dibangun.\parencite{Merugu2024IntentLLM}
+Perkembangan model bahasa besar berbasis \textit{Transformer} juga mendorong kajian terbaru yang mengevaluasi penggunaan \textit{sentence transformer}, model BERT terkontrasif, dan bahkan model bahasa besar generatif untuk tugas deteksi \textit{intent} pada agen percakapan tugas-orientasi \parencite{Merugu2024IntentLLM,Gehweiler2025IntentSurvey}. Hasil kajian tersebut menyoroti adanya kompromi yang jelas antara kualitas prediksi, kemampuan menangani \textit{intent} di luar cakupan (\textit{out-of-scope}), latensi sistem, serta konsumsi sumber daya komputasi, sehingga pemilihan arsitektur perlu mempertimbangkan kebutuhan dan batasan operasional sistem yang dibangun \parencite{Merugu2024IntentLLM}.
 
-Dalam konteks penelitian ini, klasifikasi intent berbasis \textit{Transformer} diposisikan sebagai pendekatan yang relevan dan dikaji secara teoretis, tetapi tidak diimplementasikan secara langsung pada prototipe sistem. Pertimbangan utama adalah ruang lingkup pertanyaan yang relatif terbatas pada kebutuhan internal, pola kueri yang cenderung berulang, serta prioritas untuk menjaga efisiensi pemrosesan dan menghemat penggunaan sumber daya komputasi berbiaya tinggi seperti unit pemroses grafis (GPU).\parencite{Ozerova2022IntentModule,Gehweiler2024IntentModeration} Oleh karena itu, penelitian ini memilih pendekatan klasifikasi \textit{intent} berbasis pola dengan mekanisme nilai keyakinan (\textit{pattern-based intent classification with confidence scoring}) yang lebih ringan secara komputasi, sambil menjadikan pendekatan berbasis \textit{Transformer} sebagai acuan pengembangan lanjutan ketika cakupan \textit{intent} dan beban sistem meningkat di masa mendatang.
+Dalam konteks penelitian ini, klasifikasi intent berbasis \textit{Transformer} diposisikan sebagai pendekatan yang relevan dan dikaji secara teoretis, tetapi tidak diimplementasikan secara langsung pada prototipe sistem. Pertimbangan utama adalah ruang lingkup pertanyaan yang relatif terbatas pada kebutuhan internal, pola kueri yang cenderung berulang, serta prioritas untuk menjaga efisiensi pemrosesan dan menghemat penggunaan sumber daya komputasi berbiaya tinggi seperti unit pemroses grafis (GPU) \parencite{Ozerova2022IntentModule,Gehweiler2024IntentModeration}. Oleh karena itu, penelitian ini memilih pendekatan klasifikasi \textit{intent} berbasis pola dengan mekanisme nilai keyakinan (\textit{pattern-based intent classification with confidence scoring}) yang lebih ringan secara komputasi, sambil menjadikan pendekatan berbasis \textit{Transformer} sebagai acuan pengembangan lanjutan ketika cakupan \textit{intent} dan beban sistem meningkat di masa mendatang.
 
 \subsection{\textit{Pattern Matching} untuk \textit{Intent Classification}}
 
@@ -97,13 +97,11 @@ Evaluasi performa klasifikasi \textit{intent} dilakukan dengan mengukur beberapa
 
 \subsubsection{Metrik Evaluasi Klasifikasi Intent Multi-Kelas}
 
-Model klasifikasi intent dalam penelitian ini dievaluasi menggunakan metrik standar yang disesuaikan untuk masalah klasifikasi multi-kelas (38 kelas intent yang saling eksklusif), bukan multi-label. Pendekatan evaluasi harus mengakomodasi bahwa setiap kueri pengguna hanya dapat diklasifikasikan ke dalam satu kelas yang benar, sehingga metrik klasifikasi biner harus diperluas menggunakan strategi \textit{one-vs-all} dan agregasi yang tepat.\parencite{Grandini2020MultiClassMetrics,EvidentlyMultiClass}
+Model klasifikasi intent dalam penelitian ini dievaluasi menggunakan metrik standar yang disesuaikan untuk masalah klasifikasi multi-kelas (38 kelas intent yang saling eksklusif), bukan multi-label. Pendekatan evaluasi harus mengakomodasi bahwa setiap kueri pengguna hanya dapat diklasifikasikan ke dalam satu kelas yang benar, sehingga metrik klasifikasi biner harus diperluas menggunakan strategi \textit{one-vs-all} dan agregasi yang tepat \parencite{Grandini2020MultiClassMetrics,EvidentlyMultiClass}.
 
-Perbedaan utama antara klasifikasi multi-kelas dan biner adalah pada interpretasi elemen matriks kebingungan (\textit{confusion matrix}) dan agregasi metrik per-kelas. Untuk 38 kelas, matriks kebingungan berukuran 38×38, di mana setiap baris merepresentasikan kelas hasil prediksi dan setiap kolom merepresentasikan kelas sebenarnya. Prediksi yang benar terletak pada diagonal utama, sedangkan prediksi salah tersebar pada sel off-diagonal.\parencite{EvidentlyMultiClass} Pola sebaran kesalahan pada matriks kebingungan multi-kelas memberikan wawasan berharga tentang persamaan atau kebingungan antar kelas, misalnya prediksi kelas ``Penjualan-Bulanan'' yang sering disalahklasifikasikan sebagai ``Penjualan-Triwulanan'' menunjukkan kesamaan semantik yang perlu ditangani dengan aturan atau templat yang lebih jelas.
+Perbedaan utama antara klasifikasi multi-kelas dan biner adalah pada interpretasi elemen matriks kebingungan (\textit{confusion matrix}) dan agregasi metrik per-kelas. Untuk 38 kelas, matriks kebingungan berukuran 38×38, dengan setiap baris merepresentasikan kelas hasil prediksi dan setiap kolom merepresentasikan kelas sebenarnya. Prediksi yang benar terletak pada diagonal utama, sedangkan prediksi salah tersebar pada sel off-diagonal. Pola sebaran kesalahan pada matriks kebingungan multi-kelas memberikan wawasan berharga tentang persamaan atau kebingungan antar kelas, misalnya prediksi kelas ``Penjualan-Bulanan'' yang sering disalahklasifikasikan sebagai ``Penjualan-Triwulanan'' menunjukkan kesamaan semantik yang perlu ditangani dengan aturan atau templat yang lebih jelas \parencite{EvidentlyMultiClass}.
 
-\paragraph*{Cara Menghitung TP, FP, FN untuk Setiap Kelas (One-vs-All):}
-
-Untuk menghitung metrik per kelas-\(i\), masalah klasifikasi multi-kelas diubah menjadi masalah biner secara virtual melalui pendekatan \textit{one-vs-all}:\parencite{Grandini2020MultiClassMetrics}
+Dalam menghitung metrik per kelas-\(i\), masalah klasifikasi multi-kelas diubah menjadi masalah biner secara virtual melalui pendekatan \textit{one-vs-all}:\parencite{Grandini2020MultiClassMetrics}
 
 \begin{itemize}
     \item \textbf{TP\textsubscript{i}} (\textit{True Positive}): Jumlah sampel kelas-\(i\) yang diprediksi benar sebagai kelas-\(i\) (elemen diagonal matriks kebingungan pada baris dan kolom \(i\))
@@ -113,11 +111,9 @@ Untuk menghitung metrik per kelas-\(i\), masalah klasifikasi multi-kelas diubah 
     \item \textbf{FN\textsubscript{i}} (\textit{False Negative}): Jumlah sampel kelas-\(i\) yang diprediksi salah sebagai kelas lain (jumlah seluruh kolom \(i\) pada matriks kebingungan kecuali elemen diagonal)
 \end{itemize}
 
-\paragraph*{Agregasi Metrik: Macro-Average versus Micro-Average:}
+Dalam konteks Agregasi Metrik (\textit{Macro-Average} dengan \textit{Micro-Average}) dan adanya 38 kelas dalam sistem ini, diperlukan strategi agregasi untuk memperoleh metrik keseluruhan performa sistem. Dua pendekatan utama yang umum digunakan dalam klasifikasi multi-kelas adalah \textit{macro-averaging} dan \textit{micro-averaging} \parencite{EvidentlyMultiClass}
 
-Karena ada 38 kelas dalam sistem ini, diperlukan strategi agregasi untuk memperoleh metrik keseluruhan performa sistem. Dua pendekatan utama yang umum digunakan dalam klasifikasi multi-kelas adalah \textit{macro-averaging} dan \textit{micro-averaging}:\parencite{EvidentlyMultiClass}
-
-\textbf{Macro-Averaging.} Pendekatan ini menghitung metrik (\textit{Precision}, \textit{Recall}, \textit{F1-Score}) untuk setiap kelas secara individual, kemudian mengambil rata-rata aritmatik dari 38 nilai metrik tersebut. Strategi ini memberikan bobot yang sama untuk setiap kelas, sehingga mengutamakan performa pada kelas minoritas dan mencegah kelas mayoritas mendominasi hasil evaluasi.\parencite{Grandini2020MultiClassMetrics}
+Pendekatan \textbf{\textit{Micro-Averaging}} ini menghitung metrik (\textit{Precision}, \textit{Recall}, \textit{F1-Score}) untuk setiap kelas secara individual, kemudian mengambil rata-rata aritmatik dari 38 nilai metrik tersebut. Strategi ini memberikan bobot yang sama untuk setiap kelas, sehingga mengutamakan performa pada kelas minoritas dan mencegah kelas mayoritas mendominasi hasil evaluasi \parencite{Grandini2020MultiClassMetrics}.
 
 \begin{align}
 \text{Presisi}_{\text{makro}} &= \frac{1}{38}\sum_{i=1}^{38} \text{Presisi}_i \\
@@ -125,18 +121,16 @@ Karena ada 38 kelas dalam sistem ini, diperlukan strategi agregasi untuk mempero
 \text{Skor-F1}_{\text{makro}} &= \frac{1}{38}\sum_{i=1}^{38} \text{Skor-F1}_i
 \end{align}
 
-\textbf{Micro-Averaging.} Pendekatan ini menjumlahkan seluruh nilai TP, FP, dan FN dari semua kelas terlebih dahulu, kemudian menghitung metrik secara global berdasarkan jumlahan tersebut. Strategi ini memberikan bobot yang sama untuk setiap sampel, sehingga metrik cenderung didominasi oleh kelas mayoritas dan mengabaikan performa pada kelas minoritas. Untuk klasifikasi multi-kelas, mikro-rata presisi = mikro-rata daya ingat = akurasi.\parencite{EvidentlyMultiClass}
+Pendekatan \textbf{\textit{Micro-Averaging}} menjumlahkan seluruh nilai TP, FP, dan FN dari semua kelas terlebih dahulu, kemudian menghitung metrik secara global berdasarkan jumlahan tersebut. Strategi ini memberikan bobot yang sama untuk setiap sampel, sehingga metrik cenderung didominasi oleh kelas mayoritas dan mengabaikan performa pada kelas minoritas. Untuk klasifikasi multi-kelas, mikro-rata presisi = mikro-rata daya ingat = akurasi\parencite{EvidentlyMultiClass}.
 
 \begin{align}
 \text{Presisi}_{\text{mikro}} &= \frac{\sum_{i=1}^{38} \text{TP}_i}{\sum_{i=1}^{38} (\text{TP}_i + \text{FP}_i)} \\
 \text{Daya Ingat}_{\text{mikro}} &= \frac{\sum_{i=1}^{38} \text{TP}_i}{\sum_{i=1}^{38} (\text{TP}_i + \text{FN}_i)}
 \end{align}
 
-\textbf{Weighted-Averaging.} Sebagai pendekatan komplementer, rata-rata tertimbang menghitung metrik per-kelas kemudian mengambil rata-rata yang diboboti oleh jumlah sampel di setiap kelas. Ini mengakomodasi keseimbangan antara kepedulian terhadap kelas minoritas dan representasi data yang ada.\parencite{Grandini2020MultiClassMetrics}
+Sebagai pendekatan komplementer, rata-rata tertimbang menghitung metrik per-kelas kemudian mengambil rata-rata yang diboboti oleh jumlah sampel di setiap kelas atau \textbf{\textit{Weighted-Averaging}}. Ini mengakomodasi keseimbangan antara kepedulian terhadap kelas minoritas dan representasi data yang ada \parencite{Grandini2020MultiClassMetrics}.
 
-\paragraph*{Evaluasi dengan Tingkat Keyakinan:}
-
-Sistem menggunakan mekanisme pemberian skor keyakinan (\textit{confidence scoring}) dalam rentang 0 hingga 1 untuk setiap prediksi klasifikasi intent. Tingkat keyakinan tertinggi menunjukkan kelas yang diprediksi oleh sistem. Untuk menentukan apakah prediksi dapat diterima atau perlu klarifikasi, ditetapkan \textit{threshold} pada nilai 0{,}70:\parencite{JATITTransformerIntent}
+Sistem menggunakan mekanisme pemberian skor keyakinan (\textit{confidence scoring}) dalam rentang 0 hingga 1 untuk setiap prediksi klasifikasi intent. Tingkat keyakinan tertinggi menunjukkan kelas yang diprediksi oleh sistem. Dalam menentukan apakah prediksi dapat diterima atau perlu klarifikasi, ditetapkan \textit{threshold} pada nilai 0{,}70 \parencite{Santosa2025IndoBERTIntent}:
 
 \begin{itemize}
     \item Jika tingkat keyakinan \(\geq 0{,}70\): Prediksi dianggap ``positif'' dan diterima untuk kelas yang diprediksi; sistem memberikan respons berdasarkan intent yang teridentifikasi
@@ -154,13 +148,9 @@ Dengan demikian, untuk setiap kelas-\(i\), perhitungan TP, FP, dan FN disesuaika
     \item \textbf{FN\textsubscript{i}}: Sampel kelas-\(i\) yang sebenarnya tidak terprediksi dengan tingkat keyakinan \(\geq 0{,}70\) (termasuk prediksi kelas lain atau tingkat keyakinan rendah yang ditolak sistem)
 \end{itemize}
 
-\paragraph*{Matriks Kebingungan Multi-Kelas 38×38:}
-
 Visualisasi matriks kebingungan untuk 38 kelas memberikan informasi penting tentang pola kesalahan klasifikasi:\parencite{EvidentlyMultiClass} Diagonal utama menampilkan jumlah prediksi benar per kelas, sementara intensitas warna pada sel off-diagonal menunjukkan kelas-kelas mana yang sering dikacaukan satu sama lain. Sebagai contoh, jika ditemukan frekuensi tinggi kesalahan pada sel (Penjualan-Bulanan, Penjualan-Triwulanan), hal ini menunjukkan bahwa dua kelas tersebut memiliki kesamaan semantik yang tinggi dan memerlukan aturan diferensiasi yang lebih spesifik atau contoh pelatihan yang lebih banyak.
 
-\paragraph*{Metrik yang Digunakan dalam Penelitian:}
-
-Karena setiap kelas intent memiliki kepentingan strategis yang berbeda dalam konteks bisnis (contohnya: intent ``Prediksi-Churn-Pelanggan'' lebih kritis bagi keputusan strategis daripada ``Informasi-Umum''), penelitian ini menggunakan kombinasi metrik berikut:\parencite{Grandini2020MultiClassMetrics}
+Setiap kelas intent memiliki kepentingan strategis yang berbeda dalam konteks bisnis sehingga penelitian ini menggunakan kombinasi metrik berikut \parencite{Grandini2020MultiClassMetrics}:
 
 \begin{itemize}
     \item \textbf{Skor-F1 Makro} sebagai metrik utama: Mengutamakan performa yang merata di semua 38 kelas, memastikan bahwa kelas-kelas minoritas tidak terabaikan
@@ -172,9 +162,7 @@ Karena setiap kelas intent memiliki kepentingan strategis yang berbeda dalam kon
     \item \textbf{Matriks Kebingungan}: Untuk analisis kualitatif pola kesalahan dan identifikasi peningkatan yang diperlukan pada aturan atau templat tertentu
 \end{itemize}
 
-\paragraph*{Target Performa:}
-
-Berdasarkan studi industri dan best-practices untuk sistem klasifikasi intent dalam chatbot bisnis, target performa yang ditetapkan untuk penelitian ini adalah:\parencite{JATITTransformerIntent,Ozerova2022IntentModule}
+Berdasarkan studi industri dan best-practices untuk sistem klasifikasi intent dalam chatbot bisnis, target performa yang ditetapkan untuk penelitian ini adalah:\parencite{Santosa2025IndoBERTIntent,Ozerova2022IntentModule}
 
 \begin{itemize}
     \item \textbf{Skor-F1 Makro} \(\geq 0{,}85\): Menjamin performa yang baik dan seimbang di seluruh kelas, termasuk kelas-kelas dengan sampel pelatihan yang lebih sedikit

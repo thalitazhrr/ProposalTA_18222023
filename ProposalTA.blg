@@ -1,22 +1,21 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'ProposalTA.blg'
-[29] biber-darwin:340> INFO - === Tue Dec  2, 2025, 22:49:31
-[38] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
-[106] Biber.pm:994> INFO - Found 61 citekeys in bib section 0
-[111] Biber.pm:4463> INFO - Processing section 0
-[116] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
-[118] bibtex.pm:1713> INFO - LaTeX decoding ...
-[138] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
-[291] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[291] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[291] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
-[291] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
-[291] Biber.pm:4289> INFO - No sort tailoring available for locale 'indonesian'
-[317] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
-[328] bbl.pm:779> INFO - Output to ProposalTA.bbl
-[328] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
-[328] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
-[328] Biber.pm:131> WARN - legacy month field 'Desember' in entry 'Intimedia2024' is not an integer - this will probably not sort properly.
-[328] Biber.pm:131> WARN - legacy month field 'Juli' in entry 'EastVC2025' is not an integer - this will probably not sort properly.
-[328] Biber.pm:131> WARN - I didn't find a database entry for 'JATITTransformerIntent' (section 0)
-[328] Biber.pm:133> INFO - WARNINGS: 5
+[29] biber-darwin:340> INFO - === Tue Dec  2, 2025, 23:31:07
+[39] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
+[107] Biber.pm:994> INFO - Found 61 citekeys in bib section 0
+[113] Biber.pm:4463> INFO - Processing section 0
+[118] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[119] bibtex.pm:1713> INFO - LaTeX decoding ...
+[140] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[297] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[297] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
+[297] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
+[297] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
+[297] Biber.pm:4289> INFO - No sort tailoring available for locale 'indonesian'
+[324] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
+[336] bbl.pm:779> INFO - Output to ProposalTA.bbl
+[336] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
+[336] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
+[336] Biber.pm:131> WARN - legacy month field 'Desember' in entry 'Intimedia2024' is not an integer - this will probably not sort properly.
+[336] Biber.pm:131> WARN - legacy month field 'Juli' in entry 'EastVC2025' is not an integer - this will probably not sort properly.
+[336] Biber.pm:133> INFO - WARNINGS: 4

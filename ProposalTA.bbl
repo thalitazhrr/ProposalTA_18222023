@@ -1881,6 +1881,52 @@
       \verb 2004.15006
       \endverb
     \endentry
+    \entry{Santosa2025IndoBERTIntent}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1e5cc9befcaca9fcbc23fd715cb979c8}{%
+           family={Santosa},
+           familyi={S\bibinitperiod},
+           given={Rahmad},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c15d136f7903864b76d5e116e938218d}{%
+           family={Nusantara},
+           familyi={N\bibinitperiod},
+           given={Adetiya\bibnamedelima Bagus},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=febbc1fbe1544d40071be1ce2e045963}{%
+           family={Imron},
+           familyi={I\bibinitperiod},
+           given={Syaiful},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{fullhash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{fullhashraw}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{bibnamehash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{authorbibnamehash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{authornamehash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{authorfullhash}{9eaeb061c709f0aada6cce129261c5a1}
+      \strng{authorfullhashraw}{9eaeb061c709f0aada6cce129261c5a1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{JSCE}
+      \field{number}{3}
+      \field{title}{Comparative Analysis of SVM and IndoBERT for Intent Classification in Indonesian Overtime Chatbots}
+      \field{volume}{6}
+      \field{year}{2025}
+      \field{pages}{258\bibrangedash 270}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.61628/jsce.v6i3.2058
+      \endverb
+    \endentry
     \entry{shah2025hybrid}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=89c887fd6cd263b082aa519a5a7b8538}{%
@@ -2383,7 +2429,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{JATITTransformerIntent}
 \endrefsection
 \endinput
 

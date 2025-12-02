@@ -187,31 +187,19 @@ FR-7 & Peramalan Deret Waktu &
 & & \textbf{Keluaran}: Nilai prediksi, selang kepercayaan, tren, dan visualisasi grafik. \\
 \hline
 
-FR-8 & Pendeteksian Anomali dan Nilai Pencilan & 
-\textbf{Tujuan}: Mengidentifikasi titik data yang tidak normal atau berbeda signifikan dari tren historis untuk memberikan peringatan kepada pengguna. \\
-& & \textbf{Masukan}: Data deret waktu indikator bisnis. \\
-& & \textbf{Keluaran}: Identifikasi anomali, deskripsi penyimpangan, dan rekomendasi tindakan. \\
-\hline
-
-FR-9 & Visualisasi Data dan Ekspor Hasil & 
-\textbf{Tujuan}: Menyediakan visualisasi grafik sederhana dan opsi ekspor data untuk analisis lebih lanjut. \\
-& & \textbf{Masukan}: Data hasil analisis atau prediksi. \\
-& & \textbf{Keluaran}: Grafik (grafik garis, grafik batang, grafik lingkaran) dan file ekspor (CSV, Excel). \\
-\hline
-
-FR-10 & Manajemen Riwayat Percakapan dan Sesi & 
+FR-8 & Manajemen Riwayat Percakapan dan Sesi & 
 \textbf{Tujuan}: Menyimpan riwayat percakapan pengguna untuk memudahkan pelacakan dan konteks percakapan yang berkelanjutan. \\
 & & \textbf{Masukan}: Interaksi pengguna dengan sistem. \\
 & & \textbf{Keluaran}: Riwayat percakapan tersimpan dan dapat diakses kembali oleh pengguna. \\
 \hline
 
-FR-11 & Autentikasi dan Otorisasi Pengguna & 
+FR-9 & Autentikasi dan Otorisasi Pengguna & 
 \textbf{Tujuan}: Memastikan hanya pengguna yang berwenang dapat mengakses sistem dan data sesuai dengan peran mereka. \\
 & & \textbf{Masukan}: Kredensial pengguna (nama pengguna, sandi). \\
 & & \textbf{Keluaran}: Akses sistem berdasarkan kendali akses berbasis peran. \\
 \hline
 
-FR-12 & Mekanisme Pengunduran dan Penanganan Kesalahan & 
+FR-10 & Mekanisme Pengunduran dan Penanganan Kesalahan & 
 \textbf{Tujuan}: Menangani kueri yang tidak dapat dipahami atau diproses dengan memberikan respons alternatif atau permintaan klarifikasi. \\
 & & \textbf{Masukan}: Kueri dengan nilai keyakinan rendah atau kesalahan pemrosesan. \\
 & & \textbf{Keluaran}: Pesan klarifikasi, saran pertanyaan alternatif, atau eskalasi ke dukungan manusia. \\
@@ -381,6 +369,31 @@ Tetap menggunakan dasbor BI visual yang sudah ada, dengan peningkatan untuk inte
 \end{itemize} \\
 \hline
 
+4 & 
+Chatbot BI Berbasis Model Bahasa Besar (Large Language Model) & 
+Mengimplementasikan chatbot BI yang memanfaatkan arsitektur Transformer penuh dengan model bahasa besar pra-latih seperti GPT, BERT, atau varian lainnya. Sistem menggunakan pembelajaran mendalam untuk pemahaman bahasa alami yang sangat canggih, mampu menangani kueri kompleks dengan konteks multiturn, dan menghasilkan respons naratif yang sangat wajar. Model dapat disetel-halus (fine-tuned) dengan data domain spesifik untuk meningkatkan akurasi. & 
+
+\begin{itemize}[leftmargin=*, nosep, noitemsep]
+\item Pemahaman bahasa alami paling canggih
+\item Kemampuan konteks percakapan mendalam
+\item Respons sangat wajar dan beragam
+\item Dapat menangani kueri sangat kompleks
+\item Adaptif terhadap variasi bahasa ekstrem
+\item Pembelajaran berkelanjutan dari interaksi
+\end{itemize} & 
+
+\begin{itemize}[leftmargin=*, nosep, noitemsep]
+\item Biaya komputasi sangat tinggi
+\item Memerlukan infrastruktur GPU berkinerja tinggi
+\item Risiko halusinasi dan respons tidak akurat
+\item Sulit mengontrol keluaran secara deterministik
+\item Potensi kebocoran data sensitif
+\item Kompleksitas implementasi sangat tinggi
+\item Ketergantungan pada penyedia model eksternal
+\item Latensi respons lebih tinggi
+\end{itemize} \\
+\hline
+
 \end{longtable}
 
 \textbf{Alternatif 1: \textit{Chatbot} Berbasis Aturan Sederhana}. Solusi ini mengimplementasikan \textit{chatbot} dengan pendekatan berbasis aturan yang sederhana, menggunakan pencocokan pola berbasis ekspresi reguler atau pencocokan langsung. Sistem hanya dapat merespons pertanyaan dengan format yang telah didefinisikan sebelumnya dan tidak memiliki kemampuan untuk memahami variasi bahasa atau konteks yang kompleks. Fitur yang tersedia terbatas pada pengambilan data sederhana dari basis data tanpa kemampuan analisis lanjutan atau prediksi. Antarmuka juga terbatas dan tidak dioptimasi untuk pengalaman pengguna yang baik pada perangkat genggam.
@@ -388,6 +401,8 @@ Tetap menggunakan dasbor BI visual yang sudah ada, dengan peningkatan untuk inte
 \textbf{Alternatif 2: \textit{Chatbot} BI dengan Klasifikasi Maksud Berbasis Pola, Pembangkitan Bahasa Alami Berbasis Templat, dan Peramalan Deret Waktu}. Solusi ini merupakan pendekatan komprehensif yang mengintegrasikan tiga komponen teknologi utama. Pertama, klasifikasi maksud berbasis pola dengan mekanisme pemberian nilai keyakinan untuk mengidentifikasi maksud pengguna dari kueri bahasa wajar dengan akurasi tinggi. Kedua, pembangkitan bahasa alami berbasis templat untuk menghasilkan respons naratif yang variatif, wajar, dan mudah dipahami sambil menjaga keamanan data internal melalui pembatasan pada templat yang telah diverifikasi. Ketiga, model peramalan deret waktu (ARIMA, SARIMA, atau LSTM) untuk menghasilkan prediksi otomatis terhadap indikator kinerja bisnis seperti volume penjualan, tingkat kepergian pelanggan, dan proyeksi pendapatan. Sistem ini dirancang dengan arsitektur modular yang dapat diperluas dan diperbesar, mendukung akses berbagai platform (web, perangkat genggam, komputer pribadi), dan menerapkan kontrol keamanan yang ketat.
 
 \textbf{Alternatif 3: Dasbor BI Interaktif Tradisional dengan Peningkatan}. Solusi ini mempertahankan pendekatan dasbor BI visual yang sudah ada dengan menambahkan peningkatan pada aspek interaktivitas dan kemudahan penggunaan. Fitur penggalian data lebih dalam, penyaringan lanjutan, dan pembuatan laporan khusus ditingkatkan dengan antarmuka yang lebih intuitif. Sistem ini juga dilengkapi dengan aplikasi dasbor perangkat genggam untuk akses data dari perangkat bergerak. Namun, solusi ini tidak menyediakan antarmuka percakapan berbasis bahasa wajar dan kemampuan prediktif yang otomatis.
+
+\textbf{Alternatif 4: \textit{Chatbot} BI Berbasis Model Bahasa Besar (\textit{Large Language Model})}. Solusi ini mengimplementasikan \textit{chatbot} BI yang memanfaatkan arsitektur \textit{Transformer} penuh dengan model bahasa besar pra-latih seperti GPT, BERT, T5, atau varian lainnya. Sistem menggunakan pembelajaran mendalam untuk pemahaman bahasa alami yang sangat canggih, mampu menangani kueri kompleks dengan konteks percakapan multiturn, dan menghasilkan respons naratif yang sangat wajar menyerupai komunikasi manusia. Model dapat disetel-halus (\textit{fine-tuned}) dengan data domain spesifik organisasi untuk meningkatkan akurasi dan relevansi respons terhadap konteks bisnis. Sistem ini memanfaatkan kemampuan pemodelan bahasa yang telah dilatih pada korpus teks masif untuk memahami nuansa, konteks implisit, dan melakukan inferensi kompleks dari pertanyaan pengguna. Namun, solusi ini memerlukan infrastruktur komputasi dengan GPU berkinerja tinggi untuk inferensi cepat, menimbulkan tantangan dalam hal kontrol deterministik terhadap keluaran, dan menghadapi risiko halusinasi di mana model dapat menghasilkan respons yang terdengar meyakinkan tetapi faktanya tidak akurat atau tidak berdasar pada data nyata. Implementasi juga memerlukan pertimbangan ketat terhadap keamanan data untuk mencegah kebocoran informasi sensitif melalui model, serta strategi mitigasi risiko untuk memastikan keandalan respons dalam konteks pengambilan keputusan bisnis kritis.
 
 \subsection{Analisis Penentuan Solusi}
 
@@ -509,6 +524,44 @@ Berikut adalah analisis mendalam untuk setiap solusi berdasarkan keempat perspek
 
 \end{longtable}
 
+\subsubsection*{Solusi 4: Chatbot BI Berbasis Model Bahasa Besar (Large Language Model)}
+
+\begin{longtable}{|p{3.5cm}|p{9cm}|}
+\caption{Analisis \textit{Balanced Scorecard} untuk LLM}
+\label{tab:bsc-solusi4} \\
+\hline
+\textbf{Perspektif} & \textbf{Penilaian} \\
+\hline
+\endfirsthead
+
+\multicolumn{2}{c}%
+{\tablename\ \thetable\ -- {Analisis \textit{Balanced Scorecard} untuk LLM (lanjutan)}} \\
+\hline
+\textbf{Perspektif} & \textbf{Penilaian} \\
+\hline
+\endhead
+
+\hline
+\multicolumn{2}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\endfoot
+
+\hline
+\endlastfoot
+
+\textit{Financial} & Solusi ini memerlukan investasi awal yang sangat tinggi, mencakup biaya lisensi atau akses API untuk model bahasa besar komersial (seperti GPT-4 atau Claude), pengadaan infrastruktur komputasi dengan GPU berkinerja tinggi untuk inferensi cepat, dan biaya pengembangan untuk integrasi sistem yang kompleks. Biaya operasional juga sangat signifikan karena setiap kueri memerlukan sumber daya komputasi yang besar, terutama untuk model dengan miliaran parameter. Untuk model berbasis API, biaya per token dapat terakumulasi dengan cepat pada skala organisasi besar. Pengembalian investasi berada pada tingkat sedang hingga tinggi dalam jangka panjang, bergantung pada seberapa baik organisasi dapat mengelola risiko halusinasi dan memastikan akurasi respons. Nilai tambah utama berasal dari kemampuan pemahaman bahasa yang sangat canggih dan fleksibilitas dalam menangani kueri kompleks yang tidak terstruktur. Namun, ketidakpastian dalam kontrol keluaran dan risiko kesalahan dapat membatasi pengembalian investasi jika tidak dikelola dengan baik. Biaya peluang juga perlu dipertimbangkan jika organisasi mengalami insiden kebocoran data atau respons yang tidak akurat yang berdampak pada keputusan bisnis. \\
+\hline
+
+\textit{Customer} (Pengguna) & Solusi ini menawarkan pengalaman pengguna yang sangat unggul dalam hal kewajaran interaksi dan fleksibilitas komunikasi. Pengguna dapat mengajukan pertanyaan dengan cara yang sangat wajar, termasuk kueri yang kompleks, ambigu, atau memerlukan pemahaman konteks mendalam yang sulit ditangani sistem konvensional. Model bahasa besar dapat memahami nuansa, konteks percakapan multiturn, dan bahkan inferensi implisit dari pertanyaan pengguna. Respons yang dihasilkan sangat naratif, koheren, dan menyerupai komunikasi manusia, yang meningkatkan kepuasan pengguna secara signifikan. Namun, terdapat risiko bahwa sistem dapat menghasilkan respons yang terdengar meyakinkan tetapi faktanya tidak akurat (halusinasi), yang dapat menyesatkan pengguna dan menurunkan kepercayaan terhadap sistem. Pengguna nonteknis mungkin tidak dapat membedakan respons yang akurat dari yang dihasilkan secara spekulatif. Untuk mempertahankan kepuasan tinggi, sistem memerlukan mekanisme validasi dan verifikasi yang ketat, serta transparansi mengenai tingkat keyakinan respons. \\
+\hline
+
+\textit{Internal Business Process} & Dari perspektif proses bisnis internal, solusi ini memberikan fleksibilitas tertinggi dalam menangani berbagai jenis kueri analitik, termasuk yang sangat kompleks, tidak terstruktur, atau belum pernah ditemui sebelumnya. Kemampuan model untuk memahami konteks yang dalam dan melakukan inferensi dapat mengurangi kebutuhan untuk konfigurasi manual atau pemrograman khusus untuk kasus penggunaan baru. Sistem dapat beradaptasi dengan perubahan kebutuhan bisnis dengan lebih organik. Namun, ketidakdeterministikan keluaran model bahasa besar menimbulkan tantangan dalam proses bisnis yang memerlukan konsistensi dan akurasi tinggi. Risiko halusinasi dapat menyebabkan keputusan bisnis yang salah jika tidak ada mekanisme validasi yang memadai. Latensi respons yang lebih tinggi dibandingkan solusi berbasis pola juga dapat menjadi hambatan untuk proses bisnis yang sangat sensitif terhadap waktu. Integrasi dengan sistem keamanan dan tata kelola data memerlukan perhatian khusus untuk memastikan bahwa model tidak secara tidak sengaja mengekspos informasi sensitif atau melanggar kebijakan privasi. \\
+\hline
+
+\textit{Learning \& Growth} & Solusi ini memberikan kesempatan sangat tinggi untuk pembelajaran dan pertumbuhan organisasi dalam bidang teknologi mutakhir. Implementasi model bahasa besar memungkinkan tim untuk mengembangkan keahlian dalam pembelajaran mendalam, arsitektur Transformer, penyetelan-halus model, dan teknik prompt engineering yang merupakan kompetensi sangat relevan di era kecerdasan buatan generatif. Organisasi dapat memposisikan diri sebagai pelopor dalam adopsi teknologi kecerdasan buatan paling canggih. Namun, ketergantungan pada model dan infrastruktur dari penyedia eksternal (seperti OpenAI atau Anthropic) dapat membatasi kontrol organisasi terhadap teknologi inti dan menimbulkan risiko vendor lock-in. Jika menggunakan model sumber terbuka, organisasi memerlukan investasi signifikan dalam keahlian spesialisasi untuk pelatihan, penyetelan, dan pemeliharaan model. Platform ini membuka peluang untuk inovasi masa depan seperti asisten virtual multidomain, sistem rekomendasi kontekstual, atau analitik prediktif yang sangat canggih, tetapi memerlukan komitmen jangka panjang dalam pengembangan kapabilitas dan manajemen risiko. \\
+\hline
+
+\end{longtable}
+
 \subsubsection*{Matriks Perbandingan \textit{Balanced Scorecard}}
 
 Untuk memberikan gambaran yang lebih komprehensif, berikut adalah matriks perbandingan ketiga solusi berdasarkan keempat perspektif \textit{Balanced Scorecard}, beserta karakteristik pengguna yang paling sesuai untuk masing-masing solusi:
@@ -559,12 +612,20 @@ Sedang &
 Organisasi yang sudah memiliki investasi besar dalam alat BI tradisional dan ingin peningkatan bertahap \\
 \hline
 
+Chatbot BI Berbasis Model Bahasa Besar (LLM) & 
+Sedang-Tinggi (Biaya Tinggi) & 
+Sangat Tinggi (dengan Risiko) & 
+Tinggi (dengan Tantangan) & 
+Sangat Tinggi & 
+Organisasi besar dengan anggaran signifikan, infrastruktur AI matang, kebutuhan pemahaman bahasa sangat kompleks, dan kapabilitas manajemen risiko AI yang kuat \\
+\hline
+
 \end{longtable}
 
 \subsubsection*{Kesimpulan Pemilihan Solusi}
 
 Berdasarkan analisis komprehensif menggunakan metode \textit{Balanced Scorecard} pada keempat perspektif (\textit{Financial}, \textit{Customer}, \textit{Internal Business Process}, dan \textit{Learning \& Growth}), \textbf{Solusi 2: \textit{Chatbot} BI dengan Klasifikasi Maksud Berbasis Pola, Pembangkitan Bahasa Alami Berbasis Templat, dan Peramalan Deret Waktu} adalah solusi yang paling optimal dan direkomendasikan untuk diimplementasikan.
-
+Perlu dicatat bahwa Solusi 4 (Chatbot BI Berbasis Model Bahasa Besar) menawarkan kemampuan pemahaman bahasa alami yang paling canggih dan pengalaman pengguna yang sangat unggul. Namun, solusi ini memiliki beberapa kelemahan kritis yang membuatnya kurang optimal untuk konteks penelitian ini: (1) Biaya implementasi dan operasional yang sangat tinggi, yang dapat tidak proporsional dengan kebutuhan organisasi menengah; (2) Risiko halusinasi dan respons tidak akurat yang dapat berdampak serius pada keputusan bisnis berbasis data; (3) Kesulitan dalam mengontrol keluaran secara deterministik, yang penting untuk sistem BI yang memerlukan konsistensi dan akurabilitas; (4) Potensi kebocoran data sensitif melalui model yang tidak sepenuhnya dikontrol organisasi; dan (5) Ketergantungan pada penyedia model eksternal yang menimbulkan risiko keberlanjutan jangka panjang. Meskipun teknologi ini sangat menjanjikan untuk masa depan, untuk implementasi praktis dalam konteks organisasi yang memerlukan keseimbangan antara inovasi dan stabilitas, Solusi 2 tetap menjadi pilihan yang paling optimal.
 Alasan utama pemilihan Solusi 2 adalah sebagai berikut:
 
 \begin{enumerate}

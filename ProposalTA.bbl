@@ -456,6 +456,39 @@
       \verb https://www.edpb.europa.eu/
       \endverb
     \endentry
+    \entry{EvidentlyMultiClass}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4bb2873d2d9ce984751cf961fcaabd78}{%
+           family={{Evidently AI}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{fullhash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{fullhashraw}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{bibnamehash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{authorbibnamehash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{authornamehash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{authorfullhash}{4bb2873d2d9ce984751cf961fcaabd78}
+      \strng{authorfullhashraw}{4bb2873d2d9ce984751cf961fcaabd78}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Accuracy, Precision, and Recall in Multi-Class Classification}
+      \field{urlday}{2}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.evidentlyai.com/classification-metrics/multi-class-metrics
+      \endverb
+      \verb{url}
+      \verb https://www.evidentlyai.com/classification-metrics/multi-class-metrics
+      \endverb
+    \endentry
     \entry{feyisetan2022differential}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=da3834d0470eb936c5301f23c05fd77a}{%
@@ -633,6 +666,67 @@
       \field{pages}{3465\bibrangedash 3475}
       \range{pages}{11}
     \endentry
+    \entry{Gehweiler2024IntentModeration}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fdbbcae8d9b0e1f280c2e43a09f8376}{%
+           family={Gehweiler},
+           familyi={G\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{fullhash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{fullhashraw}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{bibnamehash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{authorbibnamehash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{authornamehash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{authorfullhash}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \strng{authorfullhashraw}{4fdbbcae8d9b0e1f280c2e43a09f8376}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Classification of Intent in Moderating Online Discussions}
+      \field{volume}{239}
+      \field{year}{2024}
+      \field{pages}{122234}
+      \range{pages}{1}
+    \endentry
+    \entry{Gehweiler2025IntentSurvey}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4fdbbcae8d9b0e1f280c2e43a09f8376}{%
+           family={Gehweiler},
+           familyi={G\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{fullhash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{fullhashraw}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{bibnamehash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{authorbibnamehash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{authornamehash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{authorfullhash}{c3804f3a2aa503389b82e4d96ed9914d}
+      \strng{authorfullhashraw}{c3804f3a2aa503389b82e4d96ed9914d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Expert Systems}
+      \field{number}{3}
+      \field{title}{Intent Detection for Task-Oriented Conversational Agents: A Survey}
+      \field{volume}{42}
+      \field{year}{2025}
+    \endentry
     \entry{genesys2023threshold}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=04e272ade285f510bcab0a3beb226056}{%
@@ -664,6 +758,50 @@
       \endverb
       \verb{url}
       \verb https://www.genesys.com/blog/post/set-bot-confidence-thresholds
+      \endverb
+    \endentry
+    \entry{Grandini2020MultiClassMetrics}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c8c1c1396f97f41792e7bb0d0577137a}{%
+           family={Grandini},
+           familyi={G\bibinitperiod},
+           given={Margherita},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf2519048095256e237b859ec49c164f}{%
+           family={Bagli},
+           familyi={B\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bd1e08972a524bcff90700e59b881b0}{%
+           family={Visani},
+           familyi={V\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{fullhash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{fullhashraw}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{bibnamehash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{authorbibnamehash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{authornamehash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{authorfullhash}{6221934c6fbf1b66ad11c3f44ba13304}
+      \strng{authorfullhashraw}{6221934c6fbf1b66ad11c3f44ba13304}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{eprintclass}{cs.LG}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{arXiv preprint arXiv:2008.05756}
+      \field{title}{Metrics for Multi-Class Classification: An Overview}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2008.05756
       \endverb
     \endentry
     \entry{huang2021chatbot}{thesis}{}{}
@@ -1115,67 +1253,6 @@
       \verb https://www.getdbt.com/blog/semantic-layer-architecture
       \endverb
     \endentry
-    \entry{Lalwani2022}{inproceedings}{}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=363f5b36fea475f0f59b8d3f25e09c2d}{%
-           family={Lalwani},
-           familyi={L\bibinitperiod},
-           given={Tushar},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=317c251da9a320191cf0b062d378d65c}{%
-           family={Bhalotia},
-           familyi={B\bibinitperiod},
-           given={Shashank},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=658b4a16c3267f786663be072838d06c}{%
-           family={Pal},
-           familyi={P\bibinitperiod},
-           given={Astha},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ffe7703e9269ceda368abae10ac0e49}{%
-           family={Bisen},
-           familyi={B\bibinitperiod},
-           given={Sanjana},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9a98806a71ba9dc2062f3bf8c215f2dc}{%
-           family={Rathod},
-           familyi={R\bibinitperiod},
-           given={Vasundhara},
-           giveni={V\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Singapore}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{98c137a0d7376c8c5d512c72a8b1b13e}
-      \strng{fullhash}{6ebf038982634080215790ca94fbf600}
-      \strng{fullhashraw}{6ebf038982634080215790ca94fbf600}
-      \strng{bibnamehash}{6ebf038982634080215790ca94fbf600}
-      \strng{authorbibnamehash}{6ebf038982634080215790ca94fbf600}
-      \strng{authornamehash}{98c137a0d7376c8c5d512c72a8b1b13e}
-      \strng{authorfullhash}{6ebf038982634080215790ca94fbf600}
-      \strng{authorfullhashraw}{6ebf038982634080215790ca94fbf600}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the International Conference on Advances in Computing and Data Sciences}
-      \field{series}{Communications in Computer and Information Science}
-      \field{title}{Implementation of a Chatbot System Using {AI} and {NLP}}
-      \field{volume}{1614}
-      \field{year}{2022}
-      \field{pages}{440\bibrangedash 451}
-      \range{pages}{12}
-    \endentry
     \entry{nature2024hybrid}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=04058c4e91e541253e7dafb06a5fbee6}{%
@@ -1263,6 +1340,99 @@
       \verb{eprint}
       \verb 2410.08553
       \endverb
+    \endentry
+    \entry{Mena2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=eead2d6fe3176b6830253af5ba0b1574}{%
+           family={Mena},
+           familyi={M\bibinitperiod},
+           given={C.\bibnamedelimi G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bdb7dbe596bbca6afd04f500ebf1ca45}{%
+           family={De\bibnamedelima Caigny},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5966346f43ec6cf84ead504b6ddd2c2a}{%
+           family={Coussement},
+           familyi={C\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f189120598d324482d24eabcb6ab1bff}{%
+           family={De\bibnamedelima Bock},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={K.\bibnamedelimi W.},
+           giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ef8545eccc82340776d291a71b689bf}{%
+           family={Lessmann},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{297d8ee7499f63b6a5122f5366ba56d9}
+      \strng{fullhash}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{fullhashraw}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{bibnamehash}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{authorbibnamehash}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{authornamehash}{297d8ee7499f63b6a5122f5366ba56d9}
+      \strng{authorfullhash}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{authorfullhashraw}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Annals of Operations Research}
+      \field{note}{Diakses: Tanggal Akses Anda}
+      \field{number}{1-2}
+      \field{title}{Exploiting time-varying RFM measures for customer churn prediction with deep neural networks}
+      \field{volume}{339}
+      \field{year}{2023}
+      \field{pages}{765\bibrangedash 787}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb URL_ATAU_DOI_DISINI
+      \endverb
+      \verb{url}
+      \verb URL_ATAU_DOI_DISINI
+      \endverb
+    \endentry
+    \entry{Merugu2024IntentLLM}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24a3738d231e380c117451446c0b73bf}{%
+           family={Merugu},
+           familyi={M\bibinitperiod},
+           given={Srujana},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{fullhash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{fullhashraw}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{bibnamehash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{authorbibnamehash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{authornamehash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{authorfullhash}{8e5fecae50d1c553c04f654366df39eb}
+      \strng{authorfullhashraw}{8e5fecae50d1c553c04f654366df39eb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: Industry Track}
+      \field{title}{Intent Detection in the Age of {LLMs}}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
     \endentry
     \entry{mireshghallah2022differentially}{article}{}{}
       \name{author}{4}{}{%
@@ -1400,6 +1570,41 @@
       \verb 10.61628/jsce.v6i3.2058
       \endverb
     \endentry
+    \entry{JATITTransformerIntent}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8506da364e9c2de5576090dcad0f92cf}{%
+           family={Nama},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccb93c527f14cf40faa71610154899eb}{%
+           family={Nama},
+           familyi={N\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{fullhash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{fullhashraw}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{bibnamehash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{authorbibnamehash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{authornamehash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{authorfullhash}{255eb965e04f3512d39ff584a35ca75a}
+      \strng{authorfullhashraw}{255eb965e04f3512d39ff584a35ca75a}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Theoretical and Applied Information Technology}
+      \field{number}{13}
+      \field{title}{Utilizing Transformer-Based Deep Learning for Intent Classification}
+      \field{volume}{101}
+      \field{year}{2023}
+    \endentry
     \entry{nimah2023nlg}{article}{}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=cf29b766bdfdd32a1518dbe514254e0f}{%
@@ -1495,6 +1700,36 @@
       \verb{doi}
       \verb 10.1186/s40537-024-00996-6
       \endverb
+    \endentry
+    \entry{Ozerova2022IntentModule}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9197fdbc39e15e3485047d87e146354a}{%
+           family={Ozerova},
+           familyi={O\bibinitperiod},
+           given={Daria},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Czech Technical University in Prague}%
+      }
+      \strng{namehash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{fullhash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{fullhashraw}{9197fdbc39e15e3485047d87e146354a}
+      \strng{bibnamehash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{authorbibnamehash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{authornamehash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{authorfullhash}{9197fdbc39e15e3485047d87e146354a}
+      \strng{authorfullhashraw}{9197fdbc39e15e3485047d87e146354a}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Intent Detection Module for a Conversational Assistant}
+      \field{type}{mathesis}
+      \field{year}{2022}
     \endentry
     \entry{pecan2024churn}{online}{}{}
       \name{author}{1}{}{%

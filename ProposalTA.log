@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  19 NOV 2025 14:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  2 DEC 2025 22:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1110,36 +1110,36 @@ Package biblatex Warning: Month out of range or not an integer
 [2]
 
 [3]
-Overfull \hbox (3.13211pt too wide) in paragraph at lines 57--58
+Overfull \hbox (3.13211pt too wide) in paragraph at lines 53--54
 []\TU/TimesNewRoman(0)/m/n/12 Merancang arsitektur sistem \TU/TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNewRoman(0)/m/it/12 chatbot \TU/TimesNewRoman(0)/m/n/12 yang mam-
  []
 
 
 
 [4]
-
-[5]
 File: image/CRISP-DM.jpg Graphic file (type bmp)
 <image/CRISP-DM.jpg>
 
 
+[5]
+
 [6]
-Overfull \hbox (2.76767pt too wide) in paragraph at lines 134--135
+Overfull \hbox (2.76767pt too wide) in paragraph at lines 131--132
 []\TU/TimesNewRoman(0)/b/n/12 Sintesis literatur \TU/TimesNewRoman(0)/m/n/12 untuk membangun kerangka teoretis, mengidentifikasi prak-
  []
 
 
 
 [7]
-Overfull \hbox (6.39462pt too wide) in paragraph at lines 154--155
+Overfull \hbox (6.39462pt too wide) in paragraph at lines 151--152
 []\TU/TimesNewRoman(0)/b/n/12 Perancangan antarmuka pengguna\TU/TimesNewRoman(0)/m/n/12 , meliputi pembuatan \TU/TimesNewRoman(0)/m/it/12 wireframe \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
  []
 
 
 
-[8]
+[8]) (./Bab II - Studi-Literatur.tex
 
-[9]) (./Bab II - Studi-Literatur.tex
+[9]
 
 [10]
 Bab II.
@@ -1167,28 +1167,45 @@ Overfull \hbox (2.23953pt too wide) in paragraph at lines 37--38
 File: image/pbi.png Graphic file (type bmp)
 <image/pbi.png>
 
+Overfull \hbox (3.50125pt too wide) in paragraph at lines 66--67
+\TU/TimesNewRoman(0)/m/n/12 manfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\TU/TimesNewRoman(0)/m/it/12 self-attention\TU/TimesNewRoman(0)/m/n/12 )
+ []
 
-[14]
 
-[15]
-Overfull \hbox (4.44656pt too wide) in paragraph at lines 90--91
-\TU/TimesNewRoman(0)/m/n/12 Model klasifikasi \TU/TimesNewRoman(0)/m/it/12 intent \TU/TimesNewRoman(0)/m/n/12 dievaluasi menggunakan beberapa metrik standar yang mem-
+Overfull \hbox (1.85086pt too wide) in paragraph at lines 66--67
+\TU/TimesNewRoman(0)/m/n/12 untuk memahami konteks ujaran pengguna secara dua arah dan menyeluruh.([][][]Merugu
  []
 
 
 
+[14]
+
+[15]
+
 [16]
 
 [17]
-File: image/nlg.png Graphic file (type bmp)
-<image/nlg.png>
+Overfull \hbox (1.9449pt too wide) in paragraph at lines 120--121
+[]\TU/TimesNewRoman(0)/b/n/12 Macro-Averaging. \TU/TimesNewRoman(0)/m/n/12 Pendekatan ini menghitung metrik (\TU/TimesNewRoman(0)/m/it/12 Precision\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 Recall\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 F1-Score\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
 
 
 [18]
+Overfull \hbox (10.68434pt too wide) in paragraph at lines 135--136
+[]\TU/TimesNewRoman(0)/b/n/12 Weighted-Averaging. \TU/TimesNewRoman(0)/m/n/12 Sebagai pendekatan komplementer, rata-rata tertimbang meng-
+ []
+
+
 
 [19]
-Overfull \hbox (1.95503pt too wide) in paragraph at lines 173--174
-\TU/TimesNewRoman(0)/m/n/12 berlapis ([][][]IT Convergence [][]2024[][][][]). Strategi pertama adalah enkripsi data dengan meng-
+Overfull \hbox (20.21414pt too wide) in paragraph at lines 159--160
+\TU/TimesNewRoman(0)/m/n/12 tuk 38 kelas memberikan informasi penting tentang pola kesalahan klasifikasi:([][][]Evidently
+ []
+
+
+Overfull \hbox (8.8782pt too wide) in paragraph at lines 163--164
+\TU/TimesNewRoman(0)/m/n/12 “Prediksi-Churn-Pelanggan” lebih kritis bagi keputusan strategis daripada “Informasi-
  []
 
 
@@ -1196,18 +1213,15 @@ Overfull \hbox (1.95503pt too wide) in paragraph at lines 173--174
 [20]
 
 [21]
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 201.
-
-File: image/timeseries.png Graphic file (type bmp)
-<image/timeseries.png>
+File: image/nlg.png Graphic file (type bmp)
+<image/nlg.png>
 
 
 [22]
 
 [23]
-Overfull \hbox (6.56207pt too wide) in paragraph at lines 244--245
-\TU/TimesNewRoman(0)/m/n/12 bagai SARIMA$\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d; q\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 P; D; Q; m\OT1/cmr/m/n/12 )$\TU/TimesNewRoman(0)/m/n/12 , dengan $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d; q\OT1/cmr/m/n/12 )$ \TU/TimesNewRoman(0)/m/n/12 adalah parameter non-musiman
+Overfull \hbox (1.95503pt too wide) in paragraph at lines 251--252
+\TU/TimesNewRoman(0)/m/n/12 berlapis ([][][]IT Convergence [][]2024[][][][]). Strategi pertama adalah enkripsi data dengan meng-
  []
 
 
@@ -1216,50 +1230,17 @@ Overfull \hbox (6.56207pt too wide) in paragraph at lines 244--245
 
 [25]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 283.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 279.
 
-
-Overfull \hbox (9.89578pt too wide) in paragraph at lines 283--284
-[]\TU/TimesNewRoman(0)/m/n/12 Perbandingan ketiga model untuk prediksi profit menunjukkan akurasi sebesar 93,84%
- []
-
-
-Overfull \hbox (11.84285pt too wide) in paragraph at lines 283--284
-\TU/TimesNewRoman(0)/m/n/12 untuk ARIMA, 94,378% untuk SARIMA, dan 97,01% untuk LSTM ([][][]Sirisha, Belavagi,
- []
-
+File: image/timeseries.png Graphic file (type bmp)
+<image/timeseries.png>
 
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-[]|\TU/TimesNewRoman(0)/b/n/10.95 MAPE Ti-
- []
-
-
-Underfull \hbox (badness 5681) in paragraph at lines 315--316
-[]|\TU/TimesNewRoman(0)/m/n/10.95 – Sulit menangkap pola
- []
-
-
-Underfull \hbox (badness 2134) in paragraph at lines 335--336
-[]|\TU/TimesNewRoman(0)/m/n/10.95 – Menangkap dependensi
- []
-
-
-Underfull \hbox (badness 2261) in paragraph at lines 337--338
-[]\TU/TimesNewRoman(0)/m/n/10.95 – Baik untuk pola kom-
- []
-
-
 
 [27]
-Overfull \hbox (12.85672pt too wide) in paragraph at lines 360--361
-\TU/TimesNewRoman(0)/m/n/12 Model peramalan deret waktu dievaluasi menggunakan tiga metrik utama yang masing-
- []
-
-
-Overfull \hbox (2.16432pt too wide) in paragraph at lines 366--367
-[]\TU/TimesNewRoman(0)/m/n/12 MAE memberikan ukuran rata-rata kesalahan absolut tanpa mempertimbangkan arah
+Overfull \hbox (6.56207pt too wide) in paragraph at lines 322--323
+\TU/TimesNewRoman(0)/m/n/12 bagai SARIMA$\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d; q\OT1/cmr/m/n/12 )(\OML/cmm/m/it/12 P; D; Q; m\OT1/cmr/m/n/12 )$\TU/TimesNewRoman(0)/m/n/12 , dengan $\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d; q\OT1/cmr/m/n/12 )$ \TU/TimesNewRoman(0)/m/n/12 adalah parameter non-musiman
  []
 
 
@@ -1268,13 +1249,53 @@ Overfull \hbox (2.16432pt too wide) in paragraph at lines 366--367
 
 [29]
 
-[30]
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 361.
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 418.
+
+Overfull \hbox (9.89578pt too wide) in paragraph at lines 361--362
+[]\TU/TimesNewRoman(0)/m/n/12 Perbandingan ketiga model untuk prediksi profit menunjukkan akurasi sebesar 93,84%
+ []
+
+
+Overfull \hbox (11.84285pt too wide) in paragraph at lines 361--362
+\TU/TimesNewRoman(0)/m/n/12 untuk ARIMA, 94,378% untuk SARIMA, dan 97,01% untuk LSTM ([][][]Sirisha, Belavagi,
+ []
+
+
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+[]|\TU/TimesNewRoman(0)/b/n/10.95 MAPE Ti-
+ []
+
+
+Underfull \hbox (badness 5681) in paragraph at lines 393--394
+[]|\TU/TimesNewRoman(0)/m/n/10.95 – Sulit menangkap pola
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 413--414
+[]|\TU/TimesNewRoman(0)/m/n/10.95 – Menangkap dependensi
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 415--416
+[]\TU/TimesNewRoman(0)/m/n/10.95 – Baik untuk pola kom-
+ []
 
 
 
 [31]
+Overfull \hbox (12.85672pt too wide) in paragraph at lines 438--439
+\TU/TimesNewRoman(0)/m/n/12 Model peramalan deret waktu dievaluasi menggunakan tiga metrik utama yang masing-
+ []
+
+
+Overfull \hbox (2.16432pt too wide) in paragraph at lines 444--445
+[]\TU/TimesNewRoman(0)/m/n/12 MAE memberikan ukuran rata-rata kesalahan absolut tanpa mempertimbangkan arah
+ []
+
+
 
 [32]
 
@@ -1282,16 +1303,28 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 418.
 
 [34]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 470.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 496.
 
 
-Overfull \hbox (1.58133pt too wide) in paragraph at lines 474--475
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 548.
+
+
+Overfull \hbox (1.58133pt too wide) in paragraph at lines 552--553
 \TU/TimesNewRoman(0)/m/n/12 mungkinkan pengguna internal untuk dengan mudah mengakses analisis risiko \TU/TimesNewRoman(0)/m/it/12 churn
  []
 
 ) (./Bab III - Analisis-Masalah.tex
 
-[35]
+[39]
 Bab III.
 
 Overfull \hbox (10.18875pt too wide) in paragraph at lines 37--38
@@ -1305,22 +1338,22 @@ Overfull \hbox (2.08017pt too wide) in paragraph at lines 37--38
 
 
 
-[36
+[40
 
 ]
 
-[37]
+[41]
 
-[38]
+[42]
 
-[39]
+[43]
 Overfull \hbox (0.21024pt too wide) in paragraph at lines 111--112
 []\TU/TimesNewRoman(0)/m/n/12 Dasbor \TU/TimesNewRoman(0)/m/it/12 business intelligence \TU/TimesNewRoman(0)/m/n/12 yang tersedia sering kali dirancang dengan asum-
  []
 
 
 
-[40]
+[44]
 Overfull \hbox (3.45673pt too wide) in alignment at lines 126--132
  [] [] [] 
  []
@@ -1402,7 +1435,7 @@ Overfull \hbox (3.45673pt too wide) in alignment at lines 146--220
 
 
 
-[41] [42] [43] [44]
+[45] [46] [47] [48]
 Overfull \hbox (3.45673pt too wide) in alignment at lines 230--236
  [] [] [] 
  []
@@ -1454,9 +1487,9 @@ Overfull \hbox (3.45673pt too wide) in alignment at lines 250--282
 
 
 
-[45] [46] [47] [48]
+[49] [50] [51] [52]
 
-[49]
+[53]
 Overfull \hbox (0.88016pt too wide) in paragraph at lines 296--297
 \TU/TimesNewRoman(0)/m/n/12 Dalam rangka meningkatkan efisiensi analisis dan prediksi kinerja bisnis serta meng-
  []
@@ -2123,9 +2156,9 @@ Overfull \hbox (1.66588pt too wide) in alignment at lines 320--384
 
 
 
-[50] [51] [52]
+[54] [55] [56]
 
-[53]
+[57]
 Underfull \hbox (badness 5578) in paragraph at lines 425--425
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2137,7 +2170,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 428--428
 
 
 
-[54] [55]
+[58] [59]
 Underfull \hbox (badness 5578) in paragraph at lines 463--463
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2154,7 +2187,7 @@ Underfull \hbox (badness 1117) in paragraph at lines 469--470
 
 
 
-[56] [57] [58] [59]
+[60] [61] [62] [63]
 Underfull \hbox (badness 5578) in paragraph at lines 501--501
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -2171,9 +2204,9 @@ Underfull \hbox (badness 2229) in paragraph at lines 507--508
 
 
 
-[60] [61]
+[64] [65]
 
-[62]
+[66]
 Overfull \hbox (5.4908pt too wide) in paragraph at lines 520--520
 []|\TU/TimesNewRoman(0)/b/it/12 Customer| 
  []
@@ -2390,7 +2423,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 559--560
 
 
 
-[63]
+[67]
 Overfull \hbox (0.5286pt too wide) in paragraph at lines 577--578
 []\TU/TimesNewRoman(0)/b/n/12 Pengembalian Investasi dan Justifikasi Finansial\TU/TimesNewRoman(0)/m/n/12 : Meskipun investasi awal
  []
@@ -2402,11 +2435,11 @@ Overfull \hbox (4.88797pt too wide) in paragraph at lines 579--580
 
 
 
-[64]) (./Bab IV - Desain-Konsep-Solusi.tex) (./Bab V - Rencana-Selanjutnya.tex)
+[68]) (./Bab IV - Desain-Konsep-Solusi.tex) (./Bab V - Rencana-Selanjutnya.tex)
 
-[65]
+[69]
 
-[66
+[70
 
 
 ]
@@ -2421,21 +2454,16 @@ Overfull \hbox (27.92455pt too wide) in paragraph at lines 408--408
 
 
 
-[67]
+[71]
 
 Package biblatex Warning: Month out of range or not an integer
 (biblatex)                at entry 'Intimedia2024' on input line 408.
 
 
 
-[68]
+[72]
 Overfull \hbox (8.21161pt too wide) in paragraph at lines 408--408
 [][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
- []
-
-
-Overfull \hbox (3.94688pt too wide) in paragraph at lines 408--408
-\TU/TimesNewRoman(0)/m/n/12 Rathod. 2022. “  Implementation of a Chatbot System Using AI and NLP”. Dalam
  []
 
 
@@ -2445,7 +2473,9 @@ Overfull \hbox (1.59315pt too wide) in paragraph at lines 408--408
 
 
 
-[69]
+[73]
+
+[74]
 Overfull \hbox (1.96846pt too wide) in paragraph at lines 408--408
 [][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
  []
@@ -2457,16 +2487,14 @@ Overfull \hbox (39.24355pt too wide) in paragraph at lines 408--408
 
 
 
-[70]
-
-[71]
+[75]
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 388.
 See the caption package documentation for explanation.
 
 
 
-[72] (./ProposalTA.aux)
+[76] (./ProposalTA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -2476,7 +2504,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 0C05789AF84C173696BEAC427E09C73F;17359.
+(rerunfilecheck)             Checksum: 951C54526D86DADEEBC2B76DA33A48C1;17673.
 
 Package biblatex Warning: Please rerun LaTeX.
 
@@ -2485,12 +2513,12 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31827 strings out of 473832
- 634941 string characters out of 5729482
- 2010955 words of memory out of 5000000
- 54510 multiletter control sequences out of 15000+600000
- 565622 words of font info for 90 fonts, out of 8000000 for 9000
+ 31879 strings out of 473832
+ 636596 string characters out of 5729482
+ 2011995 words of memory out of 5000000
+ 54561 multiletter control sequences out of 15000+600000
+ 565630 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,10n,93p,1355b,6297s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,93p,1355b,6299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (80 pages).
+Output written on ProposalTA.pdf (84 pages).

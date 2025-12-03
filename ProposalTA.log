@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  3 DEC 2025 23:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 00:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1035,27 +1035,29 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [3]
 
-[4])
+[4]
+
+[5])
 \tf@toc=\write5
 \openout5 = `ProposalTA.toc'.
 
 
 
-[5] (./ProposalTA.lof)
+[6] (./ProposalTA.lof)
 \tf@lof=\write6
 \openout6 = `ProposalTA.lof'.
 
 
 
-[6] (./ProposalTA.lot)
+[7] (./ProposalTA.lot
+
+[8])
 \tf@lot=\write7
 \openout7 = `ProposalTA.lot'.
 
 
 
-[7]
-
-[8] (./ProposalTA.lol)
+[9] (./ProposalTA.lol)
 \tf@lol=\write8
 \openout8 = `ProposalTA.lol'.
 
@@ -1114,7 +1116,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
-[9
+[10
 
 ] (./Bab I - Pendahuluan.tex
 Bab I.
@@ -3974,23 +3976,425 @@ File: image/arsitektur.png Graphic file (type bmp)
 <image/arsitektur.png>
 ) (./Bab V - Rencana-Selanjutnya.tex
 
-[111])
+[111]
 
 [112]
+Bab V.
+
+Overfull \hbox (1.54617pt too wide) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/12 Bab ini menyajikan rencana implementasi sistem \TU/TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNewRoman(0)/m/it/12 rule-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 41--42
+[]|\TU/TimesNewRoman(0)/m/n/12 Pustaka JavaScript untuk membangun antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\TU/TimesNewRoman(0)/m/n/12 Oracle Data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\TU/TimesNewRoman(0)/m/n/12 TensorFlow /
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 50--51
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 yang digunakan untuk
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 53--54
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 alternatif yang digu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/12 nakan untuk implementasi model TFT (\TU/TimesNewRoman(0)/m/it/12 Tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/it/12 poral Fusion Transformer\TU/TimesNewRoman(0)/m/n/12 ) dengan pustaka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/lmtt/m/n/12 pytorch-forecasting\TU/TimesNewRoman(0)/m/n/12 . PyTorch menawarkan
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/12 Jupyter Note-
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 83--83
+[]|\TU/TimesNewRoman(0)/m/n/12 Google Cola-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 89--89
+[]|\TU/TimesNewRoman(0)/m/n/12 Visual Studio
+ []
+
+
 
 [113
+
+] [114] [115]
+
+[116]
+Overfull \hbox (56.2723pt too wide) in paragraph at lines 113--142
+ [][] 
+ []
+
+
+Overfull \hbox (56.2723pt too wide) in paragraph at lines 149--180
+ [][] 
+ []
+
+
+
+[117]
+
+[118]
+
+[119]
+Overfull \hbox (1.7786pt too wide) in paragraph at lines 289--290
+\TU/TimesNewRoman(0)/m/n/12 Modul peramalan deret waktu dievaluasi menggunakan protokol \TU/TimesNewRoman(0)/m/it/12 rolling-origin back-
+ []
+
+
+
+[120]
+
+[121]
+Overfull \hbox (0.61258pt too wide) in paragraph at lines 334--335
+[]\TU/TimesNewRoman(0)/m/n/12 Pelaporan hasil per horizon dan per entitas prioritas (median dan rentang antar-
+ []
+
+
+
+[122]
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+\TU/TimesNewRoman(0)/m/n/12 historis untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+\TU/TimesNewRoman(0)/m/n/12 pelatihan model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--407
+[]|\TU/TimesNewRoman(0)/m/n/12 Akurasi model pera-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 407--407
+\TU/TimesNewRoman(0)/m/n/12 malan tidak mencapai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan teknik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 augmentasi data, tran-
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 sfer learning dari model
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 pre-trained, atau menye-
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 suaikan horizon prediksi
+ []
+
+
+Overfull \hbox (9.94447pt too wide) in paragraph at lines 410--410
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakseimbangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/TimesNewRoman(0)/m/n/12 distribusi kelas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\TU/TimesNewRoman(0)/m/n/12 Performa klasifika-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\TU/TimesNewRoman(0)/m/n/12 si buruk pada kelas
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 410--411
+[]|\TU/TimesNewRoman(0)/m/n/12 Menerapkan teknik over-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+\TU/TimesNewRoman(0)/m/n/12 sampling (SMOTE),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--411
+\TU/TimesNewRoman(0)/m/n/12 weighting pada proses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\TU/TimesNewRoman(0)/m/n/12 Variasi bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+\TU/TimesNewRoman(0)/m/n/12 alami pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+\TU/TimesNewRoman(0)/m/n/12 di luar cakup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+\TU/TimesNewRoman(0)/m/n/12 an pola yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+[]|\TU/TimesNewRoman(0)/m/n/12 Keterbatasan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--416
+\TU/TimesNewRoman(0)/m/n/12 sumber daya
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 416--416
+\TU/TimesNewRoman(0)/m/n/12 komputasi untuk
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 416--416
+\TU/TimesNewRoman(0)/m/n/12 melebihi jadwal yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan layanan
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 416--417
+\TU/TimesNewRoman(0)/m/n/12 cloud computing dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+\TU/TimesNewRoman(0)/m/n/12 GPU, mengoptimalkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+\TU/TimesNewRoman(0)/m/n/12 arsitektur model, atau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--417
+\TU/TimesNewRoman(0)/m/n/12 menggunakan teknik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\TU/TimesNewRoman(0)/m/n/12 Kendala akses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\TU/TimesNewRoman(0)/m/n/12 ke \TU/TimesNewRoman(0)/m/it/12 Enterprise
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 419--419
+\TU/TimesNewRoman(0)/m/it/12 Data Warehouse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+[]|\TU/TimesNewRoman(0)/m/n/12 Data pengujian tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--419
+\TU/TimesNewRoman(0)/m/n/12 representatif dengan
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 419--420
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan data sinte-
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 419--420
+\TU/TimesNewRoman(0)/m/n/12 ta nyata untuk pengem-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 422--422
+[]|\TU/TimesNewRoman(0)/m/n/12 Perubahan kebu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+\TU/TimesNewRoman(0)/m/n/12 tuhan pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+\TU/TimesNewRoman(0)/m/n/12 selama pengem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+[]|\TU/TimesNewRoman(0)/m/n/12 Fitur yang dikem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+\TU/TimesNewRoman(0)/m/n/12 bangkan tidak sesuai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--422
+\TU/TimesNewRoman(0)/m/n/12 ekspektasi pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+[]|\TU/TimesNewRoman(0)/m/n/12 Menerapkan pendekatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+\TU/TimesNewRoman(0)/m/n/12 iteratif dengan evaluasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
+\TU/TimesNewRoman(0)/m/n/12 berkala bersama pe-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 422--423
+\TU/TimesNewRoman(0)/m/n/12 mangku kepentingan dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketergantungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakcocokan versi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+\TU/TimesNewRoman(0)/m/n/12 atau \TU/TimesNewRoman(0)/m/it/12 deprecated fe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--425
+\TU/TimesNewRoman(0)/m/it/12 atures \TU/TimesNewRoman(0)/m/n/12 menghambat
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 425--426
+\TU/TimesNewRoman(0)/m/n/12 virtual environment, dan
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 428--428
+[]|\TU/TimesNewRoman(0)/m/n/12 Responden UAT
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 428--428
+\TU/TimesNewRoman(0)/m/n/12 tidak mencukupi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[]|\TU/TimesNewRoman(0)/m/n/12 Evaluasi keberguna-
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 428--428
+\TU/TimesNewRoman(0)/m/n/12 an tidak valid secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+[]|\TU/TimesNewRoman(0)/m/n/12 Memperluas jangkauan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+\TU/TimesNewRoman(0)/m/n/12 rekrutmen responden,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+\TU/TimesNewRoman(0)/m/n/12 menawarkan insentif
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 428--429
+\TU/TimesNewRoman(0)/m/n/12 partisipasi, atau menye-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+\TU/TimesNewRoman(0)/m/n/12 suaikan target minimal
+ []
+
+[123])
+
+[124]
+
+[125
 
 
 ]
 
-[114]
+[126]
 
 Package biblatex Warning: Month out of range or not an integer
 (biblatex)                at entry 'Intimedia2024' on input line 415.
 
 
 
-[115]
+[127]
 Overfull \hbox (8.21161pt too wide) in paragraph at lines 415--415
 [][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
  []
@@ -4002,61 +4406,13 @@ Overfull \hbox (1.59315pt too wide) in paragraph at lines 415--415
 
 
 
-[116]
+[128]
 
-[117]
+[129]
 Overfull \hbox (1.96846pt too wide) in paragraph at lines 415--415
 [][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
  []
 
 
 Overfull \hbox (39.24355pt too wide) in paragraph at lines 415--415
-\TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2004.15006,
- []
-
-
-
-[118]
-Overfull \hbox (29.48573pt too wide) in paragraph at lines 415--415
-\TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
- []
-
-
-
-[119]
-
-[120]
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 395.
-See the caption package documentation for explanation.
-
-
-
-[121] (./ProposalTA.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: FE6EAAD01A0CD9C968397B25A955A5DB;33279.
-
-Package biblatex Warning: Please rerun LaTeX.
-
-Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
-\openout1 = `ProposalTA.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 32737 strings out of 473832
- 652260 string characters out of 5729482
- 2043726 words of memory out of 5000000
- 55407 multiletter control sequences out of 15000+600000
- 564058 words of font info for 82 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 79i,13n,93p,2210b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Output written on ProposalTA.pdf (131 pages).
+\TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 a

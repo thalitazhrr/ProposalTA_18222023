@@ -64,13 +64,13 @@ Arsitektur sistem secara keseluruhan dirancang dengan pendekatan \textit{microse
 
 Diagram arsitektur sistem yang lebih rinci disajikan pada Gambar~\ref{fig:arsitektur}, yang memperlihatkan integrasi kelima \textit{layer} dan aliran \textit{data} antarkomponen di dalam sistem. Arsitektur ini dirancang untuk mendukung:
 
-\begin{itemize}
+\begin{enumerate}
     \item \textbf{Skalabilitas horizontal}, di mana setiap \textit{service} dapat diduplikasi dan di-\textit{load balance} sesuai dengan kebutuhan kapasitas.
     \item \textbf{\textit{Resilience}}, sehingga kegagalan pada satu \textit{service} tidak secara langsung menyebabkan kegagalan sistem secara keseluruhan.
     \item \textbf{\textit{Maintainability}}, karena setiap \textit{service} dapat dikembangkan, diuji, dan di-\textit{deploy} secara independen tanpa mengganggu komponen lain.
     \item \textbf{Interoperabilitas}, melalui kemampuan setiap \textit{service} untuk berinteraksi dengan sistem \textit{external} menggunakan \textit{standard API}.
     \item \textbf{\textit{Security}}, dengan penerapan \textit{multiple layer security} yang mencakup \textit{authentication}, \textit{authorization}, dan enkripsi \textit{data}.
-\end{itemize}
+\end{enumerate}
 
 \begin{figure}[H] 
   \centering

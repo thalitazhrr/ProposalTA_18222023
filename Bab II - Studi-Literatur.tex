@@ -68,7 +68,7 @@ Penelitian terbaru di Indonesia juga mengimplementasikan pendekatan pencocokan p
 
 \subsection{Integrasi \textit{Rule-Based Query} dalam Arsitektur Chatbot BI}
 
-Dalam konteks \textit{Business Intelligence}, beberapa kajian mengusulkan penggunaan \textit{chatbot} sebagai antarmuka percakapan untuk eksplorasi data dan kolaborasi analitik, di mana komponen percakapan (\textit{conversational agent}) bekerja berdampingan dengan agen eksplorasi data dan agen rekomendasi \parencite{Cherednichenko2023CBIRefModel}. Pendekatan ini sering kali memanfaatkan arsitektur berbasis aturan untuk menerjemahkan permintaan dalam bahasa alami menjadi perintah atau kueri terstruktur terhadap sistem BI dan gudang data. Aturan-aturan tersebut dapat mencakup pemetaan intent tertentu ke templat kueri, pengisian parameter kueri dari entitas yang diekstraksi, serta penentuan agregasi dan dimensi pelaporan berdasarkan frasa waktu atau hierarki bisnis yang disebutkan pengguna.
+Dalam konteks \textit{Business Intelligence}, beberapa kajian mengusulkan penggunaan \textit{chatbot} sebagai antarmuka percakapan untuk eksplorasi data dan kolaborasi analitik, dengan komponen percakapan (\textit{conversational agent}) bekerja berdampingan dengan agen eksplorasi data dan agen rekomendasi \parencite{Cherednichenko2023CBIRefModel}. Pendekatan ini sering kali memanfaatkan arsitektur berbasis aturan untuk menerjemahkan permintaan dalam bahasa alami menjadi perintah atau kueri terstruktur terhadap sistem BI dan gudang data. Aturan-aturan tersebut dapat mencakup pemetaan intent tertentu ke templat kueri, pengisian parameter kueri dari entitas yang diekstraksi, serta penentuan agregasi dan dimensi pelaporan berdasarkan frasa waktu atau hierarki bisnis yang disebutkan pengguna.
 
 \textit{Chatbot} berbasis aturan memerlukan basis pengetahuan yang menyimpan aturan-aturan yang dirancang secara manual untuk menjamin kekokohan dan konsistensi perilaku sistem \parencite{Singh2025ChatbotsSurvey}. Dalam kerangka \textit{chatbot} BI, basis pengetahuan ini tidak hanya berisi pasangan pola–jawaban, tetapi juga aturan pemetaan ke \textit{rule-based query engine} yang mengakses gudang data. Studi-studi tersebut mendukung pendekatan yang digunakan dalam penelitian ini, yaitu menggabungkan klasifikasi intent berbasis pola dengan \textit{rule-based query} yang terdokumentasi dengan baik, sehingga sistem dapat menjawab pertanyaan bisnis terstruktur secara andal dan transparan, sambil tetap membuka ruang pengembangan lebih lanjut untuk integrasi teknik pembelajaran mesin yang lebih canggih jika cakupan intent dan kompleksitas kebutuhan analitik meningkat.
 
@@ -190,7 +190,7 @@ Setiap kelas \textit{intent} memiliki kepentingan strategis yang berbeda dalam k
     
     \item \textbf{Skor-F1 Mikro} sebagai metrik verifikasi: Harus sama dengan akurasi keseluruhan; digunakan untuk memvalidasi perhitungan
     
-    \item \textbf{Matriks Kebingungan}: Untuk analisis kualitatif pola kesalahan dan identifikasi peningkatan yang diperlukan pada aturan atau templat tertentu
+    \item \textbf{Matriks Kebingungan}: Dalam analisis kualitatif pola kesalahan dan identifikasi peningkatan yang diperlukan pada aturan atau templat tertentu
 \end{enumerate}
 
 Berdasarkan studi industri dan best-practices untuk sistem klasifikasi \textit{intent} dalam \textit{chatbot} bisnis, target performa yang ditetapkan untuk penelitian ini adalah \parencite{Santosa2025IndoBERTIntent,Ozerova2022IntentModule}:
@@ -309,7 +309,7 @@ Praktik evaluasi manusia yang umum pada sistem NLG dan sejumlah dimensi yang ser
 
 Kerangka evaluasi seperti ConSiDERS dan panduan evaluasi subjektif yang dapat direproduksi menekankan pentingnya perancangan instruksi penilaian yang jelas, pemilihan skala yang konsisten, dan penggunaan beberapa penilai untuk meningkatkan reliabilitas \parencite{Elangovan2023ConSiDERS,Morrison2021ReproSubjective}. Dalam surveinya juga digarisbawahi bahwa untuk banyak tugas NLG, korelasi antara metrik otomatis dan penilaian manusia tidak cukup tinggi sehingga penilaian manusia tetap diperlukan, terutama ketika tujuan utama sistem adalah meningkatkan mutu pengalaman pengguna, bukan mengoptimalkan skor metrik otomatis tertentu \parencite{Sai2020NLGSurvey}.
 
-Dalam konteks \textit{chatbot} berbasis AI, sejumlah penelitian di bidang kualitas layanan dan pengalaman pengguna mengaitkan kualitas percakapan alami dengan dimensi seperti \textit{friendliness}, \textit{usefulness}, kejelasan jawaban, serta persepsi kemudahan penggunaan. Studi tentang kualitas layanan AI-\textit{chatbot} menunjukkan bahwa kemampuan percakapan yang wajar, relevansi informasi, dan kecepatan respons berkontribusi signifikan terhadap kepuasan, kepercayaan, dan niat pengguna untuk terus menggunakan layanan tersebut \parencite{Syarifudin2024AIChatbotQuality,LearningGate2024ChatbotQuality}. Hal ini sejalan dengan fokus penelitian ini, di mana fungsi utama modul NLG adalah membuat jawaban sistem lebih ramah pengguna dan mudah dipahami, bukan menghasilkan variasi bahasa yang kreatif tanpa batas.
+Dalam konteks \textit{chatbot} berbasis AI, sejumlah penelitian di bidang kualitas layanan dan pengalaman pengguna mengaitkan kualitas percakapan alami dengan dimensi seperti \textit{friendliness}, \textit{usefulness}, kejelasan jawaban, serta persepsi kemudahan penggunaan. Studi tentang kualitas layanan AI-\textit{chatbot} menunjukkan bahwa kemampuan percakapan yang wajar, relevansi informasi, dan kecepatan respons berkontribusi signifikan terhadap kepuasan, kepercayaan, dan niat pengguna untuk terus menggunakan layanan tersebut \parencite{Syarifudin2024AIChatbotQuality,LearningGate2024ChatbotQuality}. Hal ini sejalan dengan fokus penelitian ini, dengan fungsi utama modul NLG adalah membuat jawaban sistem lebih ramah pengguna dan mudah dipahami, bukan menghasilkan variasi bahasa yang kreatif tanpa batas.
 
 Dengan demikian, evaluasi subjektif dalam konteks \textit{chatbot} BI dapat difokuskan pada beberapa dimensi utama berikut:
 \begin{enumerate}[label=\alph*.]
@@ -326,7 +326,7 @@ Dimensi-dimensi tersebut dapat diukur menggunakan skala Likert oleh sejumlah pen
 Survei-survei terkini mengenai evaluasi NLG menekankan bahwa tidak ada satu nilai ambang (\textit{threshold}) numerik yang bersifat universal untuk menyatakan bahwa suatu sistem ``cukup baik'', karena nilai metrik sangat bergantung pada tugas, data, dan desain sistem yang dievaluasi \parencite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey,Gao2024LLMNLG}. Oleh karena itu, karya-karya ilmiah umumnya:
 \begin{enumerate}[label=\alph*.]
     \item Membandingkan metrik otomatis (seperti BLEU, ROUGE, BERTScore) relatif terhadap model dasar atau pendekatan lain pada tugas yang sama, dan
-    \item Menggunakan penilaian manusia sebagai landasan utama, dengan rata-rata skor pada skala 1--5 atau 1--7 untuk dimensi seperti kewajaran, kelancaran, dan kecukupan, di mana skor rata-rata yang mendekati ujung atas skala lazim dipandang sebagai indikasi kualitas tinggi \parencite{vanDerLee2021HumanEval,Celikyilmaz2020EvalTextGen}.
+    \item Menggunakan penilaian manusia sebagai landasan utama, dengan rata-rata skor pada skala 1--5 atau 1--7 untuk dimensi seperti kewajaran, kelancaran, dan kecukupan, dengan skor rata-rata yang mendekati ujung atas skala lazim dipandang sebagai indikasi kualitas tinggi \parencite{vanDerLee2021HumanEval,Celikyilmaz2020EvalTextGen}.
 \end{enumerate}
 
 Dalam studi-studi dialog dan percakapan, sistem yang dianggap berkualitas baik biasanya menunjukkan:
@@ -556,7 +556,7 @@ Berbagai penelitian empiris telah membandingkan kinerja LSTM, GRU, dan TFT pada 
 
 Studi empiris menunjukkan bahwa pada data yang mengandung pola musiman kuat dan dependensi temporal kompleks, seperti data penjualan atau \textit{churn} pelanggan bisnis, model LSTM dan GRU mengungguli metode statistik tradisional seperti ARIMA dengan pengurangan \textit{error} sekitar 12--18\% \parencite{Sunendar2025ComparisonARIMALSTMGRU}. Penelitian pada prediksi stok Indonesia menunjukkan GRU mengungguli LSTM dengan peningkatan R² sebesar 10{,}7\% dan pengurangan MAPE sebesar 18{,}5\%, menunjukkan bahwa pada \textit{dataset} tertentu, GRU dapat memberikan hasil lebih efisien \parencite{Sabila2025LSTMGRUStockPrediction}.
 
-Model TFT menunjukkan performa tertinggi pada data multivariat, dengan MAPE yang mencapai 0{,}22\% (0{,}0022) pada prediksi harga saham Indonesia ketika dikombinasikan dengan rekayasa fitur yang tepat \parencite{Hartanto2024TFTEnhanced}. Keunggulan TFT dalam interpretabilitas juga membuatnya menarik untuk aplikasi bisnis di mana transparansi model menjadi penting bagi \textit{stakeholder}.
+Model TFT menunjukkan performa tertinggi pada data multivariat, dengan MAPE yang mencapai 0{,}22\% (0{,}0022) pada prediksi harga saham Indonesia ketika dikombinasikan dengan rekayasa fitur yang tepat \parencite{Hartanto2024TFTEnhanced}. Keunggulan TFT dalam interpretabilitas juga membuatnya menarik untuk aplikasi bisnis dengan transparansi model menjadi penting bagi \textit{stakeholder}.
 
 \subsubsection{Pemilihan Model dalam Konteks Penelitian}
 
@@ -625,7 +625,7 @@ Dalam setiap kombinasi horizon–entitas, metrik kesalahan dilaporkan menggunaka
     \item \textbf{Rentang Antar Kuartil (\textit{Interquartile Range}, IQR)}: Selisih antara kuartil ketiga dan kuartil pertama, menunjukkan penyebaran 50\% tengah dari distribusi kesalahan. IQR memberikan gambaran tentang variabilitas performa model tanpa dipengaruhi nilai ekstrem.
 \end{enumerate}
 
-Pendekatan ini memungkinkan analisis distribusi performa model yang lebih robust, bukan hanya bergantung pada nilai rata-rata, dan dapat mengidentifikasi situasi atau entitas di mana model mungkin mengalami tantangan \parencite{Petropoulos2023ForecastEval,Spiliotis2020ForecastingBenchmarks}.
+Pendekatan ini memungkinkan analisis distribusi performa model yang lebih robust, bukan hanya bergantung pada nilai rata-rata, dan dapat mengidentifikasi situasi atau entitas dengan model mungkin mengalami tantangan \parencite{Petropoulos2023ForecastEval,Spiliotis2020ForecastingBenchmarks}.
 
 \subsubsection{\textit{Residual Analysis}}
 
@@ -643,7 +643,7 @@ Ketiga teknik ini memberikan pemeriksaan komprehensif terhadap kualitas model da
 
 \subsubsection{\textit{Time Series Cross-Validation}}
 
-Validasi silang khusus untuk deret waktu (\textit{time series cross-validation}) menggunakan pendekatan \textit{walk-forward validation} atau \textit{expanding window} untuk menghindari kebocoran informasi dari masa depan ke masa lalu \parencite{Spiliotis2020ForecastingBenchmarks}. Pendekatan ini membagi data secara berurutan: pada setiap iterasi, model dilatih pada subset data historis yang terus bertambah, kemudian diminta memprediksi periode mendatang. Hal ini mensimulasikan kondisi operasional (\textit{deployment}) aktual di mana model harus memprediksi masa depan berdasarkan data masa lalu yang diketahui.
+Validasi silang khusus untuk deret waktu (\textit{time series cross-validation}) menggunakan pendekatan \textit{walk-forward validation} atau \textit{expanding window} untuk menghindari kebocoran informasi dari masa depan ke masa lalu \parencite{Spiliotis2020ForecastingBenchmarks}. Pendekatan ini membagi data secara berurutan: pada setiap iterasi, model dilatih pada subset data historis yang terus bertambah, kemudian diminta memprediksi periode mendatang. Hal ini mensimulasikan kondisi operasional (\textit{deployment}) aktual dengan model harus memprediksi masa depan berdasarkan data masa lalu yang diketahui.
 
 Validasi silang deret waktu memberikan estimasi performa yang lebih realistis dibandingkan validasi silang standar (misalnya \textit{k-fold}), yang dapat menghasilkan \textit{overfitting} karena kebocoran informasi temporal. Dengan pendekatan \textit{walk-forward}, estimasi akurasi model pada data uji mencerminkan performa yang dapat diharapkan dalam praktik \parencite{Petropoulos2023ForecastEval}.
 

@@ -1,0 +1,713 @@
+\babel@toc {indonesian}{}\relax 
+\contentsline {chapter}{DAFTAR GAMBAR}{vii}{figure.caption.1}%
+\contentsline {chapter}{DAFTAR TABEL}{ix}{figure.caption.1}%
+\contentsline {chapter}{\centering \normalsize DAFTAR KODE}{x}{chapter*.2}%
+\contentsline {chapter}{\numberline {I}PENDAHULUAN}{1}{chapter.1}%
+\contentsline {section}{\numberline {I.1}Latar Belakang}{1}{section.1.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {I.2}Rumusan Masalah}{3}{section.1.2}%
+\contentsline {section}{\numberline {I.3}Tujuan}{4}{section.1.3}%
+\contentsline {section}{\numberline {I.4}Batasan Masalah}{5}{section.1.4}%
+\contentsline {section}{\numberline {I.5}Metodologi}{6}{section.1.5}%
+\contentsline {subsection}{\numberline {I.5.1}Tahapan Investigasi dan Pengumpulan Fakta}{6}{subsection.1.5.1}%
+\contentsline {subsection}{\numberline {I.5.2}Studi Literatur}{7}{subsection.1.5.2}%
+\contentsline {subsection}{\numberline {I.5.3}Perancangan Sistem}{7}{subsection.1.5.3}%
+\contentsline {subsection}{\numberline {I.5.4}Implementasi Sistem}{8}{subsection.1.5.4}%
+\contentsline {subsection}{\numberline {I.5.5}Pengujian dan Evaluasi}{8}{subsection.1.5.5}%
+\contentsline {subsection}{\numberline {I.5.6}Dokumentasi dan Penyusunan Laporan}{9}{subsection.1.5.6}%
+\contentsline {chapter}{\numberline {II}STUDI LITERATUR}{11}{chapter.2}%
+\contentsline {section}{\numberline {II.1}\textit {Business Intelligence} dan Arsitektur Sistem}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {II.1.1}Konsep \textit {Business Intelligence}}{11}{subsection.2.1.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.1.2}Arsitektur \textit {Business Intelligence} Hibrida}{12}{subsection.2.1.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.1.3}\textit {Semantic Layer} dalam \textit {Business Intelligence}}{13}{subsection.2.1.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.1.3.1}Komponen Inti \textit {Semantic Layer}}{13}{subsubsection.2.1.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {II.2}\textit {Rule-Based Query} dan Implementasinya pada \textit {Chatbot}}{14}{section.2.2}%
+\contentsline {subsection}{\numberline {II.2.1}Konsep \textit {Rule-Based Query} dalam Sistem Basis Data}{14}{subsection.2.2.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.2.2}\textit {Chatbot} Berbasis Aturan dan Pencocokan Pola}{14}{subsection.2.2.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.2.3}Integrasi \textit {Rule-Based Query} dalam Arsitektur Chatbot BI}{15}{subsection.2.2.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {II.3}\textit {Pattern-Based Intent Classification} dengan \textit {Confidence Level}}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {II.3.1}Konsep \textit {Intent Classification}}{16}{subsection.2.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.3.2}Klasifikasi \textit {Intent} Berbasis \textit {Transformer}}{17}{subsection.2.3.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.3.3}\textit {Pattern Matching} untuk \textit {Intent Classification}}{18}{subsection.2.3.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.3.4}\textit {Confidence Score} dalam \textit {Intent Classification}}{19}{subsection.2.3.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.3.4.1}\textit {Confidence Threshold}}{19}{subsubsection.2.3.4.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.3.5}Evaluasi Performa \textit {Intent Classification}}{20}{subsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {II.3.5.1}Metrik Evaluasi Klasifikasi \textit {Intent} Multi-Kelas}{20}{subsubsection.2.3.5.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.3.5.2}\textit {Confusion Matrix} dan \textit {Confidence Score Analysis}}{23}{subsubsection.2.3.5.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.3.5.3}Target Performa \textit {Intent Classification}}{24}{subsubsection.2.3.5.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {II.4}\textit {Template-Based Natural Language Generation}}{24}{section.2.4}%
+\contentsline {subsection}{\numberline {II.4.1}Konsep \textit {Natural Language Generation}}{25}{subsection.2.4.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.4.2}\textit {Template-Based Natural Language Generation}}{25}{subsection.2.4.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.4.3}\textit {Template Rewriting} dengan \textit {Pre-trained Language Models}}{25}{subsection.2.4.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.4.4}Keamanan dan Privasi Data dalam NLG Internal}{26}{subsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {II.4.4.1}\textit {Differential Privacy} untuk NLG}{26}{subsubsection.2.4.4.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.4.4.2}Strategi Keamanan Data dalam NLG}{27}{subsubsection.2.4.4.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.4.4.3}Mitigasi Risiko dalam NLG Internal}{27}{subsubsection.2.4.4.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.4.5}Evaluasi Kualitas \textit {Natural Language Generation}}{27}{subsection.2.4.5}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.4.5.1}Metrik Otomatis untuk Evaluasi NLG}{28}{subsubsection.2.4.5.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.4.5.2}Evaluasi Subjektif Berbasis Pengguna}{29}{subsubsection.2.4.5.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.4.5.3}Kriteria Performa NLG dalam Literatur}{30}{subsubsection.2.4.5.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {II.5}\textit {Time Series Forecasting}}{31}{section.2.5}%
+\contentsline {subsection}{\numberline {II.5.1}Konsep \textit {Time Series} dan Peramalan}{32}{subsection.2.5.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.5.2}Model Peramalan Deret Waktu Berbasis \textit {Deep Learning}}{32}{subsection.2.5.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.1}LSTM (\textit {Long Short-Term Memory}) untuk Peramalan Deret Waktu}{32}{subsubsection.2.5.2.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.2}GRU (\textit {Gated Recurrent Unit}) sebagai Alternatif LSTM}{33}{subsubsection.2.5.2.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.3}\textit {Temporal Fusion Transformer} (TFT) untuk Data Multivariat}{34}{subsubsection.2.5.2.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.4}Model Hibrida dan \textit {Ensemble}}{35}{subsubsection.2.5.2.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.5}Perbandingan Karakteristik Model Peramalan \textit {Deep Learning}}{35}{subsubsection.2.5.2.5}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.2.6}Pemilihan Model dalam Konteks Penelitian}{40}{subsubsection.2.5.2.6}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.5.3}Evaluasi Performa \textit {Time Series Forecasting}}{40}{subsection.2.5.3}%
+\contentsline {subsubsection}{\numberline {II.5.3.1}Metrik Evaluasi \textit {Forecasting}}{40}{subsubsection.2.5.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.3.2}\textit {Skill Score} terhadap Garis Dasar}{42}{subsubsection.2.5.3.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.3.3}Pelaporan per Horizon dan per Entitas Prioritas}{42}{subsubsection.2.5.3.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.3.4}\textit {Residual Analysis}}{43}{subsubsection.2.5.3.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.3.5}\textit {Time Series Cross-Validation}}{43}{subsubsection.2.5.3.5}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.5.3.6}Target Performa \textit {Forecasting}}{44}{subsubsection.2.5.3.6}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {section}{\numberline {II.6}Integrasi Sistem dan Penelitian Terkait}{45}{section.2.6}%
+\contentsline {subsection}{\numberline {II.6.1}Arsitektur \textit {Chatbot} Hibrida}{45}{subsection.2.6.1}%
+\contentsline {subsubsection}{\numberline {II.6.1.1}Komponen Arsitektur \textit {Chatbot} Modern}{45}{subsubsection.2.6.1.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.6.1.2}\textit {Chatbot} Hibrida dengan AI dan \textit {Human Oversight}}{46}{subsubsection.2.6.1.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.6.1.3}Pasar \textit {Chatbot} AI Global}{46}{subsubsection.2.6.1.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.6.2}Integrasi \textit {Pattern-Based Intent} dan \textit {Template-Based} NLG}{46}{subsection.2.6.2}%
+\contentsline {subsubsection}{\numberline {II.6.2.1}Alur Kerja Terintegrasi}{47}{subsubsection.2.6.2.1}%
+\contentsline {subsubsection}{\numberline {II.6.2.2}Evaluasi Sistem Terintegrasi}{47}{subsubsection.2.6.2.2}%
+\contentsline {subsection}{\numberline {II.6.3}\textit {Customer Churn Prediction} dengan \textit {Machine Learning}}{48}{subsection.2.6.3}%
+\contentsline {subsubsection}{\numberline {II.6.3.1}Model \textit {Machine Learning} untuk \textit {Churn Prediction}}{48}{subsubsection.2.6.3.1}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.6.3.2}Evaluasi Model \textit {Churn Prediction}}{48}{subsubsection.2.6.3.2}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.6.3.3}Fitur-fitur untuk \textit {Churn Prediction}}{49}{subsubsection.2.6.3.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsubsection}{\numberline {II.6.3.4}\textit {Real-Time Churn Prediction}}{49}{subsubsection.2.6.3.4}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {subsection}{\numberline {II.6.4}Integrasi \textit {Churn Prediction} dengan \textit {Chatbot} BI}{50}{subsection.2.6.4}%
+\contentsline {chapter}{\numberline {III}ANALISIS MASALAH}{51}{chapter.3}%
+\contentsline {section}{\numberline {III.1}Analisis Kondisi Saat Ini}{51}{section.3.1}%
+\contentsline {subsection}{\numberline {III.1.1}Pemahaman Bisnis (\textit {Business Understanding})}{51}{subsection.3.1.1}%
+\contentsline {section}{\numberline {III.2}Analisis Kebutuhan}{54}{section.3.2}%
+\contentsline {subsection}{\numberline {III.2.1}Identifikasi Masalah Pengguna}{54}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {III.2.2}Kebutuhan Fungsional}{56}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {III.2.3}Kebutuhan Nonfungsional}{60}{subsection.3.2.3}%
+\contentsline {section}{\numberline {III.3}Analisis Pemilihan Solusi}{64}{section.3.3}%
+\contentsline {subsection}{\numberline {III.3.1}Alternatif Solusi}{65}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {III.3.2}Analisis Penentuan Solusi}{70}{subsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {III.3.2.1}Solusi 1: \textit {Chatbot} Berbasis Aturan Sederhana}{71}{subsubsection.3.3.2.1}%
+\contentsline {subsubsection}{\numberline {III.3.2.2}Solusi 2: \textit {Chatbot} BI dengan Klasifikasi Maksud Berbasis Pola, Pembangkitan Bahasa Alami Berbasis Templat, dan Peramalan Deret Waktu}{72}{subsubsection.3.3.2.2}%
+\contentsline {subsubsection}{\numberline {III.3.2.3}Solusi 3: Dasbor BI Interaktif Tradisional dengan Peningkatan}{76}{subsubsection.3.3.2.3}%
+\contentsline {subsubsection}{\numberline {III.3.2.4}Matriks Perbandingan \textit {Balanced Scorecard}}{82}{subsubsection.3.3.2.4}%
+\contentsline {subsubsection}{\numberline {III.3.2.5}Kesimpulan Pemilihan Solusi}{84}{subsubsection.3.3.2.5}%
+\contentsline {section}{\numberline {III.4}Pemahaman dan Analisis Data (\textit {Data Understanding})}{86}{section.3.4}%
+\contentsline {subsection}{\numberline {III.4.1}Sumber Data dan Arsitektur Penyimpanan}{87}{subsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {III.4.1.1}Domain BRIGHTAI\_SALES}{88}{subsubsection.3.4.1.1}%
+\contentsline {subsubsection}{\numberline {III.4.1.2}Domain BRIGHTAI\_REVENUE}{89}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {III.4.1.3}Domain BRIGHTAI\_DAPROS}{89}{subsubsection.3.4.1.3}%
+\contentsline {subsubsection}{\numberline {III.4.1.4}Domain BRIGHTAI\_TARGET}{90}{subsubsection.3.4.1.4}%
+\contentsline {subsubsection}{\numberline {III.4.1.5}Domain BRIGHTAI\_CT0\_NAL}{90}{subsubsection.3.4.1.5}%
+\contentsline {subsection}{\numberline {III.4.2}Analisis Kualitas Data}{91}{subsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {III.4.2.1}Kelengkapan dan Konsistensi Data}{91}{subsubsection.3.4.2.1}%
+\contentsline {subsubsection}{\numberline {III.4.2.2}Analisis Struktur Temporal}{92}{subsubsection.3.4.2.2}%
+\contentsline {subsubsection}{\numberline {III.4.2.3}Analisis Relevansi Fitur}{92}{subsubsection.3.4.2.3}%
+\contentsline {subsection}{\numberline {III.4.3}Atribut Relasional Antar-Domain}{92}{subsection.3.4.3}%
+\contentsline {section}{\numberline {III.5}Persiapan Data (\textit {Data Preparation})}{93}{section.3.5}%
+\contentsline {subsection}{\numberline {III.5.1}Pembersihan Data}{93}{subsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {III.5.1.1}Penanganan Nilai Hilang}{93}{subsubsection.3.5.1.1}%
+\contentsline {subsubsection}{\numberline {III.5.1.2}Penghapusan Duplikasi}{94}{subsubsection.3.5.1.2}%
+\contentsline {subsubsection}{\numberline {III.5.1.3}Deteksi dan Penanganan \textit {Outlier}}{94}{subsubsection.3.5.1.3}%
+\contentsline {subsection}{\numberline {III.5.2}Transformasi Data}{94}{subsection.3.5.2}%
+\contentsline {subsubsection}{\numberline {III.5.2.1}Normalisasi dan Standardisasi}{95}{subsubsection.3.5.2.1}%
+\contentsline {subsubsection}{\numberline {III.5.2.2}Transformasi Logaritmik}{95}{subsubsection.3.5.2.2}%
+\contentsline {subsubsection}{\numberline {III.5.2.3}Pengkodean Fitur Kategorikal}{95}{subsubsection.3.5.2.3}%
+\contentsline {subsection}{\numberline {III.5.3}Rekayasa Fitur untuk Peramalan Deret Waktu}{95}{subsection.3.5.3}%
+\contentsline {subsubsection}{\numberline {III.5.3.1}Fitur Temporal}{96}{subsubsection.3.5.3.1}%
+\contentsline {subsubsection}{\numberline {III.5.3.2}Fitur \textit {Lag} dan \textit {Rolling Statistics}}{96}{subsubsection.3.5.3.2}%
+\contentsline {subsubsection}{\numberline {III.5.3.3}Fitur Agregat per Entitas}{96}{subsubsection.3.5.3.3}%
+\contentsline {subsection}{\numberline {III.5.4}Pembagian Data untuk Pelatihan dan Evaluasi}{97}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {III.5.5}Penyimpanan \textit {Dataset} Final}{97}{subsection.3.5.5}%
+\contentsline {section}{\numberline {III.6}Pemodelan Data (\textit {Data Modelling})}{98}{section.3.6}%
+\contentsline {subsection}{\numberline {III.6.1}Arsitektur Model Peramalan Deret Waktu}{98}{subsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {III.6.1.1}Model LSTM (Long Short-Term Memory)}{98}{subsubsection.3.6.1.1}%
+\contentsline {subsubsection}{\numberline {III.6.1.2}Model GRU (Gated Recurrent Unit)}{99}{subsubsection.3.6.1.2}%
+\contentsline {subsubsection}{\numberline {III.6.1.3}Model TFT (Temporal Fusion Transformer)}{99}{subsubsection.3.6.1.3}%
+\contentsline {subsubsection}{\numberline {III.6.1.4}Perbandingan Karakteristik Model}{100}{subsubsection.3.6.1.4}%
+\contentsline {subsection}{\numberline {III.6.2}Konfigurasi \textit {Hyperparameter}}{100}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {III.6.3}Strategi Pelatihan Model}{101}{subsection.3.6.3}%
+\contentsline {subsubsection}{\numberline {III.6.3.1}\textit {Early Stopping}}{101}{subsubsection.3.6.3.1}%
+\contentsline {subsubsection}{\numberline {III.6.3.2}Regularisasi}{101}{subsubsection.3.6.3.2}%
+\contentsline {subsubsection}{\numberline {III.6.3.3}Fungsi Kerugian}{101}{subsubsection.3.6.3.3}%
+\contentsline {subsection}{\numberline {III.6.4}Model Klasifikasi Intent Berbasis Pola}{102}{subsection.3.6.4}%
+\contentsline {subsection}{\numberline {III.6.5}Model Pembangkitan Bahasa Alami Berbasis Templat}{103}{subsection.3.6.5}%
+\contentsline {subsection}{\numberline {III.6.6}Integrasi Model dalam Arsitektur Sistem}{103}{subsection.3.6.6}%
+\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{104}{chapter.4}%
+\contentsline {section}{\numberline {IV.1}Alur Proses Bisnis Sistem Analitik Saat Ini (\textit {As-Is})}{105}{section.4.1}%
+\contentsline {section}{\numberline {IV.2}Konsep Solusi Sistem Baru}{106}{section.4.2}%
+\contentsline {section}{\numberline {IV.3}Alur Proses Bisnis Sistem Analitik dengan Chatbot BI (\textit {To-Be})}{107}{section.4.3}%
+\contentsline {section}{\numberline {IV.4}Rancangan Solusi Keseluruhan}{109}{section.4.4}%
+\contentsline {subsection}{\numberline {IV.4.1}Komponen-Komponen Utama Arsitektur}{110}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {IV.4.2}Arsitektur Sistem dan Aliran Data}{110}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {V}RENCANA SELANJUTNYA}{113}{chapter.5}%
+\contentsline {section}{\numberline {V.1}Rencana Implementasi dan Evaluasi}{113}{section.5.1}%
+\contentsline {subsection}{\numberline {V.1.1}Rencana Implementasi}{113}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.1}Perangkat Lunak dan Teknologi}{113}{subsubsection.5.1.1.1}%
+\contentsline {subsubsection}{\numberline {V.1.1.2}Kebutuhan Sumber Daya Komputasi}{116}{subsubsection.5.1.1.2}%
+\contentsline {subsubsection}{\numberline {V.1.1.3}Linimasa Pelaksanaan Tugas Akhir}{117}{subsubsection.5.1.1.3}%
+\contentsline {subsection}{\numberline {V.1.2}Desain Pengujian dan Evaluasi}{118}{subsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {V.1.2.1}Evaluasi Klasifikasi Maksud Berbasis Pola}{118}{subsubsection.5.1.2.1}%
+\contentsline {paragraph}{\numberline {V.1.2.1.1}Metrik Evaluasi Klasifikasi Intent}{119}{paragraph.5.1.2.1.1}%
+\contentsline {paragraph}{\numberline {V.1.2.1.2}Analisis Nilai Keyakinan (\textit {Confidence Score})}{119}{paragraph.5.1.2.1.2}%
+\contentsline {paragraph}{\numberline {V.1.2.1.3}Target Performa Klasifikasi Intent}{120}{paragraph.5.1.2.1.3}%
+\contentsline {subsubsection}{\numberline {V.1.2.2}Evaluasi Pembangkitan Bahasa Alami Berbasis Templat}{120}{subsubsection.5.1.2.2}%
+\contentsline {paragraph}{\numberline {V.1.2.2.1}Metrik Evaluasi NLG Otomatis}{120}{paragraph.5.1.2.2.1}%
+\contentsline {paragraph}{\numberline {V.1.2.2.2}Evaluasi Subjektif Berbasis Pengguna}{121}{paragraph.5.1.2.2.2}%
+\contentsline {paragraph}{\numberline {V.1.2.2.3}Target Performa NLG}{121}{paragraph.5.1.2.2.3}%
+\contentsline {subsubsection}{\numberline {V.1.2.3}Evaluasi Peramalan Deret Waktu}{121}{subsubsection.5.1.2.3}%
+\contentsline {paragraph}{\numberline {V.1.2.3.1}Metrik Evaluasi Forecasting}{121}{paragraph.5.1.2.3.1}%
+\contentsline {paragraph}{\numberline {V.1.2.3.2}Skill Score terhadap Garis Dasar}{122}{paragraph.5.1.2.3.2}%
+\contentsline {paragraph}{\numberline {V.1.2.3.3}Validasi Silang Deret Waktu (\textit {Time Series Cross-Validation})}{122}{paragraph.5.1.2.3.3}%
+\contentsline {paragraph}{\numberline {V.1.2.3.4}Target Performa Forecasting}{122}{paragraph.5.1.2.3.4}%
+\contentsline {subsubsection}{\numberline {V.1.2.4}Evaluasi Sistem Terintegrasi}{123}{subsubsection.5.1.2.4}%
+\contentsline {paragraph}{\numberline {V.1.2.4.1}Pengujian Integrasi}{123}{paragraph.5.1.2.4.1}%
+\contentsline {paragraph}{\numberline {V.1.2.4.2}Pengujian Performa Sistem}{123}{paragraph.5.1.2.4.2}%
+\contentsline {paragraph}{\numberline {V.1.2.4.3}Evaluasi Kebergunaan (\textit {Usability})}{123}{paragraph.5.1.2.4.3}%
+\contentsline {subsection}{\numberline {V.1.3}Analisis Risiko dan Mitigasi}{123}{subsection.5.1.3}%
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\babel@toc {english}{}\relax 
+\babel@toc {indonesian}{}\relax 
+\contentsline {chapter}{LAMPIRAN A: HASIL WAWANCARA}{135}{appendix*.37}%

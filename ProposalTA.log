@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 02:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 02:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1148,4 +1148,3435 @@ File: image/CRISP-DM.jpg Graphic file (type bmp)
 [5]
 
 [6]
-Overfull \hbox (2.76767pt too wide) in paragraph at lines 
+Overfull \hbox (2.76767pt too wide) in paragraph at lines 131--132
+[]\TU/TimesNewRoman(0)/b/n/12 Sintesis literatur \TU/TimesNewRoman(0)/m/n/12 untuk membangun kerangka teoretis, mengidentifikasi prak-
+ []
+
+
+
+[7]
+Overfull \hbox (6.39462pt too wide) in paragraph at lines 151--152
+[]\TU/TimesNewRoman(0)/b/n/12 Perancangan antarmuka pengguna\TU/TimesNewRoman(0)/m/n/12 , meliputi pembuatan \TU/TimesNewRoman(0)/m/it/12 wireframe \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
+ []
+
+
+
+[8]) (./Bab II - Studi-Literatur.tex
+
+[9]
+
+[10]
+Bab II.
+
+
+[11
+
+]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 25.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 27.
+
+
+
+[12]
+Overfull \hbox (2.23953pt too wide) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/12 Lapisan semantik memiliki lima komponen inti yang bertindak sebagai fondasi struk-
+ []
+
+
+
+[13]
+File: image/rbq.jpg Graphic file (type bmp)
+<image/rbq.jpg>
+
+
+[14]
+
+[15]
+File: image/pbi.png Graphic file (type bmp)
+<image/pbi.png>
+
+
+[16]
+Overfull \hbox (3.50125pt too wide) in paragraph at lines 97--98
+\TU/TimesNewRoman(0)/m/n/12 manfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\TU/TimesNewRoman(0)/m/it/12 self-attention\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
+
+Overfull \hbox (0.85086pt too wide) in paragraph at lines 97--98
+\TU/TimesNewRoman(0)/m/n/12 untuk memahami konteks ujaran pengguna secara dua arah dan menyeluruh ([][][]Merugu
+ []
+
+
+
+[17]
+
+[18]
+
+[19]
+
+[20]
+
+[21]
+Overfull \hbox (4.40048pt too wide) in paragraph at lines 182--183
+\TU/TimesNewRoman(0)/m/n/12 bagai contoh, jika ditemukan frekuensi tinggi kesalahan pada sel (Penjualan-Bulanan,
+ []
+
+
+
+[22]
+
+[23]
+File: image/nlg.png Graphic file (type bmp)
+<image/nlg.png>
+
+
+[24]
+
+[25]
+Overfull \hbox (1.95503pt too wide) in paragraph at lines 270--271
+\TU/TimesNewRoman(0)/m/n/12 berlapis ([][][]IT Convergence [][]2024[][][][]). Strategi pertama adalah enkripsi data dengan meng-
+ []
+
+
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+File: image/timeseries.png Graphic file (type bmp)
+<image/timeseries.png>
+
+
+[31]
+
+[32]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 381.
+
+
+
+[33]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 407.
+
+
+Overfull \hbox (4.58589pt too wide) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 ningkatkan kemampuan model untuk fokus pada pola penting ([][][]Lim dkk. [][]2021[][][][]). 
+ []
+
+
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+[]\TU/TimesNewRoman(0)/m/n/12 Menangkap de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+\TU/TimesNewRoman(0)/m/n/12 pendensi jangka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+\TU/TimesNewRoman(0)/m/n/12 panjang hingga
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+\TU/TimesNewRoman(0)/m/n/12 ratusan langkah
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+[]\TU/TimesNewRoman(0)/m/n/12 Mengatasi ma-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+\TU/TimesNewRoman(0)/m/n/12 salah \TU/TimesNewRoman(0)/m/it/12 vanishing
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 451--452
+\TU/TimesNewRoman(0)/m/it/12 gradient \TU/TimesNewRoman(0)/m/n/12 melalui
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--452
+\TU/TimesNewRoman(0)/m/n/12 gerbang-gerbang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+[]\TU/TimesNewRoman(0)/m/n/12 Fleksibel un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+\TU/TimesNewRoman(0)/m/n/12 tuk menangani
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+\TU/TimesNewRoman(0)/m/n/12 pola temporal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+\TU/TimesNewRoman(0)/m/n/12 kompleks dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+[]\TU/TimesNewRoman(0)/m/n/12 Mampu mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+\TU/TimesNewRoman(0)/m/n/12 pelajari urutan
+ []
+
+
+Underfull \hbox (badness 2310) in paragraph at lines 453--454
+\TU/TimesNewRoman(0)/m/n/12 masukan dengan
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 457--458
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan volu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+[]\TU/TimesNewRoman(0)/m/n/12 Waktu pelatihan
+ []
+
+
+Underfull \hbox (badness 5548) in paragraph at lines 458--459
+\TU/TimesNewRoman(0)/m/n/12 panjang, terutama
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+[]\TU/TimesNewRoman(0)/m/n/12 Proses \TU/TimesNewRoman(0)/m/it/12 inference
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+\TU/TimesNewRoman(0)/m/n/12 sekuensial, tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+[]\TU/TimesNewRoman(0)/m/n/12 Sensitif terha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+\TU/TimesNewRoman(0)/m/n/12 dap inisialisasi
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 466--467
+[]\TU/TimesNewRoman(0)/m/n/12 Cocok untuk:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 4120) in paragraph at lines 467--468
+\TU/TimesNewRoman(0)/m/n/12 model: ting-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+\TU/TimesNewRoman(0)/m/n/12 gi (jutaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+[]\TU/TimesNewRoman(0)/m/n/12 Arsitektur le-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+\TU/TimesNewRoman(0)/m/n/12 bih sederhana
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--476
+\TU/TimesNewRoman(0)/m/n/12 dibanding LS-
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 475--476
+\TU/TimesNewRoman(0)/m/n/12 TM (hanya dua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+[]\TU/TimesNewRoman(0)/m/n/12 Waktu pelatihan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--477
+\TU/TimesNewRoman(0)/m/n/12 15–20% lebih
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[]\TU/TimesNewRoman(0)/m/n/12 Jumlah parame-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+\TU/TimesNewRoman(0)/m/n/12 sedikit, meng-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+\TU/TimesNewRoman(0)/m/n/12 urangi risiko
+ []
+
+
+Underfull \hbox (badness 5245) in paragraph at lines 478--479
+[]\TU/TimesNewRoman(0)/m/n/12 Performa seban-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+\TU/TimesNewRoman(0)/m/n/12 ding atau lebih
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 478--479
+\TU/TimesNewRoman(0)/m/n/12 baik dari LSTM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+\TU/TimesNewRoman(0)/m/n/12 pada banyak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+[]\TU/TimesNewRoman(0)/m/n/12 Kebutuhan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+\TU/TimesNewRoman(0)/m/n/12 memori lebih
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 483--484
+[]\TU/TimesNewRoman(0)/m/n/12 Tetap memerlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+[]\TU/TimesNewRoman(0)/m/n/12 Juga sulit untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--486
+\TU/TimesNewRoman(0)/m/it/12 practices \TU/TimesNewRoman(0)/m/n/12 lebih
+ []
+
+
+Underfull \hbox (badness 3302) in paragraph at lines 485--486
+\TU/TimesNewRoman(0)/m/n/12 terbatas dibanding
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+[]\TU/TimesNewRoman(0)/m/n/12 Performa ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/TimesNewRoman(0)/m/n/12 kadang sedikit
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 486--487
+\TU/TimesNewRoman(0)/m/n/12 lebih rendah pada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/TimesNewRoman(0)/m/n/12 skenario dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/TimesNewRoman(0)/m/n/12 ketergantungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
+\TU/TimesNewRoman(0)/m/n/12 ultra-jangka-
+ []
+
+
+Underfull \hbox (badness 4556) in paragraph at lines 492--493
+[]\TU/TimesNewRoman(0)/m/n/12 Cocok untuk:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\TU/TimesNewRoman(0)/m/n/12 data besar,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+\TU/TimesNewRoman(0)/m/n/12 komputasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
+\TU/TimesNewRoman(0)/m/n/12 model:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+[]\TU/TimesNewRoman(0)/m/n/12 Parameter:
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 494--495
+\TU/TimesNewRoman(0)/m/n/12 20–30% lebih
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+\TU/TimesNewRoman(0)/m/n/12 sedikit dari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+[]\TU/TimesNewRoman(0)/m/n/12 Dirancang khu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+\TU/TimesNewRoman(0)/m/n/12 sus untuk data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 501--502
+\TU/TimesNewRoman(0)/m/n/12 multivariat de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+[]\TU/TimesNewRoman(0)/m/n/12 Interpretabilitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+\TU/TimesNewRoman(0)/m/n/12 nisme \TU/TimesNewRoman(0)/m/it/12 attention
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+\TU/TimesNewRoman(0)/m/n/12 menunjukk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+\TU/TimesNewRoman(0)/m/n/12 an fitur/waktu
+ []
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 503--504
+\TU/TimesNewRoman(0)/m/n/12 ligus, bukan se-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+[]\TU/TimesNewRoman(0)/m/it/12 Multi-horizon
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+\TU/TimesNewRoman(0)/m/it/12 forecasting\TU/TimesNewRoman(0)/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+\TU/TimesNewRoman(0)/m/n/12 dapat mempre-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+\TU/TimesNewRoman(0)/m/n/12 diksi beberapa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+[]\TU/TimesNewRoman(0)/m/n/12 Seleksi variabel
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 505--506
+\TU/TimesNewRoman(0)/m/n/12 otomatis meng-
+ []
+
+
+Underfull \hbox (badness 7326) in paragraph at lines 505--506
+\TU/TimesNewRoman(0)/m/n/12 urangi pengaruh
+ []
+
+
+Underfull \hbox (badness 4403) in paragraph at lines 505--506
+\TU/TimesNewRoman(0)/m/n/12 fitur yang tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+\TU/TimesNewRoman(0)/m/n/12 arsitektur tinggi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+\TU/TimesNewRoman(0)/m/n/12 (6–7 \TU/TimesNewRoman(0)/m/it/12 submodule
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+\TU/TimesNewRoman(0)/m/n/12 nyetelan (\TU/TimesNewRoman(0)/m/it/12 tuning\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+\TU/TimesNewRoman(0)/m/it/12 hyperparameter
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 511--512
+\TU/TimesNewRoman(0)/m/n/12 jumlah sangat be-
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 511--512
+\TU/TimesNewRoman(0)/m/n/12 sar optimal untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+[]\TU/TimesNewRoman(0)/m/n/12 Biaya komputasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 computational
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 512--513
+\TU/TimesNewRoman(0)/m/it/12 cost\TU/TimesNewRoman(0)/m/n/12 ) tinggi (GPU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 512--513
+\TU/TimesNewRoman(0)/m/n/12 umumnya diper-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+[]\TU/TimesNewRoman(0)/m/n/12 Waktu \TU/TimesNewRoman(0)/m/it/12 training
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+\TU/TimesNewRoman(0)/m/n/12 TM/GRU karena
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 514--515
+\TU/TimesNewRoman(0)/m/n/12 keahlian teknis
+ []
+
+
+Underfull \hbox (badness 1748) in paragraph at lines 514--515
+\TU/TimesNewRoman(0)/m/n/12 lebih tinggi untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+[]\TU/TimesNewRoman(0)/m/n/12 Cocok un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+\TU/TimesNewRoman(0)/m/n/12 tuk: data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+\TU/TimesNewRoman(0)/m/n/12 multivariat,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+\TU/TimesNewRoman(0)/m/n/12 fitur banyak,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
+\TU/TimesNewRoman(0)/m/it/12 budget \TU/TimesNewRoman(0)/m/n/12 kom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+[]\TU/TimesNewRoman(0)/m/n/12 Parameter:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\TU/TimesNewRoman(0)/m/n/12 jutaan (ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--522
+\TU/TimesNewRoman(0)/m/n/12 gantung
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--523
+[]\TU/TimesNewRoman(0)/m/n/12 Paralelisasi:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+[]|\TU/TimesNewRoman(0)/b/n/12 Hibrida
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 527--527
+\TU/TimesNewRoman(0)/b/n/12 (GRU-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+[]\TU/TimesNewRoman(0)/m/n/12 Menggabungkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+\TU/TimesNewRoman(0)/m/n/12 kekuatan dua
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+\TU/TimesNewRoman(0)/m/n/12 arsitektur: efi-
+ []
+
+
+Underfull \hbox (badness 2343) in paragraph at lines 529--530
+\TU/TimesNewRoman(0)/m/n/12 siensi GRU dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+\TU/TimesNewRoman(0)/m/n/12 pembelajaran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 529--530
+\TU/TimesNewRoman(0)/m/n/12 jangka panjang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+[]\TU/TimesNewRoman(0)/m/n/12 Hasil prediksi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+\TU/TimesNewRoman(0)/m/n/12 lebih \TU/TimesNewRoman(0)/m/it/12 robust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+\TU/TimesNewRoman(0)/m/n/12 terhadap vari-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 530--531
+\TU/TimesNewRoman(0)/m/n/12 asi dalam data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+[]\TU/TimesNewRoman(0)/m/n/12 Fleksibilitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 532--533
+\TU/TimesNewRoman(0)/m/n/12 desain: dapat
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 532--533
+\TU/TimesNewRoman(0)/m/n/12 dikonfigurasi se-
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 533--534
+[]\TU/TimesNewRoman(0)/m/n/12 Mengurangi risi-
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 533--534
+\TU/TimesNewRoman(0)/m/n/12 hadap pola ter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+[]\TU/TimesNewRoman(0)/m/n/12 Risiko \TU/TimesNewRoman(0)/m/it/12 overfitting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+\TU/TimesNewRoman(0)/m/n/12 lebih tinggi jika
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 541--542
+[]\TU/TimesNewRoman(0)/m/n/12 Interpretasi model
+ []
+
+
+Underfull \hbox (badness 4254) in paragraph at lines 541--542
+\TU/TimesNewRoman(0)/m/n/12 lebih sulit karena
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+\TU/TimesNewRoman(0)/m/n/12 validasi silang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--543
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 cross-validation\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+[]\TU/TimesNewRoman(0)/m/n/12 Cocok un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+\TU/TimesNewRoman(0)/m/n/12 tuk: data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+\TU/TimesNewRoman(0)/m/n/12 multivariat,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+\TU/TimesNewRoman(0)/m/n/12 pola cam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+\TU/TimesNewRoman(0)/m/n/12 puran, GPU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+\TU/TimesNewRoman(0)/m/n/12 model:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+\TU/TimesNewRoman(0)/m/n/12 tinggi–sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+[]\TU/TimesNewRoman(0)/m/n/12 Parameter:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 549--550
+\TU/TimesNewRoman(0)/m/n/12 ratusan ribu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+[]\TU/TimesNewRoman(0)/m/it/12 Trade-off\TU/TimesNewRoman(0)/m/n/12 :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+\TU/TimesNewRoman(0)/m/n/12 akurasi vs
+ []
+
+
+
+[35] [36] [37] [38]
+
+[39]
+
+[40]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 587.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 594.
+
+
+
+[41]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 607.
+
+
+
+[42]
+
+[43]
+Overfull \hbox (0.32822pt too wide) in paragraph at lines 648--649
+\TU/TimesNewRoman(0)/m/n/12 bandingkan validasi silang standar (misalnya \TU/TimesNewRoman(0)/m/it/12 k-fold\TU/TimesNewRoman(0)/m/n/12 ), yang dapat menghasilkan \TU/TimesNewRoman(0)/m/it/12 over-
+ []
+
+
+
+[44]
+
+[45]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 690.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 696.
+
+
+
+[46]
+
+[47]
+
+[48]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 742.
+
+
+Overfull \hbox (1.58133pt too wide) in paragraph at lines 746--747
+\TU/TimesNewRoman(0)/m/n/12 mungkinkan pengguna internal untuk dengan mudah mengakses analisis risiko \TU/TimesNewRoman(0)/m/it/12 churn
+ []
+
+
+
+[49]) (./Bab III - Analisis-Masalah.tex
+
+[50]
+Bab III.
+
+Overfull \hbox (10.18875pt too wide) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/12 Masing-masing tahapan dijelaskan lebih lanjut dalam bab ini beserta kegiatan-kegiatan
+ []
+
+
+Overfull \hbox (2.08017pt too wide) in paragraph at lines 37--38
+\TU/TimesNewRoman(0)/m/n/12 yang dilakukan pada setiap fase, untuk menunjukkan bagaimana sistem dikembangk-
+ []
+
+
+
+[51
+
+]
+
+[52]
+
+[53]
+
+[54]
+Overfull \hbox (0.21024pt too wide) in paragraph at lines 113--114
+[]\TU/TimesNewRoman(0)/m/n/12 Dasbor \TU/TimesNewRoman(0)/m/it/12 business intelligence \TU/TimesNewRoman(0)/m/n/12 yang tersedia sering kali dirancang dengan asum-
+ []
+
+
+
+[55]
+Overfull \hbox (3.45673pt too wide) in alignment at lines 128--134
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 134--141
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 141--145
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 145--148
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\TU/TimesNewRoman(0)/m/n/12 Penerimaan Pertanyaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memungkinkan pengguna
+ []
+
+
+Underfull \hbox (badness 5316) in paragraph at lines 151--152
+\TU/TimesNewRoman(0)/m/n/12 analisis dalam bahasa Indonesia atau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\TU/TimesNewRoman(0)/m/n/12 Klasifikasi Maksud dan
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 162--162
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengalihan Kueri Berda-
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 175--176
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Menghasilkan respons dalam
+ []
+
+
+Underfull \hbox (badness 4832) in paragraph at lines 180--180
+\TU/TimesNewRoman(0)/m/n/12 ta dan Analisis Perban-
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 194--195
+[]|\TU/TimesNewRoman(0)/b/n/12 Masukan\TU/TimesNewRoman(0)/m/n/12 : Interaksi pengguna dengan
+ []
+
+
+Underfull \hbox (badness 1348) in paragraph at lines 199--200
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memastikan hanya pengguna
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 201--202
+[]|\TU/TimesNewRoman(0)/b/n/12 Keluaran\TU/TimesNewRoman(0)/m/n/12 : Akses sistem berdasarkan
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 204--204
+[]|\TU/TimesNewRoman(0)/m/n/12 Mekanisme Pengunduran
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 148--210
+ [] [] [] 
+ []
+
+
+
+[56] [57] [58]
+
+[59]
+Overfull \hbox (3.45673pt too wide) in alignment at lines 220--226
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 226--233
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 233--237
+ [] [] [] 
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 237--240
+ [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 254--255
+\TU/TimesNewRoman(0)/m/n/12 dah digunakan oleh pengguna nontek-
+ []
+
+
+Underfull \hbox (badness 1067) in paragraph at lines 257--258
+[]|\TU/TimesNewRoman(0)/m/n/12 Sistem harus mudah dipelihara dengan
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 257--258
+\TU/TimesNewRoman(0)/m/n/12 dokumentasi kode, antarmuka program
+ []
+
+
+Underfull \hbox (badness 3281) in paragraph at lines 266--267
+[]|\TU/TimesNewRoman(0)/m/n/12 Sistem harus memastikan bahwa data
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 269--270
+\TU/TimesNewRoman(0)/m/n/12 mungkinkan penambahan fitur baru di
+ []
+
+
+Overfull \hbox (3.45673pt too wide) in alignment at lines 240--272
+ [] [] [] 
+ []
+
+[60] [61] [62] [63]
+Overfull \hbox (0.88016pt too wide) in paragraph at lines 286--287
+\TU/TimesNewRoman(0)/m/n/12 Dalam rangka meningkatkan efisiensi analisis dan prediksi kinerja bisnis serta meng-
+ []
+
+
+
+[64]
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
+[]|\TU/TimesNewRoman(0)/b/n/12 Nama
+ []
+
+
+Overfull \hbox (1.66586pt too wide) in alignment at lines 290--296
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|\TU/TimesNewRoman(0)/b/n/12 Nama
+ []
+
+
+Overfull \hbox (1.66586pt too wide) in alignment at lines 296--303
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.66586pt too wide) in alignment at lines 303--307
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (1.66586pt too wide) in alignment at lines 307--310
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+\TU/TimesNewRoman(0)/m/n/12 Aturan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 cocokan pola yang
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 sangat kaku, hanya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 merespons pola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 kalimat yang telah
+ []
+
+
+Underfull \hbox (badness 7081) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 ditentukan sebelum-
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 nya. Sistem hanya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 dapat menangani
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 kueri terstruktur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 dengan format te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 tap, tidak mampu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 memahami variasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 bahasa wajar yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 model peramalan,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\TU/TimesNewRoman(0)/m/n/12 hanya pengambilan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+[]
+ []
+
+
+Overfull \hbox (3.49211pt too wide) in paragraph at lines 317--318
+\TU/TimesNewRoman(0)/m/n/12 Implementasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+\TU/TimesNewRoman(0)/m/n/12 cepat dan
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 318--319
+\TU/TimesNewRoman(0)/m/n/12 lihara untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+\TU/TimesNewRoman(0)/m/n/12 merlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+\TU/TimesNewRoman(0)/m/n/12 infrastruktur
+ []
+
+
+Underfull \hbox (badness 6944) in paragraph at lines 320--321
+[]\TU/TimesNewRoman(0)/m/n/12 Kontrol pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak dapat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+\TU/TimesNewRoman(0)/m/n/12 diperluas un-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+[]\TU/TimesNewRoman(0)/m/n/12 Pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\TU/TimesNewRoman(0)/m/n/12 harus me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\TU/TimesNewRoman(0)/m/n/12 nyesuaikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+\TU/TimesNewRoman(0)/m/n/12 dengan pola
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 326--327
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak mampu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+[]\TU/TimesNewRoman(0)/m/n/12 Pengalaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
+\TU/TimesNewRoman(0)/m/n/12 pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 BI dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Klasifikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Maksud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Pola, Pem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 bangkitan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Alami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Templat,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 dan Per-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 amalan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--333
+\TU/TimesNewRoman(0)/m/n/12 Deret
+ []
+
+
+Overfull \hbox (6.12224pt too wide) in paragraph at lines 334--334
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengimplementasikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 sistem BI \TU/TimesNewRoman(0)/m/it/12 chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 klasifikasi maksud
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 templat untuk res-
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 pons yang beragam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 namun aman, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 model peramalan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--334
+\TU/TimesNewRoman(0)/m/n/12 deret waktu untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+[]\TU/TimesNewRoman(0)/m/n/12 Mampu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+\TU/TimesNewRoman(0)/m/n/12 menangani
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+\TU/TimesNewRoman(0)/m/n/12 variasi ba-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 337--338
+\TU/TimesNewRoman(0)/m/n/12 hasa wajar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+[]\TU/TimesNewRoman(0)/m/n/12 Respons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+[]\TU/TimesNewRoman(0)/m/n/12 Dukungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+\TU/TimesNewRoman(0)/m/n/12 peramalan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+[]\TU/TimesNewRoman(0)/m/n/12 Adaptif
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+\TU/TimesNewRoman(0)/m/n/12 terhadap
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 340--341
+\TU/TimesNewRoman(0)/m/n/12 kebutuhan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+[]\TU/TimesNewRoman(0)/m/n/12 Pengalaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+\TU/TimesNewRoman(0)/m/n/12 pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+[]\TU/TimesNewRoman(0)/m/n/12 Keamanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+\TU/TimesNewRoman(0)/m/n/12 terjaga
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+\TU/TimesNewRoman(0)/m/n/12 luas secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+\TU/TimesNewRoman(0)/m/n/12 implementasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+\TU/TimesNewRoman(0)/m/n/12 usaha awal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+[]\TU/TimesNewRoman(0)/m/n/12 Pemeliharaan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\TU/TimesNewRoman(0)/m/n/12 butuh keah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+\TU/TimesNewRoman(0)/m/n/12 lian berbagai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+[]\TU/TimesNewRoman(0)/m/n/12 Biaya infras-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+\TU/TimesNewRoman(0)/m/n/12 truktur lebih
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+[]|\TU/TimesNewRoman(0)/m/n/12 Dasbor BI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+\TU/TimesNewRoman(0)/m/n/12 Interaktif
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--355
+\TU/TimesNewRoman(0)/m/n/12 Tradisional
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 355--355
+\TU/TimesNewRoman(0)/m/n/12 dengan Pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+[]|\TU/TimesNewRoman(0)/m/n/12 Tetap menggunakan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 sudah ada, dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 peningkatan untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 interaktivitas yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 dapat melakukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 penggalian data,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 penyaringan, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 agregasi melalui
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 kontrol antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 intuitif. Menam-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 bahkan fitur analitik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 layanan mandiri
+ []
+
+
+Underfull \hbox (badness 5203) in paragraph at lines 356--356
+\TU/TimesNewRoman(0)/m/n/12 dan aplikasi dasbor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--360
+[]\TU/TimesNewRoman(0)/m/n/12 Teknologi
+ []
+
+
+Underfull \hbox (badness 6961) in paragraph at lines 359--360
+\TU/TimesNewRoman(0)/m/n/12 matang dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+[]\TU/TimesNewRoman(0)/m/n/12 Dukungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+\TU/TimesNewRoman(0)/m/n/12 komunitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
+\TU/TimesNewRoman(0)/m/n/12 dan alat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+[]\TU/TimesNewRoman(0)/m/n/12 Tata kelola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+\TU/TimesNewRoman(0)/m/n/12 data dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--362
+\TU/TimesNewRoman(0)/m/n/12 keamanan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+[]\TU/TimesNewRoman(0)/m/n/12 Akrab bagi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+\TU/TimesNewRoman(0)/m/n/12 organisasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+\TU/TimesNewRoman(0)/m/n/12 alat BI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak ada
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 367--368
+\TU/TimesNewRoman(0)/m/n/12 antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+[]\TU/TimesNewRoman(0)/m/n/12 Dukungan
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 369--370
+[]\TU/TimesNewRoman(0)/m/n/12 Tetap memer-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+[]\TU/TimesNewRoman(0)/m/n/12 Tidak dapat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+\TU/TimesNewRoman(0)/m/n/12 diperluas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 370--371
+\TU/TimesNewRoman(0)/m/n/12 untuk bisnis
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 375--375
+[]|\TU/TimesNewRoman(0)/m/n/12 Chatbot BI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 375--375
+\TU/TimesNewRoman(0)/m/n/12 Model Ba-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 375--375
+\TU/TimesNewRoman(0)/m/n/12 hasa Besar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 Large
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
+\TU/TimesNewRoman(0)/m/it/12 Language
+ []
+
+
+Overfull \hbox (6.12224pt too wide) in paragraph at lines 376--376
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengimplementasikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 Transformer penuh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 menggunakan pem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 belajaran mendalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 untuk pemahaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 menangani kueri
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 kompleks dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 konteks multiturn,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 dan menghasilkan
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 respons naratif yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 dapat disetel-halus
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 (fine-tuned) dengan
+ []
+
+
+Underfull \hbox (badness 5022) in paragraph at lines 376--376
+\TU/TimesNewRoman(0)/m/n/12 untuk meningkatkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+[]\TU/TimesNewRoman(0)/m/n/12 Pemahaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+\TU/TimesNewRoman(0)/m/n/12 bahasa ala-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+\TU/TimesNewRoman(0)/m/n/12 mi paling
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+[]\TU/TimesNewRoman(0)/m/n/12 Kemampuan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+\TU/TimesNewRoman(0)/m/n/12 konteks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+\TU/TimesNewRoman(0)/m/n/12 percakapan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+[]\TU/TimesNewRoman(0)/m/n/12 Respons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+[]\TU/TimesNewRoman(0)/m/n/12 Dapat me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+\TU/TimesNewRoman(0)/m/n/12 nangani
+ []
+
+
+Underfull \hbox (badness 1275) in paragraph at lines 382--383
+\TU/TimesNewRoman(0)/m/n/12 kueri sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+[]\TU/TimesNewRoman(0)/m/n/12 Adaptif
+ []
+
+
+Underfull \hbox (badness 4954) in paragraph at lines 383--384
+\TU/TimesNewRoman(0)/m/n/12 riasi bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+[]
+ []
+
+
+Overfull \hbox (3.4804pt too wide) in paragraph at lines 384--385
+\TU/TimesNewRoman(0)/m/n/12 Pembelajaran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+\TU/TimesNewRoman(0)/m/n/12 berkelan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+\TU/TimesNewRoman(0)/m/n/12 jutan dari
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+[]\TU/TimesNewRoman(0)/m/n/12 Biaya kom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+\TU/TimesNewRoman(0)/m/n/12 putasi sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+[]\TU/TimesNewRoman(0)/m/n/12 Memerlukan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+\TU/TimesNewRoman(0)/m/n/12 infrastruktur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+\TU/TimesNewRoman(0)/m/n/12 GPU berki-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+[]\TU/TimesNewRoman(0)/m/n/12 Risiko ha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+\TU/TimesNewRoman(0)/m/n/12 lusinasi dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 390--391
+\TU/TimesNewRoman(0)/m/n/12 respons tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+\TU/TimesNewRoman(0)/m/n/12 trol keluaran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--392
+\TU/TimesNewRoman(0)/m/n/12 secara deter-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+[]\TU/TimesNewRoman(0)/m/n/12 Potensi ke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
+\TU/TimesNewRoman(0)/m/n/12 bocoran data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+[]\TU/TimesNewRoman(0)/m/n/12 Kompleksitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 393--394
+\TU/TimesNewRoman(0)/m/n/12 implementasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[]
+ []
+
+
+Overfull \hbox (6.05971pt too wide) in paragraph at lines 394--395
+\TU/TimesNewRoman(0)/m/n/12 Ketergantungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+\TU/TimesNewRoman(0)/m/n/12 pada penye-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+\TU/TimesNewRoman(0)/m/n/12 dia model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+[]\TU/TimesNewRoman(0)/m/n/12 Latensi res-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+\TU/TimesNewRoman(0)/m/n/12 pons lebih
+ []
+
+
+Overfull \hbox (1.66586pt too wide) in alignment at lines 310--399
+ [] [] [] [] [] 
+ []
+
+[65] [66] [67]
+
+[68]
+
+[69]
+Underfull \hbox (badness 5578) in paragraph at lines 454--454
+[]|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[]|\TU/TimesNewRoman(0)/m/it/12 Internal Business
+ []
+
+
+
+[70] [71]
+Underfull \hbox (badness 5578) in paragraph at lines 492--492
+[]|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--495
+[]|\TU/TimesNewRoman(0)/m/it/12 Internal Business
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 498--499
+\TU/TimesNewRoman(0)/m/n/12 mesin yang dapat menjadi fondasi untuk inovasi-
+ []
+
+
+
+[72] [73] [74] [75]
+Underfull \hbox (badness 5578) in paragraph at lines 530--530
+[]|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]|\TU/TimesNewRoman(0)/m/it/12 Internal Business
+ []
+
+
+Underfull \hbox (badness 2229) in paragraph at lines 536--537
+[]|\TU/TimesNewRoman(0)/m/n/12 Solusi ini memberikan kesempatan sedang untuk
+ []
+
+
+
+[76] [77]
+Underfull \hbox (badness 5578) in paragraph at lines 568--568
+[]|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 571--571
+[]|\TU/TimesNewRoman(0)/m/it/12 Internal Business
+ []
+
+
+
+[78] [79] [80] [81]
+Overfull \hbox (5.4908pt too wide) in paragraph at lines 587--587
+[]|\TU/TimesNewRoman(0)/b/it/12 Customer| 
+ []
+
+
+Overfull \hbox (5.4908pt too wide) in paragraph at lines 594--594
+[]|\TU/TimesNewRoman(0)/b/it/12 Customer| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 605--605
+\TU/TimesNewRoman(0)/m/n/12 Aturan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 606--606
+[]|\TU/TimesNewRoman(0)/m/n/12 Rendah-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--607
+[]|\TU/TimesNewRoman(0)/m/n/12 Rendah-
+ []
+
+
+Overfull \hbox (1.09032pt too wide) in paragraph at lines 609--609
+[]|\TU/TimesNewRoman(0)/m/n/12 Rendah| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+[]|\TU/TimesNewRoman(0)/m/n/12 Organisasi kecil
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\TU/TimesNewRoman(0)/m/n/12 dengan kebu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\TU/TimesNewRoman(0)/m/n/12 tuhan analitik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\TU/TimesNewRoman(0)/m/n/12 sangat terbatas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 610--611
+\TU/TimesNewRoman(0)/m/n/12 dan kueri yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 BI dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 Klasifikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 Maksud,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 Pem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 bangkitan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 Bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 Peramal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 613--613
+\TU/TimesNewRoman(0)/m/n/12 an Deret
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+[]|\TU/TimesNewRoman(0)/m/n/12 Sedang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+\TU/TimesNewRoman(0)/m/n/12 Tinggi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 614--614
+\TU/TimesNewRoman(0)/m/n/12 (ROI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
+[]|\TU/TimesNewRoman(0)/m/n/12 Sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--616
+[]|\TU/TimesNewRoman(0)/m/n/12 Sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
+[]|\TU/TimesNewRoman(0)/m/n/12 Sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+[]|\TU/TimesNewRoman(0)/m/n/12 Organisasi me-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+\TU/TimesNewRoman(0)/m/n/12 nengah hingga
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+\TU/TimesNewRoman(0)/m/n/12 besar dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+\TU/TimesNewRoman(0)/m/n/12 volume data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+\TU/TimesNewRoman(0)/m/n/12 analitik kom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 618--619
+\TU/TimesNewRoman(0)/m/n/12 digital berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+[]|\TU/TimesNewRoman(0)/m/n/12 Dasbor BI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+\TU/TimesNewRoman(0)/m/n/12 Interaktif
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 621--621
+\TU/TimesNewRoman(0)/m/n/12 Tradisional
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 621--621
+\TU/TimesNewRoman(0)/m/n/12 dengan Pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 624--624
+[]|\TU/TimesNewRoman(0)/m/n/12 Sedang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+[]|\TU/TimesNewRoman(0)/m/n/12 Organisasi yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\TU/TimesNewRoman(0)/m/n/12 sudah memiliki
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\TU/TimesNewRoman(0)/m/n/12 investasi besar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--627
+\TU/TimesNewRoman(0)/m/n/12 peningkatan
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 629--629
+[]|\TU/TimesNewRoman(0)/m/n/12 Chatbot BI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 629--629
+\TU/TimesNewRoman(0)/m/n/12 Berbasis
+ []
+
+
+Underfull \hbox (badness 4279) in paragraph at lines 629--629
+\TU/TimesNewRoman(0)/m/n/12 Model Ba-
+ []
+
+
+Underfull \hbox (badness 4303) in paragraph at lines 629--629
+\TU/TimesNewRoman(0)/m/n/12 hasa Besar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
+[]|\TU/TimesNewRoman(0)/m/n/12 Sedang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
+\TU/TimesNewRoman(0)/m/n/12 Tinggi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
+\TU/TimesNewRoman(0)/m/n/12 (Biaya
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+[]|\TU/TimesNewRoman(0)/m/n/12 Sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\TU/TimesNewRoman(0)/m/n/12 Tinggi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 631--631
+\TU/TimesNewRoman(0)/m/n/12 (dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--632
+[]|\TU/TimesNewRoman(0)/m/n/12 Tinggi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--632
+\TU/TimesNewRoman(0)/m/n/12 (dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 632--632
+\TU/TimesNewRoman(0)/m/n/12 Tantang-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 633--633
+[]|\TU/TimesNewRoman(0)/m/n/12 Sangat
+ []
+
+
+Underfull \hbox (badness 6188) in paragraph at lines 634--635
+[]|\TU/TimesNewRoman(0)/m/n/12 Organisasi besar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 dengan anggar-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 an signifikan,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 infrastruktur AI
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 an pemahaman
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 bahasa sangat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 kompleks, dan
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 634--635
+\TU/TimesNewRoman(0)/m/n/12 jemen risiko AI
+ []
+
+
+
+[82] [83]
+
+[84]
+
+[85]
+
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 699--699
+[]|\TU/TimesNewRoman(0)/b/n/12 Jumlah Aturan
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 707--708
+[]|\TU/TimesNewRoman(0)/m/n/12 Pemantauan pencapaian tar-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 709--710
+\TU/TimesNewRoman(0)/m/n/12 langgan dan strategi retensi
+ []
+
+
+
+[87]
+File: image/detailrb.png Graphic file (type bmp)
+<image/detailrb.png>
+
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 BANDWIDTH\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PACKAGE_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 747--748
+\TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTOMER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTOMER_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 809--809
+[]|\TU/TimesNewRoman(0)/m/n/12 Indikator Digital dan
+ []
+
+
+Overfull \hbox (15.73738pt too wide) in paragraph at lines 847--848
+\TU/TimesNewRoman(0)/m/n/12 serta pelacakan masa aktif layanan pelanggan. Struktur data dalam \TU/lmtt/m/n/12 BRIGHTAI_CT0_NAL
+ []
+
+
+
+[90]
+Overfull \hbox (2.5742pt too wide) in paragraph at lines 889--889
+[]|\TU/TimesNewRoman(0)/b/n/12 Kelengkapan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 889--889
+[]|\TU/TimesNewRoman(0)/m/it/12 Missing
+ []
+
+
+Overfull \hbox (7.39381pt too wide) in paragraph at lines 893--893
+[]|\TU/TimesNewRoman(0)/m/n/12 BRIGHTAI_REVENUE| 
+ []
+
+
+Overfull \hbox (3.39772pt too wide) in paragraph at lines 899--899
+[]|\TU/TimesNewRoman(0)/m/n/12 BRIGHTAI_CT0_NAL| 
+ []
+
+
+Overfull \hbox (14.0303pt too wide) in paragraph at lines 887--902
+ [][] 
+ []
+
+
+
+[91]
+Underfull \hbox (badness 10000) in paragraph at lines 938--939
+[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PRODUCT_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 940--941
+[]|\TU/lmtt/m/n/12 ORDER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CHURN_FLAG\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 REVENUE\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[92]
+
+[93]
+Underfull \hbox (badness 10000) in paragraph at lines 976--976
+[]|\TU/TimesNewRoman(0)/m/n/12 Metrik Numerik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 976--977
+[]|\TU/TimesNewRoman(0)/m/n/12 Mempertahankan kontinuitas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 980--980
+[]|\TU/TimesNewRoman(0)/m/n/12 Penghapusan Re-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 980--981
+[]|\TU/TimesNewRoman(0)/m/n/12 Rekaman tanpa identitas tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 982--983
+[]|\TU/TimesNewRoman(0)/m/n/12 Mempertahankan konsistensi
+ []
+
+
+
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1014
+[]|\TU/TimesNewRoman(0)/m/n/12 Standardisasi Z-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
+[]|\TU/TimesNewRoman(0)/m/n/12 Normalisasi Min-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+[]|\TU/TimesNewRoman(0)/m/n/12 Distribusi seragam dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1018
+[]|\TU/TimesNewRoman(0)/m/n/12 Normalisasi Min-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+[]|\TU/TimesNewRoman(0)/m/n/12 Standardisasi Z-
+ []
+
+
+Underfull \hbox (badness 6284) in paragraph at lines 1020--1021
+[]|\TU/TimesNewRoman(0)/m/n/12 Memungkinkan representasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1022--1022
+[]|\TU/TimesNewRoman(0)/m/n/12 Normalisasi Min-
+ []
+
+
+Overfull \hbox (0.21414pt too wide) in paragraph at lines 1033--1034
+\TU/TimesNewRoman(0)/m/n/12 Fitur kategorikal dikonversi menjadi representasi numerik menggunakan teknik \TU/TimesNewRoman(0)/m/it/12 one-
+ []
+
+
+Underfull \hbox (badness 3219) in paragraph at lines 1041--1041
+[]|\TU/TimesNewRoman(0)/b/n/12 Teknik Pengko-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
+[]|\TU/TimesNewRoman(0)/m/it/12 One-Hot Enco-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1047--1047
+[]|\TU/TimesNewRoman(0)/m/it/12 One-Hot Enco-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1051--1051
+[]|\TU/TimesNewRoman(0)/m/it/12 One-Hot Enco-
+ []
+
+
+Overfull \hbox (0.8647pt too wide) in paragraph at lines 1039--1054
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1073
+[]|\TU/lmtt/m/n/12 MONTH_SIN\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 1098--1098
+[]|\TU/lmtt/m/n/12 LAG_1, LAG_3, LAG_6,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1100
+[]|\TU/lmtt/m/n/12 ROLLING_MEAN_3,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1102
+[]|\TU/lmtt/m/n/12 ROLLING_STD_3,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1104--1104
+[]|\TU/lmtt/m/n/12 ROLLING_MIN_6,
+ []
+
+
+Overfull \hbox (10.97359pt too wide) in paragraph at lines 1094--1109
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1129--1129
+[]|\TU/lmtt/m/n/12 SEGMENT_TARGET_
+ []
+
+
+Overfull \hbox (10.97359pt too wide) in paragraph at lines 1119--1134
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (0.18094pt too wide) in paragraph at lines 1139--1140
+\TU/TimesNewRoman(0)/m/n/12 Pembagian data untuk model peramalan deret waktu menggunakan pendekatan \TU/TimesNewRoman(0)/m/it/12 time-
+ []
+
+
+
+[96]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[97]
+Overfull \hbox (8.94656pt too wide) in paragraph at lines 1169--1170
+\TU/TimesNewRoman(0)/m/n/12 Tahap pemodelan data (\TU/TimesNewRoman(0)/m/it/12 modeling\TU/TimesNewRoman(0)/m/n/12 ) merupakan fase keempat dalam metodologi CRISP-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
+[]|$\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1190
+[]|$\OML/cmm/m/it/12 i[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1192
+[]|$\OML/cmm/m/it/12 o[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1211
+[]|$\OML/cmm/m/it/12 z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+[]|$\OML/cmm/m/it/12 r[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+ []
+
+
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1230
+[]|\TU/TimesNewRoman(0)/b/n/12 Lapisan Kompo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1232
+[]|\TU/TimesNewRoman(0)/m/it/12 Variable Selection
+ []
+
+
+Underfull \hbox (badness 3590) in paragraph at lines 1234--1235
+[]|\TU/TimesNewRoman(0)/m/n/12 Koneksi \TU/TimesNewRoman(0)/m/it/12 skip \TU/TimesNewRoman(0)/m/n/12 dengan gerbang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1236
+[]|\TU/TimesNewRoman(0)/m/it/12 LSTM Encoder-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1236
+[]|\TU/TimesNewRoman(0)/m/n/12 Pemrosesan pola
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+[]|\TU/TimesNewRoman(0)/m/it/12 Multi-Head Atten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+[]|\TU/TimesNewRoman(0)/m/n/12 Pembelajaran de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+\TU/TimesNewRoman(0)/m/n/12 pendensi jangka
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 1240--1240
+[]|\TU/TimesNewRoman(0)/m/n/12 Peramalan probabi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1257
+[]|\TU/TimesNewRoman(0)/b/n/12 Aspek Perban-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1263
+[]|\TU/TimesNewRoman(0)/m/n/12 Kecepatan Pela-
+ []
+
+
+Underfull \hbox (badness 7685) in paragraph at lines 1265--1265
+\TU/TimesNewRoman(0)/m/n/12 pendensi Jangka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1267--1267
+[]|\TU/TimesNewRoman(0)/m/n/12 Interpretabilitas
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 1267--1268
+[]|\TU/TimesNewRoman(0)/m/n/12 Tinggi (\TU/TimesNewRoman(0)/m/it/12 attention
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1269--1269
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 1271--1271
+[]|\TU/TimesNewRoman(0)/m/n/12 Kebutuhan Volu-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
+[]|\TU/TimesNewRoman(0)/m/n/12 Panjang Sekuens
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 1334--1334
+[]|\TU/TimesNewRoman(0)/m/it/12 Mean Squared
+ []
+
+
+Underfull \hbox (badness 1253) in paragraph at lines 1334--1335
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengukur rata-rata kuadrat kesa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1336--1336
+[]|\TU/TimesNewRoman(0)/m/it/12 Quantile Loss
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 1338--1338
+[]|\TU/TimesNewRoman(0)/m/n/12 Prediksi Churn Bi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1338
+[]|\TU/TimesNewRoman(0)/m/it/12 Binary Cross-
+ []
+
+
+Underfull \hbox (badness 2846) in paragraph at lines 1338--1339
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengklasifikasi status \TU/TimesNewRoman(0)/m/it/12 churn \TU/TimesNewRoman(0)/m/n/12 pe-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 1338--1339
+\TU/TimesNewRoman(0)/m/n/12 langgan dengan probabilitas cali-
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[101]
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 1382--1382
+[]|\TU/TimesNewRoman(0)/b/n/12 Komponen Sis-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+[]|\TU/TimesNewRoman(0)/m/n/12 Intent, entitas,
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 1386--1386
+[]|\TU/TimesNewRoman(0)/m/n/12 Peramalan Deret
+ []
+
+
+Underfull \hbox (badness 5288) in paragraph at lines 1386--1387
+[]|\TU/TimesNewRoman(0)/m/n/12 Prediksi + inte-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1388
+[]|\TU/TimesNewRoman(0)/m/n/12 Pembangkitan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1388--1388
+[]|\TU/TimesNewRoman(0)/m/it/12 Template-based
+ []
+
+
+Underfull \hbox (badness 2142) in paragraph at lines 1388--1388
+\TU/TimesNewRoman(0)/m/n/12 NLG + T5 Rewri-
+ []
+
+
+Overfull \hbox (7.3208pt too wide) in paragraph at lines 1380--1391
+ [][] 
+ []
+
+) (./Bab IV - Desain-Konsep-Solusi.tex
+
+[103]
+Bab IV.
+
+
+[104
+
+]
+File: image/bpmnasis.png Graphic file (type bmp)
+<image/bpmnasis.png>
+
+
+[105]
+
+[106]
+
+[107]
+File: image/bpmntobe.png Graphic file (type bmp)
+<image/bpmntobe.png>
+
+
+[108]
+
+[109]
+
+[110]
+File: image/arsitektur.png Graphic file (type bmp)
+<image/arsitektur.png>
+) (./Bab V - Rencana-Selanjutnya.tex
+
+[111]
+
+[112]
+Bab V.
+
+Overfull \hbox (1.54617pt too wide) in paragraph at lines 6--7
+\TU/TimesNewRoman(0)/m/n/12 Bab ini menyajikan rencana implementasi sistem \TU/TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNewRoman(0)/m/it/12 rule-
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 41--42
+[]|\TU/TimesNewRoman(0)/m/n/12 Pustaka JavaScript untuk membangun antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\TU/TimesNewRoman(0)/m/n/12 Oracle Data-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[]|\TU/TimesNewRoman(0)/m/n/12 TensorFlow /
+ []
+
+
+Underfull \hbox (badness 2150) in paragraph at lines 50--51
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 yang digunakan untuk
+ []
+
+
+Underfull \hbox (badness 6110) in paragraph at lines 53--54
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 alternatif yang digu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/n/12 nakan untuk implementasi model TFT (\TU/TimesNewRoman(0)/m/it/12 Tem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/TimesNewRoman(0)/m/it/12 poral Fusion Transformer\TU/TimesNewRoman(0)/m/n/12 ) dengan pustaka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+\TU/lmtt/m/n/12 pytorch-forecasting\TU/TimesNewRoman(0)/m/n/12 . PyTorch menawarkan
+ []
+
+
+Underfull \hbox (badness 4872) in paragraph at lines 80--80
+[]|\TU/TimesNewRoman(0)/m/n/12 Jupyter Note-
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 83--83
+[]|\TU/TimesNewRoman(0)/m/n/12 Google Cola-
+ []
+
+
+Underfull \hbox (badness 6978) in paragraph at lines 89--89
+[]|\TU/TimesNewRoman(0)/m/n/12 Visual Studio
+ []
+
+
+
+[113
+
+] [114] [115]
+Overfull \hbox (1.95242pt too wide) in paragraph at lines 99--100
+[]\TU/TimesNewRoman(0)/m/n/12 Dalam kebutuhan pelatihan model yang lebih intensif atau eksperimen dengan \TU/TimesNewRoman(0)/m/it/12 hyper-
+ []
+
+
+
+[116]
+Underfull \hbox (badness 3058) in paragraph at lines 121--121
+[]|\TU/TimesNewRoman(0)/m/n/8 Investigasi dan Pengum-
+ []
+
+
+Overfull \hbox (27.81953pt too wide) in paragraph at lines 113--142
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--155
+[]|\TU/TimesNewRoman(0)/m/n/8 Pembuatan
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 155--155
+\TU/TimesNewRoman(0)/m/n/8 Laporan TA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|\TU/TimesNewRoman(0)/m/it/8 Data Un-
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 159--159
+[]|\TU/TimesNewRoman(0)/m/it/8 Data Gathe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+[]|\TU/TimesNewRoman(0)/m/it/8 Exploratory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
+\TU/TimesNewRoman(0)/m/it/8 Data Ana-
+ []
+
+
+Underfull \hbox (badness 2103) in paragraph at lines 163--163
+[]|\TU/TimesNewRoman(0)/m/it/8 Data Prepa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+[]|\TU/TimesNewRoman(0)/m/n/8 Kajian dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
+\TU/TimesNewRoman(0)/m/n/8 Penentuan
+ []
+
+
+Overfull \hbox (0.86385pt too wide) in paragraph at lines 169--169
+[]|\TU/TimesNewRoman(0)/m/n/8 Implementasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
+[]|\TU/TimesNewRoman(0)/m/n/8 Pembuatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--175
+[]|\TU/TimesNewRoman(0)/m/n/8 Finalisasi
+ []
+
+
+Underfull \hbox (badness 6396) in paragraph at lines 175--175
+\TU/TimesNewRoman(0)/m/n/8 Laporan TA
+ []
+
+
+Overfull \hbox (50.74037pt too wide) in paragraph at lines 149--180
+ [][] 
+ []
+
+
+
+[117]
+
+[118]
+
+[119]
+
+[120]
+Overfull \hbox (1.7786pt too wide) in paragraph at lines 290--291
+\TU/TimesNewRoman(0)/m/n/12 Modul peramalan deret waktu dievaluasi menggunakan protokol \TU/TimesNewRoman(0)/m/it/12 rolling-origin back-
+ []
+
+
+
+[121]
+Overfull \hbox (0.61258pt too wide) in paragraph at lines 335--336
+[]\TU/TimesNewRoman(0)/m/n/12 Pelaporan hasil per horizon dan per entitas prioritas (median dan rentang antar-
+ []
+
+
+
+[122]
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/TimesNewRoman(0)/m/n/12 historis untuk
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+\TU/TimesNewRoman(0)/m/n/12 pelatihan model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
+[]|\TU/TimesNewRoman(0)/m/n/12 Akurasi model pera-
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 408--408
+\TU/TimesNewRoman(0)/m/n/12 malan tidak mencapai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan teknik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--409
+\TU/TimesNewRoman(0)/m/n/12 augmentasi data, tran-
+ []
+
+
+Underfull \hbox (badness 2452) in paragraph at lines 408--409
+\TU/TimesNewRoman(0)/m/n/12 sfer learning dari model
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 408--409
+\TU/TimesNewRoman(0)/m/n/12 pre-trained, atau menye-
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 408--409
+\TU/TimesNewRoman(0)/m/n/12 suaikan horizon prediksi
+ []
+
+
+Overfull \hbox (9.94447pt too wide) in paragraph at lines 411--411
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakseimbangan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+\TU/TimesNewRoman(0)/m/n/12 distribusi kelas
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]|\TU/TimesNewRoman(0)/m/n/12 Performa klasifika-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+\TU/TimesNewRoman(0)/m/n/12 si buruk pada kelas
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 411--412
+[]|\TU/TimesNewRoman(0)/m/n/12 Menerapkan teknik over-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+\TU/TimesNewRoman(0)/m/n/12 sampling (SMOTE),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+\TU/TimesNewRoman(0)/m/n/12 weighting pada proses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+[]|\TU/TimesNewRoman(0)/m/n/12 Variasi bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+\TU/TimesNewRoman(0)/m/n/12 alami pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+\TU/TimesNewRoman(0)/m/n/12 di luar cakup-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
+\TU/TimesNewRoman(0)/m/n/12 an pola yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+[]|\TU/TimesNewRoman(0)/m/n/12 Keterbatasan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/12 sumber daya
+ []
+
+
+Underfull \hbox (badness 3758) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/12 komputasi untuk
+ []
+
+
+Underfull \hbox (badness 4291) in paragraph at lines 417--417
+\TU/TimesNewRoman(0)/m/n/12 melebihi jadwal yang
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan layanan
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 417--418
+\TU/TimesNewRoman(0)/m/n/12 cloud computing dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+\TU/TimesNewRoman(0)/m/n/12 GPU, mengoptimalkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+\TU/TimesNewRoman(0)/m/n/12 arsitektur model, atau
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
+\TU/TimesNewRoman(0)/m/n/12 menggunakan teknik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]|\TU/TimesNewRoman(0)/m/n/12 Kendala akses
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\TU/TimesNewRoman(0)/m/n/12 ke \TU/TimesNewRoman(0)/m/it/12 Enterprise
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 420--420
+\TU/TimesNewRoman(0)/m/it/12 Data Warehouse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+[]|\TU/TimesNewRoman(0)/m/n/12 Data pengujian tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--420
+\TU/TimesNewRoman(0)/m/n/12 representatif dengan
+ []
+
+
+Underfull \hbox (badness 1132) in paragraph at lines 420--421
+[]|\TU/TimesNewRoman(0)/m/n/12 Menggunakan data sinte-
+ []
+
+
+Underfull \hbox (badness 3746) in paragraph at lines 420--421
+\TU/TimesNewRoman(0)/m/n/12 ta nyata untuk pengem-
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 423--423
+[]|\TU/TimesNewRoman(0)/m/n/12 Perubahan kebu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 tuhan pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 selama pengem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+[]|\TU/TimesNewRoman(0)/m/n/12 Fitur yang dikem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 bangkan tidak sesuai
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 ekspektasi pengguna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+[]|\TU/TimesNewRoman(0)/m/n/12 Menerapkan pendekatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+\TU/TimesNewRoman(0)/m/n/12 iteratif dengan evaluasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--424
+\TU/TimesNewRoman(0)/m/n/12 berkala bersama pe-
+ []
+
+
+Underfull \hbox (badness 1502) in paragraph at lines 423--424
+\TU/TimesNewRoman(0)/m/n/12 mangku kepentingan dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketergantungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakcocokan versi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+\TU/TimesNewRoman(0)/m/n/12 atau \TU/TimesNewRoman(0)/m/it/12 deprecated fe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 426--426
+\TU/TimesNewRoman(0)/m/it/12 atures \TU/TimesNewRoman(0)/m/n/12 menghambat
+ []
+
+
+Underfull \hbox (badness 2393) in paragraph at lines 426--427
+\TU/TimesNewRoman(0)/m/n/12 virtual environment, dan
+ []
+
+
+Underfull \hbox (badness 5475) in paragraph at lines 429--429
+[]|\TU/TimesNewRoman(0)/m/n/12 Responden UAT
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 429--429
+\TU/TimesNewRoman(0)/m/n/12 tidak mencukupi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--429
+[]|\TU/TimesNewRoman(0)/m/n/12 Evaluasi keberguna-
+ []
+
+
+Underfull \hbox (badness 4096) in paragraph at lines 429--429
+\TU/TimesNewRoman(0)/m/n/12 an tidak valid secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+[]|\TU/TimesNewRoman(0)/m/n/12 Memperluas jangkauan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+\TU/TimesNewRoman(0)/m/n/12 rekrutmen responden,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+\TU/TimesNewRoman(0)/m/n/12 menawarkan insentif
+ []
+
+
+Underfull \hbox (badness 6741) in paragraph at lines 429--430
+\TU/TimesNewRoman(0)/m/n/12 partisipasi, atau menye-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+\TU/TimesNewRoman(0)/m/n/12 suaikan target minimal
+ []
+
+
+
+[123] [124])
+
+[125]
+
+[126
+
+
+]
+
+[127]
+
+Package biblatex Warning: Month out of range or not an integer
+(biblatex)                at entry 'Intimedia2024' on input line 415.
+
+
+
+[128]
+Overfull \hbox (8.21161pt too wide) in paragraph at lines 415--415
+[][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
+ []
+
+
+Overfull \hbox (1.59315pt too wide) in paragraph at lines 415--415
+\TU/TimesNewRoman(0)/m/n/12 diction Model Based on Hybrid Neural Networks”. \TU/TimesNewRoman(0)/m/it/12 Scientific Reports \TU/TimesNewRoman(0)/m/n/12 14:79603.
+ []
+
+
+
+[129]
+
+[130]
+Overfull \hbox (1.96846pt too wide) in paragraph at lines 415--415
+[][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
+ []
+
+
+Overfull \hbox (39.24355pt too wide) in paragraph at lines 415--415
+\TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2004.15006,
+ []
+
+
+
+[131]
+Overfull \hbox (29.48573pt too wide) in paragraph at lines 415--415
+\TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
+ []
+
+
+
+[132]
+
+[133] (./Lampiran-A.tex
+
+[134]
+Underfull \hbox (badness 1708) in paragraph at lines 33--34
+\TU/TimesNewRoman(0)/m/n/12 memiliki enkripsi, kontrol akses berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\TU/TimesNewRoman(0)/m/n/12 Apa target keberhasilan
+ []
+
+[135
+
+]
+Underfull \hbox (badness 1490) in paragraph at lines 60--60
+[]|\TU/TimesNewRoman(0)/m/n/12 Apa kendala teknis inte-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\TU/TimesNewRoman(0)/m/n/12 Pendekatan teknis apa
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 66--67
+\TU/TimesNewRoman(0)/m/n/12 membosankan dalam penyajian data pada
+ []
+
+
+Underfull \hbox (badness 1484) in paragraph at lines 69--69
+[]|\TU/TimesNewRoman(0)/m/n/12 Apa batasan teknis yang
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 72--73
+[]|\TU/TimesNewRoman(0)/m/n/12 Gunakan Tools bebas untuk deployment.
+ []
+
+[136])
+
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 395.
+See the caption package documentation for explanation.
+
+
+
+[137] (./ProposalTA.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
+(rerunfilecheck)             Checksum: DF8A880E77443B3FFA8B62BFDEA2F757;39416.
+
+Package biblatex Warning: Please rerun LaTeX.
+
+Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
+\openout1 = `ProposalTA.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32786 strings out of 473832
+ 653124 string characters out of 5729482
+ 2067300 words of memory out of 5000000
+ 55449 multiletter control sequences out of 15000+600000
+ 564719 words of font info for 87 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 79i,13n,93p,2210b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ProposalTA.pdf (148 pages).

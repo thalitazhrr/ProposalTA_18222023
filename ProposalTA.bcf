@@ -5070,4 +5070,157 @@
     <bcf:citekey order="74" intorder="2">Sai2020NLGSurvey</bcf:citekey>
     <bcf:citekey order="74" intorder="3">vanDerLee2021HumanEval</bcf:citekey>
     <bcf:citekey order="75" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
-    <bcf:citekey order="75" intorder="2
+    <bcf:citekey order="75" intorder="2">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="75" intorder="3">Gao2024LLMNLG</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="77" intorder="2">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="78" intorder="2">Gao2024LLMNLG</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="79" intorder="2">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="79" intorder="3">Xiao2023MetricEval</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">vanDerLee2021HumanEval</bcf:citekey>
+    <bcf:citekey order="80" intorder="2">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="80" intorder="3">Morrison2021ReproSubjective</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">vanDerLee2021HumanEval</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">Elangovan2023ConSiDERS</bcf:citekey>
+    <bcf:citekey order="82" intorder="2">Morrison2021ReproSubjective</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">Syarifudin2024AIChatbotQuality</bcf:citekey>
+    <bcf:citekey order="84" intorder="2">LearningGate2024ChatbotQuality</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">vanDerLee2021HumanEval</bcf:citekey>
+    <bcf:citekey order="85" intorder="2">Syarifudin2024AIChatbotQuality</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="86" intorder="2">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="86" intorder="3">Gao2024LLMNLG</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">vanDerLee2021HumanEval</bcf:citekey>
+    <bcf:citekey order="87" intorder="2">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">Sai2020NLGSurvey</bcf:citekey>
+    <bcf:citekey order="88" intorder="2">Xiao2023MetricEval</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">Syarifudin2024AIChatbotQuality</bcf:citekey>
+    <bcf:citekey order="89" intorder="2">LearningGate2024ChatbotQuality</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
+    <bcf:citekey order="90" intorder="2">vanDerLee2021HumanEval</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">WiseGuyReports2024</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="92" intorder="2">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="96" intorder="2">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="98" intorder="2">Jeaab2024LSTMGRUXGBoost</bcf:citekey>
+    <bcf:citekey order="99" intorder="1">Lim2021TFT</bcf:citekey>
+    <bcf:citekey order="99" intorder="2">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">Lim2021TFT</bcf:citekey>
+    <bcf:citekey order="100" intorder="2">Hartanto2024TFTEnhanced</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">Lim2021TFT</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">Lim2021TFT</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">Hartanto2024TFTEnhanced</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">Hartanto2024TFTEnhanced</bcf:citekey>
+    <bcf:citekey order="104" intorder="2">Cheng2025MultivariateTFFEng</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="105" intorder="2">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Diqi2023GRULSTMHybrid</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="107" intorder="2">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">Sunendar2025ComparisonARIMALSTMGRU</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">Sabila2025LSTMGRUStockPrediction</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">Hartanto2024TFTEnhanced</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">Zhang2024ComprehensiveTSFSurvey</bcf:citekey>
+    <bcf:citekey order="111" intorder="2">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">Yunita2025NNComparison</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="118" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="119" intorder="2">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="123" intorder="2">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="127" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="127" intorder="2">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
+    <bcf:citekey order="128" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">huang2021chatbot</bcf:citekey>
+    <bcf:citekey order="129" intorder="2">xenonstack2023chatbots</bcf:citekey>
+    <bcf:citekey order="130" intorder="1">huang2021chatbot</bcf:citekey>
+    <bcf:citekey order="131" intorder="1">bamurange2025hybrid</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">bamurange2025hybrid</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">businesswire2020chatbot</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">businesswire2020chatbot</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">pecan2024churn</bcf:citekey>
+    <bcf:citekey order="135" intorder="2">kumar2024xgboost</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">kumar2024xgboost</bcf:citekey>
+    <bcf:citekey order="137" intorder="1">nature2024hybrid</bcf:citekey>
+    <bcf:citekey order="138" intorder="1">computing2025churn</bcf:citekey>
+    <bcf:citekey order="139" intorder="1">computing2025churn</bcf:citekey>
+    <bcf:citekey order="140" intorder="1">infosains2024churn</bcf:citekey>
+    <bcf:citekey order="141" intorder="1">pecan2024churn</bcf:citekey>
+    <bcf:citekey order="141" intorder="2">computing2025churn</bcf:citekey>
+    <bcf:citekey order="142" intorder="1">thesai2025realtime</bcf:citekey>
+    <bcf:citekey order="143" intorder="1">thesai2025realtime</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="cms">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">namea</bcf:sortitem>
+      <bcf:sortitem order="4">editor</bcf:sortitem>
+      <bcf:sortitem order="5">nameb</bcf:sortitem>
+      <bcf:sortitem order="6">translator</bcf:sortitem>
+      <bcf:sortitem order="7">namec</bcf:sortitem>
+      <bcf:sortitem order="8">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="9">journaltitle</bcf:sortitem>
+      <bcf:sortitem order="10">organization</bcf:sortitem>
+      <bcf:sortitem order="11">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">labelyear</bcf:sortitem>
+      <bcf:sortitem order="3">year</bcf:sortitem>
+      <bcf:sortitem order="4">origyear</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">endyear</bcf:sortitem>
+      <bcf:sortitem order="2">eventendyear</bcf:sortitem>
+      <bcf:sortitem order="3">origendyear</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="7">
+      <bcf:sortitem order="1" pad_side="left" pad_width="4" pad_char="0">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0000</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="cms/global//global/global/global"
+                type="entry"
+                sortingtemplatename="cms"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>

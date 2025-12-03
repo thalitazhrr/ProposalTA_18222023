@@ -289,7 +289,7 @@ Kategori pertama adalah metrik berbasis referensi yang membandingkan keluaran si
 \[
 \text{BLEU} = BP \times \exp\left(\sum_{n=1}^{N} w_n \log p_n\right)
 \]
-dengan \(p_n\) menyatakan presisi \textit{n-gram} dan \(BP\) adalah faktor penalti panjang (\textit{brevity penalty}). Metrik lain seperti METEOR memasukkan faktor sinonim dan \textit{stemming}, sedangkan ROUGE berfokus pada daya ingat (\textit{recall}) dan banyak digunakan untuk evaluasi peringkasan teks \parencite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey}.
+dengan \(p_n\) menyatakan presisi \textit{n-gram} dan \(BP\) adalah faktor penalti panjang (\textit{brevity penalty}). Metrik lain seperti METEOR (\textit{Metric for Evaluation of Translation with Explicit ORdering}) memasukkan faktor sinonim dan \textit{stemming}, sedangkan ROUGE (\textit{Recall-Oriented Understudy for Gisting Evaluation}) berfokus pada daya ingat (\textit{recall}) dan banyak digunakan untuk evaluasi peringkasan teks \parencite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey}.
 
 Kategori kedua adalah metrik berbasis penyajian vektor (\textit{embedding-based}), yang menggunakan representasi neural untuk mengukur kesamaan semantik, bukan hanya kesamaan permukaan. Contohnya adalah BERTScore yang memanfaatkan \textit{embedding} BERT untuk menghitung kesamaan kontekstual antara token keluaran dan token rujukan. Metrik ini umumnya menunjukkan korelasi yang lebih baik dengan penilaian manusia dibandingkan metrik \textit{string-matching} murni, terutama ketika terdapat banyak cara wajar untuk mengekspresikan makna yang sama \parencite{Celikyilmaz2020EvalTextGen,Gao2024LLMNLG}.
 

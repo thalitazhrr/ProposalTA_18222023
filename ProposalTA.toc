@@ -516,6 +516,13 @@
 \contentsline {subsection}{\numberline {III.6.4}Model Klasifikasi Intent Berbasis Pola}{102}{subsection.3.6.4}%
 \contentsline {subsection}{\numberline {III.6.5}Model Pembangkitan Bahasa Alami Berbasis Templat}{103}{subsection.3.6.5}%
 \contentsline {subsection}{\numberline {III.6.6}Integrasi Model dalam Arsitektur Sistem}{103}{subsection.3.6.6}%
+\contentsline {chapter}{\numberline {IV}DESAIN KONSEP SOLUSI}{104}{chapter.4}%
+\contentsline {section}{\numberline {IV.1}Alur Proses Bisnis Sistem Analitik Saat Ini (\textit {As-Is})}{105}{section.4.1}%
+\contentsline {section}{\numberline {IV.2}Konsep Solusi Sistem Baru}{106}{section.4.2}%
+\contentsline {section}{\numberline {IV.3}Alur Proses Bisnis Sistem Analitik dengan Chatbot BI (\textit {To-Be})}{107}{section.4.3}%
+\contentsline {section}{\numberline {IV.4}Rancangan Solusi Keseluruhan}{109}{section.4.4}%
+\contentsline {subsection}{\numberline {IV.4.1}Komponen-Komponen Utama Arsitektur}{110}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {IV.4.2}Arsitektur Sistem dan Aliran Data}{110}{subsection.4.4.2}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 
 \babel@toc {english}{}\relax 

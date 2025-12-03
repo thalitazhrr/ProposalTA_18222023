@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  3 DEC 2025 21:27
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  3 DEC 2025 23:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,11 +766,7 @@ Package biblatex Info: ... and expl3
 (biblatex)             setting 'casechanger=expl3'.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)))
-Package hyperref Info: Option `colorlinks' set `true' on input line 161.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen261
 \ar@mcellbox=\box68
@@ -779,30 +775,59 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip133
 \backup@length=\skip134
 \ar@cellbox=\box69
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip135
+\multirow@cntb=\count485
+\multirow@dima=\skip136
+\bigstrutjot=\dimen263
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-\TX@col@width=\dimen263
-\TX@old@table=\dimen264
-\TX@old@col=\dimen265
-\TX@target=\dimen266
-\TX@delta=\dimen267
-\TX@cols=\count485
-\TX@ftn=\toks37
+Package xcolor Info: Driver file: xetex.def on input line 274.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks37
+\minrowclearance=\skip137
+\rownum=\count486
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 168.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen264
+\TX@old@table=\dimen265
+\TX@old@col=\dimen266
+\TX@target=\dimen267
+\TX@delta=\dimen268
+\TX@cols=\count487
+\TX@ftn=\toks38
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
-\CenteringLeftskip=\skip135
-\RaggedLeftLeftskip=\skip136
-\RaggedRightLeftskip=\skip137
-\CenteringRightskip=\skip138
-\RaggedLeftRightskip=\skip139
-\RaggedRightRightskip=\skip140
-\CenteringParfillskip=\skip141
-\RaggedLeftParfillskip=\skip142
-\RaggedRightParfillskip=\skip143
-\JustifyingParfillskip=\skip144
-\CenteringParindent=\skip145
-\RaggedLeftParindent=\skip146
-\RaggedRightParindent=\skip147
-\JustifyingParindent=\skip148
+\CenteringLeftskip=\skip138
+\RaggedLeftLeftskip=\skip139
+\RaggedRightLeftskip=\skip140
+\CenteringRightskip=\skip141
+\RaggedLeftRightskip=\skip142
+\RaggedRightRightskip=\skip143
+\CenteringParfillskip=\skip144
+\RaggedLeftParfillskip=\skip145
+\RaggedRightParfillskip=\skip146
+\JustifyingParfillskip=\skip147
+\CenteringParindent=\skip148
+\RaggedLeftParindent=\skip149
+\RaggedRightParindent=\skip150
+\JustifyingParindent=\skip151
 )
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
@@ -810,7 +835,7 @@ Package csquotes Info: Adjusting default style.
 
 
 Package csquotes Warning: No style for language 'indonesian'.
-(csquotes)                Using fallback style on input line 209.
+(csquotes)                Using fallback style on input line 216.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./ProposalTA.aux (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
@@ -819,26 +844,26 @@ Package babel Info: Importing data for english
 )
 \openout1 = `ProposalTA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
+LaTeX Font Info:    ... okay on input line 216.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -846,56 +871,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 209.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 209.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 209.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 209.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 209.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 209.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 209.
-LaTeX Font Info:    Redeclaring math accent \check on input line 209.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 209.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 209.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 209.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 209.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 209.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 216.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 216.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 216.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 216.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 216.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 216.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 216.
+LaTeX Font Info:    Redeclaring math accent \check on input line 216.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 216.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 216.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 216.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 216.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 209.
+(Font)              `operators' in the math version `normal' on input line 216.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 209.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 216.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 209.
+(Font)              `operators' in the math version `bold' on input line 216.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 209.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 216.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 209.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 209.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 209.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 209.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 209.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 216.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 209.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 209.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 209.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 216.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 209.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 216.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -943,14 +968,7 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: End \AtBeginDocument code.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: xetex.def on input line 149.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 209.
+Package hyperref Info: Link coloring ON on input line 216.
  (./ProposalTA.out) (./ProposalTA.out)
 \@outlinefile=\write4
 \openout4 = `ProposalTA.out'.
@@ -959,15 +977,15 @@ Package hyperref Info: Link coloring ON on input line 209.
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@lasthead=\box70
 \flrow@LT@prelastfoot=\box71
-\c@FBLTpage=\count486
+\c@FBLTpage=\count488
 )
-\c@lstlisting=\count487
+\c@lstlisting=\count489
 Package biblatex Info: Trying to load language 'indonesian'...
 Package biblatex Info: ... file 'indonesian.lbx' not found.
 
 
 Package biblatex Warning: Language 'indonesian' not supported.
-(biblatex)                Using dummy definitions on input line 209.
+(biblatex)                Using dummy definitions on input line 216.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -983,8 +1001,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ProposalTA.bbl' found.
  (./ProposalTA.bbl)
-Package biblatex Info: Reference section=0 on input line 209.
-Package biblatex Info: Reference segment=0 on input line 209.
+Package biblatex Info: Reference section=0 on input line 216.
+Package biblatex Info: Reference segment=0 on input line 216.
 File: image/ganesha.jpg Graphic file (type bmp)
 <image/ganesha.jpg>
 
@@ -992,7 +1010,7 @@ File: image/ganesha.jpg Graphic file (type bmp)
 Package datetime2 Warning: Region `bahasai' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showmonthname=true
- on input line 250.
+ on input line 257.
 
 
 
@@ -1044,55 +1062,55 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 363.
+(hyperref)                removing `\<let>-command' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 363.
+(hyperref)                removing `\\' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 363.
+(hyperref)                removing `\@centercr' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 363.
+(hyperref)                removing `\rightskip' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 363.
+(hyperref)                removing `\@flushglue' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 363.
+(hyperref)                removing `\leftskip' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 363.
+(hyperref)                removing `\@flushglue' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 363.
+(hyperref)                removing `\finalhyphendemerits' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 363.
+(hyperref)                removing `\z@' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 363.
+(hyperref)                removing `\parindent' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 363.
+(hyperref)                removing `\z@' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 363.
+(hyperref)                removing `\parfillskip' on input line 370.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 363.
+(hyperref)                removing `\z@skip' on input line 370.
 
 
 
@@ -2178,7 +2196,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--294
  []
 
 
-Overfull \hbox (1.66588pt too wide) in alignment at lines 290--296
+Overfull \hbox (1.66586pt too wide) in alignment at lines 290--296
  [] [] [] [] [] 
  []
 
@@ -2188,17 +2206,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 301--301
  []
 
 
-Overfull \hbox (1.66588pt too wide) in alignment at lines 296--303
+Overfull \hbox (1.66586pt too wide) in alignment at lines 296--303
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.66588pt too wide) in alignment at lines 303--307
+Overfull \hbox (1.66586pt too wide) in alignment at lines 303--307
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (1.66588pt too wide) in alignment at lines 307--310
+Overfull \hbox (1.66586pt too wide) in alignment at lines 307--310
  [] [] [] [] [] 
  []
 
@@ -3068,7 +3086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 395--396
  []
 
 
-Overfull \hbox (1.66588pt too wide) in alignment at lines 310--399
+Overfull \hbox (1.66586pt too wide) in alignment at lines 310--399
  [] [] [] [] [] 
  []
 
@@ -3645,7 +3663,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1051--1051
  []
 
 
-Overfull \hbox (0.86472pt too wide) in paragraph at lines 1039--1054
+Overfull \hbox (0.8647pt too wide) in paragraph at lines 1039--1054
  [][] 
  []
 
@@ -3925,65 +3943,96 @@ Overfull \hbox (7.3208pt too wide) in paragraph at lines 1380--1391
  [][] 
  []
 
-) (./Bab IV - Desain-Konsep-Solusi.tex) (./Bab V - Rencana-Selanjutnya.tex)
+) (./Bab IV - Desain-Konsep-Solusi.tex
 
 [103]
+Bab IV.
+
 
 [104
+
+]
+File: image/bpmnasis.png Graphic file (type bmp)
+<image/bpmnasis.png>
+
+
+[105]
+
+[106]
+
+[107]
+File: image/bpmntobe.png Graphic file (type bmp)
+<image/bpmntobe.png>
+
+
+[108]
+
+[109]
+
+[110]
+File: image/arsitektur.png Graphic file (type bmp)
+<image/arsitektur.png>
+) (./Bab V - Rencana-Selanjutnya.tex
+
+[111])
+
+[112]
+
+[113
 
 
 ]
 
-[105]
+[114]
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'Intimedia2024' on input line 408.
+(biblatex)                at entry 'Intimedia2024' on input line 415.
 
 
 
-[106]
-Overfull \hbox (8.21161pt too wide) in paragraph at lines 408--408
+[115]
+Overfull \hbox (8.21161pt too wide) in paragraph at lines 415--415
 [][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
  []
 
 
-Overfull \hbox (1.59315pt too wide) in paragraph at lines 408--408
+Overfull \hbox (1.59315pt too wide) in paragraph at lines 415--415
 \TU/TimesNewRoman(0)/m/n/12 diction Model Based on Hybrid Neural Networks”. \TU/TimesNewRoman(0)/m/it/12 Scientific Reports \TU/TimesNewRoman(0)/m/n/12 14:79603.
  []
 
 
 
-[107]
+[116]
 
-[108]
-Overfull \hbox (1.96846pt too wide) in paragraph at lines 408--408
+[117]
+Overfull \hbox (1.96846pt too wide) in paragraph at lines 415--415
 [][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
  []
 
 
-Overfull \hbox (39.24355pt too wide) in paragraph at lines 408--408
+Overfull \hbox (39.24355pt too wide) in paragraph at lines 415--415
 \TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2004.15006,
  []
 
 
 
-[109]
-Overfull \hbox (29.48573pt too wide) in paragraph at lines 408--408
+[118]
+Overfull \hbox (29.48573pt too wide) in paragraph at lines 415--415
 \TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
  []
 
 
 
-[110]
+[119]
 
-[111]
+[120]
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 388.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 395.
 See the caption package documentation for explanation.
 
 
 
-[112] (./ProposalTA.aux)
+[121] (./ProposalTA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -3993,7 +4042,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: D8BEE0CAC94667B6F36FE42C1AEF9D4B;31533.
+(rerunfilecheck)             Checksum: FE6EAAD01A0CD9C968397B25A955A5DB;33279.
 
 Package biblatex Warning: Please rerun LaTeX.
 
@@ -4002,12 +4051,12 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32114 strings out of 473832
- 642766 string characters out of 5729482
- 2026390 words of memory out of 5000000
- 54797 multiletter control sequences out of 15000+600000
+ 32737 strings out of 473832
+ 652260 string characters out of 5729482
+ 2043726 words of memory out of 5000000
+ 55407 multiletter control sequences out of 15000+600000
  564058 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,12n,93p,1928b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,2210b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (122 pages).
+Output written on ProposalTA.pdf (131 pages).

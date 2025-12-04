@@ -5152,24 +5152,20 @@
     <bcf:citekey order="127" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
     <bcf:citekey order="127" intorder="2">Spiliotis2020ForecastingBenchmarks</bcf:citekey>
     <bcf:citekey order="128" intorder="1">Petropoulos2023ForecastEval</bcf:citekey>
-    <bcf:citekey order="129" intorder="1">huang2021chatbot</bcf:citekey>
-    <bcf:citekey order="129" intorder="2">xenonstack2023chatbots</bcf:citekey>
+    <bcf:citekey order="129" intorder="1">ijirt2024rulebased</bcf:citekey>
     <bcf:citekey order="130" intorder="1">huang2021chatbot</bcf:citekey>
     <bcf:citekey order="131" intorder="1">bamurange2025hybrid</bcf:citekey>
-    <bcf:citekey order="132" intorder="1">bamurange2025hybrid</bcf:citekey>
-    <bcf:citekey order="133" intorder="1">businesswire2020chatbot</bcf:citekey>
-    <bcf:citekey order="134" intorder="1">businesswire2020chatbot</bcf:citekey>
-    <bcf:citekey order="135" intorder="1">pecan2024churn</bcf:citekey>
-    <bcf:citekey order="135" intorder="2">kumar2024xgboost</bcf:citekey>
-    <bcf:citekey order="136" intorder="1">kumar2024xgboost</bcf:citekey>
-    <bcf:citekey order="137" intorder="1">nature2024hybrid</bcf:citekey>
-    <bcf:citekey order="138" intorder="1">computing2025churn</bcf:citekey>
-    <bcf:citekey order="139" intorder="1">computing2025churn</bcf:citekey>
-    <bcf:citekey order="140" intorder="1">infosains2024churn</bcf:citekey>
-    <bcf:citekey order="141" intorder="1">pecan2024churn</bcf:citekey>
-    <bcf:citekey order="141" intorder="2">computing2025churn</bcf:citekey>
-    <bcf:citekey order="142" intorder="1">thesai2025realtime</bcf:citekey>
-    <bcf:citekey order="143" intorder="1">thesai2025realtime</bcf:citekey>
+    <bcf:citekey order="132" intorder="1">ijirt2024rulebased</bcf:citekey>
+    <bcf:citekey order="133" intorder="1">ibm2025chatbottypes</bcf:citekey>
+    <bcf:citekey order="134" intorder="1">querio2025conversational</bcf:citekey>
+    <bcf:citekey order="135" intorder="1">retresco2024nlgtemplate</bcf:citekey>
+    <bcf:citekey order="136" intorder="1">retresco2024nlgtemplate</bcf:citekey>
+    <bcf:citekey order="137" intorder="1">yellowfin2025nlg</bcf:citekey>
+    <bcf:citekey order="138" intorder="1">priadinata2025lstm</bcf:citekey>
+    <bcf:citekey order="139" intorder="1">ejournal2024grulstm</bcf:citekey>
+    <bcf:citekey order="140" intorder="1">databricks2025timeseries</bcf:citekey>
+    <bcf:citekey order="141" intorder="1">jerr2024churnprediction</bcf:citekey>
+    <bcf:citekey order="142" intorder="1">ui2024churnhat</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="cms">

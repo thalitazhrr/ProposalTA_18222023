@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 12:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1996,29 +1996,648 @@ Overfull \hbox (0.32822pt too wide) in paragraph at lines 648--649
 
 [44]
 
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 686.
+
+
+
 [45]
+Overfull \hbox (0.88211pt too wide) in paragraph at lines 694--695
+\TU/TimesNewRoman(0)/m/n/12 Prediksi \TU/TimesNewRoman(0)/m/it/12 customer churn \TU/TimesNewRoman(0)/m/n/12 menggunakan algoritma pembelajaran mesin seperti \TU/TimesNewRoman(0)/m/it/12 XGBo-
+ []
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 690.
 
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 696.
+Overfull \hbox (3.55203pt too wide) in paragraph at lines 700--701
+\TU/TimesNewRoman(0)/m/n/12 Berbagai penelitian telah mengeksplorasi komponen-komponen teknologi yang men-
+ []
 
 
 
 [46]
-
-[47]
-
-[48]
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 742.
-
-
-Overfull \hbox (1.58133pt too wide) in paragraph at lines 746--747
-\TU/TimesNewRoman(0)/m/n/12 mungkinkan pengguna internal untuk dengan mudah mengakses analisis risiko \TU/TimesNewRoman(0)/m/it/12 churn
+Overfull \hbox (5.4944pt too wide) in alignment at lines 702--707
+ [] [] [] [] [] 
  []
 
 
+Overfull \hbox (5.4944pt too wide) in alignment at lines 707--712
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.4944pt too wide) in alignment at lines 712--714
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (5.4944pt too wide) in alignment at lines 714--716
+ [] [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+[]|\TU/TimesNewRoman(0)/m/n/12 Bamurange
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+[]|\TU/TimesNewRoman(0)/m/it/12 Hybrid Chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 dengan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+[]|\TU/TimesNewRoman(0)/m/n/12 Akurasi 85%
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 dalam menyele-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 akademik dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 pengurangan
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 beban kerja staf
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+[]|\TU/TimesNewRoman(0)/m/n/12 Kerangka
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 kerja hibri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 da dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 pohon ke-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 718--718
+\TU/TimesNewRoman(0)/m/n/12 pemetaan
+ []
+
+
+Underfull \hbox (badness 1152) in paragraph at lines 718--719
+\TU/TimesNewRoman(0)/m/n/12 brida, \TU/TimesNewRoman(0)/m/it/12 NLP
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/m/n/12 Lin dkk.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/m/it/12 How Chatbots
+ []
+
+
+Underfull \hbox (badness 2469) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/it/12 Augment Human
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/it/12 Intelligence in
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot \TU/TimesNewRoman(0)/m/n/12 berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 performa kerja
+ []
+
+
+Underfull \hbox (badness 7667) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 melalui dukung-
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 an informasional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+[]|\TU/TimesNewRoman(0)/m/n/12 Metode
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 campuran
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 kualitatif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 kuantitatif
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--721
+\TU/TimesNewRoman(0)/m/n/12 teori \TU/TimesNewRoman(0)/m/it/12 affo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
+[]|\TU/TimesNewRoman(0)/m/it/12 AI-enabled
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 721--722
+\TU/TimesNewRoman(0)/m/it/12 chatbot\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 7203) in paragraph at lines 721--722
+\TU/TimesNewRoman(0)/m/it/12 NLP\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 deep
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+[]|\TU/TimesNewRoman(0)/m/n/12 Sam dkk.
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 724--724
+[]|\TU/TimesNewRoman(0)/m/it/12 Customer Churn
+ []
+
+
+Underfull \hbox (badness 6859) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/it/12 Prediction using
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/it/12 Machine Lear-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+[]|\TU/TimesNewRoman(0)/m/it/12 XGBoost \TU/TimesNewRoman(0)/m/n/12 dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/it/12 Random Forest
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 dibandingkan
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/it/12 KNN\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 SVM\TU/TimesNewRoman(0)/m/n/12 , dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+[]|\TU/TimesNewRoman(0)/m/n/12 Klasifikasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 clus-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/it/12 tering
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 evaluasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 akurasi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--724
+\TU/TimesNewRoman(0)/m/n/12 presisi,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+[]|\TU/TimesNewRoman(0)/m/it/12 XGBoost\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+\TU/TimesNewRoman(0)/m/it/12 Random
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+\TU/TimesNewRoman(0)/m/it/12 Forest\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+[]|\TU/TimesNewRoman(0)/m/n/12 Priadinata
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 727--727
+[]|\TU/TimesNewRoman(0)/m/n/12 Analisis Kompa-
+ []
+
+
+Underfull \hbox (badness 1237) in paragraph at lines 727--727
+[]|\TU/TimesNewRoman(0)/m/it/12 LSTM \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 GRU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 efektif dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 menangkap
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 ensial pada data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 komputa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 sional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--727
+\TU/TimesNewRoman(0)/m/it/12 hyperpara-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
+[]|\TU/TimesNewRoman(0)/m/it/12 LSTM\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
+\TU/TimesNewRoman(0)/m/it/12 GRU\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+[]|\TU/TimesNewRoman(0)/m/n/12 Retresco
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 730--730
+[]|\TU/TimesNewRoman(0)/m/it/12 GPT \TU/TimesNewRoman(0)/m/n/12 dan Model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 Teks Berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 Templat dalam
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+[]|\TU/TimesNewRoman(0)/m/n/12 Pembangkitan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 teks berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 templat mem-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 berikan kontrol
+ []
+
+
+Underfull \hbox (badness 3735) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 lebih tinggi dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 menjamin tidak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 menghasilkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 kalimat tidak
+ []
+
+
+Overfull \hbox (9.07692pt too wide) in paragraph at lines 730--730
+[]|\TU/TimesNewRoman(0)/m/n/12 Perbandingan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 pendekatan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/it/12 end-to-end
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 dengan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 berbasis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
+[]|\TU/TimesNewRoman(0)/m/it/12 Template-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+[]|\TU/TimesNewRoman(0)/m/n/12 Querio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+[]|\TU/TimesNewRoman(0)/m/it/12 Conversational
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/it/12 AI Data Analyst
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot \TU/TimesNewRoman(0)/m/n/12 analitik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/n/12 memungkinkan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/n/12 kueri bahasa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/n/12 alami tanpa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/n/12 ngan visualisasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/it/12 NLP \TU/TimesNewRoman(0)/m/n/12 de-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/n/12 ngan \TU/TimesNewRoman(0)/m/it/12 data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 733--733
+\TU/TimesNewRoman(0)/m/it/12 warehouse
+ []
+
+
+Overfull \hbox (17.09254pt too wide) in paragraph at lines 733--734
+[]|\TU/TimesNewRoman(0)/m/it/12 Conversational
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 733--734
+\TU/TimesNewRoman(0)/m/it/12 AI\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 text-to-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+[]|\TU/TimesNewRoman(0)/m/n/12 Kalogianni
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 dis dkk.
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 736--736
+[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 da-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi \TU/TimesNewRoman(0)/m/it/12 NLP
+ []
+
+
+Underfull \hbox (badness 3482) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 berdam-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 pak signifikan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 terhadap cara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 pelanggan ber-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 interaksi dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 berkomunikasi
+ []
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 truktur de-
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 736--736
+\TU/TimesNewRoman(0)/m/n/12 ngan anali-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+[]|\TU/TimesNewRoman(0)/m/it/12 Chatbot\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+[]|\TU/TimesNewRoman(0)/m/n/12 Zenodo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+[]|\TU/TimesNewRoman(0)/m/n/12 Studi Analitis
+ []
+
+
+Underfull \hbox (badness 2486) in paragraph at lines 739--739
+[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi \TU/TimesNewRoman(0)/m/it/12 chatbot
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 berpengaruh
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 positif signi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 fikan terhadap
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 performa teknis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 dan efisiensi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+[]|\TU/TimesNewRoman(0)/m/n/12 Desain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 deskriptif-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--739
+\TU/TimesNewRoman(0)/m/n/12 analitis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+[]|\TU/TimesNewRoman(0)/m/it/12 AI cha-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+\TU/TimesNewRoman(0)/m/it/12 tbot\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 ML\TU/TimesNewRoman(0)/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 739--740
+\TU/TimesNewRoman(0)/m/it/12 decision
+ []
+
+
+Overfull \hbox (5.4944pt too wide) in alignment at lines 716--742
+ [] [] [] [] [] 
+ []
+
+[47] [48]
 
 [49]) (./Bab III - Analisis-Masalah.tex
 
@@ -2079,11 +2698,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 []|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memungkinkan pengguna
- []
-
-
-Underfull \hbox (badness 5316) in paragraph at lines 151--152
-\TU/TimesNewRoman(0)/m/n/12 analisis dalam bahasa Indonesia atau
  []
 
 
@@ -4587,11 +5201,6 @@ Overfull \hbox (8.21161pt too wide) in paragraph at lines 415--415
  []
 
 
-Overfull \hbox (1.59315pt too wide) in paragraph at lines 415--415
-\TU/TimesNewRoman(0)/m/n/12 diction Model Based on Hybrid Neural Networks”. \TU/TimesNewRoman(0)/m/it/12 Scientific Reports \TU/TimesNewRoman(0)/m/n/12 14:79603.
- []
-
-
 
 [129]
 
@@ -4606,13 +5215,13 @@ Overfull \hbox (39.24355pt too wide) in paragraph at lines 415--415
  []
 
 
-
-[131]
 Overfull \hbox (29.48573pt too wide) in paragraph at lines 415--415
 \TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
  []
 
 
+
+[131]
 
 [132]
 
@@ -4672,7 +5281,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: E983ECFF3F59E5AEC70906C0D0DC675F;39618.
+(rerunfilecheck)             Checksum: C629971298CDE80226C63380A286AE7C;37992.
 
 Package biblatex Warning: Please rerun LaTeX.
 
@@ -4681,10 +5290,10 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32788 strings out of 473832
- 653150 string characters out of 5729482
- 2067577 words of memory out of 5000000
- 55451 multiletter control sequences out of 15000+600000
+ 32793 strings out of 473832
+ 653493 string characters out of 5729482
+ 2066260 words of memory out of 5000000
+ 55456 multiletter control sequences out of 15000+600000
  564719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,13n,93p,2210b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s

@@ -671,80 +671,104 @@ Pencapaian target-target ini, diukur melalui statistik median dan IQR per horizo
 \section{Integrasi Sistem dan Penelitian Terkait}
 % ==============================================================================
 
-Bagian ini membahas integrasi berbagai komponen teknologi dalam sistem \textit{chatbot} Business Intelligence, penelitian terkait arsitektur \textit{chatbot} hibrida, serta aplikasi pembelajaran mesin untuk prediksi \textit{customer churn}. Pembahasan mencakup strategi integrasi, arsitektur sistem, dan studi kasus implementasi yang menunjukkan efektivitas pendekatan terintegrasi. Pemahaman tentang integrasi sistem menjadi kunci dalam mengembangkan solusi yang komprehensif dan koheren.
+Integrasi berbagai komponen teknologi dalam sistem \textit{chatbot Business Intelligence} memerlukan pendekatan arsitektur yang terstruktur untuk memastikan kohesi antarkomponen. Penelitian-penelitian terdahulu telah mengeksplorasi integrasi parsial dari teknologi-teknologi ini secara terpisah, namun integrasi komprehensif yang menggabungkan klasifikasi \textit{intent} berbasis pola, mesin kueri berbasis aturan, pembangkitan bahasa alami berbasis templat, dan peramalan deret waktu dalam satu sistem \textit{chatbot} analitik masih terbatas.
 
 \subsection{Arsitektur \textit{Chatbot} Hibrida}
 
-Arsitektur \textit{chatbot} hibrida menggabungkan pendekatan berbasis aturan (\textit{rule-based}) dengan kemampuan kecerdasan buatan untuk menciptakan sistem yang seimbang antara kontrol deterministik dan fleksibilitas adaptif. Pendekatan hibrida ini memungkinkan sistem untuk menangani berbagai jenis kueri dengan efisiensi optimal sambil mempertahankan akurasi dan keamanan data.
+Arsitektur \textit{chatbot} hibrida menggabungkan pendekatan berbasis aturan dengan kemampuan kecerdasan buatan untuk menciptakan keseimbangan antara kontrol deterministik dan fleksibilitas adaptif \parencite{ijirt2024rulebased}. Arsitektur \textit{chatbot} modern terdiri dari lima komponen utama yang bekerja secara terintegrasi, yaitu antarmuka pengguna, modul pemahaman bahasa alami, manajemen dialog, \textit{backend} yang terhubung dengan basis data, dan pembangkitan respons \parencite{huang2021chatbot}. Pendekatan hibrida yang mengintegrasikan model pemrosesan bahasa alami ringan dengan pengawasan manusia telah menunjukkan akurasi 85\% dalam menyelesaikan pertanyaan dan mengurangi beban kerja staf sebesar 30\% \parencite{bamurange2025hybrid}.
 
-\subsubsection{Komponen Arsitektur \textit{Chatbot} Modern}
+\subsection{Integrasi Klasifikasi \textit{Intent} dan Mesin Kueri}
 
-Arsitektur \textit{chatbot} modern terdiri dari lima komponen utama yang bekerja secara terintegrasi \parencite{huang2021chatbot,xenonstack2023chatbots}. Komponen pertama adalah antarmuka pengguna (\textit{User Interface}) yang memungkinkan pengguna berkomunikasi dengan \textit{chatbot} melalui platform perpesanan atau antarmuka berbasis web. Komponen ini dapat mencakup konversi \textit{speech-to-text} untuk \textit{input} suara dan \textit{text-to-speech} untuk output suara.
+Klasifikasi \textit{intent} berbasis pola menggunakan kombinasi pencocokan pola \textit{regex}, pencocokan kata kunci, dan aturan berbasis konteks untuk mengidentifikasi maksud pengguna dengan kontrol penuh atas interpretasi \parencite{ijirt2024rulebased}. Pendekatan berbasis aturan memberikan hasil yang selalu akurat karena mengikuti logika kondisional yang telah didefinisikan sebelumnya \parencite{ibm2025chatbottypes}. Setelah \textit{intent} teridentifikasi, sistem mengeksekusi kueri terstruktur terhadap \textit{data warehouse} untuk mengambil data yang relevan. Integrasi ini memungkinkan pengguna mengajukan pertanyaan dalam bahasa alami dan sistem secara otomatis mengonversi pertanyaan tersebut menjadi kueri basis data yang dapat dieksekusi \parencite{querio2025conversational}.
 
-Komponen kedua adalah modul pemahaman bahasa alami (\textit{Natural Language Understanding}) yang bertanggung jawab untuk menginterpretasikan masukan pengguna dan mengekstraksi \textit{intent} serta entitas. Komponen ketiga adalah manajemen dialog (\textit{Dialogue Management}) yang mengelola alur percakapan, memelihara konteks, dan menentukan tindakan yang sesuai berdasarkan \textit{intent} yang teridentifikasi. Komponen keempat adalah \textit{backend} yang terhubung dengan basis data, sistem eksternal, dan API untuk mengambil informasi yang diperlukan. Komponen terakhir adalah pembangkitan respons (\textit{Response Generation}) yang menghasilkan output bahasa alami berdasarkan data yang diperoleh dan konteks percakapan \parencite{huang2021chatbot}.
+\subsection{Integrasi Pembangkitan Bahasa Alami Berbasis Templat}
 
-\subsubsection{\textit{Chatbot} Hibrida dengan AI dan \textit{Human Oversight}}
+Pembangkitan bahasa alami berbasis templat menggunakan modul-modul teks yang ditulis oleh manusia dengan komponen linguistik yang menangani infleksi kata sehingga menghasilkan kalimat yang benar secara gramatikal \parencite{retresco2024nlgtemplate}. Keunggulan utama pendekatan berbasis templat dalam konteks bisnis adalah kemampuan kontrolnya yang tinggi, di mana sistem dapat menjamin tidak menghasilkan kalimat yang tidak diinginkan atau tidak sesuai \parencite{retresco2024nlgtemplate}. Integrasi pembangkitan bahasa alami dalam platform \textit{Business Intelligence} memungkinkan pengguna memperoleh penjelasan tekstual dan perbandingan wawasan secara instan \parencite{yellowfin2025nlg}.
 
-Pendekatan \textit{chatbot} hibrida yang mengintegrasikan model NLP ringan dengan pengawasan manusia telah menunjukkan efektivitas tinggi dalam konteks pendidikan tinggi. Kerangka kerja hibrida ini menggunakan pohon keputusan, pemetaan \textit{intent}, dan alur percakapan terstruktur untuk mengotomatisasi tugas rutin sambil mempertahankan dukungan kontekstual dan empatik melalui protokol eskalasi dinamis \parencite{bamurange2025hybrid}.
+\subsection{Integrasi Peramalan Deret Waktu}
 
-Implementasi kerangka kerja hibrida pada Universitas Kigali menunjukkan akurasi 85\% dalam menyelesaikan pertanyaan akademik dan mengurangi beban kerja staf sebesar 30\% dalam simulasi \parencite{bamurange2025hybrid}. Inovasi kunci mencakup fungsi \textit{offline} untuk pengaturan dengan keterbatasan sumber daya, pemeriksaan kesesuaian budaya untuk menginterpretasikan kueri tidak langsung, dan strategi mitigasi bias yang selaras dengan pedoman etika. Temuan ini menekankan kelayakan platform \textit{no-code} untuk deployment yang scalable, menekankan keseimbangan antara otomasi dan intervensi manusia.
+Model peramalan berbasis \textit{deep learning} seperti \textit{Long Short-Term Memory} dan \textit{Gated Recurrent Unit} telah terbukti efektif dalam memodelkan hubungan temporal yang kompleks dalam data deret waktu \parencite{priadinata2025lstm}. Kombinasi arsitektur \textit{GRU-LSTM} dapat memberikan manfaat dari kedua model, memungkinkan penanganan rentang data masukan yang lebih luas dan mencapai akurasi yang lebih tinggi dalam prediksi \parencite{ejournal2024grulstm}. Peramalan deret waktu menjadi fondasi perencanaan sumber daya perusahaan dengan prediksi permintaan masa depan yang memandu keputusan kritis seperti jumlah unit yang harus disediakan, tenaga kerja yang diperlukan, dan investasi modal \parencite{databricks2025timeseries}.
 
-\subsubsection{Pasar \textit{Chatbot} AI Global}
+\subsection{Integrasi Prediksi \textit{Customer Churn}}
 
-Pasar \textit{chatbot} berbasis AI global akan melebihi USD 3 miliar pada tahun 2025, dengan pasar \textit{chatbot} hibrida suara dan teks mencapai USD 534 juta secara global pada tahun yang sama \parencite{businesswire2020chatbot}. Penggunaan \textit{Conversational AI} akan merevolusi manajemen hubungan pelanggan, dengan lebih dari 50\% kueri pelanggan dapat dikelola melalui \textit{chatbot} berbasis AI. Pertumbuhan eksponensial ini menunjukkan bahwa \textit{chatbot} berbasis AI akan menjadi norma pada tahun 2025 ketika pusat kontak meningkatkan otomasi.
+Prediksi \textit{customer churn} menggunakan algoritma pembelajaran mesin seperti \textit{XGBoost} dan \textit{Random Forest} telah menunjukkan akurasi tinggi dalam mengidentifikasi pelanggan berisiko \parencite{jerr2024churnprediction}. Model \textit{XGBoost} dengan teknik \textit{Histogram Augmentation} dan optimasi \textit{Bayesian} mencapai akurasi 0,88 dan skor \textit{F1} sebesar 0,85 pada data telekomunikasi \parencite{ui2024churnhat}. Integrasi prediksi \textit{churn} ke dalam sistem \textit{chatbot Business Intelligence} memungkinkan pengguna internal mengakses analisis risiko \textit{churn} melalui antarmuka percakapan yang intuitif.
 
-Transformasi dari antarmuka operasional tradisional ke antarmuka percakapan akan mengubah secara dramatis ekspektasi tentang bagaimana manusia berkomunikasi, mengonsumsi konten, menggunakan aplikasi, dan terlibat dalam perdagangan \parencite{businesswire2020chatbot}. Transformasi ini akan berdampak pada hampir setiap aspek operasi pemasaran dan penjualan untuk setiap vertikal industri, termasuk sektor Business Intelligence.
+% ==============================================================================
+\section{Tinjauan Penelitian Terdahulu}
+% ==============================================================================
 
-\subsection{Integrasi \textit{Pattern-Based Intent} dan \textit{Template-Based} NLG}
+Berbagai penelitian telah mengeksplorasi komponen-komponen teknologi yang menjadi dasar pengembangan sistem \textit{chatbot Business Intelligence}, meliputi arsitektur \textit{chatbot} hibrida, klasifikasi \textit{intent}, pembangkitan bahasa alami, peramalan deret waktu, dan prediksi \textit{customer churn}. Tinjauan terhadap penelitian-penelitian terdahulu menunjukkan bahwa masing-masing komponen telah dikembangkan dan dievaluasi secara terpisah dengan hasil yang menjanjikan, namun integrasi menyeluruh dari seluruh komponen dalam satu sistem analitik berbasis percakapan masih terbatas. Tabel~\ref{tab:penelitian-terdahulu} menyajikan ringkasan penelitian terdahulu yang relevan dengan pengembangan sistem yang diusulkan.
 
-Integrasi antara klasifikasi \textit{intent} berbasis pola dan pembangkitan bahasa alami berbasis templat menciptakan alur kerja yang efisien dan aman untuk sistem \textit{chatbot} Business Intelligence. Integrasi ini memastikan bahwa kueri pengguna diproses dengan akurat sambil respons yang dihasilkan tetap bervariasi dan natural.
+\begin{longtable}{|p{2cm}|p{3cm}|p{3cm}|p{2cm}|p{2cm}|}
+\caption{Tinjauan Penelitian Terdahulu} \label{tab:penelitian-terdahulu} \\
+\hline
+\textbf{Penulis} & \textbf{Judul Penelitian} & \textbf{Temuan Utama} & \textbf{Metode} & \textbf{Teknologi} \\
+\hline
+\endfirsthead
+\multicolumn{5}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+\hline
+\textbf{Penulis} & \textbf{Judul Penelitian} & \textbf{Temuan Utama} & \textbf{Metode} & \textbf{Teknologi} \\
+\hline
+\endhead
+\hline \multicolumn{5}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\endfoot
+\hline
+\endlastfoot
 
-\subsubsection{Alur Kerja Terintegrasi}
+Bamurange dkk. (2025) & \textit{Hybrid Chatbot} dengan \textit{AI} dan \textit{Human Oversight} untuk Pendidikan Tinggi & Akurasi 85\% dalam menyelesaikan pertanyaan akademik dan pengurangan beban kerja staf sebesar 30\% & Kerangka kerja hibrida dengan pohon keputusan dan pemetaan \textit{intent} & \textit{Chatbot} hibrida, \textit{NLP} ringan \\
+\hline
 
-Alur kerja sistem terintegrasi dimulai dengan penerimaan kueri pengguna melalui antarmuka \textit{chatbot}. Modul klasifikasi \textit{intent} berbasis pola melakukan pencocokan kueri dengan pola yang telah didefinisikan dan menghitung \textit{confidence score}. Jika skor mencapai threshold yang ditentukan, sistem mengidentifikasi \textit{intent} dan mengekstraksi parameter yang diperlukan untuk eksekusi kueri basis data.
+Lin dkk. (2024) & \textit{How Chatbots Augment Human Intelligence in Customer Service} & \textit{Chatbot} berbasis \textit{AI} meningkatkan performa kerja melalui dukungan informasional dan emosional & Metode campuran kualitatif-kuantitatif dengan teori \textit{affordances} & \textit{AI-enabled chatbot}, \textit{NLP}, \textit{deep learning} \\
+\hline
 
-Setelah \textit{intent} teridentifikasi, sistem mengeksekusi kueri terhadap \textit{data warehouse} untuk mengambil data internal yang relevan. Data yang diperoleh kemudian diteruskan ke modul NLG berbasis templat. Modul NLG memilih templat yang sesuai berdasarkan jenis \textit{intent} dan konteks, mengisi \textit{placeholder} dengan data aktual, dan menghasilkan respons bahasa alami. Dalam meningkatkan kealamian, sistem dapat menggunakan model \textit{template rewriting} seperti T5 untuk memperbaiki koherensi dan variasi respons.
+Sam dkk. (2024) & \textit{Customer Churn Prediction using Machine Learning Models} & \textit{XGBoost} dan \textit{Random Forest} mencapai akurasi prediksi tertinggi dibandingkan \textit{KNN}, \textit{SVM}, dan \textit{Decision Trees} & Klasifikasi dan \textit{clustering} dengan evaluasi akurasi, presisi, \textit{F1-Score} & \textit{XGBoost}, \textit{Random Forest}, \textit{SVM} \\
+\hline
 
-Pendekatan terintegrasi ini memastikan bahwa sistem dapat merespons dengan cepat untuk kueri terstruktur sambil menjaga keamanan data internal melalui pembatasan pada templat yang telah diverifikasi. Kontrol penuh atas output NLG mencegah kebocoran informasi sensitif dan memastikan bahwa respons tetap konsisten dengan kebijakan perusahaan.
+Priadinata dkk. (2025) & Analisis Komparatif \textit{LSTM}, \textit{GRU}, dan \textit{Bi-LSTM} untuk Prediksi Harga & \textit{LSTM} dan \textit{GRU} efektif dalam menangkap dependensi sekuensial pada data deret waktu & Eksperimen komputasional dengan \textit{grid search hyperparameter} & \textit{LSTM}, \textit{GRU}, \textit{Bi-LSTM} \\
+\hline
 
-\subsubsection{Evaluasi Sistem Terintegrasi}
+Retresco (2024) & \textit{GPT} dan Model Teks Berbasis Templat dalam \textit{NLG} & Pembangkitan teks berbasis templat memberikan kontrol lebih tinggi dan menjamin tidak menghasilkan kalimat tidak diinginkan & Perbandingan pendekatan \textit{end-to-end} dengan berbasis templat & \textit{Template-based NLG}, \textit{GPT} \\
+\hline
 
-Evaluasi sistem terintegrasi memerlukan pengukuran performa pada setiap komponen serta performa sistem secara keseluruhan. Metrik evaluasi mencakup akurasi klasifikasi \textit{intent}, kualitas respons NLG, waktu respons end-to-end, dan kepuasan pengguna. Sistem yang baik harus mencapai akurasi klasifikasi \textit{intent} minimal 85\%, \textit{factual accuracy} NLG 100\%, dan waktu respons total di bawah 500 milidetik untuk 95\% kueri.
+Querio (2025) & \textit{Conversational AI Data Analyst Chatbot} & \textit{Chatbot} analitik memungkinkan kueri bahasa alami tanpa keahlian \textit{SQL} dengan visualisasi otomatis & Integrasi \textit{NLP} dengan \textit{data warehouse} dan lapisan tata kelola & \textit{Conversational AI}, \textit{text-to-SQL} \\
+\hline
 
-Pengujian integrasi juga mencakup skenario pengujian end-to-end yang mensimulasikan percakapan nyata, pengujian beban untuk memastikan sistem dapat menangani volume kueri tinggi, dan pengujian keamanan untuk memverifikasi bahwa tidak ada kebocoran data sensitif. Pendekatan evaluasi holistik ini memastikan bahwa sistem tidak hanya berfungsi dengan baik pada tingkat komponen individual, tetapi juga memberikan pengalaman pengguna yang koheren dan memuaskan.
+Kalogianni dis dkk. (2024) & Integrasi \textit{AI} dalam Analitik Bisnis & Integrasi \textit{NLP} dan \textit{AI} berdampak signifikan terhadap cara pelanggan berinteraksi dan berkomunikasi dengan \textit{chatbot} & Survei terstruktur dengan analisis \textit{SPSS} & \textit{Chatbot}, \textit{NLP}, \textit{virtual assistant} \\
+\hline
 
-\subsection{\textit{Customer Churn Prediction} dengan \textit{Machine Learning}}
+Zenodo (2025) & Studi Analitis \textit{Chatbot} Berbasis \textit{AI} dan \textit{ML} & Integrasi \textit{chatbot} berpengaruh positif signifikan terhadap performa teknis dan efisiensi operasional & Desain deskriptif-analitis dengan 220 responden & \textit{AI chatbot}, \textit{ML}, \textit{decision support} \\
+\hline
 
-Prediksi \textit{customer churn} adalah aplikasi pembelajaran mesin yang kritis dalam analisis bisnis pelanggan, memungkinkan organisasi untuk mengidentifikasi pelanggan berisiko dan mengambil tindakan retensi proaktif. Integrasi prediksi \textit{churn} ke dalam sistem \textit{chatbot} BI memberikan aksesibilitas yang mudah terhadap \textit{insight} prediktif bagi pengguna internal.
+\end{longtable}
 
-\subsubsection{Model \textit{Machine Learning} untuk \textit{Churn Prediction}}
+% ==============================================================================
+\section{Celah Penelitian dan Kontribusi}
+% ==============================================================================
 
-Beberapa model pembelajaran mesin telah terbukti efektif untuk prediksi \textit{customer churn} \parencite{pecan2024churn,kumar2024xgboost}. Model \textit{Logistic Regression} dikenal karena kesederhanaannya dan kemudahan interpretasi, cocok untuk kasus dengan hubungan linear antara fitur dan \textit{churn}. Model \textit{Random Forest} memberikan akurasi superior dalam skenario kompleks dengan kemampuan menangani hubungan non-linear dan interaksi antar variabel. Model \textit{Gradient Boosting Machines} (GBM) dan XGBoost sangat efektif dalam menangkap hubungan kompleks dan non-linear dengan membangun pohon secara sekuensial untuk memperbaiki kesalahan.
+Berdasarkan telaah kritis terhadap penelitian-penelitian terdahulu, teridentifikasi beberapa celah penelitian yang menjadi landasan kontribusi tugas akhir ini. Penelitian-penelitian sebelumnya cenderung mengembangkan komponen-komponen teknologi secara terpisah tanpa integrasi menyeluruh dalam satu sistem analitik berbasis percakapan.
 
-Studi terbaru menunjukkan bahwa XGBoost adalah algoritma paling efisien untuk prediksi \textit{churn} pelanggan \parencite{kumar2024xgboost}. Model hibrida berbasis jaringan saraf yang mengkombinasikan \textit{Multi-Head Self-Attention}, BiLSTM, dan CNN telah diusulkan untuk meningkatkan ekstraksi fitur kompleks dan dependensi temporal \parencite{nature2024hybrid}. Model CCP-Net ini menggunakan algoritma sampling ADASYN untuk menyeimbangkan ukuran sampel pelanggan yang \textit{churn} dan tidak \textit{churn}, mengatasi dampak negatif ketidakseimbangan sampel pada performa model.
+Poin-poin pembeda utama antara tugas akhir ini dengan penelitian terdahulu adalah sebagai berikut:
 
-\subsubsection{Evaluasi Model \textit{Churn Prediction}}
+\begin{enumerate}
+    \item \textbf{Integrasi Empat Komponen Teknologi dalam Satu Sistem} 
+    
+    Penelitian terdahulu umumnya mengembangkan klasifikasi \textit{intent}, mesin kueri, pembangkitan bahasa alami, dan peramalan deret waktu sebagai komponen terpisah. Tugas akhir ini mengintegrasikan keempat komponen tersebut dalam satu arsitektur sistem \textit{chatbot Business Intelligence} yang kohesif.
+    
+    \item \textbf{Fokus pada Pengguna Internal dan Indikator Bisnis Pelanggan} 
+    
+    Sebagian besar penelitian \textit{chatbot} berfokus pada layanan pelanggan eksternal. Tugas akhir ini secara khusus dirancang untuk pengguna internal perusahaan dengan fokus pada analisis indikator bisnis pelanggan seperti pesanan, target penjualan, \textit{churn}, dan pendapatan.
+    
+    \item \textbf{Kombinasi Pendekatan Berbasis Aturan dan Pembelajaran Mendalam} 
+    
+    Penelitian terdahulu cenderung menggunakan salah satu pendekatan secara eksklusif. Tugas akhir ini mengkombinasikan klasifikasi \textit{intent} berbasis pola untuk kontrol dan keamanan dengan model \textit{deep learning} untuk kemampuan prediktif.
+    
+    \item \textbf{Pembangkitan Bahasa Alami Berbasis Templat untuk Keamanan Data Internal} 
+    
+    Berbeda dengan pendekatan \textit{end-to-end} yang berisiko menghasilkan informasi tidak akurat, tugas akhir ini menggunakan pendekatan berbasis templat yang menjamin akurasi faktual dan keamanan data sensitif perusahaan.
+    
+    \item \textbf{Dukungan Bahasa Indonesia dalam Antarmuka Percakapan} 
+    
+    Penelitian \textit{chatbot Business Intelligence} yang mendukung interaksi dalam Bahasa Indonesia masih sangat terbatas. Tugas akhir ini mengembangkan sistem yang mendukung interaksi dalam Bahasa Indonesia.
+\end{enumerate}
 
-Evaluasi model prediksi \textit{churn} menggunakan metrik standar pembelajaran mesin dengan pertimbangan khusus untuk ketidakseimbangan kelas. Metrik evaluasi mencakup \textit{Accuracy}, \textit{Precision}, \textit{Recall}, \textit{F1-Score}, dan \textit{ROC-AUC}. Studi \textcite{computing2025churn} menunjukkan bahwa \textit{Random Forest} mencapai akurasi 90,30\% dengan semua atribut dan 90,90\% dengan \textit{dataset} atribut yang dikurangi, mengindikasikan bahwa \textit{dataset} dengan atribut yang dikurangi dapat berguna untuk tugas prediksi \textit{churn}.
-
-Studi lain menunjukkan bahwa \textit{Random Forest} mencapai akurasi 90,30\%, presisi 89,5\%, \textit{recall} 91,2\%, dan \textit{ROC-AUC} 0,94 \parencite{infosains2024churn}. Model dengan \textit{hyperparameter tuning} menggunakan teknik seperti SMOTE, ENN, dan K-fold cross-validation menghasilkan peningkatan performa yang signifikan. Penggunaan \textit{dataset} dengan atribut yang dikurangi tidak hanya meningkatkan akurasi tetapi juga mengurangi kompleksitas komputasi, menjadikannya lebih praktis untuk deployment produksi.
-
-\subsubsection{Fitur-fitur untuk \textit{Churn Prediction}}
-
-Fitur-fitur yang umum digunakan untuk prediksi \textit{churn} mencakup karakteristik demografis dan behavioral pelanggan \parencite{pecan2024churn,computing2025churn}. Karakteristik demografis meliputi usia, jenis kelamin, lokasi geografis, dan tingkat pendapatan. Karakteristik behavioral mencakup \textit{tenure} atau lama berlangganan, frekuensi transaksi, nilai transaksi rata-rata, variasi produk yang dibeli, dan pola penggunaan layanan.
-
-Fitur tambahan yang relevan adalah riwayat keluhan atau masalah layanan, tingkat keterlibatan dengan program loyalitas, responsivitas terhadap kampanye pemasaran, dan perubahan pola penggunaan dari waktu ke waktu. \textit{Feature engineering} yang efektif, termasuk pembuatan fitur agregat temporal dan fitur interaksi, dapat meningkatkan performa model secara signifikan.
-
-\subsubsection{\textit{Real-Time Churn Prediction}}
-
-Pendekatan tradisional prediksi \textit{churn} menggunakan pelatihan berbasis \textit{batch} dengan \textit{dataset} tetap yang dikumpulkan pada interval periodik. Pendekatan ini gagal menangkap sifat dinamis industri dengan preferensi pelanggan yang berubah cepat \parencite{thesai2025realtime}. Model RCE (\textit{Real-time Continual learning-based Enhancement}) telah diusulkan untuk mengatasi keterbatasan ini dengan memanfaatkan pendekatan pengembangan \textit{event-driven} untuk prediksi \textit{churn} waktu nyata.
-
-RCE menggunakan mekanisme \textit{continual learning} berbasis \textit{replay}, memungkinkannya beradaptasi dengan perilaku pelanggan baru sambil mengurangi efek \textit{catastrophic forgetting}. Berbeda dengan model berbasis \textit{batch} tradisional, RCE memproses aliran data yang berkelanjutan, memungkinkan bisnis untuk bereaksi dengan cepat terhadap perubahan pasar \parencite{thesai2025realtime}. Pendekatan ini memastikan bahwa pembuat keputusan menerima \textit{insight} terkini ketika perilaku pelanggan berkembang, meningkatkan efektivitas strategi retensi.
-
-\subsection{Integrasi \textit{Churn Prediction} dengan \textit{Chatbot} BI}
-
-Integrasi model prediksi \textit{churn} ke dalam sistem \textit{chatbot} Business Intelligence memungkinkan pengguna internal untuk dengan mudah mengakses analisis risiko \textit{churn} melalui antarmuka percakapan yang intuitif. Pengguna dapat mengajukan kueri seperti "Tampilkan pelanggan berisiko tinggi \textit{churn} bulan ini" atau "Analisis faktor utama yang mempengaruhi \textit{churn} di segmen premium", dan sistem akan mengeksekusi model prediksi serta menyajikan hasil dalam format bahasa alami yang mudah dipahami.
-
-Integrasi ini memfasilitasi pengambilan keputusan proaktif untuk retensi pelanggan, seperti penawaran promosi khusus atau peningkatan layanan untuk pelanggan berisiko tinggi. Sistem dapat menghasilkan rekomendasi tindakan berdasarkan faktor-faktor yang berkontribusi terhadap risiko \textit{churn} individu pelanggan. \textit{Dashboard} interaktif dapat menampilkan distribusi risiko \textit{churn} berdasarkan segmen pelanggan, tren \textit{churn} dari waktu ke waktu, dan efektivitas kampanye retensi yang telah dilaksanakan.
-
-Aksesibilitas informasi prediktif melalui antarmuka percakapan menurunkan \textit{barrier} untuk adopsi analitik prediktif di kalangan pengguna non-teknis. Pengguna bisnis tanpa latar belakang \textit{data science} dapat memanfaatkan model pembelajaran mesin yang canggih untuk mendukung keputusan mereka tanpa perlu memahami detail teknis implementasi model. Demokratisasi akses terhadap \textit{insight} prediktif ini meningkatkan \textit{data literacy} organisasi dan mempercepat transformasi menuju organisasi \textit{data-driven}.
+Dengan demikian, penelitian ini berkontribusi dalam mengisi celah antara pengembangan komponen teknologi secara terpisah dengan kebutuhan sistem analitik terintegrasi yang dapat diakses oleh pengguna nonteknis melalui antarmuka percakapan. Kontribusi utama mencakup arsitektur integrasi yang menghubungkan klasifikasi \textit{intent}, eksekusi kueri, pembangkitan bahasa alami, dan peramalan prediktif dalam satu alur kerja yang koheren, serta implementasi sistem yang berfokus pada konteks bisnis Indonesia dengan dukungan bahasa lokal.

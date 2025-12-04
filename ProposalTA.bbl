@@ -52,45 +52,6 @@
       \verb https://aws.amazon.com/blogs/security/securing-generative-ai-data-compliance-and-privacy-considerations/
       \endverb
     \endentry
-    \entry{thesai2025realtime}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f66555d14d3f773b73024ad05db2dc2d}{%
-           family={Al-Amri},
-           familyi={A\bibinithyphendelim A\bibinitperiod},
-           given={Rashid},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7b4a4e33580403c9964e5627f2a6c24f}{%
-           family={Murugesan},
-           familyi={M\bibinitperiod},
-           given={R.\bibnamedelimi K.},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{fullhash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{fullhashraw}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{bibnamehash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{authorbibnamehash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{authornamehash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{authorfullhash}{822535fc14c2ec32ff344e0af9286b0f}
-      \strng{authorfullhashraw}{822535fc14c2ec32ff344e0af9286b0f}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{International Journal of Advanced Computer Science and Applications}
-      \field{number}{5}
-      \field{title}{Enhancing Customer Churn Analysis by Using Real-time Continual Learning}
-      \field{volume}{16}
-      \field{year}{2025}
-      \field{pages}{1\bibrangedash 12}
-      \range{pages}{12}
-    \endentry
     \entry{Ananta2025SidoChatbot}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -189,39 +150,6 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.70619/vol5iss4pp41-52
-      \endverb
-    \endentry
-    \entry{businesswire2020chatbot}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=52768c35bf4f17d9aa91cc4211475bc4}{%
-           family={{Business Wire}},
-           familyi={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{fullhash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{fullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{bibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{authorbibnamehash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{authornamehash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{authorfullhash}{52768c35bf4f17d9aa91cc4211475bc4}
-      \strng{authorfullhashraw}{52768c35bf4f17d9aa91cc4211475bc4}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The World's AI-Based Chatbot Market, 2020-2025: Conversational AI Will Improve Telemarketing Efficiency}
-      \field{urlday}{4}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2020}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.businesswire.com/news/home/20200325005452/en/
-      \endverb
-      \verb{url}
-      \verb https://www.businesswire.com/news/home/20200325005452/en/
       \endverb
     \endentry
     \entry{Celikyilmaz2020EvalTextGen}{article}{}{}
@@ -361,6 +289,41 @@
       \verb https://cyara.com/blog/optimum-chatbot-confidence-threshold/
       \endverb
     \endentry
+    \entry{databricks2025timeseries}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e3f864ba9cf3c62d471e1c62414d098}{%
+           family={{Databricks}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{fullhash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{fullhashraw}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{bibnamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorbibnamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authornamehash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorfullhash}{4e3f864ba9cf3c62d471e1c62414d098}
+      \strng{authorfullhashraw}{4e3f864ba9cf3c62d471e1c62414d098}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Time Series Forecasting with Generative {AI}}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.databricks.com/blog/introduction-time-series-forecasting-generative-ai
+      \endverb
+      \verb{url}
+      \verb https://www.databricks.com/blog/introduction-time-series-forecasting-generative-ai
+      \endverb
+    \endentry
     \entry{databricks2025semantic}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4e3f864ba9cf3c62d471e1c62414d098}{%
@@ -375,8 +338,10 @@
       \strng{authornamehash}{4e3f864ba9cf3c62d471e1c62414d098}
       \strng{authorfullhash}{4e3f864ba9cf3c62d471e1c62414d098}
       \strng{authorfullhashraw}{4e3f864ba9cf3c62d471e1c62414d098}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
@@ -933,6 +898,39 @@
       \verb https://www.cis.upenn.edu/wp-content/uploads/2021/10/Xufei-Huang-thesis.pdf
       \endverb
     \endentry
+    \entry{ibm2025chatbottypes}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Types of Chatbots}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/topics/chatbot-types
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/topics/chatbot-types
+      \endverb
+    \endentry
     \entry{Intimedia2024}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=97e03bf6cf33cc01997cf539b0aa09a7}{%
@@ -1305,42 +1303,6 @@
       \field{pages}{290\bibrangedash 300}
       \range{pages}{11}
     \endentry
-    \entry{kumar2024xgboost}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=fab7414132a0d88f6cf00eb90cbab1e0}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={Arnav},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1779436b073e0bccf103d2468646771b}{%
-           family={Zafar},
-           familyi={Z\bibinitperiod},
-           given={Ebad},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{fullhash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{fullhashraw}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{bibnamehash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{authorbibnamehash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{authornamehash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{authorfullhash}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \strng{authorfullhashraw}{113f48c48b32cdd6c0a8bffa9d9d7334}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{SSRN Electronic Journal}
-      \field{title}{Predict Customer Churn with Python and Machine Learning}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.2139/ssrn.5085192
-      \endverb
-    \endentry
     \entry{dbt2024semantic}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5e7d44861685e5736cdb4b5638376107}{%
@@ -1412,57 +1374,6 @@
       \field{year}{2021}
       \field{pages}{1\bibrangedash 27}
       \range{pages}{27}
-    \endentry
-    \entry{nature2024hybrid}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=04058c4e91e541253e7dafb06a5fbee6}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Xiaoming},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=75ce7b8e255171604f3b68e220e187a3}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Yutao},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=621013bf54d3546375ad71f17f020b5b}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Yang},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f27ec46ccd272a021fd78bdac92dd490}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{677ce7fa7e488a3178632a68c28c75b3}
-      \strng{fullhash}{63d92c92b9435e2a48c313cb581b031b}
-      \strng{fullhashraw}{63d92c92b9435e2a48c313cb581b031b}
-      \strng{bibnamehash}{63d92c92b9435e2a48c313cb581b031b}
-      \strng{authorbibnamehash}{63d92c92b9435e2a48c313cb581b031b}
-      \strng{authornamehash}{677ce7fa7e488a3178632a68c28c75b3}
-      \strng{authorfullhash}{63d92c92b9435e2a48c313cb581b031b}
-      \strng{authorfullhashraw}{63d92c92b9435e2a48c313cb581b031b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Scientific Reports}
-      \field{title}{Customer Churn Prediction Model Based on Hybrid Neural Networks}
-      \field{volume}{14}
-      \field{year}{2024}
-      \field{pages}{79603}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1038/s41598-024-79603-9
-      \endverb
     \endentry
     \entry{Lim2021TFT}{article}{}{}
       \name{author}{4}{}{%
@@ -1988,39 +1899,6 @@
       \field{type}{mathesis}
       \field{year}{2022}
     \endentry
-    \entry{pecan2024churn}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7fa12058f104b3ca9a90dec02a6c713d}{%
-           family={{Pecan AI}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{fullhash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{fullhashraw}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{bibnamehash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{authorbibnamehash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{authornamehash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{authorfullhash}{7fa12058f104b3ca9a90dec02a6c713d}
-      \strng{authorfullhashraw}{7fa12058f104b3ca9a90dec02a6c713d}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Best Machine Learning Models for Predicting Customer Churn}
-      \field{urlday}{4}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.pecan.ai/blog/best-ml-models-for-predicting-customer-churn/
-      \endverb
-      \verb{url}
-      \verb https://www.pecan.ai/blog/best-ml-models-for-predicting-customer-churn/
-      \endverb
-    \endentry
     \entry{Petropoulos2023ForecastEval}{article}{}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2053,6 +1931,42 @@
       \field{year}{2023}
       \field{pages}{1500\bibrangedash 1518}
       \range{pages}{19}
+    \endentry
+    \entry{ui2024churnhat}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2f170b952c80274d413c970f56089b3a}{%
+           family={Prasetyo},
+           familyi={P\bibinitperiod},
+           given={Budi},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9316e19e9a1f3672103846688cd377be}{%
+           family={Kusuma},
+           familyi={K\bibinitperiod},
+           given={Dhanan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{fullhash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{fullhashraw}{74d9286235d44e5e491ba140b426ec03}
+      \strng{bibnamehash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{authorbibnamehash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{authornamehash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{authorfullhash}{74d9286235d44e5e491ba140b426ec03}
+      \strng{authorfullhashraw}{74d9286235d44e5e491ba140b426ec03}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Customer Churn Prediction using Histogram Augmentation Technique and {XGBoost}}
+      \field{volume}{227}
+      \field{year}{2024}
+      \field{pages}{456\bibrangedash 465}
+      \range{pages}{10}
     \endentry
     \entry{Precedence2025}{online}{}{}
       \name{author}{1}{}{%
@@ -2087,6 +2001,43 @@
       \verb https://www.precedenceresearch.com/natural-language-processing-market
       \endverb
     \endentry
+    \entry{priadinata2025lstm}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=49060ef7779e46a76d5eed5b81f4e184}{%
+           family={Priadinata},
+           familyi={P\bibinitperiod},
+           given={Rendra},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dc94f6775c1452a152a7b21378b64f3}{%
+           family={Wijaya},
+           familyi={W\bibinitperiod},
+           given={Kusuma},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{fullhash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{fullhashraw}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{bibnamehash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{authorbibnamehash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{authornamehash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{authorfullhash}{4d818515c87244a6399e37afa95f0fe8}
+      \strng{authorfullhashraw}{4d818515c87244a6399e37afa95f0fe8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Sinkron}
+      \field{number}{1}
+      \field{title}{Comparative Analysis of {LSTM}, {GRU}, and {Bi-LSTM} Deep Learning Models for Time Series Forecasting}
+      \field{volume}{10}
+      \field{year}{2025}
+      \field{pages}{78\bibrangedash 95}
+      \range{pages}{18}
+    \endentry
     \entry{Qaltivate2025}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4a91ac35cb75693c02d20be1b48d88ff}{%
@@ -2120,42 +2071,38 @@
       \verb https://qaltivate.com/blog/conversational-ai-market/
       \endverb
     \endentry
-    \entry{infosains2024churn}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f988ac0248165d798336b3269585f08b}{%
-           family={Rahmat},
-           familyi={R\bibinitperiod},
-           given={Budi},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4293da9a9b6643a8c2bc4cf80cb95f94}{%
-           family={Setiawan},
-           familyi={S\bibinitperiod},
-           given={Agus},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+    \entry{querio2025conversational}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=864869e32cea6e76da3f582e599a0bc2}{%
+           family={{Querio AI}},
+           familyi={Q\bibinitperiod}}}%
       }
-      \strng{namehash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{fullhash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{fullhashraw}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{bibnamehash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{authorbibnamehash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{authornamehash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{authorfullhash}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \strng{authorfullhashraw}{d2912383ad419f1b8ad7e599b0df6fd2}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \strng{namehash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{fullhash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{fullhashraw}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{bibnamehash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{authorbibnamehash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{authornamehash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{authorfullhash}{864869e32cea6e76da3f582e599a0bc2}
+      \strng{authorfullhashraw}{864869e32cea6e76da3f582e599a0bc2}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Jurnal Info Sains: Informatika dan Sains}
-      \field{number}{04}
-      \field{title}{Prediction Model Using Machine Learning: Analysis of Determinants of Customer Churn at PT XYZ}
-      \field{volume}{14}
-      \field{year}{2024}
-      \field{pages}{745\bibrangedash 758}
-      \range{pages}{14}
+      \field{labeltitlesource}{title}
+      \field{title}{Conversational {AI} Data Analyst Chatbot}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://querio.ai/articles/conversational-ai-data-analyst-chatbot
+      \endverb
+      \verb{url}
+      \verb https://querio.ai/articles/conversational-ai-data-analyst-chatbot
+      \endverb
     \endentry
     \entry{rebuffel2020fewshot}{article}{}{}
       \name{author}{4}{}{%
@@ -2204,6 +2151,39 @@
       \field{year}{2020}
       \verb{eprint}
       \verb 2004.15006
+      \endverb
+    \endentry
+    \entry{retresco2024nlgtemplate}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=27c318fd7e1d8200b71e24bc3a58c8a9}{%
+           family={{Retresco}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{fullhash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{fullhashraw}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{bibnamehash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{authorbibnamehash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{authornamehash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{authorfullhash}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \strng{authorfullhashraw}{27c318fd7e1d8200b71e24bc3a58c8a9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{GPT} and Template-Based Text Models in {NLG}}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.retresco.de/en/blog/gpt-template-based-text-models/
+      \endverb
+      \verb{url}
+      \verb https://www.retresco.de/en/blog/gpt-template-based-text-models/
       \endverb
     \endentry
     \entry{Sabila2025LSTMGRUStockPrediction}{article}{}{}
@@ -2275,6 +2255,43 @@
       \field{journaltitle}{arXiv preprint arXiv:2008.12009}
       \field{title}{A Survey of Evaluation Metrics Used for {NLG} Systems}
       \field{year}{2020}
+    \endentry
+    \entry{jerr2024churnprediction}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=51f46e9a507f7b7d33199768490f22d6}{%
+           family={Sam},
+           familyi={S\bibinitperiod},
+           given={Erick},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5ee26ee4f9974b7a50e886e2c363153}{%
+           family={Okonkwo},
+           familyi={O\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{fullhash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{fullhashraw}{d5986d954a122cf31f0b674b168d966c}
+      \strng{bibnamehash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{authorbibnamehash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{authornamehash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{authorfullhash}{d5986d954a122cf31f0b674b168d966c}
+      \strng{authorfullhashraw}{d5986d954a122cf31f0b674b168d966c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Educational Research and Reviews}
+      \field{number}{3}
+      \field{title}{Customer Churn Prediction using Machine Learning Models}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{210\bibrangedash 225}
+      \range{pages}{16}
     \endentry
     \entry{Santosa2025IndoBERTIntent}{article}{}{}
       \name{author}{3}{}{%
@@ -2391,51 +2408,42 @@
       \verb 10.30574/wjaets.2025.14.2.0037
       \endverb
     \endentry
-    \entry{computing2025churn}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=1aba111b90c066c0a41390f1552949b3}{%
+    \entry{ijirt2024rulebased}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=808d538af7406bfd14da2c61d88377ee}{%
            family={Sharma},
            familyi={S\bibinitperiod},
+           given={Priya},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5dbaee2bd1f68bfb2185d56f91e4b038}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
            given={Rajesh},
            giveni={R\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c95ad17e5e03ebee68db4a731203df7}{%
-           family={Gupta},
-           familyi={G\bibinitperiod},
-           given={Amit},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d9902fdf3760b0e71db0f27764102a9f}{%
-           family={Singh},
-           familyi={S\bibinitperiod},
-           given={Pradeep},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
       }
-      \strng{namehash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{fullhash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{fullhashraw}{123d665883e5a1af57f939f3bd79513f}
-      \strng{bibnamehash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{authorbibnamehash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{authornamehash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{authorfullhash}{123d665883e5a1af57f939f3bd79513f}
-      \strng{authorfullhashraw}{123d665883e5a1af57f939f3bd79513f}
+      \strng{namehash}{8635b88d686070a794419b8b9edc100c}
+      \strng{fullhash}{8635b88d686070a794419b8b9edc100c}
+      \strng{fullhashraw}{8635b88d686070a794419b8b9edc100c}
+      \strng{bibnamehash}{8635b88d686070a794419b8b9edc100c}
+      \strng{authorbibnamehash}{8635b88d686070a794419b8b9edc100c}
+      \strng{authornamehash}{8635b88d686070a794419b8b9edc100c}
+      \strng{authorfullhash}{8635b88d686070a794419b8b9edc100c}
+      \strng{authorfullhashraw}{8635b88d686070a794419b8b9edc100c}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{journaltitle}{International Journal of Computing}
+      \field{journaltitle}{International Journal of Innovative Research and Technology}
       \field{number}{1}
-      \field{title}{Customer Churn Prediction: A Machine Learning Approach with Data Balancing for Telecom Industry}
-      \field{volume}{24}
-      \field{year}{2025}
-      \field{pages}{1\bibrangedash 12}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.47839/ijc.24.1.3873
-      \endverb
+      \field{title}{Rule-based {AI} Chatbot}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 15}
+      \range{pages}{15}
     \endentry
     \entry{Singh2025ChatbotsSurvey}{article}{}{}
       \true{moreauthor}
@@ -2779,6 +2787,43 @@
       \verb https://www.velotix.ai/resources/blog/data-security-in-generative-ai-environments/
       \endverb
     \endentry
+    \entry{ejournal2024grulstm}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=11dd8f225de88e25b7f1efcefa4a397e}{%
+           family={Wijaya},
+           familyi={W\bibinitperiod},
+           given={Bambang},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b182fc0379d40b34fdf4df0f01eaea5}{%
+           family={Kusuma},
+           familyi={K\bibinitperiod},
+           given={Dianto},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{fullhash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{fullhashraw}{73b426b32b01c296cb90d062633c35d2}
+      \strng{bibnamehash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{authorbibnamehash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{authornamehash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{authorfullhash}{73b426b32b01c296cb90d062633c35d2}
+      \strng{authorfullhashraw}{73b426b32b01c296cb90d062633c35d2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Jurnal Infotel}
+      \field{number}{2}
+      \field{title}{Multi-industry Stock Forecasting using {GRU-LSTM} Deep Learning}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{pages}{145\bibrangedash 162}
+      \range{pages}{18}
+    \endentry
     \entry{WiseGuyReports2024}{online}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=22320d1376e81a50906944719c36d093}{%
@@ -2810,39 +2855,6 @@
       \endverb
       \verb{url}
       \verb https://www.wiseguyreports.com/reports/time-series-forecasting-market
-      \endverb
-    \endentry
-    \entry{xenonstack2023chatbots}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=90b03c0cc190859acbee10b719206b7b}{%
-           family={{XenonStack}},
-           familyi={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{fullhash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{fullhashraw}{90b03c0cc190859acbee10b719206b7b}
-      \strng{bibnamehash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{authorbibnamehash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{authornamehash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{authorfullhash}{90b03c0cc190859acbee10b719206b7b}
-      \strng{authorfullhashraw}{90b03c0cc190859acbee10b719206b7b}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Chatbots for Business: Best Practices and Top Applications}
-      \field{urlday}{4}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.xenonstack.com/insights/chatbots-applications
-      \endverb
-      \verb{url}
-      \verb https://www.xenonstack.com/insights/chatbots-applications
       \endverb
     \endentry
     \entry{Xiao2023MetricEval}{article}{}{}
@@ -2906,6 +2918,39 @@
       \field{year}{2024}
       \field{pages}{1\bibrangedash 12}
       \range{pages}{12}
+    \endentry
+    \entry{yellowfin2025nlg}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=219732fae961d2e1c96d883f1bb833a9}{%
+           family={{Yellowfin BI}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{fullhash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{fullhashraw}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{bibnamehash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{authorbibnamehash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{authornamehash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{authorfullhash}{219732fae961d2e1c96d883f1bb833a9}
+      \strng{authorfullhashraw}{219732fae961d2e1c96d883f1bb833a9}
+      \field{sortinit}{Y}
+      \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is Natural Language Generation? How {NLG} Works}
+      \field{urlday}{4}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.yellowfinbi.com/blog/what-is-natural-language-generation
+      \endverb
+      \verb{url}
+      \verb https://www.yellowfinbi.com/blog/what-is-natural-language-generation
+      \endverb
     \endentry
     \entry{Yunita2025NNComparison}{article}{}{}
       \true{moreauthor}

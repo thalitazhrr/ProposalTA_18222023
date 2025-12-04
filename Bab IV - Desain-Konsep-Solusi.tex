@@ -21,13 +21,6 @@ Proses bisnis sistem analitik saat ini direpresentasikan dalam notasi BPMN (\tex
 
 Visualisasi proses \textit{as-is} menunjukkan kompleksitas dan iterasi yang terlibat dalam setiap siklus permintaan analitik. Pengguna bisnis harus menunggu \textit{multiple} tahap pemrosesan, \textit{review}, dan validasi sebelum hasil analisis dapat diakses. Aliran \textit{data} bersifat \textit{linear} dengan \textit{multiple handoff} antar departemen, sehingga menciptakan \textit{bottleneck} dan \textit{delay} yang signifikan. Pengalaman pengguna berpusat pada \textit{interface} \textit{dashboard} statis, tanpa kemampuan untuk melakukan eksplorasi \textit{data} secara \textit{interaktif} maupun berinteraksi melalui \textit{dialog} percakapan yang natural.
 
-\section{Konsep Solusi Sistem Baru}
-\label{subsec:solusi-baru}
-
-Solusi yang diusulkan (\textit{to-be}) memperkenalkan paradigma baru dalam pengaksesan dan analisis \textit{data} melalui sistem \textit{chatbot} \textit{BI} berbasis percakapan. Pendekatan \textit{to-be} ini dirancang dengan tujuan untuk mengompresi \textit{timeline} dari permintaan analitik hingga \textit{delivery} hasil menjadi hitungan menit atau bahkan detik, bukan hari. Transformasi proses bisnis tersebut didasarkan pada beberapa prinsip utama, yaitu \textbf{otomatisasi maksimal} melalui pemanfaatan mekanisme \textit{automated intent recognition} dan \textit{rule-based query generation} untuk meminimalkan intervensi manual, \textbf{aksesibilitas universal} melalui \textit{interface} percakapan dalam bahasa alami yang dapat diakses oleh seluruh pengguna bisnis tanpa keahlian teknis khusus, \textbf{kemampuan prediktif} melalui integrasi \textit{model} \textit{machine learning} untuk \textit{forecasting} dan \textit{churn prediction}, serta \textbf{responsivitas tinggi} melalui \textit{real-time query execution} dan \textit{instant feedback} kepada pengguna. Alur proses \textit{to-be} dimulai ketika pengguna mengajukan pertanyaan atau permintaan analisis melalui \textit{interface} \textit{chatbot} dalam bahasa alami (Bahasa Indonesia atau bahasa Inggris). Sistem \textit{chatbot} kemudian melakukan klasifikasi \textit{intent} (\textit{intent classification}) menggunakan \textit{model} \textit{machine learning} berbasis pola untuk memahami tujuan spesifik dari pertanyaan pengguna. Setelah \textit{intent} teridentifikasi, sistem melakukan ekstraksi entitas (\textit{entity extraction}) untuk mengidentifikasi \textit{parameter} spesifik, seperti periode waktu, wilayah geografis, atau dimensi produk yang relevan dengan pertanyaan yang diajukan.
-
-Tahap berikutnya adalah \textit{routing} berbasis \textit{intent}, dengan sistem mengarahkan permintaan ke modul yang sesuai. Dalam analisis deskriptif dan diagnostik, sistem memanfaatkan \textit{rule-based query engine} untuk \textit{generate} \textit{SQL query} secara otomatis berdasarkan \textit{business rules} yang telah didefinisikan, kemudian mengeksekusi \textit{SQL query} tersebut terhadap \textit{data warehouse}. Sementara itu, untuk analisis prediktif, sistem menginvokasi \textit{model} \textit{time series forecasting} (\textit{LSTM}, \textit{GRU}, atau \textit{TFT}) yang telah dilatih sebelumnya untuk menghasilkan prediksi sesuai dengan \textit{time horizon} dan \textit{parameter} yang relevan. Hasil dari kedua jalur analisis tersebut kemudian diproses oleh modul \textit{Natural Language Generation} (\textit{NLG}) berbasis \textit{template} untuk mengonversi \textit{data} terstruktur dan \textit{output} numerik menjadi narasi bahasa alami yang mudah dipahami oleh pengguna bisnis. Pada tahap akhir, \textit{response} yang telah diformat dalam bahasa alami ditampilkan kepada pengguna melalui \textit{interface} \textit{chatbot}, disertai \textit{data visualization} apabila relevan. Sistem juga mencatat \textit{user interaction} untuk tujuan \textit{continuous improvement} dan dapat melakukan \textit{follow-up dialog} apabila pengguna memerlukan klarifikasi atau analisis lanjutan. Secara keseluruhan, proses mulai dari pertanyaan awal hingga \textit{delivery} hasil dapat diselesaikan dalam waktu kurang dari satu menit untuk mayoritas permintaan analitik standar.
-
 \section{Alur Proses Bisnis Sistem Analitik dengan Chatbot BI (\textit{To-Be})}
 
 Proses bisnis sistem analitik yang diusulkan (\textit{to-be}) merepresentasikan tingkat \textit{automation} dan optimasi yang signifikan dibandingkan proses \textit{as-is}. Proses dimulai ketika pengguna mengajukan pertanyaan dalam bahasa alami kepada sistem \textit{chatbot}, yang kemudian dilanjutkan dengan proses \textit{login} ke sistem \textit{BI chatbot} untuk keperluan autentikasi dan otorisasi pengguna. Setelah autentikasi berhasil, sistem membangun halaman dialog \textit{chatbot} sebagai \textit{interface} utama interaksi antara pengguna dan sistem yang bersifat \textit{AI-powered}. Tahap pemrosesan dimulai dengan klasifikasi \textit{intent} berbasis pola untuk mengidentifikasi jenis pertanyaan yang diajukan, apakah bersifat deskriptif, diagnostik, atau prediktif. Berdasarkan jenis \textit{intent} tersebut, sistem melakukan \textit{routing} ke modul yang sesuai, yaitu untuk analisis deskriptif dan diagnostik, sistem menggunakan \textit{rule-based query engine} untuk menghasilkan dan mengeksekusi \textit{structured query} terhadap \textit{data warehouse}; sedangkan untuk analisis prediktif, sistem mengakses \textit{forecasting model} yang telah dilatih untuk menghasilkan prediksi sesuai dengan \textit{time horizon} dan \textit{parameter} yang relevan. Setelah hasil analisis diperoleh, sistem melakukan perhitungan \textit{KPI} dan agregasi \textit{data}, kemudian menerapkan \textit{natural language generation} berbasis \textit{template} (\textit{template-based NLG}) untuk mengonversi \textit{output} numerik menjadi narasi dalam bahasa alami yang koheren dan mudah dipahami. Respons yang telah diformat dalam Bahasa Indonesia kemudian ditampilkan kembali kepada pengguna melalui \textit{interface} \textit{chatbot}, dan pada tahap akhir pengguna dapat mengeksekusi \textit{dashboard} untuk melakukan \textit{ad-hoc analysis} atau \textit{KPI tracking} tambahan apabila diperlukan, atau proses diakhiri ketika analisis dinyatakan selesai.
@@ -45,6 +38,62 @@ Keunggulan proses \textit{to-be} dibandingkan proses \textit{as-is} terletak pad
 
 Visualisasi proses \textit{to-be} menunjukkan peningkatan yang signifikan dalam efisiensi dan responsivitas sistem. Pengguna dapat secara langsung mengajukan pertanyaan melalui \textit{interface} \textit{chatbot} tanpa perlu menunggu atau melibatkan tim teknis. Aliran \textit{data} bersifat paralel dengan otomatisasi penuh pada tahap pemrosesan, sehingga memungkinkan hasil analisis diterima dalam waktu yang sangat singkat. Pengalaman pengguna berpusat pada \textit{dialog} percakapan yang interaktif, dengan kemampuan untuk melakukan eksplorasi \textit{data} secara \textit{real-time} serta mengajukan \textit{follow-up queries} secara \textit{seamless}.
 
+\section{Perbandingan Sistem Saat Ini (\textit{As-Is}) dan Sistem Baru (\textit{To-Be})}
+
+Berdasarkan analisis proses bisnis yang telah diuraikan pada bagian sebelumnya, terdapat perbedaan fundamental antara sistem analitik saat ini (\textit{as-is}) dan sistem yang diusulkan (\textit{to-be}). Sistem \textit{as-is} mengandalkan pelaporan manual dengan keterlibatan tim teknis pada setiap tahap, sedangkan sistem \textit{to-be} mengotomatisasi sebagian besar proses melalui antarmuka percakapan berbasis \textit{chatbot}. Perbandingan kedua sistem berdasarkan aspek-aspek kritis disajikan pada Tabel~\ref{tab:perbandingan-asis-tobe}.
+
+\begin{longtable}{|p{2.5cm}|p{5cm}|p{5cm}|}
+\caption{Perbandingan Sistem \textit{As-Is} dan \textit{To-Be}} \label{tab:perbandingan-asis-tobe} \\
+\hline
+\textbf{Aspek} & \textbf{Sistem \textit{As-Is}} & \textbf{Sistem \textit{To-Be}} \\
+\hline
+\endfirsthead
+\multicolumn{3}{c}{\tablename\ \thetable\ -- \textit{Lanjutan dari halaman sebelumnya}} \\
+\hline
+\textbf{Aspek} & \textbf{Sistem \textit{As-Is}} & \textbf{Sistem \textit{To-Be}} \\
+\hline
+\endhead
+\hline \multicolumn{3}{r}{\textit{Bersambung ke halaman berikutnya}} \\
+\endfoot
+\hline
+\endlastfoot
+
+Waktu Respons & 2--5 hari untuk kueri kompleks & $<$2 menit untuk 95\% kueri \\
+\hline
+
+Antarmuka Pengguna & \textit{Dashboard} statis, laporan manual & Antarmuka percakapan (\textit{chatbot}) dalam Bahasa Indonesia \\
+\hline
+
+Ketergantungan Teknis & Memerlukan tim TI/analis data untuk setiap permintaan & Pengguna nonteknis dapat mengakses \textit{insight} secara mandiri \\
+\hline
+
+Aksesibilitas & Terbatas pada pengguna dengan keahlian SQL & Seluruh pengguna internal dapat mengakses melalui bahasa alami \\
+\hline
+
+Kemampuan Analitik & Deskriptif dan diagnostik (historis) & Deskriptif, diagnostik, dan prediktif (\textit{forecasting}) \\
+\hline
+
+Proses Pengambilan Data & Ekstraksi manual dari berbagai sistem, transformasi via \textit{spreadsheet} & Otomatis melalui \textit{rule-based query engine} \\
+\hline
+
+Kemampuan Prediktif & Tidak tersedia atau dilakukan manual secara periodik & Terintegrasi dengan model \textit{time series forecasting} (LSTM/GRU/TFT) \\
+\hline
+
+Format Respons & Tabel, grafik, laporan tertulis & Narasi bahasa alami (\textit{template-based NLG}) dengan visualisasi pendukung \\
+\hline
+
+Siklus \textit{Feedback} & Iteratif dan panjang dengan \textit{multiple handoff} & \textit{Real-time} dengan kemampuan \textit{follow-up queries} \\
+\hline
+
+Skalabilitas & Terbatas oleh kapasitas tim teknis & \textit{Horizontal scaling} melalui arsitektur \textit{microservices} \\
+\hline
+
+Ketersediaan & Jam kerja (bergantung pada tim teknis) & Diakses setiap saat (\textit{self-service}) \\
+\hline
+
+\end{longtable}
+
+
 \section{Rancangan Solusi Keseluruhan}
 \label{subsec:rancangan-solusi}
 
@@ -54,13 +103,13 @@ Rancangan solusi keseluruhan mengintegrasikan lima \textit{layer} arsitektur yan
 
 \textit{Presentation layer} mencakup antarmuka pengguna yang dibangun dengan teknologi \textit{web} modern, dengan fokus pada antarmuka \textit{chatbot} berbasis \textit{web} yang mendukung interaksi \textit{real-time} dengan \textit{backend} sistem. Antarmuka ini diimplementasikan menggunakan \textit{framework frontend} modern seperti \textit{React} dan \textit{Vue.js} dengan pemanfaatan \textit{WebSocket} untuk komunikasi \textit{duplex} yang memungkinkan percakapan dua arah tanpa \textit{delay} yang signifikan. \textit{Presentation layer} juga mencakup komponen untuk menampilkan visualisasi \textit{data}, \textit{dashboard} interaktif, dan \textit{report} yang terintegrasi dengan hasil analisis yang dihasilkan oleh \textit{backend}.
 
-\textit{Application layer} mengenkapsulasi \textit{core logic} sistem yang terdiri atas tiga modul utama. Modul \textit{Natural Language Understanding} (\textit{NLU}) bertanggung jawab untuk melakukan \textit{parsing} dan \textit{understanding} terhadap \textit{input} pengguna dalam bahasa alami. Modul \textit{Dialogue Management} mengelola \textit{state} percakapan dan menjaga \textit{coherence} dalam \textit{dialog} \textit{multi-turn}. Modul \textit{Response Generation} menghasilkan \textit{response} yang sesuai berdasarkan hasil analisis yang diterima dari \textit{business logic layer}. Di sisi lain, \textit{business logic layer} mencakup implementasi \textit{business rules} yang telah didefinisikan, \textit{intent classification engine}, \textit{rule-based query engine}, \textit{machine learning model} untuk \textit{forecasting}, serta \textit{template repository} untuk \textit{NLG}. Lapisan ini merupakan jantung sistem yang mengonversi \textit{intent} pengguna menjadi aksi teknis yang konkret dan menghasilkan \textit{insight} berbasis \textit{data}.
+\textit{Application layer} mengenkapsulasi \textit{core logic} sistem yang terdiri atas tiga modul utama. Modul \textit{Natural Language Understanding} (NLU) bertanggung jawab untuk melakukan \textit{parsing} dan \textit{understanding} terhadap \textit{input} pengguna dalam bahasa alami. Modul \textit{Dialogue Management} mengelola \textit{state} percakapan dan menjaga \textit{coherence} dalam \textit{dialog} \textit{multi-turn}. Modul \textit{Response Generation} menghasilkan \textit{response} yang sesuai berdasarkan hasil analisis yang diterima dari \textit{business logic layer}. Di sisi lain, \textit{business logic layer} mencakup implementasi \textit{business rules} yang telah didefinisikan, \textit{intent classification engine}, \textit{rule-based query engine}, \textit{machine learning model} untuk \textit{forecasting}, serta \textit{template repository} untuk NLG. Lapisan ini merupakan jantung sistem yang mengonversi \textit{intent} pengguna menjadi aksi teknis yang konkret dan menghasilkan \textit{insight} berbasis \textit{data}.
 
 \textit{Data layer} mencakup koneksi dan interaksi dengan \textit{Enterprise Data Warehouse} yang menyimpan \textit{transactional data} dan \textit{master data}, serta \textit{cache layer} untuk menyimpan hasil \textit{query} yang sering diakses guna meningkatkan \textit{performance}. Lapisan ini juga mencakup \textit{repository} untuk menyimpan \textit{machine learning model} yang telah dilatih, \textit{metadata} mengenai \textit{data sources}, dan \textit{audit logs} untuk \textit{tracking} seluruh interaksi pengguna dengan sistem. \textit{Infrastructure layer} mencakup komponen teknis yang mendukung operasional sistem secara keseluruhan, antara lain \textit{web server} untuk \textit{hosting} aplikasi \textit{chatbot}, \textit{application server} untuk eksekusi \textit{application logic}, \textit{message broker} untuk \textit{async communication}, \textit{job scheduler} untuk \textit{batch processing}, \textit{monitoring} dan \textit{logging infrastructure}, serta \textit{security components} untuk \textit{authentication} dan \textit{authorization} pengguna.
 
 \subsection{Arsitektur Sistem dan Aliran Data}
 
-Arsitektur sistem secara keseluruhan dirancang dengan pendekatan \textit{microservices}, dengan setiap komponen fungsional, seperti \textit{chatbot service}, \textit{query service}, \textit{forecasting service}, dan \textit{NLG service}, diimplementasikan sebagai \textit{service} independen yang dapat diskalakan secara terpisah sesuai dengan kebutuhan beban kerja masing-masing. Komunikasi antarkomponen dilakukan melalui \textit{REST API} atau \textit{message queue} untuk memastikan \textit{loose coupling} dan tingkat \textit{high resilience} yang memadai terhadap gangguan.
+Arsitektur sistem secara keseluruhan dirancang dengan pendekatan \textit{microservices}, dengan setiap komponen fungsional, seperti \textit{chatbot service}, \textit{query service}, \textit{forecasting service}, dan NLG \textit{service}, diimplementasikan sebagai \textit{service} independen yang dapat diskalakan secara terpisah sesuai dengan kebutuhan beban kerja masing-masing. Komunikasi antarkomponen dilakukan melalui \textit{REST API} atau \textit{message queue} untuk memastikan \textit{loose coupling} dan tingkat \textit{high resilience} yang memadai terhadap gangguan.
 
 Diagram arsitektur sistem yang lebih rinci disajikan pada Gambar~\ref{fig:arsitektur}, yang memperlihatkan integrasi kelima \textit{layer} dan aliran \textit{data} antarkomponen di dalam sistem. Arsitektur ini dirancang untuk mendukung:
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 02:05
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3961,10 +3961,120 @@ File: image/bpmnasis.png Graphic file (type bmp)
 [105]
 
 [106]
-
-[107]
 File: image/bpmntobe.png Graphic file (type bmp)
 <image/bpmntobe.png>
+
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 Waktu Res-
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 61--61
+[]|\TU/TimesNewRoman(0)/m/n/12 2–5 hari untuk kueri kom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\TU/TimesNewRoman(0)/m/n/12 Antarmuka
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\TU/TimesNewRoman(0)/m/it/12 Dashboard \TU/TimesNewRoman(0)/m/n/12 statis, laporan
+ []
+
+
+Overfull \hbox (5.28609pt too wide) in paragraph at lines 67--67
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketergantungan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+[]|\TU/TimesNewRoman(0)/m/n/12 Pengguna nonteknis dapat
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
+\TU/TimesNewRoman(0)/m/n/12 mengakses \TU/TimesNewRoman(0)/m/it/12 insight \TU/TimesNewRoman(0)/m/n/12 secara
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
+[]|\TU/TimesNewRoman(0)/m/n/12 Deskriptif dan diagnostik
+ []
+
+
+Underfull \hbox (badness 5519) in paragraph at lines 73--74
+[]|\TU/TimesNewRoman(0)/m/n/12 Deskriptif, diagnostik, dan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\TU/TimesNewRoman(0)/m/n/12 Proses Pe-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\TU/TimesNewRoman(0)/m/n/12 ngambilan
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\TU/TimesNewRoman(0)/m/n/12 Kemampuan
+ []
+
+
+Underfull \hbox (badness 4060) in paragraph at lines 79--80
+\TU/TimesNewRoman(0)/m/it/12 me series forecasting \TU/TimesNewRoman(0)/m/n/12 (LS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\TU/TimesNewRoman(0)/m/n/12 Format Res-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+[]|\TU/TimesNewRoman(0)/m/n/12 Narasi bahasa alami
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 template-based NLG\TU/TimesNewRoman(0)/m/n/12 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+\TU/TimesNewRoman(0)/m/n/12 dengan visualisasi pendu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+[]|\TU/TimesNewRoman(0)/m/n/12 Siklus \TU/TimesNewRoman(0)/m/it/12 Fee-
+ []
+
+
+Underfull \hbox (badness 1325) in paragraph at lines 85--85
+[]|\TU/TimesNewRoman(0)/m/n/12 Iteratif dan panjang dengan
+ []
+
+
+Underfull \hbox (badness 1960) in paragraph at lines 88--88
+[]|\TU/TimesNewRoman(0)/m/n/12 Terbatas oleh kapasitas tim
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
+[]|\TU/TimesNewRoman(0)/m/n/12 Diakses setiap saat (\TU/TimesNewRoman(0)/m/it/12 self-
+ []
+
 
 
 [108]
@@ -4562,7 +4672,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: DF8A880E77443B3FFA8B62BFDEA2F757;39416.
+(rerunfilecheck)             Checksum: E983ECFF3F59E5AEC70906C0D0DC675F;39618.
 
 Package biblatex Warning: Please rerun LaTeX.
 
@@ -4571,10 +4681,10 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32786 strings out of 473832
- 653124 string characters out of 5729482
- 2067300 words of memory out of 5000000
- 55449 multiletter control sequences out of 15000+600000
+ 32788 strings out of 473832
+ 653150 string characters out of 5729482
+ 2067577 words of memory out of 5000000
+ 55451 multiletter control sequences out of 15000+600000
  564719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,13n,93p,2210b,6420s stack positions out of 10000i,1000n,20000p,200000b,200000s

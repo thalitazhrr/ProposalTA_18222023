@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 15:06
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  4 DEC 2025 15:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -4923,13 +4923,8 @@ Underfull \hbox (badness 3769) in paragraph at lines 408--409
  []
 
 
-Overfull \hbox (9.94447pt too wide) in paragraph at lines 411--411
-[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakseimbangan
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 411--411
-\TU/TimesNewRoman(0)/m/n/12 distribusi kelas
+[]|\TU/TimesNewRoman(0)/m/n/12 Ketidakseimbang
  []
 
 
@@ -5292,7 +5287,7 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 Here is how much of TeX's memory you used:
  32793 strings out of 473832
  653493 string characters out of 5729482
- 2066260 words of memory out of 5000000
+ 2066264 words of memory out of 5000000
  55456 multiletter control sequences out of 15000+600000
  564719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

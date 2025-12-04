@@ -1173,7 +1173,7 @@ Tahap pemodelan data (\textit{modeling}) merupakan fase keempat dalam metodologi
 
 Sistem peramalan dalam penelitian ini memanfaatkan pendekatan berbasis pembelajaran mendalam (\textit{deep learning}) yang dirancang khusus untuk menangani data deret waktu multivariat (\textit{multivariate time series}) dengan pola temporal yang kompleks. Sistem menggunakan tiga arsitektur utama: LSTM (\textit{Long Short-Term Memory}), GRU (\textit{Gated Recurrent Unit}), dan TFT (\textit{Temporal Fusion Transformer}), serta kombinasi hibrida dari algoritma-algoritma tersebut untuk memaksimalkan akurasi prediksi terhadap indikator kinerja bisnis.
 
-\subsubsection{Model LSTM (Long Short-Term Memory)}
+\subsubsection{Model LSTM (\textit{Long Short-Term Memory})}
 
 LSTM merupakan jenis jaringan saraf berulang (\textit{Recurrent Neural Network}, RNN) yang dirancang untuk mengatasi masalah gradien menghilang (\textit{vanishing gradient}) pada RNN tradisional dan mampu mempelajari dependensi jangka panjang dalam data sekuens. Arsitektur LSTM terdiri dari sel memori dan tiga gerbang utama yang diuraikan pada Tabel~\ref{tab:lstm-gates}.
 
@@ -1196,7 +1196,7 @@ LSTM merupakan jenis jaringan saraf berulang (\textit{Recurrent Neural Network},
 
 Keunggulan LSTM terletak pada kemampuannya untuk mempelajari dependensi jangka panjang dengan stabil dan menangani data deret waktu yang memiliki pola kompleks. Struktur gerbang memungkinkan model untuk secara selektif menyimpan, melupakan, dan menggunakan informasi dari periode-periode sebelumnya.
 
-\subsubsection{Model GRU (Gated Recurrent Unit)}
+\subsubsection{Model GRU (\textit{Gated Recurrent Unit})}
 
 GRU merupakan varian yang lebih sederhana dari LSTM dengan jumlah parameter yang lebih sedikit, sehingga lebih efisien dalam menangkap dan mempertahankan dependensi jangka pendek dan jangka panjang dalam data deret waktu. GRU menggunakan dua gerbang utama: \textit{update gate} dan \textit{reset gate}. Tabel~\ref{tab:gru-gates} menyajikan komponen gerbang pada arsitektur GRU.
 
@@ -1217,7 +1217,7 @@ GRU merupakan varian yang lebih sederhana dari LSTM dengan jumlah parameter yang
 
 Dibandingkan dengan LSTM, GRU memiliki struktur yang lebih sederhana dengan lebih sedikit parameter, sehingga dapat meningkatkan kecepatan pelatihan sebesar 20--30\% tanpa mengorbankan akurasi secara signifikan pada banyak kasus penggunaan.
 
-\subsubsection{Model TFT (Temporal Fusion Transformer)}
+\subsubsection{Model TFT (\textit{Temporal Fusion Transformer})}
 
 \textit{Temporal Fusion Transformer} (TFT) merupakan arsitektur berbasis mekanisme perhatian (\textit{attention}) yang dirancang untuk menangani peramalan deret waktu \textit{multi-horizon} dan multivariat secara efektif. TFT menggabungkan kekuatan LSTM untuk pemrosesan pola jangka pendek dan menengah dengan mekanisme \textit{self-attention} untuk menangkap dependensi jangka panjang. Tabel~\ref{tab:tft-components} menyajikan komponen utama arsitektur TFT.
 
@@ -1340,7 +1340,7 @@ Prediksi Churn Biner & \textit{Binary Cross-Entropy} & Mengklasifikasi status \t
 \end{tabular}
 \end{table}
 
-\subsection{Model Klasifikasi Intent Berbasis Pola}
+\subsection{Model Klasifikasi \textit{Intent} Berbasis Pola}
 \label{subsec:model-intent}
 
 Model klasifikasi \textit{intent} menggunakan pendekatan pencocokan pola (\textit{pattern matching}) yang dikombinasikan dengan mekanisme \textit{confidence scoring} untuk mengidentifikasi maksud pengguna dari kueri bahasa alami. Sistem dirancang untuk mengenali 20--30 \textit{intent} utama yang berkaitan dengan analisis dan prediksi indikator bisnis pelanggan.

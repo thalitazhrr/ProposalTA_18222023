@@ -190,7 +190,7 @@ Dalam memastikan bahwa sistem yang dikembangkan memenuhi kebutuhan fungsional da
 
 Modul klasifikasi maksud (\textit{intent classification}) dievaluasi menggunakan metrik standar klasifikasi multi-kelas dengan mempertimbangkan bahwa sistem dirancang untuk mengenali 20--30 \textit{intent} utama yang berkaitan dengan analisis dan prediksi indikator bisnis pelanggan. Evaluasi dilakukan dengan pendekatan \textit{one-vs-all} dan agregasi metrik menggunakan strategi \textit{macro-averaging}, \textit{micro-averaging}, dan \textit{weighted-averaging}.
 
-\paragraph{Metrik Evaluasi Klasifikasi Intent}
+\paragraph{Metrik Evaluasi Klasifikasi \textit{Intent}}
 
 Metrik evaluasi yang digunakan untuk mengukur performa klasifikasi maksud mencakup:
 
@@ -226,7 +226,7 @@ Sistem menggunakan mekanisme pemberian nilai keyakinan dalam rentang 0 hingga 1 
     \item Jika nilai keyakinan $<$ 0,70: Prediksi dianggap tidak cukup yakin dan sistem meminta klarifikasi kepada pengguna atau menawarkan alternatif \textit{intent} yang mungkin (\textit{fallback mechanism}).
 \end{enumerate}
 
-\paragraph{Target Performa Klasifikasi Intent}
+\paragraph{Target Performa Klasifikasi \textit{Intent}}
 
 
 Berdasarkan studi literatur dan praktik terbaik industri untuk sistem klasifikasi \textit{intent} dalam \textit{chatbot} bisnis, target performa yang ditetapkan adalah:
@@ -289,7 +289,7 @@ Target performa untuk modul NLG berbasis templat adalah:
 
 Modul peramalan deret waktu dievaluasi menggunakan protokol \textit{rolling-origin backtesting} pada beberapa horizon prediksi dengan \textit{seasonal naive} sebagai garis dasar (\textit{baseline}). Model yang dievaluasi mencakup LSTM, GRU, dan \textit{Temporal Fusion Transformer} (TFT), serta kombinasi hibrida dari algoritma-algoritma tersebut.
 
-\paragraph{Metrik Evaluasi Forecasting}
+\paragraph{Metrik Evaluasi \textit{Forecasting}}
 
 Metrik evaluasi yang digunakan untuk mengukur performa model peramalan deret waktu mencakup:
 
@@ -408,7 +408,7 @@ Dalam memitigasi skenario dengan terdapat kondisi yang di luar ekspektasi awal, 
 1 & Keterbatasan data historis untuk pelatihan model peramalan & Akurasi model peramalan tidak mencapai target yang ditetapkan & Menggunakan teknik augmentasi data, transfer learning dari model pre-trained, atau menyesuaikan horizon prediksi sesuai ketersediaan data \\
 \hline
 
-2 & Ketidakseimbangan distribusi kelas intent & Performa klasifikasi buruk pada kelas minoritas & Menerapkan teknik oversampling (SMOTE), undersampling, atau class weighting pada proses pelatihan \\
+2 & Ketidakseimbang an distribusi kelas intent & Performa klasifikasi buruk pada kelas minoritas & Menerapkan teknik oversampling (SMOTE), undersampling, atau class weighting pada proses pelatihan \\
 \hline
 
 3 & Variasi bahasa alami pengguna di luar cakupan pola yang didefinisikan & Tingkat \textit{fallback} tinggi dan pengalaman pengguna menurun & Memperluas cakupan pola secara iteratif berdasarkan log percakapan dan umpan balik pengguna \\

@@ -606,7 +606,7 @@ Dalam formula-formula di atas, \(y_i\) adalah nilai aktual, \(\hat{y}_i\) adalah
 
 Selain metrik kesalahan mentah, sistem juga menghitung \textit{skill score} yang membandingkan performa model terhadap garis dasar (\textit{baseline}) sederhana, seperti model \textit{naive} (prediksi nilai sebelumnya) atau \textit{random walk} \autocite{Petropoulos2023ForecastEval}. \textit{Skill score} didefinisikan sebagai:
 \begin{equation}
-\text{Skill Score} = 1 - \frac{\text{Metrik}_{\text{model}}}{\text{Metrik}_{\text{baseline}}}
+\text{\textit{Skill Score}} = 1 - \frac{\text{Metrik}_{\text{model}}}{\text{Metrik}_{\text{baseline}}}
 \end{equation}
 
 \textit{Skill score} positif menunjukkan bahwa model yang diusulkan mengungguli garis dasar, sedangkan nilai negatif mengindikasikan performa yang lebih buruk dari model referensi. Pendekatan ini memberikan konteks relatif tentang keberhasilan model dan memudahkan pengambilan keputusan apakah model kompleks (seperti LSTM atau TFT) justru diperlukan atau model sederhana sudah cukup \autocite{Petropoulos2023ForecastEval,Spiliotis2020ForecastingBenchmarks}.

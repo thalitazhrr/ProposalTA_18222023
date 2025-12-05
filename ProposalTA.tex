@@ -149,7 +149,7 @@
 % Pastikan \cite() menampilkan (Penulis Tahun)
 % ==========================================
 \let\oldcite\cite
-\renewcommand{\cite}{\parencite}
+\renewcommand{\cite}{\autocite}
 
 % ==========================================
 % Atur pemisah nama penulis agar lebih natural dalam Bahasa Indonesia
@@ -208,6 +208,7 @@
 % ==========================================
 % --- Tabel rapi & kolom fleksibel ---
 \usepackage{tabularx,booktabs,array,ragged2e,enumitem}
+% Tambahkan resource .bib DI SINI
 \newcolumntype{Y}{>{\RaggedRight\arraybackslash}X}          % kolom fleksibel
 \newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}   % p{} ragged-right
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}     % p{} centered

@@ -1,9 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 10:50
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 11:36
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**ProposalTA.tex
-(./ProposalTA.tex
+**"/Users/thalitazhr/Documents/Thalita's Academics/STI ITB/Semester 7/TA Final/ProposalTA-STI/ProposalTA"
+(/Users/thalitazhr/Documents/Thalita's Academics/STI ITB/Semester 7/TA Final/ProposalTA-STI/ProposalTA.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/book.cls
@@ -23,8 +24,7 @@ File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
@@ -32,12 +32,9 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
-) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2025-01-18 L3 programming layer (loader) 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count267
 \l__pdf_internal_box=\box52
@@ -47,10 +44,8 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
-X
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
 \l__fontspec_script_int=\count270
 \l__fontspec_language_int=\count271
 \l__fontspec_strnum_int=\count272
@@ -65,11 +60,9 @@ X
 \l__fontspec_tmpa_dim=\dimen142
 \l__fontspec_tmpb_dim=\dimen143
 \l__fontspec_tmpc_dim=\dimen144
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 
 Package fontspec Info: 
 (fontspec)             Font family 'TimesNewRoman(0)' created for font 'Times
@@ -87,19 +80,14 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 
-
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count281
@@ -114,30 +102,22 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen151
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks20
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
-eX and XeLaTeX
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
 \babel@savecnt=\count284
 \U@D=\dimen153
 \l@unhyphenated=\language90
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
-Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
-ystem
-))
-(/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/id/babel-indonesia
-n.tex
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-indonesian/indonesian.ldf
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel system
+)) (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/id/babel-indonesian.tex
 Package babel Info: Importing font and identification data for indonesian
 (babel)             from babel-id.ini. Reported on input line 11.
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count286
 )
@@ -148,43 +128,33 @@ Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \csq@maxlvl=\count291
 \csq@tshold=\count292
 \csq@ltx@everypar=\toks21
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 106.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen154
 \Gin@req@width=\dimen155
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen156
 \captionmargin=\dimen157
@@ -198,74 +168,55 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count293
 \c@continuedfloat=\count294
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count295
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count296
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (/usr/local/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count297
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen164
 \Hy@linkcounter=\count298
 \Hy@pagecounter=\count299
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count300
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 )
 Package hyperref Info: Hyper figures OFF on input line 4157.
@@ -276,20 +227,16 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count301
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen165
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
-)
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count302
 \Field@Width=\dimen166
@@ -301,8 +248,7 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -311,27 +257,22 @@ package with kernel methods
 \c@Hfootnote=\count305
 )
 Package hyperref Info: Driver (autodetected): hxetex.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2024-11-05 v7.01l Hyperref driver for XeTeX
 \pdfm@box=\box53
 \c@Hy@AnnotLevel=\count306
 \HyField@AnnotCount=\count307
 \Fld@listcount=\count308
 \c@bookmark@seq@number=\count309
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
-)
-(/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip51
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/titlesec/titlesec.sty
@@ -345,8 +286,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen170
 \titlewidthlast=\dimen171
 \titlewidthfirst=\dimen172
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip54
@@ -385,17 +325,14 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforetabskip=\skip85
 \cfttabindent=\skip86
 \cfttabnumwidth=\skip87
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.sty (/usr/local/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count312
 \l__lipsum_a_int=\count313
 \l__lipsum_b_int=\count314
-(/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/floatrow/floatrow.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count315
 \float@exts=\toks23
@@ -403,7 +340,6 @@ Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \@floatcapt=\box56
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
-
 \FR@everyfloat=\toks24
 \flrow@foot=\insert252
 \FB@wd=\dimen173
@@ -432,8 +368,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTleft=\skip100
 \LTright=\skip101
 \flrow@types=\toks25
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count322
 \lst@gtempboxa=\box58
 \lst@token=\toks26
@@ -446,39 +381,32 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \lst@newlines=\count326
 \lst@lineno=\count327
 \lst@maxwidth=\dimen180
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count328
 \lst@skipnumbers=\count329
 \lst@framebox=\box59
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip102
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks27
 \ex@=\dimen181
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen182
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count330
@@ -528,19 +456,16 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks31
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip105
 \enit@outerparindent=\dimen190
@@ -548,11 +473,9 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box62
 \enit@count@id=\count342
 \enitdp@description=\count343
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/parskip/parskip.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip106
 \LTright=\skip107
@@ -570,8 +493,7 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@tables=\count347
 \c@LT@chunks=\count348
 \LT@p@ftn=\toks33
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen192
 \lightrulewidth=\dimen193
@@ -590,50 +512,35 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count351
 \@lastruleclass=\count352
 \@thisrulewidth=\dimen260
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datetime2/datetime2.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/datetime2/datetime2.sty
 Package: datetime2 2021/03/21 v1.5.7 (NLCT) date and time formats
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tracklang/tracklang.sty
 Package: tracklang 2025/03/04 v1.6.5 (NLCT) Track Languages
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/tracklang/tracklang.tex))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/tracklang/tracklang.tex)) (/usr/local/texlive/2025/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
-
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2025/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
 \XKV@depth=\count353
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/datetime2-bahasai/datetime2-bahas
-ai.ldf
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/datetime2-bahasai/datetime2-bahasai.ldf
 File: datetime2-bahasai.ldf 2018/01/10 v1.01
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago
-.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/biblatex-chicago.sty
 Package: biblatex-chicago 2022/07/02 v 3.18 biblatex style
- (/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
+ (/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.sty (/usr/local/texlive/2025/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count354
 \xs_countb=\count355
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count356
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
+)) (/usr/local/texlive/2025/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count357
@@ -695,8 +602,7 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \c@mincompwidth=\count402
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def
 File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -787,18 +693,15 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorteditorwidth=\skip131
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-unicode.def)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
 File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \c@textcitecount=\count471
 \c@textcitetotal=\count472
@@ -814,16 +717,12 @@ File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip22
 \c@smartand=\count479
 )
-Package biblatex Info: Trying to load bibliography style 'chicago-authordate'..
-.
+Package biblatex Info: Trying to load bibliography style 'chicago-authordate'...
 Package biblatex Info: ... file 'chicago-authordate.bbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-authorda
-te.bbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.bbx
 File: chicago-authordate.bbx 2022/11/17 v 3.18b biblatex bibliography style
 \lositemsep=\skip132
-Package biblatex Info: Delimiter 'revsdnamedelim' in context '' already defined
-, overwriting.
+Package biblatex Info: Delimiter 'revsdnamedelim' in context '' already defined, overwriting.
 \cms@tempcnta=\count480
 \cms@tempcntb=\count481
 \c@bbx:relatedcount=\count482
@@ -831,15 +730,11 @@ Package biblatex Info: Delimiter 'revsdnamedelim' in context '' already defined
 )
 Package biblatex Info: Trying to load citation style 'chicago-authordate'...
 Package biblatex Info: ... file 'chicago-authordate.cbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-authorda
-te.cbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-authordate.cbx
 File: chicago-authordate.cbx 2022/07/02 v 3.18 biblatex citation style
 Package biblatex Info: Trying to load citation style 'chicago-dates-common'...
 Package biblatex Info: ... file 'chicago-dates-common.cbx' found.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-co
-mmon.cbx
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex-chicago/chicago-dates-common.cbx
 File: chicago-dates-common.cbx 2024/04/15 v 3.20 biblatex citation style
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -855,8 +750,7 @@ Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetexts'.
 \c@cms@punct=\count484
-Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, 
-overwriting.
+Package biblatex Info: Delimiter 'dateeradelim' in context '' already defined, overwriting.
 ))
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -870,10 +764,9 @@ Package biblatex Info: ... and expl3
 (biblatex)             2025-01-18 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-)))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
+))) (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen261
 \ar@mcellbox=\box68
@@ -882,23 +775,19 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \extratabsurround=\skip133
 \backup@length=\skip134
 \ar@cellbox=\box69
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip135
 \multirow@cntb=\count485
 \multirow@dima=\skip136
 \bigstrutjot=\dimen263
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: xetex.def on input line 274.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
@@ -907,16 +796,14 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 \everycr=\toks37
 \minrowclearance=\skip137
 \rownum=\count486
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 168.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen264
 \TX@old@table=\dimen265
@@ -925,8 +812,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen268
 \TX@cols=\count487
 \TX@ftn=\toks38
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip138
 \RaggedLeftLeftskip=\skip139
@@ -949,32 +835,35 @@ Package csquotes Info: Adjusting default style.
 
 
 Package csquotes Warning: No style for language 'indonesian'.
-(csquotes)                Using fallback style on input line 216.
+(csquotes)                Using fallback style on input line 217.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
-(./ProposalTA.aux)
+(./ProposalTA.aux (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
+Package babel Info: Importing data for english
+(babel)             from babel-en.ini. Reported on input line 28.
+)
 \openout1 = `ProposalTA.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
+LaTeX Font Info:    ... okay on input line 217.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -982,64 +871,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 216.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 216.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 216.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 216.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 216.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 216.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 216.
-LaTeX Font Info:    Redeclaring math accent \check on input line 216.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 216.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 216.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 216.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 216.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 216.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 217.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 217.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 217.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 217.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 217.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 217.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 217.
+LaTeX Font Info:    Redeclaring math accent \check on input line 217.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 217.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 217.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 217.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 217.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 216.
-
+(Font)              `operators' in the math version `normal' on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-16.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 217.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 216.
+(Font)              `operators' in the math version `bold' on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-216.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 216.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 216.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-216.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 216.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 216.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 217.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 216.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 216.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 216.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 217.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 216.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 217.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1087,16 +968,13 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 216.
-
-(./ProposalTA.out) (./ProposalTA.out)
+Package hyperref Info: Link coloring ON on input line 217.
+ (./ProposalTA.out) (./ProposalTA.out)
 \@outlinefile=\write4
 \openout4 = `ProposalTA.out'.
 
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/floatrow/fr-longtable.sty
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/floatrow/fr-longtable.sty
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
-
 \flrow@LT@lasthead=\box70
 \flrow@LT@prelastfoot=\box71
 \c@FBLTpage=\count488
@@ -1107,8 +985,13 @@ Package biblatex Info: ... file 'indonesian.lbx' not found.
 
 
 Package biblatex Warning: Language 'indonesian' not supported.
-(biblatex)                Using dummy definitions on input line 216.
+(biblatex)                Using dummy definitions on input line 217.
 
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+(/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+)
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
@@ -1117,9 +1000,9 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ProposalTA.bbl' found.
-(./ProposalTA.bbl)
-Package biblatex Info: Reference section=0 on input line 216.
-Package biblatex Info: Reference segment=0 on input line 216.
+ (./ProposalTA.bbl)
+Package biblatex Info: Reference section=0 on input line 217.
+Package biblatex Info: Reference segment=0 on input line 217.
 File: image/ganesha.jpg Graphic file (type bmp)
 <image/ganesha.jpg>
 
@@ -1127,7 +1010,7 @@ File: image/ganesha.jpg Graphic file (type bmp)
 Package datetime2 Warning: Region `bahasai' has ignored 
 (datetime2)                the following settings:
 (datetime2)                showmonthname=true
- on input line 257.
+ on input line 258.
 
 
 
@@ -1138,13 +1021,11 @@ Package datetime2 Warning: Region `bahasai' has ignored
 
 [1] (./ProposalTA.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
@@ -1183,55 +1064,55 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 370.
+(hyperref)                removing `\<let>-command' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 370.
+(hyperref)                removing `\\' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 370.
+(hyperref)                removing `\@centercr' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 370.
+(hyperref)                removing `\rightskip' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 370.
+(hyperref)                removing `\@flushglue' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 370.
+(hyperref)                removing `\leftskip' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 370.
+(hyperref)                removing `\@flushglue' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 370.
+(hyperref)                removing `\finalhyphendemerits' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 370.
+(hyperref)                removing `\z@' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 370.
+(hyperref)                removing `\parindent' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 370.
+(hyperref)                removing `\z@' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 370.
+(hyperref)                removing `\parfillskip' on input line 371.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 370.
+(hyperref)                removing `\z@skip' on input line 371.
 
 
 
@@ -1240,16 +1121,8 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ] (./Bab I - Pendahuluan.tex
 Bab I.
 
-LaTeX Warning: Citation 'Straits2024' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Citation 'Intimedia2024' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'EastVC2025' on page 1 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Qaltivate2025' on page 1 undefined on input line 13.
+Package biblatex Warning: Month out of range or not an integer
+(biblatex)                at entry 'Intimedia2024' on input line 11.
 
 
 
@@ -1258,30 +1131,11 @@ LaTeX Warning: Citation 'Qaltivate2025' on page 1 undefined on input line 13.
 
 ]
 
-LaTeX Warning: Citation 'Fullview2025' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Iqbal2021' on page 2 undefined on input line 15.
-
-
-LaTeX Warning: Citation 'Precedence2025' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'WiseGuyReports2024' on page 2 undefined on input line 
-19.
-
-
-LaTeX Warning: Citation 'Mena2023' on page 2 undefined on input line 21.
-
-
-
 [2]
 
 [3]
 Overfull \hbox (3.13211pt too wide) in paragraph at lines 53--54
-[]\TU/TimesNewRoman(0)/m/n/12 Merancang arsitektur sistem \TU/TimesNewRoman(0)/
-m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNew
-Roman(0)/m/it/12 chatbot \TU/TimesNewRoman(0)/m/n/12 yang mam-
+[]\TU/TimesNewRoman(0)/m/n/12 Merancang arsitektur sistem \TU/TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNewRoman(0)/m/it/12 chatbot \TU/TimesNewRoman(0)/m/n/12 yang mam-
  []
 
 
@@ -1295,17 +1149,14 @@ File: image/CRISP-DM.jpg Graphic file (type bmp)
 
 [6]
 Overfull \hbox (2.76767pt too wide) in paragraph at lines 131--132
-[]\TU/TimesNewRoman(0)/b/n/12 Sintesis literatur \TU/TimesNewRoman(0)/m/n/12 un
-tuk membangun kerangka teoretis, mengidentifikasi prak-
+[]\TU/TimesNewRoman(0)/b/n/12 Sintesis literatur \TU/TimesNewRoman(0)/m/n/12 untuk membangun kerangka teoretis, mengidentifikasi prak-
  []
 
 
 
 [7]
 Overfull \hbox (6.39462pt too wide) in paragraph at lines 151--152
-[]\TU/TimesNewRoman(0)/b/n/12 Perancangan antarmuka pengguna\TU/TimesNewRoman(0
-)/m/n/12 , meliputi pembuatan \TU/TimesNewRoman(0)/m/it/12 wireframe \TU/TimesN
-ewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
+[]\TU/TimesNewRoman(0)/b/n/12 Perancangan antarmuka pengguna\TU/TimesNewRoman(0)/m/n/12 , meliputi pembuatan \TU/TimesNewRoman(0)/m/it/12 wireframe \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
  []
 
 
@@ -1317,68 +1168,21 @@ ewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
 [10]
 Bab II.
 
-LaTeX Warning: Citation 'sorour2020business' on page 11 undefined on input line
- 17.
-
-
-LaTeX Warning: Citation 'khaddam2025ai' on page 11 undefined on input line 17.
-
-
-Overfull \hbox (5.27664pt too wide) in paragraph at lines 17--18
-\TU/TimesNewRoman(0)/m/n/12 mampuan pengambilan keputusan waktu nyata di seluru
-h industri ([]). 
- []
-
-
-LaTeX Warning: Citation 'sorour2020business' on page 11 undefined on input line
- 19.
-
-
-LaTeX Warning: Citation 'shah2025hybrid' on page 11 undefined on input line 19.
-
-
-
-LaTeX Warning: Citation '' on page 11 undefined on input line 19.
-
-
-LaTeX Warning: Citation 'Straits2024' on page 11 undefined on input line 19.
-
-
 
 [11
 
 ]
 
-LaTeX Warning: Citation 'shah2025hybrid' on page 12 undefined on input line 23.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 25.
 
 
-
-LaTeX Warning: Citation 'shah2025hybrid' on page 12 undefined on input line 25.
-
-
-
-LaTeX Warning: Citation 'shah2025hybrid' on page 12 undefined on input line 27.
-
-
-
-LaTeX Warning: Citation 'databricks2025semantic' on page 12 undefined on input 
-line 31.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 27.
 
 
 
 [12]
-
-LaTeX Warning: Citation 'atscale2025semantic' on page 13 undefined on input lin
-e 33.
-
-
-LaTeX Warning: Citation 'dbt2024semantic' on page 13 undefined on input line 37
-.
-
-
 Overfull \hbox (2.23953pt too wide) in paragraph at lines 37--38
-\TU/TimesNewRoman(0)/m/n/12 Lapisan semantik memiliki lima komponen inti yang b
-ertindak sebagai fondasi struk-
+\TU/TimesNewRoman(0)/m/n/12 Lapisan semantik memiliki lima komponen inti yang bertindak sebagai fondasi struk-
  []
 
 
@@ -1388,800 +1192,89 @@ File: image/rbq.jpg Graphic file (type bmp)
 <image/rbq.jpg>
 
 
-LaTeX Warning: Citation 'Yang2024MLQueryOpt' on page 14 undefined on input line
- 57.
-
-
-LaTeX Warning: Citation 'Shah2025AIDB' on page 14 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'Yang2024MLQueryOpt' on page 14 undefined on input line
- 57.
-
-
-Overfull \hbox (32.72781pt too wide) in paragraph at lines 57--58
-\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 cost-based\TU/TimesNe
-wRoman(0)/m/n/12 ) untuk memilih rencana eksekusi kueri yang efisien ([];
- []
-
-
-Overfull \hbox (4.56766pt too wide) in paragraph at lines 57--58
-\TU/TimesNewRoman(0)/m/n/12 kueri tanpa melakukan estimasi biaya numerik yang r
-inci ([]).
- []
-
-
-LaTeX Warning: Citation 'Shah2025AIDB' on page 14 undefined on input line 59.
-
-
-LaTeX Warning: Citation 'Lubis2025ERDOpt' on page 14 undefined on input line 59
-.
-
-
-LaTeX Warning: Citation 'Singh2025ChatbotsSurvey' on page 14 undefined on input
- line 63.
-
-
-LaTeX Warning: Citation 'Ouali2024ArabicChatbots' on page 14 undefined on input
- line 63.
-
-
-Overfull \hbox (80.0364pt too wide) in paragraph at lines 63--64
-\TU/TimesNewRoman(0)/m/n/12 terarah (\TU/TimesNewRoman(0)/m/it/12 task-oriented
-\TU/TimesNewRoman(0)/m/n/12 ) dengan ruang lingkup percakapan yang terbatas ([]
-;
- []
-
-
-
 [14]
 
-LaTeX Warning: Citation 'Ouali2024ArabicChatbots' on page 15 undefined on input
- line 65.
-
-
-LaTeX Warning: Citation 'Singh2025ChatbotsSurvey' on page 15 undefined on input
- line 65.
-
-
-Overfull \hbox (45.91727pt too wide) in paragraph at lines 65--66
-\TU/TimesNewRoman(0)/m/n/12 definisikan pola masukan dan templat keluaran secar
-a eksplisit ([]).
- []
-
-
-LaTeX Warning: Citation 'Ananta2025SidoChatbot' on page 15 undefined on input l
-ine 67.
-
-
-LaTeX Warning: Citation 'Talenggoran2025RasaFAQ' on page 15 undefined on input 
-line 67.
-
-
-Overfull \hbox (35.95047pt too wide) in paragraph at lines 67--68
-\TU/TimesNewRoman(0)/m/n/12 hasilan respons melalui uji fungsional dan kuesione
-r pengguna ([]).
- []
-
-
-LaTeX Warning: Citation 'Cherednichenko2023CBIRefModel' on page 15 undefined on
- input line 71.
-
-
-Overfull \hbox (23.01102pt too wide) in paragraph at lines 71--72
-\TU/TimesNewRoman(0)/m/n/12 ngan agen eksplorasi data dan agen rekomendasi ([])
-.
- []
-
-
-
 [15]
-
-LaTeX Warning: Citation 'Singh2025ChatbotsSurvey' on page 16 undefined on input
- line 73.
-
 File: image/pbi.png Graphic file (type bmp)
 <image/pbi.png>
 
-LaTeX Warning: Citation 'ouaddi2025comparative' on page 16 undefined on input l
-ine 91.
-
-
 
 [16]
-
-LaTeX Warning: Citation 'Qaltivate2025' on page 17 undefined on input line 93.
-
-
-LaTeX Warning: Citation 'Fullview2025' on page 17 undefined on input line 93.
-
-
-LaTeX Warning: Citation 'Merugu2024IntentLLM' on page 17 undefined on input lin
-e 97.
-
-
-LaTeX Warning: Citation 'Ozerova2022IntentModule' on page 17 undefined on input
- line 97.
-
-
-LaTeX Warning: Citation 'Gehweiler2024IntentModeration' on page 17 undefined on
- input line 97.
-
-
 Overfull \hbox (3.50125pt too wide) in paragraph at lines 97--98
-\TU/TimesNewRoman(0)/m/n/12 manfaatkan arsitektur jaringan saraf dengan mekanis
-me perhatian diri (\TU/TimesNewRoman(0)/m/it/12 self-attention\TU/TimesNewRoman
-(0)/m/n/12 )
+\TU/TimesNewRoman(0)/m/n/12 manfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\TU/TimesNewRoman(0)/m/it/12 self-attention\TU/TimesNewRoman(0)/m/n/12 )
  []
 
 
-Overfull \hbox (93.85086pt too wide) in paragraph at lines 97--98
-\TU/TimesNewRoman(0)/m/n/12 untuk memahami konteks ujaran pengguna secara dua a
-rah dan menyeluruh ([]).
+Overfull \hbox (0.85086pt too wide) in paragraph at lines 97--98
+\TU/TimesNewRoman(0)/m/n/12 untuk memahami konteks ujaran pengguna secara dua arah dan menyeluruh ([][][]Merugu
  []
-
-
-Overfull \hbox (14.02014pt too wide) in paragraph at lines 97--98
-\TU/TimesNewRoman(0)/m/n/12 sistem percakapan ([]; []).
- []
-
-
-LaTeX Warning: Citation 'Gehweiler2024IntentModeration' on page 17 undefined on
- input line 99.
-
-
-LaTeX Warning: Citation 'Ozerova2022IntentModule' on page 17 undefined on input
- line 99.
 
 
 
 [17]
 
-LaTeX Warning: Citation 'Merugu2024IntentLLM' on page 18 undefined on input lin
-e 101.
-
-
-LaTeX Warning: Citation 'Gehweiler2025IntentSurvey' on page 18 undefined on inp
-ut line 101.
-
-
-LaTeX Warning: Citation 'Merugu2024IntentLLM' on page 18 undefined on input lin
-e 101.
-
-
-Overfull \hbox (15.57288pt too wide) in paragraph at lines 101--102
-\TU/TimesNewRoman(0)/m/n/12 percakapan tugas-orientasi ([]; []).
- []
-
-
-Overfull \hbox (50.56375pt too wide) in paragraph at lines 101--102
-\TU/TimesNewRoman(0)/m/n/12 bangkan kebutuhan dan batasan operasional sistem ya
-ng dibangun ([]). 
- []
-
-
-LaTeX Warning: Citation 'Ozerova2022IntentModule' on page 18 undefined on input
- line 103.
-
-
-LaTeX Warning: Citation 'Gehweiler2024IntentModeration' on page 18 undefined on
- input line 103.
-
-
-LaTeX Warning: Citation 'mulyatun2021pendekatan' on page 18 undefined on input 
-line 109.
-
-
-
 [18]
-
-LaTeX Warning: Citation 'khosla2022evaluating' on page 19 undefined on input li
-ne 113.
-
-
-Overfull \hbox (70.81961pt too wide) in paragraph at lines 113--114
-\TU/TimesNewRoman(0)/m/n/12 nunjukkan tingkat kepercayaan sistem terhadap predi
-ksi klasifikasi \TU/TimesNewRoman(0)/m/it/12 intent \TU/TimesNewRoman(0)/m/n/12
- ([]).
- []
-
-
-LaTeX Warning: Citation 'kuligowska2024enhancing' on page 19 undefined on input
- line 115.
-
-
-LaTeX Warning: Citation 'teneo2022intent' on page 19 undefined on input line 11
-9.
-
-
-LaTeX Warning: Citation 'cyara2024optimum' on page 19 undefined on input line 1
-21.
-
-
-LaTeX Warning: Citation 'cyara2024optimum' on page 19 undefined on input line 1
-23.
-
-
-LaTeX Warning: Citation 'genesys2023threshold' on page 19 undefined on input li
-ne 123.
-
-
 
 [19]
 
-LaTeX Warning: Citation 'Grandini2020MultiClassMetrics' on page 20 undefined on
- input line 131.
-
-
-LaTeX Warning: Citation 'EvidentlyMultiClass' on page 20 undefined on input lin
-e 131.
-
-
-LaTeX Warning: Citation 'EvidentlyMultiClass' on page 20 undefined on input lin
-e 133.
-
-
-LaTeX Warning: Citation 'Grandini2020MultiClassMetrics' on page 20 undefined on
- input line 135.
-
-
-Overfull \hbox (77.75125pt too wide) in paragraph at lines 135--136
-\TU/TimesNewRoman(0)/m/n/12 jadi masalah biner secara virtual melalui pendekata
-n \TU/TimesNewRoman(0)/m/it/12 one-vs-all \TU/TimesNewRoman(0)/m/n/12 ([]): 
- []
-
-
-
 [20]
 
-LaTeX Warning: Citation 'EvidentlyMultiClass' on page 21 undefined on input lin
-e 145.
-
-
-Overfull \hbox (42.52664pt too wide) in paragraph at lines 145--146
-\TU/TimesNewRoman(0)/m/n/12 klasifikasi multi-kelas adalah \TU/TimesNewRoman(0)
-/m/it/12 macro-averaging \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m
-/it/12 micro-averaging \TU/TimesNewRoman(0)/m/n/12 ([]) 
- []
-
-
-LaTeX Warning: Citation 'Grandini2020MultiClassMetrics' on page 21 undefined on
- input line 147.
-
-
-LaTeX Warning: Citation 'EvidentlyMultiClass' on page 21 undefined on input lin
-e 155.
-
-
-LaTeX Warning: Citation 'Grandini2020MultiClassMetrics' on page 21 undefined on
- input line 162.
-
-
-Overfull \hbox (41.20047pt too wide) in paragraph at lines 162--163
-\TU/TimesNewRoman(0)/m/n/12 terhadap kelas minoritas dan representasi data yang
- ada ([]). 
- []
-
-
-
 [21]
-
-LaTeX Warning: Citation 'Santosa2025IndoBERTIntent' on page 22 undefined on inp
-ut line 164.
-
-
-LaTeX Warning: Citation 'EvidentlyMultiClass' on page 22 undefined on input lin
-e 182.
-
-
-LaTeX Warning: Citation 'Grandini2020MultiClassMetrics' on page 22 undefined on
- input line 184.
-
-
-Overfull \hbox (94.91336pt too wide) in paragraph at lines 184--185
-\TU/TimesNewRoman(0)/m/n/12 nis sehingga penelitian ini menggunakan kombinasi m
-etrik berikut ([]): 
+Overfull \hbox (4.40048pt too wide) in paragraph at lines 182--183
+\TU/TimesNewRoman(0)/m/n/12 bagai contoh, jika ditemukan frekuensi tinggi kesalahan pada sel (Penjualan-Bulanan,
  []
 
 
 
 [22]
 
-LaTeX Warning: Citation 'Santosa2025IndoBERTIntent' on page 23 undefined on inp
-ut line 196.
-
-
-LaTeX Warning: Citation 'Ozerova2022IntentModule' on page 23 undefined on input
- line 196.
-
-
-Overfull \hbox (111.07236pt too wide) in paragraph at lines 196--197
-\TU/TimesNewRoman(0)/m/it/12 chatbot \TU/TimesNewRoman(0)/m/n/12 bisnis, target
- performa yang ditetapkan untuk penelitian ini adalah ([];
- []
-
-
-LaTeX Warning: Citation 'khosla2022evaluating' on page 23 undefined on input li
-ne 214.
-
-
-LaTeX Warning: Citation 'zhang2022disentangling' on page 23 undefined on input 
-line 214.
-
-
-LaTeX Warning: Citation 'spotintelligence2023intent' on page 23 undefined on in
-put line 218.
-
-
-LaTeX Warning: Citation 'svm2025comparative' on page 23 undefined on input line
- 218.
-
-
-
 [23]
 File: image/nlg.png Graphic file (type bmp)
 <image/nlg.png>
 
 
-LaTeX Warning: Citation 'kale2020template' on page 24 undefined on input line 2
-38.
-
-
-
 [24]
 
-LaTeX Warning: Citation 'Precedence2025' on page 25 undefined on input line 240
-.
-
-
-Overfull \hbox (51.52936pt too wide) in paragraph at lines 240--241
-\TU/TimesNewRoman(0)/m/n/12 menjadi USD 438,08 miliar pada tahun 2034, dengan C
-AGR sebesar 28,6% ([]).
- []
-
-
-LaTeX Warning: Citation 'kale2020template' on page 25 undefined on input line 2
-46.
-
-
-LaTeX Warning: Citation 'kapoor2023implementing' on page 25 undefined on input 
-line 248.
-
-
-LaTeX Warning: Citation 'kale2020template' on page 25 undefined on input line 2
-52.
-
-
-LaTeX Warning: Citation 'rebuffel2020fewshot' on page 25 undefined on input lin
-e 252.
-
-
-
 [25]
-
-LaTeX Warning: Citation 'kale2020template' on page 26 undefined on input line 2
-54.
-
-
-LaTeX Warning: Citation 'rebuffel2020fewshot' on page 26 undefined on input lin
-e 256.
-
-
-LaTeX Warning: Citation 'feyisetan2022differential' on page 26 undefined on inp
-ut line 264.
-
-
-LaTeX Warning: Citation 'mireshghallah2022differentially' on page 26 undefined 
-on input line 264.
-
-
-LaTeX Warning: Citation 'luo2024data' on page 26 undefined on input line 266.
-
-
-LaTeX Warning: Citation 'itconvergence2024generative' on page 26 undefined on i
-nput line 270.
+Overfull \hbox (1.95503pt too wide) in paragraph at lines 270--271
+\TU/TimesNewRoman(0)/m/n/12 berlapis ([][][]IT Convergence [][]2024[][][][]). Strategi pertama adalah enkripsi data dengan meng-
+ []
 
 
 
 [26]
 
-LaTeX Warning: Citation 'itconvergence2024generative' on page 27 undefined on i
-nput line 272.
-
-
-LaTeX Warning: Citation 'aws2024securing' on page 27 undefined on input line 27
-2.
-
-
-LaTeX Warning: Citation 'postgresql2024generative' on page 27 undefined on inpu
-t line 276.
-
-
-LaTeX Warning: Citation 'edpb2025privacy' on page 27 undefined on input line 27
-8.
-
-
-LaTeX Warning: Citation 'velotix2025security' on page 27 undefined on input lin
-e 278.
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 27 undefined on in
-put line 282.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 27 undefined on input line 2
-82.
-
-
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 27 undefined on input 
-line 282.
-
-
-
 [27]
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 28 undefined on in
-put line 286.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 28 undefined on input line 2
-86.
-
-
-LaTeX Warning: Citation 'Gao2024LLMNLG' on page 28 undefined on input line 286.
-
-
-
-Overfull \hbox (12.85217pt too wide) in paragraph at lines 286--287
-\TU/TimesNewRoman(0)/m/n/12 sis model pembelajaran mesin ([]; [];
- []
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 28 undefined on input line 2
-88.
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 28 undefined on in
-put line 292.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 28 undefined on input line 2
-92.
-
-
-Overfull \hbox (45.36063pt too wide) in paragraph at lines 291--293
-\TU/TimesNewRoman(0)/m/it/12 call\TU/TimesNewRoman(0)/m/n/12 ) dan banyak digun
-akan untuk evaluasi peringkasan teks ([];
- []
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 28 undefined on in
-put line 294.
-
-
-LaTeX Warning: Citation 'Gao2024LLMNLG' on page 28 undefined on input line 294.
-
-
-
-Overfull \hbox (77.08524pt too wide) in paragraph at lines 294--295
-\TU/TimesNewRoman(0)/m/n/12 dapat banyak cara wajar untuk mengekspresikan makna
- yang sama ([];
- []
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 28 undefined on in
-put line 296.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 28 undefined on input line 2
-96.
-
-
-LaTeX Warning: Citation 'Xiao2023MetricEval' on page 28 undefined on input line
- 296.
-
-
 
 [28]
 
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 29 undefined on input 
-line 300.
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 29 undefined on in
-put line 300.
-
-
-LaTeX Warning: Citation 'Morrison2021ReproSubjective' on page 29 undefined on i
-nput line 300.
-
-
-Overfull \hbox (112.00336pt too wide) in paragraph at lines 300--301
-\TU/TimesNewRoman(0)/m/n/12 haman, dan kegunaan bagi pengguna akhir ([]; [];
- []
-
-
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 29 undefined on input 
-line 302.
-
-
-LaTeX Warning: Citation 'Elangovan2023ConSiDERS' on page 29 undefined on input 
-line 310.
-
-
-LaTeX Warning: Citation 'Morrison2021ReproSubjective' on page 29 undefined on i
-nput line 310.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 29 undefined on input line 3
-10.
-
-
-Overfull \hbox (4.75647pt too wide) in paragraph at lines 310--311
-\TU/TimesNewRoman(0)/m/n/12 katkan reliabilitas ([]; []).
- []
-
-
-LaTeX Warning: Citation 'Syarifudin2024AIChatbotQuality' on page 29 undefined o
-n input line 312.
-
-
-LaTeX Warning: Citation 'LearningGate2024ChatbotQuality' on page 29 undefined o
-n input line 312.
-
-
-Overfull \hbox (77.64319pt too wide) in paragraph at lines 312--313
-\TU/TimesNewRoman(0)/m/n/12 nakan layanan tersebut ([]; []).
- []
-
-
-
 [29]
 
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 30 undefined on input 
-line 322.
-
-
-LaTeX Warning: Citation 'Syarifudin2024AIChatbotQuality' on page 30 undefined o
-n input line 322.
-
-
-Overfull \hbox (1.15065pt too wide) in paragraph at lines 322--323
-\TU/TimesNewRoman(0)/m/n/12 an dalam literatur evaluasi NLG dan kualitas \TU/Ti
-mesNewRoman(0)/m/it/12 chatbot \TU/TimesNewRoman(0)/m/n/12 ([];
- []
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 30 undefined on in
-put line 326.
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 30 undefined on input line 3
-26.
-
-
-LaTeX Warning: Citation 'Gao2024LLMNLG' on page 30 undefined on input line 326.
-
-
-
-Overfull \hbox (10.19202pt too wide) in paragraph at lines 326--327
-\TU/TimesNewRoman(0)/m/n/12 desain sistem yang dievaluasi ([]; [];
- []
-
-
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 30 undefined on input 
-line 329.
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 30 undefined on in
-put line 329.
-
-
-Overfull \hbox (133.16467pt too wide) in paragraph at lines 329--330
-\TU/TimesNewRoman(0)/m/n/12 pandang sebagai indikasi kualitas tinggi ([]; []). 
-
- []
-
-
-LaTeX Warning: Citation 'Sai2020NLGSurvey' on page 30 undefined on input line 3
-34.
-
-
-LaTeX Warning: Citation 'Xiao2023MetricEval' on page 30 undefined on input line
- 334.
-
-
-Overfull \hbox (26.92117pt too wide) in paragraph at lines 334--335
-\TU/TimesNewRoman(0)/m/n/12 ian manusia terbatas dan konteks spesifik harus dip
-erhatikan ([];
- []
-
-
-
 [30]
-
-LaTeX Warning: Citation 'Syarifudin2024AIChatbotQuality' on page 31 undefined o
-n input line 336.
-
-
-LaTeX Warning: Citation 'LearningGate2024ChatbotQuality' on page 31 undefined o
-n input line 336.
-
-
-Overfull \hbox (130.57092pt too wide) in paragraph at lines 336--337
-\TU/TimesNewRoman(0)/m/n/12 terus menggunakan \TU/TimesNewRoman(0)/m/it/12 chat
-bot \TU/TimesNewRoman(0)/m/n/12 ([]; []). 
- []
-
-
-LaTeX Warning: Citation 'Celikyilmaz2020EvalTextGen' on page 31 undefined on in
-put line 339.
-
-
-LaTeX Warning: Citation 'vanDerLee2021HumanEval' on page 31 undefined on input 
-line 339.
-
-
-Overfull \hbox (10.50452pt too wide) in paragraph at lines 339--340
-\TU/TimesNewRoman(0)/m/n/12 jang pengembangan ([]; []). 
- []
-
 File: image/timeseries.png Graphic file (type bmp)
 <image/timeseries.png>
 
 
 [31]
 
-LaTeX Warning: Citation 'WiseGuyReports2024' on page 32 undefined on input line
- 359.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 32 undefined on input 
-line 363.
-
-
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 32 undefined 
-on input line 363.
-
-
-Overfull \hbox (30.88174pt too wide) in paragraph at lines 363--364
-\TU/TimesNewRoman(0)/m/n/12 pesanan, tingkat \TU/TimesNewRoman(0)/m/it/12 churn
- \TU/TimesNewRoman(0)/m/n/12 pelanggan, dan proyeksi pendapatan ([];
- []
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 32 undefined on input 
-line 367.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 32 undefined on input 
-line 369.
-
-
-Overfull \hbox (25.16628pt too wide) in paragraph at lines 369--370
-[]\TU/TimesNewRoman(0)/m/n/12 Persamaan matematis LSTM dapat ditulis sebagai be
-rikut ([]): 
- []
-
-
-
 [32]
 
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 33 undefined on input 
-line 381.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 33 undefined on input 
-line 385.
-
-
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 33 undefined 
-on input line 385.
-
-
-Overfull \hbox (12.36194pt too wide) in paragraph at lines 385--386
-\TU/TimesNewRoman(0)/m/n/12 lebih sedikit ([]; []).
- []
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 33 undefined on input 
-line 387.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 33 undefined on input 
-line 395.
-
-
-LaTeX Warning: Citation 'Jeaab2024LSTMGRUXGBoost' on page 33 undefined on input
- line 395.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 381.
 
 
 
 [33]
 
-LaTeX Warning: Citation 'Lim2021TFT' on page 34 undefined on input line 399.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 407.
 
 
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 34 undefined 
-on input line 399.
-
-
-Overfull \hbox (10.77014pt too wide) in paragraph at lines 399--400
-\TU/TimesNewRoman(0)/m/n/12 multivariat yang kompleks ([]; []).
- []
-
-
-LaTeX Warning: Citation 'Lim2021TFT' on page 34 undefined on input line 401.
-
-
-LaTeX Warning: Citation 'Hartanto2024TFTEnhanced' on page 34 undefined on input
- line 401.
-
-
-Overfull \hbox (88.58946pt too wide) in paragraph at lines 401--402
-[]\TU/TimesNewRoman(0)/m/n/12 Arsitektur TFT terdiri dari beberapa komponen uta
-ma ([]; []): 
- []
-
-
-LaTeX Warning: Citation 'Lim2021TFT' on page 34 undefined on input line 405.
-
-
-LaTeX Warning: Citation 'Lim2021TFT' on page 34 undefined on input line 407.
-
-
-Overfull \hbox (2.59305pt too wide) in paragraph at lines 407--408
-\TU/TimesNewRoman(0)/m/n/12 ningkatkan kemampuan model untuk fokus pada pola pe
-nting ([]). 
- []
-
-
-LaTeX Warning: Citation 'Hartanto2024TFTEnhanced' on page 34 undefined on input
- line 409.
-
-
-LaTeX Warning: Citation 'Hartanto2024TFTEnhanced' on page 34 undefined on input
- line 412.
-
-
-LaTeX Warning: Citation 'Cheng2025MultivariateTFFEng' on page 34 undefined on i
-nput line 412.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 34 undefined on input 
-line 416.
-
-
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 34 undefined 
-on input line 416.
-
-
-Overfull \hbox (63.10477pt too wide) in paragraph at lines 416--417
-\TU/TimesNewRoman(0)/m/n/12 arsitektur menangkap aspek berbeda dari pola tempor
-al dalam data ([];
+Overfull \hbox (4.58589pt too wide) in paragraph at lines 407--408
+\TU/TimesNewRoman(0)/m/n/12 ningkatkan kemampuan model untuk fokus pada pola penting ([][][]Lim dkk. [][]2021[][][][]). 
  []
 
 
 
 [34]
-
-LaTeX Warning: Citation 'Diqi2023GRULSTMHybrid' on page 35 undefined on input l
-ine 418.
-
-
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 35 undefined 
-on input line 420.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 35 undefined on input 
-line 420.
-
-
-Overfull \hbox (4.34436pt too wide) in paragraph at lines 420--421
-\TU/TimesNewRoman(0)/m/n/12 real-world ([]; []). 
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []\TU/TimesNewRoman(0)/m/n/12 Menangkap de-
  []
@@ -2578,8 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 510--511
-\TU/TimesNewRoman(0)/m/n/12 nyetelan (\TU/TimesNewRoman(0)/m/it/12 tuning\TU/Ti
-mesNewRoman(0)/m/n/12 )
+\TU/TimesNewRoman(0)/m/n/12 nyetelan (\TU/TimesNewRoman(0)/m/it/12 tuning\TU/TimesNewRoman(0)/m/n/12 )
  []
 
 
@@ -2809,8 +1901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 542--543
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 542--543
-\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 cross-validation\TU/T
-imesNewRoman(0)/m/n/12 )
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 cross-validation\TU/TimesNewRoman(0)/m/n/12 )
  []
 
 
@@ -2877,263 +1968,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
 [35] [36] [37] [38]
 
-LaTeX Warning: Citation 'Sunendar2025ComparisonARIMALSTMGRU' on page 39 undefin
-ed on input line 557.
-
-
-LaTeX Warning: Citation 'Sabila2025LSTMGRUStockPrediction' on page 39 undefined
- on input line 557.
-
-
-Overfull \hbox (77.70534pt too wide) in paragraph at lines 557--558
-\TU/TimesNewRoman(0)/m/n/12 MA dengan pengurangan \TU/TimesNewRoman(0)/m/it/12 
-error \TU/TimesNewRoman(0)/m/n/12 sekitar 12–18% ([]).
- []
-
-
-
 [39]
-
-LaTeX Warning: Citation 'Hartanto2024TFTEnhanced' on page 40 undefined on input
- line 559.
-
-
-LaTeX Warning: Citation 'Zhang2024ComprehensiveTSFSurvey' on page 40 undefined 
-on input line 563.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 40 undefined on input 
-line 563.
-
-
-LaTeX Warning: Citation 'Yunita2025NNComparison' on page 40 undefined on input 
-line 565.
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 40 undefined on i
-nput line 573.
-
-
 
 [40]
 
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 41 undefined on i
-nput line 580.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 587.
 
 
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 41 undefined on i
-nput line 587.
-
-
-Overfull \hbox (85.44656pt too wide) in paragraph at lines 587--588
-\TU/TimesNewRoman(0)/m/n/12 ketika kesalahan besar sangat tidak diinginkan dala
-m konteks bisnis ([]). 
- []
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 41 undefined on i
-nput line 594.
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 41 undefined on i
-nput line 601.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 594.
 
 
 
 [41]
 
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 42 undefined on i
-nput line 607.
-
-
-Overfull \hbox (10.65945pt too wide) in paragraph at lines 607--608
-\TU/TimesNewRoman(0)/m/it/12 naive \TU/TimesNewRoman(0)/m/n/12 (prediksi nilai 
-sebelumnya) atau \TU/TimesNewRoman(0)/m/it/12 random walk \TU/TimesNewRoman(0)/
-m/n/12 ([]).
- []
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 42 undefined on i
-nput line 612.
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 42 undefin
-ed on input line 612.
-
-
-Overfull \hbox (58.43971pt too wide) in paragraph at lines 612--613
-\TU/TimesNewRoman(0)/m/n/12 atau TFT) justru diperlukan atau model sederhana su
-dah cukup ([];
- []
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 42 undefin
-ed on input line 616.
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 42 undefined on i
-nput line 618.
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 42 undefin
-ed on input line 620.
-
-
-Overfull \hbox (114.33719pt too wide) in paragraph at lines 620--621
-\TU/TimesNewRoman(0)/m/n/12 akurasi tinggi dan mana yang memerlukan penyempurna
-an model ([]). 
- []
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 607.
 
 
 
 [42]
 
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 43 undefined on i
-nput line 628.
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 43 undefin
-ed on input line 628.
-
-
-Overfull \hbox (11.80008pt too wide) in paragraph at lines 628--629
-\TU/TimesNewRoman(0)/m/n/12 entitas dengan model mungkin mengalami tantangan ([
-];
- []
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 43 undefined on i
-nput line 642.
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 43 undefin
-ed on input line 646.
-
-
-Overfull \hbox (40.345pt too wide) in paragraph at lines 646--647
-\TU/TimesNewRoman(0)/m/n/12 kebocoran informasi dari masa depan ke masa lalu ([
-]).
- []
-
-
-
 [43]
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 44 undefined on i
-nput line 648.
-
-
 Overfull \hbox (0.32822pt too wide) in paragraph at lines 648--649
-\TU/TimesNewRoman(0)/m/n/12 bandingkan validasi silang standar (misalnya \TU/Ti
-mesNewRoman(0)/m/it/12 k-fold\TU/TimesNewRoman(0)/m/n/12 ), yang dapat menghasi
-lkan \TU/TimesNewRoman(0)/m/it/12 over-
+\TU/TimesNewRoman(0)/m/n/12 bandingkan validasi silang standar (misalnya \TU/TimesNewRoman(0)/m/it/12 k-fold\TU/TimesNewRoman(0)/m/n/12 ), yang dapat menghasilkan \TU/TimesNewRoman(0)/m/it/12 over-
  []
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 44 undefined on i
-nput line 652.
-
-
-LaTeX Warning: Citation 'Spiliotis2020ForecastingBenchmarks' on page 44 undefin
-ed on input line 652.
-
-
-Overfull \hbox (125.22913pt too wide) in paragraph at lines 652--653
-\TU/TimesNewRoman(0)/m/n/12 mencakup beberapa kriteria utama ([]; []): 
- []
-
-
-LaTeX Warning: Citation 'Petropoulos2023ForecastEval' on page 44 undefined on i
-nput line 668.
 
 
 
 [44]
 
-LaTeX Warning: Citation 'ijirt2024rulebased' on page 45 undefined on input line
- 678.
-
-
-LaTeX Warning: Citation 'huang2021chatbot' on page 45 undefined on input line 6
-78.
-
-
-LaTeX Warning: Citation 'bamurange2025hybrid' on page 45 undefined on input lin
-e 678.
-
-
-LaTeX Warning: Citation 'ijirt2024rulebased' on page 45 undefined on input line
- 682.
-
-
-LaTeX Warning: Citation 'ibm2025chatbottypes' on page 45 undefined on input lin
-e 682.
-
-
-LaTeX Warning: Citation 'querio2025conversational' on page 45 undefined on inpu
-t line 682.
-
-
-Overfull \hbox (36.55594pt too wide) in paragraph at lines 682--683
-\TU/TimesNewRoman(0)/m/n/12 nyaan tersebut menjadi kueri basis data yang dapat 
-dieksekusi ([]). 
- []
-
-
-LaTeX Warning: Citation 'retresco2024nlgtemplate' on page 45 undefined on input
- line 686.
-
-
-LaTeX Warning: Citation 'retresco2024nlgtemplate' on page 45 undefined on input
- line 686.
-
-
-LaTeX Warning: Citation 'yellowfin2025nlg' on page 45 undefined on input line 6
-86.
-
-
-Overfull \hbox (18.72781pt too wide) in paragraph at lines 686--687
-\TU/TimesNewRoman(0)/m/n/12 hingga menghasilkan kalimat yang benar secara grama
-tikal ([]).
- []
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 686.
 
 
 
 [45]
-
-LaTeX Warning: Citation 'priadinata2025lstm' on page 46 undefined on input line
- 690.
-
-
-LaTeX Warning: Citation 'ejournal2024grulstm' on page 46 undefined on input lin
-e 690.
-
-
-LaTeX Warning: Citation 'databricks2025timeseries' on page 46 undefined on inpu
-t line 690.
-
-
-LaTeX Warning: Citation 'jerr2024churnprediction' on page 46 undefined on input
- line 694.
-
-
-LaTeX Warning: Citation 'ui2024churnhat' on page 46 undefined on input line 694
-.
-
-
 Overfull \hbox (0.88211pt too wide) in paragraph at lines 694--695
-\TU/TimesNewRoman(0)/m/n/12 Prediksi \TU/TimesNewRoman(0)/m/it/12 customer chur
-n \TU/TimesNewRoman(0)/m/n/12 menggunakan algoritma pembelajaran mesin seperti 
-\TU/TimesNewRoman(0)/m/it/12 XGBo-
+\TU/TimesNewRoman(0)/m/n/12 Prediksi \TU/TimesNewRoman(0)/m/it/12 customer churn \TU/TimesNewRoman(0)/m/n/12 menggunakan algoritma pembelajaran mesin seperti \TU/TimesNewRoman(0)/m/it/12 XGBo-
  []
 
 
 Overfull \hbox (3.55203pt too wide) in paragraph at lines 700--701
-\TU/TimesNewRoman(0)/m/n/12 Berbagai penelitian telah mengeksplorasi komponen-k
-omponen teknologi yang men-
+\TU/TimesNewRoman(0)/m/n/12 Berbagai penelitian telah mengeksplorasi komponen-komponen teknologi yang men-
  []
 
 
+
+[46]
 Overfull \hbox (5.4944pt too wide) in alignment at lines 702--707
  [] [] [] [] [] 
  []
@@ -3165,8 +2044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 718--718
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 718--718
-\TU/TimesNewRoman(0)/m/n/12 dengan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNew
-Roman(0)/m/n/12 dan
+\TU/TimesNewRoman(0)/m/n/12 dengan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 dan
  []
 
 
@@ -3306,8 +2184,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 721--722
 
 
 Underfull \hbox (badness 7203) in paragraph at lines 721--722
-\TU/TimesNewRoman(0)/m/it/12 NLP\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman
-(0)/m/it/12 deep
+\TU/TimesNewRoman(0)/m/it/12 NLP\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 deep
  []
 
 
@@ -3347,8 +2224,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 724--724
 
 
 Underfull \hbox (badness 2426) in paragraph at lines 724--724
-\TU/TimesNewRoman(0)/m/it/12 KNN\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman
-(0)/m/it/12 SVM\TU/TimesNewRoman(0)/m/n/12 , dan
+\TU/TimesNewRoman(0)/m/it/12 KNN\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 SVM\TU/TimesNewRoman(0)/m/n/12 , dan
  []
 
 
@@ -3413,8 +2289,7 @@ Underfull \hbox (badness 1496) in paragraph at lines 727--727
 
 
 Underfull \hbox (badness 1237) in paragraph at lines 727--727
-[]|\TU/TimesNewRoman(0)/m/it/12 LSTM \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesN
-ewRoman(0)/m/it/12 GRU
+[]|\TU/TimesNewRoman(0)/m/it/12 LSTM \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 GRU
  []
 
 
@@ -3619,8 +2494,7 @@ Overfull \hbox (17.09254pt too wide) in paragraph at lines 733--734
 
 
 Underfull \hbox (badness 3547) in paragraph at lines 733--734
-\TU/TimesNewRoman(0)/m/it/12 AI\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(
-0)/m/it/12 text-to-
+\TU/TimesNewRoman(0)/m/it/12 AI\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 text-to-
  []
 
 
@@ -3635,8 +2509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 736--736
 
 
 Underfull \hbox (badness 3482) in paragraph at lines 736--736
-[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi \TU/TimesNewRoman(0)/m/it/12 AI \TU/Ti
-mesNewRoman(0)/m/n/12 da-
+[]|\TU/TimesNewRoman(0)/m/n/12 Integrasi \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 da-
  []
 
 
@@ -3646,8 +2519,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 736--736
 
 
 Underfull \hbox (badness 3482) in paragraph at lines 736--736
-\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRom
-an(0)/m/n/12 berdam-
+\TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 AI \TU/TimesNewRoman(0)/m/n/12 berdam-
  []
 
 
@@ -3752,8 +2624,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 739--740
-\TU/TimesNewRoman(0)/m/it/12 tbot\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoma
-n(0)/m/it/12 ML\TU/TimesNewRoman(0)/m/n/12 ,
+\TU/TimesNewRoman(0)/m/it/12 tbot\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 ML\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
@@ -3766,26 +2637,20 @@ Overfull \hbox (5.4944pt too wide) in alignment at lines 716--742
  [] [] [] [] [] 
  []
 
+[47] [48]
 
-
-[46] [47]
-
-[48]) (./Bab III - Analisis-Masalah.tex
-
-[49]
+[49]) (./Bab III - Analisis-Masalah.tex
 
 [50]
 Bab III.
 
 Overfull \hbox (10.18875pt too wide) in paragraph at lines 37--38
-\TU/TimesNewRoman(0)/m/n/12 Masing-masing tahapan dijelaskan lebih lanjut dalam
- bab ini beserta kegiatan-kegiatan
+\TU/TimesNewRoman(0)/m/n/12 Masing-masing tahapan dijelaskan lebih lanjut dalam bab ini beserta kegiatan-kegiatan
  []
 
 
 Overfull \hbox (2.08017pt too wide) in paragraph at lines 37--38
-\TU/TimesNewRoman(0)/m/n/12 yang dilakukan pada setiap fase, untuk menunjukkan 
-bagaimana sistem dikembangk-
+\TU/TimesNewRoman(0)/m/n/12 yang dilakukan pada setiap fase, untuk menunjukkan bagaimana sistem dikembangk-
  []
 
 
@@ -3800,9 +2665,7 @@ bagaimana sistem dikembangk-
 
 [54]
 Overfull \hbox (0.21024pt too wide) in paragraph at lines 113--114
-[]\TU/TimesNewRoman(0)/m/n/12 Dasbor \TU/TimesNewRoman(0)/m/it/12 business inte
-lligence \TU/TimesNewRoman(0)/m/n/12 yang tersedia sering kali dirancang dengan
- asum-
+[]\TU/TimesNewRoman(0)/m/n/12 Dasbor \TU/TimesNewRoman(0)/m/it/12 business intelligence \TU/TimesNewRoman(0)/m/n/12 yang tersedia sering kali dirancang dengan asum-
  []
 
 
@@ -3834,8 +2697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
-[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memungkinkan
- pengguna
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memungkinkan pengguna
  []
 
 
@@ -3850,8 +2712,7 @@ Underfull \hbox (badness 2469) in paragraph at lines 162--162
 
 
 Underfull \hbox (badness 1540) in paragraph at lines 175--176
-[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Menghasilkan
- respons dalam
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Menghasilkan respons dalam
  []
 
 
@@ -3861,20 +2722,17 @@ Underfull \hbox (badness 4832) in paragraph at lines 180--180
 
 
 Underfull \hbox (badness 1418) in paragraph at lines 194--195
-[]|\TU/TimesNewRoman(0)/b/n/12 Masukan\TU/TimesNewRoman(0)/m/n/12 : Interaksi p
-engguna dengan
+[]|\TU/TimesNewRoman(0)/b/n/12 Masukan\TU/TimesNewRoman(0)/m/n/12 : Interaksi pengguna dengan
  []
 
 
 Underfull \hbox (badness 1348) in paragraph at lines 199--200
-[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memastikan h
-anya pengguna
+[]|\TU/TimesNewRoman(0)/b/n/12 Tujuan\TU/TimesNewRoman(0)/m/n/12 : Memastikan hanya pengguna
  []
 
 
 Underfull \hbox (badness 3271) in paragraph at lines 201--202
-[]|\TU/TimesNewRoman(0)/b/n/12 Keluaran\TU/TimesNewRoman(0)/m/n/12 : Akses sist
-em berdasarkan
+[]|\TU/TimesNewRoman(0)/b/n/12 Keluaran\TU/TimesNewRoman(0)/m/n/12 : Akses sistem berdasarkan
  []
 
 
@@ -3943,8 +2801,7 @@ Overfull \hbox (3.45673pt too wide) in alignment at lines 240--272
 
 [60] [61] [62] [63]
 Overfull \hbox (0.88016pt too wide) in paragraph at lines 286--287
-\TU/TimesNewRoman(0)/m/n/12 Dalam rangka meningkatkan efisiensi analisis dan pr
-ediksi kinerja bisnis serta meng-
+\TU/TimesNewRoman(0)/m/n/12 Dalam rangka meningkatkan efisiensi analisis dan prediksi kinerja bisnis serta meng-
  []
 
 
@@ -5266,16 +4123,12 @@ File: image/detailrb.png Graphic file (type bmp)
 <image/detailrb.png>
 
 Underfull \hbox (badness 10000) in paragraph at lines 746--747
-[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 BANDWI
-DTH\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PACKAGE_TYPE\TU/TimesNewRoman(
-0)/m/n/12 ,
+[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 BANDWIDTH\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PACKAGE_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 746--747
-\TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTO
-MER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTOMER_TYPE\TU/TimesNewRo
-man(0)/m/n/12 ,
+\TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTOMER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CUSTOMER_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
@@ -5311,16 +4164,12 @@ Overfull \hbox (14.0303pt too wide) in paragraph at lines 886--901
 
 [91]
 Underfull \hbox (badness 10000) in paragraph at lines 937--938
-[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PRODUC
-T_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRom
-an(0)/m/n/12 ,
+[]|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PRODUCT_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 939--940
-[]|\TU/lmtt/m/n/12 ORDER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CHURN_
-FLAG\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 REVENUE\TU/TimesNewRoman(0)/m
-/n/12 ,
+[]|\TU/lmtt/m/n/12 ORDER_ID\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 CHURN_FLAG\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 REVENUE\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
@@ -5394,8 +4243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1021--1021
 
 
 Overfull \hbox (0.21414pt too wide) in paragraph at lines 1032--1033
-\TU/TimesNewRoman(0)/m/n/12 Fitur kategorikal dikonversi menjadi representasi n
-umerik menggunakan teknik \TU/TimesNewRoman(0)/m/it/12 one-
+\TU/TimesNewRoman(0)/m/n/12 Fitur kategorikal dikonversi menjadi representasi numerik menggunakan teknik \TU/TimesNewRoman(0)/m/it/12 one-
  []
 
 
@@ -5476,8 +4324,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Overfull \hbox (0.18094pt too wide) in paragraph at lines 1138--1139
-\TU/TimesNewRoman(0)/m/n/12 Pembagian data untuk model peramalan deret waktu me
-nggunakan pendekatan \TU/TimesNewRoman(0)/m/it/12 time-
+\TU/TimesNewRoman(0)/m/n/12 Pembagian data untuk model peramalan deret waktu menggunakan pendekatan \TU/TimesNewRoman(0)/m/it/12 time-
  []
 
 
@@ -5490,27 +4337,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [97]
 Overfull \hbox (8.94656pt too wide) in paragraph at lines 1168--1169
-\TU/TimesNewRoman(0)/m/n/12 Tahap pemodelan data (\TU/TimesNewRoman(0)/m/it/12 
-modeling\TU/TimesNewRoman(0)/m/n/12 ) merupakan fase keempat dalam metodologi C
-RISP-
+\TU/TimesNewRoman(0)/m/n/12 Tahap pemodelan data (\TU/TimesNewRoman(0)/m/it/12 modeling\TU/TimesNewRoman(0)/m/n/12 ) merupakan fase keempat dalam metodologi CRISP-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1187--1187
-[]|$\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+[]|$\OML/cmm/m/it/12 f[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1189--1189
-[]|$\OML/cmm/m/it/12 i[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+[]|$\OML/cmm/m/it/12 i[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1191--1191
-[]|$\OML/cmm/m/it/12 o[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+[]|$\OML/cmm/m/it/12 o[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
 
 
@@ -5520,14 +4362,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [98]
 Underfull \hbox (badness 10000) in paragraph at lines 1210--1210
-[]|$\OML/cmm/m/it/12 z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+[]|$\OML/cmm/m/it/12 z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 1212--1212
-[]|$\OML/cmm/m/it/12 r[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 
-(\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
+[]|$\OML/cmm/m/it/12 r[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
 
 
@@ -5544,8 +4384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1231--1231
 
 
 Underfull \hbox (badness 3590) in paragraph at lines 1233--1234
-[]|\TU/TimesNewRoman(0)/m/n/12 Koneksi \TU/TimesNewRoman(0)/m/it/12 skip \TU/Ti
-mesNewRoman(0)/m/n/12 dengan gerbang
+[]|\TU/TimesNewRoman(0)/m/n/12 Koneksi \TU/TimesNewRoman(0)/m/it/12 skip \TU/TimesNewRoman(0)/m/n/12 dengan gerbang
  []
 
 
@@ -5653,8 +4492,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1337--1337
 
 
 Underfull \hbox (badness 2846) in paragraph at lines 1337--1338
-[]|\TU/TimesNewRoman(0)/m/n/12 Mengklasifikasi status \TU/TimesNewRoman(0)/m/it
-/12 churn \TU/TimesNewRoman(0)/m/n/12 pe-
+[]|\TU/TimesNewRoman(0)/m/n/12 Mengklasifikasi status \TU/TimesNewRoman(0)/m/it/12 churn \TU/TimesNewRoman(0)/m/n/12 pe-
  []
 
 
@@ -5746,8 +4584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--64
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
-[]|\TU/TimesNewRoman(0)/m/it/12 Dashboard \TU/TimesNewRoman(0)/m/n/12 statis, l
-aporan
+[]|\TU/TimesNewRoman(0)/m/it/12 Dashboard \TU/TimesNewRoman(0)/m/n/12 statis, laporan
  []
 
 
@@ -5762,8 +4599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
-\TU/TimesNewRoman(0)/m/n/12 mengakses \TU/TimesNewRoman(0)/m/it/12 insight \TU/
-TimesNewRoman(0)/m/n/12 secara
+\TU/TimesNewRoman(0)/m/n/12 mengakses \TU/TimesNewRoman(0)/m/it/12 insight \TU/TimesNewRoman(0)/m/n/12 secara
  []
 
 
@@ -5798,8 +4634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
 
 Underfull \hbox (badness 4060) in paragraph at lines 79--80
-\TU/TimesNewRoman(0)/m/it/12 me series forecasting \TU/TimesNewRoman(0)/m/n/12 
-(LS-
+\TU/TimesNewRoman(0)/m/it/12 me series forecasting \TU/TimesNewRoman(0)/m/n/12 (LS-
  []
 
 
@@ -5814,8 +4649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
-\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 template-based NLG\TU
-/TimesNewRoman(0)/m/n/12 )
+\TU/TimesNewRoman(0)/m/n/12 (\TU/TimesNewRoman(0)/m/it/12 template-based NLG\TU/TimesNewRoman(0)/m/n/12 )
  []
 
 
@@ -5840,8 +4674,7 @@ Underfull \hbox (badness 1960) in paragraph at lines 88--88
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
-[]|\TU/TimesNewRoman(0)/m/n/12 Diakses setiap saat (\TU/TimesNewRoman(0)/m/it/1
-2 self-
+[]|\TU/TimesNewRoman(0)/m/n/12 Diakses setiap saat (\TU/TimesNewRoman(0)/m/it/12 self-
  []
 
 
@@ -5863,9 +4696,7 @@ File: image/arsitektur.png Graphic file (type bmp)
 Bab V.
 
 Overfull \hbox (1.54617pt too wide) in paragraph at lines 6--7
-\TU/TimesNewRoman(0)/m/n/12 Bab ini menyajikan rencana implementasi sistem \TU/
-TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berb
-asis \TU/TimesNewRoman(0)/m/it/12 rule-
+\TU/TimesNewRoman(0)/m/n/12 Bab ini menyajikan rencana implementasi sistem \TU/TimesNewRoman(0)/m/it/12 Business Intelligence \TU/TimesNewRoman(0)/m/n/12 berbasis \TU/TimesNewRoman(0)/m/it/12 rule-
  []
 
 
@@ -5880,32 +4711,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
 
 Underfull \hbox (badness 2150) in paragraph at lines 50--51
-[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/
-n/12 yang digunakan untuk
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 yang digunakan untuk
  []
 
 
 Underfull \hbox (badness 6110) in paragraph at lines 53--54
-[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/
-n/12 alternatif yang digu-
+[]|\TU/TimesNewRoman(0)/m/it/12 Framework deep learning \TU/TimesNewRoman(0)/m/n/12 alternatif yang digu-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
-\TU/TimesNewRoman(0)/m/n/12 nakan untuk implementasi model TFT (\TU/TimesNewRom
-an(0)/m/it/12 Tem-
+\TU/TimesNewRoman(0)/m/n/12 nakan untuk implementasi model TFT (\TU/TimesNewRoman(0)/m/it/12 Tem-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
-\TU/TimesNewRoman(0)/m/it/12 poral Fusion Transformer\TU/TimesNewRoman(0)/m/n/1
-2 ) dengan pustaka
+\TU/TimesNewRoman(0)/m/it/12 poral Fusion Transformer\TU/TimesNewRoman(0)/m/n/12 ) dengan pustaka
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
-\TU/lmtt/m/n/12 pytorch-forecasting\TU/TimesNewRoman(0)/m/n/12 . PyTorch menawa
-rkan
+\TU/lmtt/m/n/12 pytorch-forecasting\TU/TimesNewRoman(0)/m/n/12 . PyTorch menawarkan
  []
 
 
@@ -5929,8 +4755,7 @@ Underfull \hbox (badness 6978) in paragraph at lines 89--89
 
 ] [115] [116]
 Overfull \hbox (1.95242pt too wide) in paragraph at lines 99--100
-[]\TU/TimesNewRoman(0)/m/n/12 Dalam kebutuhan pelatihan model yang lebih intens
-if atau eksperimen dengan \TU/TimesNewRoman(0)/m/it/12 hyper-
+[]\TU/TimesNewRoman(0)/m/n/12 Dalam kebutuhan pelatihan model yang lebih intensif atau eksperimen dengan \TU/TimesNewRoman(0)/m/it/12 hyper-
  []
 
 
@@ -6025,16 +4850,14 @@ Overfull \hbox (50.74037pt too wide) in paragraph at lines 149--180
 
 [121]
 Overfull \hbox (1.7786pt too wide) in paragraph at lines 290--291
-\TU/TimesNewRoman(0)/m/n/12 Modul peramalan deret waktu dievaluasi menggunakan 
-protokol \TU/TimesNewRoman(0)/m/it/12 rolling-origin back-
+\TU/TimesNewRoman(0)/m/n/12 Modul peramalan deret waktu dievaluasi menggunakan protokol \TU/TimesNewRoman(0)/m/it/12 rolling-origin back-
  []
 
 
 
 [122]
 Overfull \hbox (0.61258pt too wide) in paragraph at lines 335--336
-[]\TU/TimesNewRoman(0)/m/n/12 Pelaporan hasil per horizon dan per entitas prior
-itas (median dan rentang antar-
+[]\TU/TimesNewRoman(0)/m/n/12 Pelaporan hasil per horizon dan per entitas prioritas (median dan rentang antar-
  []
 
 
@@ -6340,9 +5163,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
 [126]
 
-LaTeX Warning: Empty bibliography on input line 415.
+[127
 
-(./Lampiran-A.tex
+
+]
+
+[128]
+
+Package biblatex Warning: Month out of range or not an integer
+(biblatex)                at entry 'Intimedia2024' on input line 416.
+
+
+
+[129]
+Overfull \hbox (8.21161pt too wide) in paragraph at lines 416--416
+[][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
+ []
+
+
+
+[130]
+
+[131]
+Overfull \hbox (1.96846pt too wide) in paragraph at lines 416--416
+[][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
+ []
+
+
+Overfull \hbox (39.24355pt too wide) in paragraph at lines 416--416
+\TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2004.15006,
+ []
+
+
+Overfull \hbox (29.48573pt too wide) in paragraph at lines 416--416
+\TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
+ []
+
+
+
+[132]
+
+[133]
+
+[134] (./Lampiran-A.tex
+
+[135]
 Underfull \hbox (badness 1708) in paragraph at lines 33--34
 \TU/TimesNewRoman(0)/m/n/12 memiliki enkripsi, kontrol akses berbasis
  []
@@ -6352,8 +5217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\TU/TimesNewRoman(0)/m/n/12 Apa target keberhasilan
  []
 
-[127
-
+[136
 
 ]
 Underfull \hbox (badness 1490) in paragraph at lines 60--60
@@ -6380,14 +5244,14 @@ Underfull \hbox (badness 2376) in paragraph at lines 72--73
 []|\TU/TimesNewRoman(0)/m/n/12 Gunakan Tools bebas untuk deployment.
  []
 
-[128])
+[137])
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 395.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 396.
 See the caption package documentation for explanation.
 
 
 
-[129] (./ProposalTA.aux)
+[138] (./ProposalTA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -6397,23 +5261,22 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 7823416AB270B3109E52D10C6BE7642A;37757.
+(rerunfilecheck)             Checksum: 4C23901A5FCEAB7A57932BDCF0318F74;37757.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ProposalTA
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30765 strings out of 473832
- 605882 string characters out of 5729482
- 2036109 words of memory out of 5000000
- 53437 multiletter control sequences out of 15000+600000
+ 32797 strings out of 473832
+ 653558 string characters out of 5729482
+ 2066018 words of memory out of 5000000
+ 55458 multiletter control sequences out of 15000+600000
  564727 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 79i,13n,93p,2372b,1463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,13n,93p,2461b,6882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (140 pages).
+Output written on ProposalTA.pdf (149 pages).

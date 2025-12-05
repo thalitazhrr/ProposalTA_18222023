@@ -98,7 +98,7 @@ Dalam mendukung proses pelatihan model \textit{deep learning} dan pengembangan s
 
 Dalam kebutuhan pelatihan model yang lebih intensif atau eksperimen dengan \textit{hyperparameter tuning} yang ekstensif, dapat dipertimbangkan pembelian unit komputasi tambahan pada Google Colab Pro dengan estimasi biaya sekitar \$10 untuk 100 \textit{computing units}. Alternatif lain adalah penggunaan layanan \textit{cloud computing} seperti Google Cloud Platform, Amazon Web Services, atau Microsoft Azure dengan konfigurasi instans GPU sesuai kebutuhan.
 
-Dalam \textit{deployment} sistem produksi, diperlukan infrastruktur server dengan spesifikasi minimal sebagai berikut: prosesor dengan minimal 4 \textit{cores}, memori RAM minimal 16GB, penyimpanan SSD minimal 100GB, dan koneksi jaringan yang stabil. Sistem dapat di-\textit{deploy} pada infrastruktur \textit{on-premise} perusahaan atau menggunakan layanan \textit{cloud} dengan pertimbangan keamanan dan privasi data internal.
+Dalam \textit{deployment} sistem produksi, diperlukan infrastruktur server dengan spesifikasi prosesor dengan minimal 4 \textit{cores}, memori RAM minimal 16GB, penyimpanan SSD minimal 100GB, dan koneksi jaringan yang stabil. Sistem dapat di-\textit{deploy} pada infrastruktur \textit{on-premise} perusahaan atau menggunakan layanan \textit{cloud} dengan pertimbangan keamanan dan privasi data internal.
 
 \subsubsection{Linimasa Pelaksanaan Tugas Akhir}
 \label{subsubsec:timeline}
@@ -201,7 +201,7 @@ Metrik evaluasi yang digunakan untuk mengukur performa klasifikasi maksud mencak
     \item \textbf{Skor-F1 (\textit{F1-Score})}: Rata-rata harmonik dari presisi dan daya ingat, memberikan keseimbangan antara kedua metrik.
 \end{enumerate}
 
-Formula perhitungan metrik agregasi adalah sebagai berikut:
+Formula perhitungan metrik agregasi adalah sebagai berikut.
 
 \begin{equation}
 \text{Presisi}_{\text{makro}} = \frac{1}{K} \sum_{i=1}^{K} \text{Presisi}_i
@@ -219,7 +219,7 @@ dengan $K$ adalah jumlah kelas \textit{intent} dalam sistem.
 
 \paragraph{Analisis Nilai Keyakinan (\textit{Confidence Score})}
 
-Sistem menggunakan mekanisme pemberian nilai keyakinan dalam rentang 0 hingga 1 untuk setiap prediksi klasifikasi maksud. Ambang batas (\textit{threshold}) ditetapkan pada nilai 0,70 dengan ketentuan sebagai berikut:
+Sistem menggunakan mekanisme pemberian nilai keyakinan dalam rentang 0 hingga 1 untuk setiap prediksi klasifikasi maksud. Ambang batas (\textit{threshold}) ditetapkan pada nilai 0,70 dengan ketentuan sebagai berikut.
 
 \begin{enumerate}
     \item Jika nilai keyakinan $\geq$ 0,70: Prediksi dianggap valid dan sistem memberikan respons berdasarkan \textit{intent} yang teridentifikasi.
@@ -264,7 +264,7 @@ Metrik otomatis yang digunakan untuk mengevaluasi kualitas respons NLG mencakup:
 
 \paragraph{Evaluasi Subjektif Berbasis Pengguna}
 
-Selain metrik otomatis, dilakukan penilaian subjektif oleh evaluator manusia dengan skala 1--5 untuk dimensi berikut:
+Selain metrik otomatis, dilakukan penilaian subjektif oleh evaluator manusia dengan skala 1--5 untuk dimensi berikut.
 
 \begin{enumerate}
     \item \textbf{Kelancaran (\textit{Fluency})}: Seberapa lancar dan alami teks respons dibaca.

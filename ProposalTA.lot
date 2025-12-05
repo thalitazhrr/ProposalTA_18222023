@@ -388,34 +388,34 @@
 \contentsline {table}{\numberline {III.6}{\ignorespaces Analisis \textit {Balanced Scorecard} untuk BI Tradisional}}{77}{table.3.6}%
 \contentsline {table}{\numberline {III.7}{\ignorespaces Analisis \textit {Balanced Scorecard} untuk LLM}}{79}{table.3.7}%
 \contentsline {table}{\numberline {III.8}{\ignorespaces Perbandingan \textit {Balanced Scorecard} Alternatif Solusi}}{83}{table.3.8}%
-\contentsline {table}{\numberline {III.9}{\ignorespaces Ringkasan Domain Data pada Skema USER}}{87}{table.caption.8}%
-\contentsline {table}{\numberline {III.10}{\ignorespaces Spesifikasi Domain Data Sales}}{89}{table.caption.10}%
-\contentsline {table}{\numberline {III.11}{\ignorespaces Spesifikasi Domain Data Revenue}}{89}{table.caption.11}%
-\contentsline {table}{\numberline {III.12}{\ignorespaces Spesifikasi Domain Data Proses}}{90}{table.caption.12}%
-\contentsline {table}{\numberline {III.13}{\ignorespaces Spesifikasi Domain Data Target}}{90}{table.caption.13}%
-\contentsline {table}{\numberline {III.14}{\ignorespaces Spesifikasi Domain Data Churn}}{91}{table.caption.14}%
-\contentsline {table}{\numberline {III.15}{\ignorespaces Hasil Pemeriksaan Kualitas Data per Domain}}{91}{table.caption.15}%
-\contentsline {table}{\numberline {III.16}{\ignorespaces Atribut Utama Relasional Antar-Domain}}{93}{table.caption.16}%
-\contentsline {table}{\numberline {III.17}{\ignorespaces Teknik Penanganan Nilai Hilang per Jenis Atribut}}{94}{table.caption.17}%
-\contentsline {table}{\numberline {III.18}{\ignorespaces Teknik Penskalaan per Kategori Fitur}}{95}{table.caption.18}%
-\contentsline {table}{\numberline {III.19}{\ignorespaces Teknik Pengkodean Fitur Kategorikal}}{96}{table.caption.19}%
-\contentsline {table}{\numberline {III.20}{\ignorespaces Fitur Temporal yang Dihasilkan}}{96}{table.caption.20}%
-\contentsline {table}{\numberline {III.21}{\ignorespaces Fitur Lag dan Statistik Bergulir}}{97}{table.caption.21}%
-\contentsline {table}{\numberline {III.22}{\ignorespaces Fitur Agregat per Entitas}}{97}{table.caption.22}%
-\contentsline {table}{\numberline {III.23}{\ignorespaces Pembagian Data untuk Pelatihan dan Evaluasi}}{98}{table.caption.23}%
-\contentsline {table}{\numberline {III.24}{\ignorespaces Komponen Gerbang pada Arsitektur LSTM}}{99}{table.caption.24}%
-\contentsline {table}{\numberline {III.25}{\ignorespaces Komponen Gerbang pada Arsitektur GRU}}{99}{table.caption.25}%
-\contentsline {table}{\numberline {III.26}{\ignorespaces Komponen Utama Arsitektur TFT}}{100}{table.caption.26}%
-\contentsline {table}{\numberline {III.27}{\ignorespaces Perbandingan Karakteristik Model Peramalan}}{101}{table.caption.27}%
-\contentsline {table}{\numberline {III.28}{\ignorespaces Konfigurasi \textit {Hyperparameter} Model}}{102}{table.caption.28}%
-\contentsline {table}{\numberline {III.29}{\ignorespaces Fungsi Kerugian untuk Setiap Jenis Prediksi}}{102}{table.caption.29}%
-\contentsline {table}{\numberline {III.30}{\ignorespaces Integrasi Model dalam Arsitektur Sistem}}{103}{table.caption.30}%
+\contentsline {table}{\numberline {III.9}{\ignorespaces Ringkasan Domain Data pada Skema USER}}{87}{table.caption.9}%
+\contentsline {table}{\numberline {III.10}{\ignorespaces Spesifikasi Domain Data Sales}}{89}{table.caption.11}%
+\contentsline {table}{\numberline {III.11}{\ignorespaces Spesifikasi Domain Data Revenue}}{89}{table.caption.12}%
+\contentsline {table}{\numberline {III.12}{\ignorespaces Spesifikasi Domain Data Proses}}{90}{table.caption.13}%
+\contentsline {table}{\numberline {III.13}{\ignorespaces Spesifikasi Domain Data Target}}{90}{table.caption.14}%
+\contentsline {table}{\numberline {III.14}{\ignorespaces Spesifikasi Domain Data Churn}}{91}{table.caption.15}%
+\contentsline {table}{\numberline {III.15}{\ignorespaces Hasil Pemeriksaan Kualitas Data per Domain}}{91}{table.caption.16}%
+\contentsline {table}{\numberline {III.16}{\ignorespaces Atribut Utama Relasional Antar-Domain}}{93}{table.caption.17}%
+\contentsline {table}{\numberline {III.17}{\ignorespaces Teknik Penanganan Nilai Hilang per Jenis Atribut}}{94}{table.caption.18}%
+\contentsline {table}{\numberline {III.18}{\ignorespaces Teknik Penskalaan per Kategori Fitur}}{95}{table.caption.19}%
+\contentsline {table}{\numberline {III.19}{\ignorespaces Teknik Pengkodean Fitur Kategorikal}}{96}{table.caption.20}%
+\contentsline {table}{\numberline {III.20}{\ignorespaces Fitur Temporal yang Dihasilkan}}{96}{table.caption.21}%
+\contentsline {table}{\numberline {III.21}{\ignorespaces Fitur Lag dan Statistik Bergulir}}{97}{table.caption.22}%
+\contentsline {table}{\numberline {III.22}{\ignorespaces Fitur Agregat per Entitas}}{97}{table.caption.23}%
+\contentsline {table}{\numberline {III.23}{\ignorespaces Pembagian Data untuk Pelatihan dan Evaluasi}}{98}{table.caption.24}%
+\contentsline {table}{\numberline {III.24}{\ignorespaces Komponen Gerbang pada Arsitektur LSTM}}{99}{table.caption.25}%
+\contentsline {table}{\numberline {III.25}{\ignorespaces Komponen Gerbang pada Arsitektur GRU}}{99}{table.caption.26}%
+\contentsline {table}{\numberline {III.26}{\ignorespaces Komponen Utama Arsitektur TFT}}{100}{table.caption.27}%
+\contentsline {table}{\numberline {III.27}{\ignorespaces Perbandingan Karakteristik Model Peramalan}}{101}{table.caption.28}%
+\contentsline {table}{\numberline {III.28}{\ignorespaces Konfigurasi \textit {Hyperparameter} Model}}{102}{table.caption.29}%
+\contentsline {table}{\numberline {III.29}{\ignorespaces Fungsi Kerugian untuk Setiap Jenis Prediksi}}{102}{table.caption.30}%
+\contentsline {table}{\numberline {III.30}{\ignorespaces Integrasi Model dalam Arsitektur Sistem}}{103}{table.caption.31}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {IV.1}{\ignorespaces Perbandingan Sistem \textit {As-Is} dan \textit {To-Be}}}{109}{table.4.1}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {V.1}{\ignorespaces Perangkat Lunak dan Teknologi Implementasi Sistem}}{115}{table.5.1}%
-\contentsline {table}{\numberline {V.2}{\ignorespaces Linimasa Pelaksanaan Tugas Akhir Tahap 1 (September 2025 -- Januari 2026)}}{118}{table.caption.34}%
-\contentsline {table}{\numberline {V.3}{\ignorespaces Linimasa Pelaksanaan Tugas Akhir Tahap 2 (Februari -- Juli 2026)}}{119}{table.caption.35}%
+\contentsline {table}{\numberline {V.2}{\ignorespaces Linimasa Pelaksanaan Tugas Akhir Tahap 1 (September 2025 -- Januari 2026)}}{118}{table.caption.35}%
+\contentsline {table}{\numberline {V.3}{\ignorespaces Linimasa Pelaksanaan Tugas Akhir Tahap 2 (Februari -- Juli 2026)}}{119}{table.caption.36}%
 \contentsline {table}{\numberline {V.4}{\ignorespaces Analisis Risiko dan Strategi Mitigasi}}{125}{table.5.4}%
 \babel@toc {english}{}\relax 
 \babel@toc {indonesian}{}\relax 

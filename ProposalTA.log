@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 11:59
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -840,7 +840,7 @@ Package csquotes Warning: No style for language 'indonesian'.
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
 (./ProposalTA.aux (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex)
 Package babel Info: Importing data for english
-(babel)             from babel-en.ini. Reported on input line 28.
+(babel)             from babel-en.ini. Reported on input line 30.
 )
 \openout1 = `ProposalTA.aux'.
 
@@ -1018,6 +1018,9 @@ Package datetime2 Warning: Region `bahasai' has ignored
 
 
 ]
+File: image/tandatanganpakdimitri.png Graphic file (type bmp)
+<image/tandatanganpakdimitri.png>
+
 
 [1] (./ProposalTA.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
@@ -1064,55 +1067,55 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\<let>-command' on input line 371.
+(hyperref)                removing `\<let>-command' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 371.
+(hyperref)                removing `\\' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@centercr' on input line 371.
+(hyperref)                removing `\@centercr' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\rightskip' on input line 371.
+(hyperref)                removing `\rightskip' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 371.
+(hyperref)                removing `\@flushglue' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leftskip' on input line 371.
+(hyperref)                removing `\leftskip' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@flushglue' on input line 371.
+(hyperref)                removing `\@flushglue' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\finalhyphendemerits' on input line 371.
+(hyperref)                removing `\finalhyphendemerits' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 371.
+(hyperref)                removing `\z@' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parindent' on input line 371.
+(hyperref)                removing `\parindent' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 371.
+(hyperref)                removing `\z@' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\parfillskip' on input line 371.
+(hyperref)                removing `\parfillskip' on input line 378.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@skip' on input line 371.
+(hyperref)                removing `\z@skip' on input line 378.
 
 
 
@@ -5173,12 +5176,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 [128]
 
 Package biblatex Warning: Month out of range or not an integer
-(biblatex)                at entry 'Intimedia2024' on input line 416.
+(biblatex)                at entry 'Intimedia2024' on input line 423.
 
 
 
 [129]
-Overfull \hbox (8.21161pt too wide) in paragraph at lines 416--416
+Overfull \hbox (8.21161pt too wide) in paragraph at lines 423--423
 [][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
  []
 
@@ -5187,23 +5190,28 @@ Overfull \hbox (8.21161pt too wide) in paragraph at lines 416--416
 [130]
 
 [131]
-Overfull \hbox (1.96846pt too wide) in paragraph at lines 416--416
+Overfull \hbox (16.88808pt too wide) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 Comparative Analysis and Performance Evaluation”. \TU/TimesNewRoman(0)/m/it/12 Scientific African \TU/TimesNewRoman(0)/m/n/12 28:e02649.
+ []
+
+
+Overfull \hbox (1.96846pt too wide) in paragraph at lines 423--423
 [][]\TU/TimesNewRoman(0)/m/n/12 Rebuffel, Clément, Laure Soulier, Geoffrey Scoutheeten, dan Patrick Gallinari. 2020.
  []
 
 
-Overfull \hbox (39.24355pt too wide) in paragraph at lines 416--416
+Overfull \hbox (39.24355pt too wide) in paragraph at lines 423--423
 \TU/TimesNewRoman(0)/m/n/12 “  A Hierarchical Model for Data-to-Text Generation”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2004.15006,
- []
-
-
-Overfull \hbox (29.48573pt too wide) in paragraph at lines 416--416
-\TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
  []
 
 
 
 [132]
+Overfull \hbox (29.48573pt too wide) in paragraph at lines 423--423
+\TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
+ []
+
+
 
 [133]
 
@@ -5248,7 +5256,7 @@ Underfull \hbox (badness 2376) in paragraph at lines 72--73
 
 [137])
 
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 396.
+Package caption Warning: Unused \captionsetup[lstlisting] on input line 403.
 See the caption package documentation for explanation.
 
 
@@ -5263,7 +5271,7 @@ L3 programming layer <2025-01-18>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
-(rerunfilecheck)             Checksum: 4C23901A5FCEAB7A57932BDCF0318F74;37757.
+(rerunfilecheck)             Checksum: 18AA990B01DF33AD98043BDAF1B99DA0;37757.
 
 Package biblatex Warning: Please rerun LaTeX.
 
@@ -5272,10 +5280,10 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32793 strings out of 473832
- 653493 string characters out of 5729482
- 2066026 words of memory out of 5000000
- 55456 multiletter control sequences out of 15000+600000
+ 32813 strings out of 473832
+ 654172 string characters out of 5729482
+ 2066080 words of memory out of 5000000
+ 55475 multiletter control sequences out of 15000+600000
  564719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,13n,93p,2462b,6882s stack positions out of 10000i,1000n,20000p,200000b,200000s

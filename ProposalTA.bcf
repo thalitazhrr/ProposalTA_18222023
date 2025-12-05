@@ -5025,10 +5025,10 @@
     <bcf:citekey order="40" intorder="1">Merugu2024IntentLLM</bcf:citekey>
     <bcf:citekey order="41" intorder="1">Ozerova2022IntentModule</bcf:citekey>
     <bcf:citekey order="41" intorder="2">Gehweiler2024IntentModeration</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">mulyatun2021pendekatan</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">mulyatun2021chatbot</bcf:citekey>
     <bcf:citekey order="43" intorder="1">khosla2022evaluating</bcf:citekey>
     <bcf:citekey order="44" intorder="1">kuligowska2024enhancing</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">teneo2022intent</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">hengst2024conformal</bcf:citekey>
     <bcf:citekey order="46" intorder="1">cyara2024optimum</bcf:citekey>
     <bcf:citekey order="47" intorder="1">cyara2024optimum</bcf:citekey>
     <bcf:citekey order="47" intorder="2">genesys2023threshold</bcf:citekey>
@@ -5088,7 +5088,7 @@
     <bcf:citekey order="82" intorder="2">Morrison2021ReproSubjective</bcf:citekey>
     <bcf:citekey order="83" intorder="1">Sai2020NLGSurvey</bcf:citekey>
     <bcf:citekey order="84" intorder="1">Syarifudin2024AIChatbotQuality</bcf:citekey>
-    <bcf:citekey order="84" intorder="2">LearningGate2024ChatbotQuality</bcf:citekey>
+    <bcf:citekey order="84" intorder="2">hsu2023chatbotsatisfaction</bcf:citekey>
     <bcf:citekey order="85" intorder="1">vanDerLee2021HumanEval</bcf:citekey>
     <bcf:citekey order="85" intorder="2">Syarifudin2024AIChatbotQuality</bcf:citekey>
     <bcf:citekey order="86" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
@@ -5099,7 +5099,7 @@
     <bcf:citekey order="88" intorder="1">Sai2020NLGSurvey</bcf:citekey>
     <bcf:citekey order="88" intorder="2">Xiao2023MetricEval</bcf:citekey>
     <bcf:citekey order="89" intorder="1">Syarifudin2024AIChatbotQuality</bcf:citekey>
-    <bcf:citekey order="89" intorder="2">LearningGate2024ChatbotQuality</bcf:citekey>
+    <bcf:citekey order="89" intorder="2">hsu2023chatbotsatisfaction</bcf:citekey>
     <bcf:citekey order="90" intorder="1">Celikyilmaz2020EvalTextGen</bcf:citekey>
     <bcf:citekey order="90" intorder="2">vanDerLee2021HumanEval</bcf:citekey>
     <bcf:citekey order="91" intorder="1">WiseGuyReports2024</bcf:citekey>

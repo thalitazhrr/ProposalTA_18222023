@@ -285,7 +285,7 @@ Pemilihan solusi yang tepat sangat penting untuk memastikan bahwa sistem yang di
 
 Dalam rangka meningkatkan efisiensi analisis dan prediksi kinerja bisnis serta mengatasi keterbatasan sistem \textit{business intelligence} konvensional, terdapat beberapa alternatif solusi teknologi yang dapat dipertimbangkan. Setiap alternatif memiliki karakteristik, kelebihan, dan kekurangan yang berbeda, yang perlu dievaluasi secara komprehensif untuk menentukan solusi yang paling optimal.
 
-Berikut adalah tiga alternatif solusi utama yang telah diidentifikasi dan dianalisis berdasarkan studi literatur, praktik industri, dan kebutuhan spesifik organisasi:
+Berikut adalah empat alternatif solusi utama yang telah diidentifikasi dan dianalisis berdasarkan studi literatur, praktik industri, dan kebutuhan spesifik organisasi:
 
 \begin{longtable}{|c|p{2cm}|p{3.65cm}|p{2.7cm}|p{3cm}|}
 \caption{Perbandingan Alternatif Solusi Teknologi}
@@ -398,8 +398,7 @@ Mengimplementasikan chatbot BI yang memanfaatkan arsitektur Transformer penuh de
 
 \end{longtable}
 
-Berikut adalah empat alternatif solusi utama yang telah diidentifikasi dan dianalisis berdasarkan studi literatur, praktik industri, dan kebutuhan fungsional dan non fungsional:
-
+Berikut adalah penjelasan empat alternatif solusi utama yang telah diidentifikasi dan dianalisis berdasarkan tabel di atas:
 \begin{enumerate}
     \item\textbf{Alternatif 1: \textit{Chatbot} Berbasis Aturan Sederhana}
     
@@ -684,29 +683,29 @@ Solusi yang dipilih juga sejalan dengan tren global dengan pasar kecerdasan buat
 
 \section{Pemahaman dan Analisis Data (\textit{Data Understanding})}
 
-Tahap pemahaman data (\textit{data understanding}) merupakan fase kedua dalam metodologi CRISP-DM yang bertujuan untuk mengumpulkan data awal, mengidentifikasi karakteristik data, mendeteksi permasalahan kualitas data, serta menemukan wawasan awal yang dapat membentuk hipotesis terhadap informasi tersembunyi dalam data. Pada konteks pengembangan sistem \textit{Business Intelligence} berbasis \textit{chatbot}, tahap ini berfokus pada eksplorasi komprehensif terhadap lima domain data utama yang tersimpan dalam skema \texttt{USR\_RPT} pada \textit{Enterprise Data Warehouse}.
+Tahap pemahaman data (\textit{data understanding}) merupakan fase kedua dalam metodologi CRISP-DM yang bertujuan untuk mengumpulkan data awal, mengidentifikasi karakteristik data, mendeteksi permasalahan kualitas data, serta menemukan wawasan awal yang dapat membentuk hipotesis terhadap informasi tersembunyi dalam data. Pada konteks pengembangan sistem \textit{Business Intelligence} berbasis \textit{chatbot}, tahap ini berfokus pada eksplorasi komprehensif terhadap lima domain data utama yang tersimpan dalam skema \texttt{USER} pada \textit{Enterprise Data Warehouse}.
 
 \subsection{Sumber Data dan Arsitektur Penyimpanan}
 
-Sistem peramalan dan analisis performa berbasis \textit{chatbot} terhubung secara langsung dengan sumber data utama berupa \textit{Enterprise Data Warehouse} (EDW) yang menggunakan basis data Oracle pada server dengan skema \texttt{USR\_RPT}. Koneksi yang diatur menggunakan metode \textit{connection pooling} serta \textit{parameter binding} untuk menjamin efisiensi dan keamanan saat eksekusi kueri. Skema \texttt{USR\_RPT} berisi lima domain utama yang masing-masing memiliki fokus bisnis dan struktur data berbeda.
+Sistem peramalan dan analisis performa berbasis \textit{chatbot} terhubung secara langsung dengan sumber data utama berupa \textit{Enterprise Data Warehouse} (EDW) yang menggunakan basis data Oracle pada server dengan skema \texttt{USER}. Koneksi yang diatur menggunakan metode \textit{connection pooling} serta \textit{parameter binding} untuk menjamin efisiensi dan keamanan saat eksekusi kueri. Skema \texttt{USER} berisi lima domain utama yang masing-masing memiliki fokus bisnis dan struktur data berbeda.
 
 \begin{table}[h]
 \centering
-\caption{Ringkasan Domain Data pada Skema USR\_RPT}
+\caption{Ringkasan Domain Data pada Skema USER}
 \label{tab:ringkasan-domain}
 \begin{tabular}{|p{3.5cm}|p{3.5cm}|p{5cm}|}
 \hline
 \textbf{Domain Data} & \textbf{Jumlah Aturan Bisnis} & \textbf{Fokus Bisnis} \\
 \hline
-\texttt{BRIGHTAI\_SALES} & 12 & Analisis volume pesanan, kinerja kanal penjualan, dan penetrasi layanan pada berbagai wilayah operasional \\
+\texttt{SALES} & 12 & Analisis volume pesanan, kinerja kanal penjualan, dan penetrasi layanan pada berbagai wilayah operasional \\
 \hline
-\texttt{BRIGHTAI\_REVENUE} & 8 & Evaluasi pendapatan, profitabilitas pelanggan, dan distribusi pendapatan per wilayah dan segmen \\
+\texttt{REVENUE} & 8 & Evaluasi pendapatan, profitabilitas pelanggan, dan distribusi pendapatan per wilayah dan segmen \\
 \hline
-\texttt{BRIGHTAI\_DAPROS} & 7 & Segmentasi dan profiling pelanggan berbasis data pemasangan, keaktifan digital, dan program loyalitas \\
+\texttt{DATA\_PROSES} & 7 & Segmentasi dan profiling pelanggan berbasis data pemasangan, keaktifan digital, dan program loyalitas \\
 \hline
-\texttt{BRIGHTAI\_TARGET} & 5 & Pemantauan pencapaian target kinerja dan analisis kesenjangan terhadap target periode \\
+\texttt{TARGET} & 5 & Pemantauan pencapaian target kinerja dan analisis kesenjangan terhadap target periode \\
 \hline
-\texttt{BRIGHTAI\_CT0\_NAL} & 6 & Identifikasi potensi \textit{churn} pelanggan dan strategi retensi melalui analisis siklus hidup layanan \\
+\texttt{CT0} & 6 & Identifikasi potensi \textit{churn} pelanggan dan strategi retensi melalui analisis siklus hidup layanan \\
 \hline
 \end{tabular}
 \end{table}
@@ -722,9 +721,9 @@ Kelima kategori strategi bisnis utama yang tercermin dalam 38 aturan tersebut se
   \label{fig:detailrb}
 \end{figure}
 
-\subsubsection{Domain BRIGHTAI\_SALES}
+\subsubsection{Domain SALES}
 
-Domain \texttt{BRIGHTAI\_SALES} merupakan domain utama yang merepresentasikan informasi terkait volume permintaan, performa penjualan, serta penetrasi layanan pada berbagai tingkatan wilayah operasional. Tabel ini menyajikan struktur data yang komprehensif, mencakup dimensi geografis, waktu, produk, serta atribut pelanggan dan metrik performa layanan. Tabel~\ref{tab:spesifikasi-sales} menyajikan spesifikasi lengkap domain ini.
+Domain \texttt{SALES} merupakan domain utama yang merepresentasikan informasi terkait volume permintaan, performa penjualan, serta penetrasi layanan pada berbagai tingkatan wilayah operasional. Tabel ini menyajikan struktur data yang komprehensif, mencakup dimensi geografis, waktu, produk, serta atribut pelanggan dan metrik performa layanan. Tabel~\ref{tab:spesifikasi-sales} menyajikan spesifikasi lengkap domain ini.
 
 \begin{table}[h]
 \centering
@@ -734,7 +733,7 @@ Domain \texttt{BRIGHTAI\_SALES} merupakan domain utama yang merepresentasikan in
 \hline
 \textbf{Komponen} & \textbf{Deskripsi dan Atribut} \\
 \hline
-Tabel & \texttt{USR\_RPT.BRIGHTAI\_SALES} \\
+Tabel & \texttt{USER.SALES} \\
 \hline
 Fokus Bisnis & Analisis volume pesanan, kinerja kanal penjualan, serta penetrasi layanan pada tiap wilayah operasional \\
 \hline
@@ -751,9 +750,9 @@ Metrik Performa & \texttt{COMPLETION\_RATE}, \texttt{FULFILLMENT\_STATUS} \\
 \end{tabular}
 \end{table}
 
-\subsubsection{Domain BRIGHTAI\_REVENUE}
+\subsubsection{Domain \texttt{REVENUE}}
 
-Domain \texttt{BRIGHTAI\_REVENUE} dirancang untuk mendukung analisis pendapatan, profitabilitas, serta distribusi pendapatan pada berbagai lapisan wilayah operasional. Domain ini memuat data yang mencakup identitas pelanggan, dimensi geografis, periode waktu, serta metrik utama terkait pendapatan yang dihasilkan per pelanggan maupun per layanan. Tabel~\ref{tab:spesifikasi-revenue} menyajikan spesifikasi lengkap domain ini.
+Domain \texttt{\texttt{REVENUE}} dirancang untuk mendukung analisis pendapatan, profitabilitas, serta distribusi pendapatan pada berbagai lapisan wilayah operasional. Domain ini memuat data yang mencakup identitas pelanggan, dimensi geografis, periode waktu, serta metrik utama terkait pendapatan yang dihasilkan per pelanggan maupun per layanan. Tabel~\ref{tab:spesifikasi-revenue} menyajikan spesifikasi lengkap domain ini.
 
 \begin{table}[h]
 \centering
@@ -763,7 +762,7 @@ Domain \texttt{BRIGHTAI\_REVENUE} dirancang untuk mendukung analisis pendapatan,
 \hline
 \textbf{Komponen} & \textbf{Deskripsi dan Atribut} \\
 \hline
-Tabel & \texttt{USR\_RPT.BRIGHTAI\_REVENUE} \\
+Tabel & \texttt{USER.\texttt{REVENUE}} \\
 \hline
 Fokus Bisnis & Evaluasi pendapatan, profitabilitas pelanggan, dan distribusi pendapatan per wilayah dan segmen bisnis \\
 \hline
@@ -782,9 +781,9 @@ Metrik Kinerja & \texttt{REVENUE\_PER\_PELANGGAN}, \texttt{REVENUE\_PER\_NCLI} \
 \end{tabular}
 \end{table}
 
-\subsubsection{Domain BRIGHTAI\_DAPROS}
+\subsubsection{Domain DATA\_PROSES}
 
-Domain \texttt{BRIGHTAI\_DAPROS} secara khusus dikembangkan untuk mendukung proses profiling dan segmentasi pelanggan secara komprehensif. Domain ini dirancang untuk mengidentifikasi atribut pelanggan, tingkat digitalisasi, serta segmentasi berdasarkan perilaku dan karakteristik layanan. Melalui data yang diperbarui secara berkala, \texttt{BRIGHTAI\_DAPROS} memungkinkan analisis longitudinal terkait penetrasi produk digital, partisipasi dalam program loyalitas, dan atribut layanan pelanggan secara geografis maupun demografis. Tabel~\ref{tab:spesifikasi-dapros} menyajikan spesifikasi lengkap domain ini.
+Domain \texttt{DATA\_PROSES} secara khusus dikembangkan untuk mendukung proses profiling dan segmentasi pelanggan secara komprehensif. Domain ini dirancang untuk mengidentifikasi atribut pelanggan, tingkat digitalisasi, serta segmentasi berdasarkan perilaku dan karakteristik layanan. Melalui data yang diperbarui secara berkala, \texttt{DATA\_PROSES} memungkinkan analisis longitudinal terkait penetrasi produk digital, partisipasi dalam program loyalitas, dan atribut layanan pelanggan secara geografis maupun demografis. Tabel~\ref{tab:spesifikasi-dapros} menyajikan spesifikasi lengkap domain ini.
 
 \begin{table}[h]
 \centering
@@ -794,7 +793,7 @@ Domain \texttt{BRIGHTAI\_DAPROS} secara khusus dikembangkan untuk mendukung pros
 \hline
 \textbf{Komponen} & \textbf{Deskripsi dan Atribut} \\
 \hline
-Tabel & \texttt{USR\_RPT.BRIGHTAI\_DAPROS} \\
+Tabel & \texttt{USER.DATA\_PROSES} \\
 \hline
 Fokus Bisnis & Segmentasi dan profiling pelanggan berbasis data pemasangan, keaktifan digital, dan status loyalitas \\
 \hline
@@ -813,9 +812,9 @@ Metrik Pendapatan & \texttt{TREMS\_REV\_P}, \texttt{TREMS\_REV\_REF}, \texttt{AD
 \end{tabular}
 \end{table}
 
-\subsubsection{Domain BRIGHTAI\_TARGET}
+\subsubsection{Domain TARGET}
 
-Domain \texttt{BRIGHTAI\_TARGET} difokuskan pada evaluasi target kinerja, analisis kesenjangan (\textit{gap analysis}), serta pemantauan pencapaian strategi penjualan dan layanan. Domain ini memungkinkan manajemen untuk membandingkan antara nilai target dan realisasi, sekaligus mengukur tingkat pencapaian dalam berbagai konteks wilayah, produk, dan waktu. Tabel~\ref{tab:spesifikasi-target} menyajikan spesifikasi lengkap domain ini.
+Domain \texttt{TARGET} difokuskan pada evaluasi target kinerja, analisis kesenjangan (\textit{gap analysis}), serta pemantauan pencapaian strategi penjualan dan layanan. Domain ini memungkinkan manajemen untuk membandingkan antara nilai target dan realisasi, sekaligus mengukur tingkat pencapaian dalam berbagai konteks wilayah, produk, dan waktu. Tabel~\ref{tab:spesifikasi-target} menyajikan spesifikasi lengkap domain ini.
 
 \begin{table}[h]
 \centering
@@ -825,7 +824,7 @@ Domain \texttt{BRIGHTAI\_TARGET} difokuskan pada evaluasi target kinerja, analis
 \hline
 \textbf{Komponen} & \textbf{Deskripsi dan Atribut} \\
 \hline
-Tabel & \texttt{USR\_RPT.BRIGHTAI\_TARGET} \\
+Tabel & \texttt{USER.TARGET} \\
 \hline
 Fokus Bisnis & Pemantauan pencapaian target unit dan analisis kesenjangan terhadap target periode bulanan dan tahunan \\
 \hline
@@ -842,9 +841,9 @@ Metrik Evaluasi & \texttt{GAP\_ANALYSIS}, \texttt{PERFORMANCE\_SCORE} \\
 \end{tabular}
 \end{table}
 
-\subsubsection{Domain BRIGHTAI\_CT0\_NAL}
+\subsubsection{Domain CT0}
 
-Domain \texttt{BRIGHTAI\_CT0\_NAL} dirancang untuk menganalisis perilaku \textit{churn} pelanggan serta strategi retensi yang berkaitan dengan siklus hidup layanan. Domain ini memungkinkan pengukuran tingkat \textit{churn}, identifikasi pelanggan dengan risiko tinggi, serta pelacakan masa aktif layanan pelanggan. Struktur data dalam \texttt{BRIGHTAI\_CT0\_NAL} mencakup status pelanggan, metrik \textit{churn}, alasan perpindahan layanan, serta parameter durasi berlangganan. Tabel~\ref{tab:spesifikasi-churn} menyajikan spesifikasi lengkap domain ini.
+Domain \texttt{CT0} dirancang untuk menganalisis perilaku \textit{churn} pelanggan serta strategi retensi yang berkaitan dengan siklus hidup layanan. Domain ini memungkinkan pengukuran tingkat \textit{churn}, identifikasi pelanggan dengan risiko tinggi, serta pelacakan masa aktif layanan pelanggan. Struktur data dalam \texttt{CT0} mencakup status pelanggan, metrik \textit{churn}, alasan perpindahan layanan, serta parameter durasi berlangganan. Tabel~\ref{tab:spesifikasi-churn} menyajikan spesifikasi lengkap domain ini.
 
 \begin{table}[h]
 \centering
@@ -854,7 +853,7 @@ Domain \texttt{BRIGHTAI\_CT0\_NAL} dirancang untuk menganalisis perilaku \textit
 \hline
 \textbf{Komponen} & \textbf{Deskripsi dan Atribut} \\
 \hline
-Tabel & \texttt{USR\_RPT.BRIGHTAI\_CT0\_NAL} \\
+Tabel & \texttt{USER.CT0} \\
 \hline
 Fokus Bisnis & Identifikasi pelanggan dengan potensi \textit{churn} dan perumusan strategi retensi berbasis analisis siklus hidup \\
 \hline
@@ -888,15 +887,15 @@ Pemeriksaan kelengkapan data dilakukan untuk mengidentifikasi nilai yang hilang 
 \hline
 \textbf{Domain} & \textbf{Kelengkapan (\%)} & \textit{Missing} (\%) & \textbf{Duplikat} & \textbf{Anomali} \\
 \hline
-BRIGHTAI\_SALES & 98.5 & 1.5 & Minimal & Teridentifikasi \\
+SALES & 98.5 & 1.5 & Minimal & Teridentifikasi \\
 \hline
-BRIGHTAI\_REVENUE & 99.2 & 0.8 & Minimal & Teridentifikasi \\
+\texttt{REVENUE} & 99.2 & 0.8 & Minimal & Teridentifikasi \\
 \hline
-BRIGHTAI\_DAPROS & 97.8 & 2.2 & Sedang & Teridentifikasi \\
+DATA\_PROSES & 97.8 & 2.2 & Sedang & Teridentifikasi \\
 \hline
-BRIGHTAI\_TARGET & 99.0 & 1.0 & Minimal & Teridentifikasi \\
+TARGET & 99.0 & 1.0 & Minimal & Teridentifikasi \\
 \hline
-BRIGHTAI\_CT0\_NAL & 96.5 & 3.5 & Sedang & Teridentifikasi \\
+CT0 & 96.5 & 3.5 & Sedang & Teridentifikasi \\
 \hline
 \end{tabular}
 \end{table}
@@ -907,9 +906,9 @@ Analisis struktur temporal bertujuan untuk mengidentifikasi pola yang dapat dipe
 
 Hasil pengujian stasioneritas menunjukkan bahwa:
 \begin{enumerate}
-    \item Domain BRIGHTAI\_SALES menunjukkan pola musiman yang jelas dengan siklus tahunan
-    \item Domain BRIGHTAI\_REVENUE memiliki tren pertumbuhan yang stabil dengan volatilitas sedang
-    \item Domain BRIGHTAI\_CT0\_NAL menunjukkan fluktuasi musiman terkait periode kontrak pelanggan
+    \item Domain SALES menunjukkan pola musiman yang jelas dengan siklus tahunan
+    \item Domain \texttt{REVENUE} memiliki tren pertumbuhan yang stabil dengan volatilitas sedang
+    \item Domain CT0 menunjukkan fluktuasi musiman terkait periode kontrak pelanggan
 \end{enumerate}
 
 \subsubsection{Analisis Relevansi Fitur}

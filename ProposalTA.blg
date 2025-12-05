@@ -1,23 +1,9 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'ProposalTA.blg'
-[30] biber-darwin:340> INFO - === Thu Dec  4, 2025, 15:42:07
-[42] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
-[122] Biber.pm:994> INFO - Found 83 citekeys in bib section 0
-[130] Biber.pm:4463> INFO - Processing section 0
-[136] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
-[138] bibtex.pm:1713> INFO - LaTeX decoding ...
-[175] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
-[399] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'variable = shifted' with 'variable = non-ignorable'
-[399] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'level = 4' with 'level = 2'
-[399] UCollate.pm:68> INFO - Overriding locale 'indonesian' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[399] Biber.pm:4283> INFO - Sorting list 'cms/global//global/global/global' of type 'entry' with template 'cms' and locale 'indonesian'
-[399] Biber.pm:4289> INFO - No sort tailoring available for locale 'indonesian'
-[435] bbl.pm:676> INFO - Writing 'ProposalTA.bbl' with encoding 'UTF-8'
-[449] bbl.pm:779> INFO - Output to ProposalTA.bbl
-[449] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
-[449] Biber.pm:131> WARN - Duplicate entry key: 'Ozerova2022IntentModule' in file 'daftar-pustaka.bib', skipping ...
-[449] Biber.pm:131> WARN - Duplicate entry key: 'huang2021chatbot' in file 'daftar-pustaka.bib', skipping ...
-[449] Biber.pm:131> WARN - Duplicate entry key: 'bamurange2025hybrid' in file 'daftar-pustaka.bib', skipping ...
-[449] Biber.pm:131> WARN - legacy month field 'Desember' in entry 'Intimedia2024' is not an integer - this will probably not sort properly.
-[449] Biber.pm:131> WARN - legacy month field 'Juli' in entry 'EastVC2025' is not an integer - this will probably not sort properly.
-[450] Biber.pm:133> INFO - WARNINGS: 6
+[30] biber-darwin:340> INFO - === Fri Dec  5, 2025, 10:49:47
+[40] Biber.pm:420> INFO - Reading 'ProposalTA.bcf'
+[117] Biber.pm:994> INFO - Found 83 citekeys in bib section 0
+[123] Biber.pm:4463> INFO - Processing section 0
+[128] Biber.pm:4654> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[131] bibtex.pm:1713> INFO - LaTeX decoding ...
+[165] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'

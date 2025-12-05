@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 11:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 11:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2398,13 +2398,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 730--730
  []
 
 
-Overfull \hbox (9.07692pt too wide) in paragraph at lines 730--730
-[]|\TU/TimesNewRoman(0)/m/n/12 Perbandingan
+Overfull \hbox (1.74684pt too wide) in paragraph at lines 730--730
+[]|\TU/TimesNewRoman(0)/m/n/12 Perbanding-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 730--730
-\TU/TimesNewRoman(0)/m/n/12 pendekatan
+\TU/TimesNewRoman(0)/m/n/12 an pende-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 730--730
+\TU/TimesNewRoman(0)/m/n/12 katan
  []
 
 
@@ -2488,13 +2493,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 733--733
  []
 
 
-Overfull \hbox (17.09254pt too wide) in paragraph at lines 733--734
-[]|\TU/TimesNewRoman(0)/m/it/12 Conversational
+Overfull \hbox (5.75465pt too wide) in paragraph at lines 733--734
+[]|\TU/TimesNewRoman(0)/m/it/12 Conversatio-
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 733--734
-\TU/TimesNewRoman(0)/m/it/12 AI\TU/TimesNewRoman(0)/m/n/12 , \TU/TimesNewRoman(0)/m/it/12 text-to-
+Underfull \hbox (badness 10000) in paragraph at lines 733--734
+\TU/TimesNewRoman(0)/m/it/12 nal AI\TU/TimesNewRoman(0)/m/n/12 ,
  []
 
 
@@ -4134,9 +4139,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
 
 [88]
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 753.
-
 Underfull \hbox (badness 10000) in paragraph at lines 808--808
 []|\TU/TimesNewRoman(0)/m/n/12 Indikator Digital dan
  []
@@ -4152,7 +4154,7 @@ Overfull \hbox (2.5742pt too wide) in paragraph at lines 888--888
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 888--888
-[]|\TU/TimesNewRoman(0)/m/it/12 Missing
+[]|\TU/TimesNewRoman(0)/b/it/12 Missing
  []
 
 
@@ -5264,18 +5266,17 @@ Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
 (rerunfilecheck)             Checksum: 4C23901A5FCEAB7A57932BDCF0318F74;37757.
 
 Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32797 strings out of 473832
- 653558 string characters out of 5729482
- 2066018 words of memory out of 5000000
- 55458 multiletter control sequences out of 15000+600000
- 564727 words of font info for 88 fonts, out of 8000000 for 9000
+ 32793 strings out of 473832
+ 653493 string characters out of 5729482
+ 2066026 words of memory out of 5000000
+ 55456 multiletter control sequences out of 15000+600000
+ 564719 words of font info for 87 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,13n,93p,2461b,6882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

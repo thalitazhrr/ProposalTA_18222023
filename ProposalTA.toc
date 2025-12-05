@@ -464,7 +464,7 @@
 \contentsline {section}{\numberline {III.4}Pemahaman dan Analisis Data (\textit {Data Understanding})}{86}{section.3.4}%
 \contentsline {subsection}{\numberline {III.4.1}Sumber Data dan Arsitektur Penyimpanan}{87}{subsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {III.4.1.1}Domain SALES}{88}{subsubsection.3.4.1.1}%
-\contentsline {subsubsection}{\numberline {III.4.1.2}Domain \texttt {REVENUE}}{89}{subsubsection.3.4.1.2}%
+\contentsline {subsubsection}{\numberline {III.4.1.2}Domain REVENUE}{89}{subsubsection.3.4.1.2}%
 \contentsline {subsubsection}{\numberline {III.4.1.3}Domain DATA\_PROSES}{89}{subsubsection.3.4.1.3}%
 \contentsline {subsubsection}{\numberline {III.4.1.4}Domain TARGET}{90}{subsubsection.3.4.1.4}%
 \contentsline {subsubsection}{\numberline {III.4.1.5}Domain CT0}{90}{subsubsection.3.4.1.5}%

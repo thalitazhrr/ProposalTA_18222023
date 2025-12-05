@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 19:37
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.8)  5 DEC 2025 20:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,14 +1151,14 @@ File: image/CRISP-DM.jpg Graphic file (type bmp)
 [5]
 
 [6]
-Overfull \hbox (2.76767pt too wide) in paragraph at lines 131--132
+Overfull \hbox (2.76767pt too wide) in paragraph at lines 129--130
 []\TU/TimesNewRoman(0)/b/n/12 Sintesis literatur \TU/TimesNewRoman(0)/m/n/12 untuk membangun kerangka teoretis, mengidentifikasi prak-
  []
 
 
 
 [7]
-Overfull \hbox (6.39462pt too wide) in paragraph at lines 151--152
+Overfull \hbox (6.39462pt too wide) in paragraph at lines 149--150
 []\TU/TimesNewRoman(0)/b/n/12 Perancangan antarmuka pengguna\TU/TimesNewRoman(0)/m/n/12 , meliputi pembuatan \TU/TimesNewRoman(0)/m/it/12 wireframe \TU/TimesNewRoman(0)/m/n/12 dan \TU/TimesNewRoman(0)/m/it/12 moc-
  []
 
@@ -1167,12 +1167,10 @@ Overfull \hbox (6.39462pt too wide) in paragraph at lines 151--152
 [8]) (./Bab II - Studi-Literatur.tex
 
 [9]
-
-[10]
 Bab II.
 
 
-[11
+[10
 
 ]
 
@@ -1183,26 +1181,26 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 27.
 
 
 
-[12]
+[11]
 Overfull \hbox (2.23953pt too wide) in paragraph at lines 37--38
 \TU/TimesNewRoman(0)/m/n/12 Lapisan semantik memiliki lima komponen inti yang bertindak sebagai fondasi struk-
  []
 
 
 
-[13]
+[12]
 File: image/rbq.jpg Graphic file (type bmp)
 <image/rbq.jpg>
 
 
-[14]
+[13]
 
-[15]
+[14]
 File: image/pbi.png Graphic file (type bmp)
 <image/pbi.png>
 
 
-[16]
+[15]
 Overfull \hbox (3.50125pt too wide) in paragraph at lines 97--98
 \TU/TimesNewRoman(0)/m/n/12 manfaatkan arsitektur jaringan saraf dengan mekanisme perhatian diri (\TU/TimesNewRoman(0)/m/it/12 self-attention\TU/TimesNewRoman(0)/m/n/12 )
  []
@@ -1214,6 +1212,8 @@ Overfull \hbox (0.85086pt too wide) in paragraph at lines 97--98
 
 
 
+[16]
+
 [17]
 
 [18]
@@ -1221,29 +1221,29 @@ Overfull \hbox (0.85086pt too wide) in paragraph at lines 97--98
 [19]
 
 [20]
-
-[21]
 Overfull \hbox (4.40048pt too wide) in paragraph at lines 182--183
 \TU/TimesNewRoman(0)/m/n/12 bagai contoh, jika ditemukan frekuensi tinggi kesalahan pada sel (Penjualan-Bulanan,
  []
 
 
 
-[22]
+[21]
 
-[23]
+[22]
 File: image/nlg.png Graphic file (type bmp)
 <image/nlg.png>
 
 
-[24]
+[23]
 
-[25]
+[24]
 Overfull \hbox (1.95503pt too wide) in paragraph at lines 270--271
 \TU/TimesNewRoman(0)/m/n/12 berlapis ([][][]IT Convergence [][]2024[][][][]). Strategi pertama adalah enkripsi data dengan meng-
  []
 
 
+
+[25]
 
 [26]
 
@@ -1252,21 +1252,19 @@ Overfull \hbox (1.95503pt too wide) in paragraph at lines 270--271
 [28]
 
 [29]
-
-[30]
 File: image/timeseries.png Graphic file (type bmp)
 <image/timeseries.png>
 
 
-[31]
+[30]
 
-[32]
+[31]
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 381.
 
 
 
-[33]
+[32]
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 407.
 
@@ -1277,7 +1275,7 @@ Overfull \hbox (4.58589pt too wide) in paragraph at lines 407--408
 
 
 
-[34]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 450--451
 []\TU/TimesNewRoman(0)/m/n/12 Menangkap de-
  []
@@ -1969,11 +1967,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
 
 
-[35] [36] [37] [38]
+[34] [35] [36] [37]
+
+[38]
 
 [39]
-
-[40]
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 587.
 
@@ -1982,28 +1980,28 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 594.
 
 
 
-[41]
+[40]
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 607.
 
 
 
-[42]
+[41]
 
-[43]
+[42]
 Overfull \hbox (0.32822pt too wide) in paragraph at lines 648--649
 \TU/TimesNewRoman(0)/m/n/12 bandingkan validasi silang standar (misalnya \TU/TimesNewRoman(0)/m/it/12 k-fold\TU/TimesNewRoman(0)/m/n/12 ), yang dapat menghasilkan \TU/TimesNewRoman(0)/m/it/12 over-
  []
 
 
 
-[44]
+[43]
 
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 686.
 
 
 
-[45]
+[44]
 Overfull \hbox (0.88211pt too wide) in paragraph at lines 694--695
 \TU/TimesNewRoman(0)/m/n/12 Prediksi \TU/TimesNewRoman(0)/m/it/12 customer churn \TU/TimesNewRoman(0)/m/n/12 menggunakan algoritma pembelajaran mesin seperti \TU/TimesNewRoman(0)/m/it/12 XGBo-
  []
@@ -2015,7 +2013,7 @@ Overfull \hbox (3.55203pt too wide) in paragraph at lines 700--701
 
 
 
-[46]
+[45]
 Overfull \hbox (5.4944pt too wide) in alignment at lines 702--707
  [] [] [] [] [] 
  []
@@ -2645,30 +2643,30 @@ Overfull \hbox (5.4944pt too wide) in alignment at lines 716--742
  [] [] [] [] [] 
  []
 
-[47] [48]
+[46] [47]
 
-[49]) (./Bab III - Analisis-Masalah.tex
+[48]) (./Bab III - Analisis-Masalah.tex
 
-[50]
+[49]
 Bab III.
 
 
-[51
+[50
 
 ]
+
+[51]
 
 [52]
 
 [53]
-
-[54]
 Overfull \hbox (0.21024pt too wide) in paragraph at lines 113--114
 []\TU/TimesNewRoman(0)/m/n/12 Dasbor \TU/TimesNewRoman(0)/m/it/12 business intelligence \TU/TimesNewRoman(0)/m/n/12 yang tersedia sering kali dirancang dengan asum-
  []
 
 
 
-[55]
+[54]
 Overfull \hbox (3.45673pt too wide) in alignment at lines 128--134
  [] [] [] 
  []
@@ -2745,9 +2743,9 @@ Overfull \hbox (3.45673pt too wide) in alignment at lines 148--210
 
 
 
-[56] [57] [58]
+[55] [56] [57]
 
-[59]
+[58]
 Overfull \hbox (3.45673pt too wide) in alignment at lines 220--226
  [] [] [] 
  []
@@ -2797,14 +2795,14 @@ Overfull \hbox (3.45673pt too wide) in alignment at lines 240--272
  [] [] [] 
  []
 
-[60] [61] [62] [63]
+[59] [60] [61] [62]
 Overfull \hbox (0.88016pt too wide) in paragraph at lines 286--287
 \TU/TimesNewRoman(0)/m/n/12 Dalam rangka meningkatkan efisiensi analisis dan prediksi kinerja bisnis serta meng-
  []
 
 
 
-[64]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\TU/TimesNewRoman(0)/b/n/12 Nama
  []
@@ -3714,11 +3712,11 @@ Overfull \hbox (1.66586pt too wide) in alignment at lines 310--399
  [] [] [] [] [] 
  []
 
-[65] [66] [67]
+[64] [65] [66]
+
+[67]
 
 [68]
-
-[69]
 Underfull \hbox (badness 5578) in paragraph at lines 453--453
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -3730,7 +3728,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 456--456
 
 
 
-[70] [71]
+[69] [70]
 Underfull \hbox (badness 5578) in paragraph at lines 491--491
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -3747,7 +3745,7 @@ Underfull \hbox (badness 1117) in paragraph at lines 497--498
 
 
 
-[72] [73] [74] [75]
+[71] [72] [73] [74]
 Underfull \hbox (badness 5578) in paragraph at lines 529--529
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -3764,7 +3762,7 @@ Underfull \hbox (badness 2229) in paragraph at lines 535--536
 
 
 
-[76] [77]
+[75] [76]
 Underfull \hbox (badness 5578) in paragraph at lines 567--567
 []|\TU/TimesNewRoman(0)/m/it/12 Customer \TU/TimesNewRoman(0)/m/n/12 (Penggu-
  []
@@ -3776,7 +3774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 570--570
 
 
 
-[78] [79] [80] [81]
+[77] [78] [79] [80]
 Overfull \hbox (5.4908pt too wide) in paragraph at lines 586--586
 []|\TU/TimesNewRoman(0)/b/it/12 Customer| 
  []
@@ -4103,13 +4101,13 @@ Underfull \hbox (badness 3746) in paragraph at lines 633--634
 
 
 
-[82] [83]
+[81] [82]
+
+[83]
 
 [84]
 
 [85]
-
-[86]
 Underfull \hbox (badness 10000) in paragraph at lines 698--698
 []|\TU/TimesNewRoman(0)/b/n/12 Jumlah Aturan
  []
@@ -4126,7 +4124,7 @@ Underfull \hbox (badness 1320) in paragraph at lines 708--709
 
 
 
-[87]
+[86]
 File: image/detailrb.png Graphic file (type bmp)
 <image/detailrb.png>
 
@@ -4141,16 +4139,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 746--747
 
 
 
-[88]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 808--808
 []|\TU/TimesNewRoman(0)/m/n/12 Indikator Digital dan
  []
 
 
 
-[89]
+[88]
 
-[90]
+[89]
 Overfull \hbox (2.5742pt too wide) in paragraph at lines 888--888
 []|\TU/TimesNewRoman(0)/b/n/12 Kelengkapan
  []
@@ -4167,7 +4165,7 @@ Overfull \hbox (14.0303pt too wide) in paragraph at lines 886--901
 
 
 
-[91]
+[90]
 Underfull \hbox (badness 10000) in paragraph at lines 937--938
 []|\TU/lmtt/m/n/12 PRODTYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 PRODUCT_TYPE\TU/TimesNewRoman(0)/m/n/12 , \TU/lmtt/m/n/12 SERVICE_TYPE\TU/TimesNewRoman(0)/m/n/12 ,
  []
@@ -4182,9 +4180,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[92]
+[91]
 
-[93]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 975--975
 []|\TU/TimesNewRoman(0)/m/n/12 Metrik Numerik
  []
@@ -4211,7 +4209,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 981--982
 
 
 
-[94]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 1013--1013
 []|\TU/TimesNewRoman(0)/m/n/12 Standardisasi Z-
  []
@@ -4286,7 +4284,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1072--1072
 
 
 
-[95]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 1097--1097
 []|\TU/lmtt/m/n/12 LAG_1, LAG_3, LAG_6,
  []
@@ -4334,13 +4332,13 @@ Overfull \hbox (0.18094pt too wide) in paragraph at lines 1138--1139
 
 
 
-[96]
+[95]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[97]
+[96]
 Overfull \hbox (8.94656pt too wide) in paragraph at lines 1168--1169
 \TU/TimesNewRoman(0)/m/n/12 Tahap pemodelan data (\TU/TimesNewRoman(0)/m/it/12 modeling\TU/TimesNewRoman(0)/m/n/12 ) merupakan fase keempat dalam metodologi CRISP-
  []
@@ -4365,7 +4363,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[98]
+[97]
 Underfull \hbox (badness 10000) in paragraph at lines 1210--1210
 []|$\OML/cmm/m/it/12 z[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 ^^[\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 W[] \OMS/cmsy/m/n/12 ^^A
  []
@@ -4377,7 +4375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1212--1212
 
 
 
-[99]
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
 []|\TU/TimesNewRoman(0)/b/n/12 Lapisan Kompo-
  []
@@ -4470,7 +4468,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[100]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 1333--1333
 []|\TU/TimesNewRoman(0)/m/it/12 Mean Squared
  []
@@ -4510,9 +4508,9 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[101]
+[100]
 
-[102]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 1381--1381
 []|\TU/TimesNewRoman(0)/b/n/12 Komponen Sis-
  []
@@ -4554,25 +4552,25 @@ Overfull \hbox (7.3208pt too wide) in paragraph at lines 1379--1390
 
 ) (./Bab IV - Desain-Konsep-Solusi.tex
 
-[103]
+[102]
 Bab IV.
 
 
-[104
+[103
 
 ]
 File: image/bpmnasis.png Graphic file (type bmp)
 <image/bpmnasis.png>
 
 
-[105]
+[104]
 
-[106]
+[105]
 File: image/bpmntobe.png Graphic file (type bmp)
 <image/bpmntobe.png>
 
 
-[107]
+[106]
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []|\TU/TimesNewRoman(0)/m/n/12 Waktu Res-
  []
@@ -4684,11 +4682,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
 
 
+[107]
+
 [108]
 
 [109]
-
-[110]
 Overfull \hbox (5.96378pt too wide) in paragraph at lines 119--120
 []\TU/TimesNewRoman(0)/b/it/12 Maintainability \TU/TimesNewRoman(0)/m/n/12 karena setiap \TU/TimesNewRoman(0)/m/it/12 service \TU/TimesNewRoman(0)/m/n/12 dapat dikembangkan, diuji, dan di-\TU/TimesNewRoman(0)/m/it/12 deploy
  []
@@ -4697,11 +4695,11 @@ File: image/arsitektur.png Graphic file (type bmp)
 <image/arsitektur.png>
 
 
-[111]) (./Bab V - Rencana-Selanjutnya.tex
+[110]) (./Bab V - Rencana-Selanjutnya.tex
+
+[111]
 
 [112]
-
-[113]
 Bab V.
 
 Overfull \hbox (1.54617pt too wide) in paragraph at lines 6--7
@@ -4760,16 +4758,16 @@ Underfull \hbox (badness 6978) in paragraph at lines 89--89
 
 
 
-[114
+[113
 
-] [115] [116]
+] [114] [115]
 Overfull \hbox (1.95242pt too wide) in paragraph at lines 99--100
 []\TU/TimesNewRoman(0)/m/n/12 Dalam kebutuhan pelatihan model yang lebih intensif atau eksperimen dengan \TU/TimesNewRoman(0)/m/it/12 hyper-
  []
 
 
 
-[117]
+[116]
 Underfull \hbox (badness 3058) in paragraph at lines 121--121
 []|\TU/TimesNewRoman(0)/m/n/8 Investigasi dan Pengum-
  []
@@ -4851,27 +4849,27 @@ Overfull \hbox (50.74037pt too wide) in paragraph at lines 149--180
 
 
 
+[117]
+
 [118]
 
 [119]
 
 [120]
-
-[121]
 Overfull \hbox (1.7786pt too wide) in paragraph at lines 290--291
 \TU/TimesNewRoman(0)/m/n/12 Modul peramalan deret waktu dievaluasi menggunakan protokol \TU/TimesNewRoman(0)/m/it/12 rolling-origin back-
  []
 
 
 
-[122]
+[121]
 Overfull \hbox (0.61258pt too wide) in paragraph at lines 335--336
 []\TU/TimesNewRoman(0)/m/n/12 Pelaporan hasil per horizon dan per entitas prioritas (median dan rentang antar-
  []
 
 
 
-[123]
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 408--408
 \TU/TimesNewRoman(0)/m/n/12 historis untuk
  []
@@ -5168,32 +5166,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
 
 
-[124] [125])
+[123] [124])
 
-[126]
+[125]
 
-[127
+[126
 
 
 ]
 
-[128]
+[127]
 
 Package biblatex Warning: Month out of range or not an integer
 (biblatex)                at entry 'Intimedia2024' on input line 423.
 
 
 
-[129]
+[128]
 Overfull \hbox (8.21161pt too wide) in paragraph at lines 423--423
 [][]\TU/TimesNewRoman(0)/m/n/12 Labs, dbt. 2024. “  Understanding Semantic Layer Architecture”. Diakses pada Novem-
  []
 
 
 
-[130]
+[129]
 
-[131]
+[130]
 Overfull \hbox (16.88808pt too wide) in paragraph at lines 423--423
 \TU/TimesNewRoman(0)/m/n/12 Comparative Analysis and Performance Evaluation”. \TU/TimesNewRoman(0)/m/it/12 Scientific African \TU/TimesNewRoman(0)/m/n/12 28:e02649.
  []
@@ -5210,18 +5208,18 @@ Overfull \hbox (39.24355pt too wide) in paragraph at lines 423--423
 
 
 
-[132]
+[131]
 Overfull \hbox (29.48573pt too wide) in paragraph at lines 423--423
 \TU/TimesNewRoman(0)/m/n/12 vey of Evaluation Metrics Used for NLG Systems”. \TU/TimesNewRoman(0)/m/it/12 arXiv preprint arXiv:2008.12009.[] 
  []
 
 
 
-[133]
+[132]
 
-[134] (./Lampiran-A.tex
+[133] (./Lampiran-A.tex
 
-[135]
+[134]
 Underfull \hbox (badness 1708) in paragraph at lines 33--34
 \TU/TimesNewRoman(0)/m/n/12 memiliki enkripsi, kontrol akses berbasis
  []
@@ -5231,7 +5229,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--36
 []|\TU/TimesNewRoman(0)/m/n/12 Apa target keberhasilan
  []
 
-[136
+[135
 
 ]
 Underfull \hbox (badness 1490) in paragraph at lines 60--60
@@ -5258,14 +5256,14 @@ Underfull \hbox (badness 2376) in paragraph at lines 72--73
 []|\TU/TimesNewRoman(0)/m/n/12 Gunakan Tools bebas untuk deployment.
  []
 
-[137])
+[136])
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 403.
 See the caption package documentation for explanation.
 
 
 
-[138] (./ProposalTA.aux)
+[137] (./ProposalTA.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -5277,9 +5275,7 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `ProposalTA.out' has not changed.
 (rerunfilecheck)             Checksum: 18AA990B01DF33AD98043BDAF1B99DA0;37757.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ProposalTA
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 \openout1 = `ProposalTA.run.xml'.
@@ -5288,10 +5284,10 @@ Package logreq Info: Writing requests to 'ProposalTA.run.xml'.
 Here is how much of TeX's memory you used:
  32815 strings out of 473832
  654267 string characters out of 5729482
- 2066080 words of memory out of 5000000
+ 2066078 words of memory out of 5000000
  55476 multiletter control sequences out of 15000+600000
  564727 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  79i,13n,93p,2473b,6882s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ProposalTA.pdf (149 pages).
+Output written on ProposalTA.pdf (148 pages).

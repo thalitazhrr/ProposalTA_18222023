@@ -54,9 +54,9 @@ Implementasi \textit{semantic layer} yang efektif memungkinkan organisasi untuk 
 
 \subsection{Konsep \textit{Rule-Based Query} dalam Sistem Basis Data}
 
-Secara historis, optimisasi kueri pada sistem manajemen basis data relasional banyak mengandalkan pendekatan berbasis aturan (\textit{rule-based}) dan berbasis biaya (\textit{cost-based}) untuk memilih rencana eksekusi kueri yang efisien \autocite{Yang2024MLQueryOpt,Shah2025AIDB}. Pendekatan \textit{rule-based} menggunakan seperangkat aturan heuristik yang ditetapkan pakar, seperti urutan penerapan seleksi dan proyeksi, penggunaan indeks, atau restrukturisasi \textit{join}, untuk menyederhanakan dan mengoptimalkan kueri tanpa melakukan estimasi biaya numerik yang rinci \autocite{Yang2024MLQueryOpt}. Aturan-aturan tersebut, misalnya, dapat mengharuskan operator seleksi ditempatkan sedekat mungkin dengan sumber data atau menganjurkan penggunaan indeks ketika kondisi penyaringan sesuai, sehingga mengurangi jumlah baris yang harus diproses pada tahap-tahap berikutnya.
+Secara historis, optimisasi kueri pada sistem manajemen basis data relasional banyak mengandalkan pendekatan berbasis aturan (\textit{rule-based}) dan berbasis biaya (\textit{cost-based}) untuk memilih rencana eksekusi kueri yang efisien \autocite{Yang2024MLQueryOpt,Shah2025AIDB}. Pendekatan \textit{rule-based} menggunakan seperangkat aturan heuristik yang ditetapkan pakar, seperti urutan penerapan seleksi dan proyeksi, penggunaan indeks, atau restrukturisasi \textit{join}, untuk menyederhanakan dan mengoptimalkan kueri tanpa melakukan estimasi biaya numerik yang rinci \autocite{Yang2024MLQueryOpt}. Aturan-aturan tersebut, misalnya, dapat mengharuskan operator seleksi ditempatkan sedekat mungkin dengan sumber data atau menganjurkan penggunaan indeks ketika kondisi penyaringan sesuai sehingga mengurangi jumlah baris yang harus diproses pada tahap-tahap berikutnya.
 
-Meskipun perkembangan terkini banyak mengarah pada optimisasi kueri berbasis kecerdasan buatan, sejumlah kajian menegaskan bahwa teknik berbasis aturan masih relevan dan sering digunakan sebagai fondasi, terutama untuk pola kueri yang berulang dan terstruktur dengan baik \autocite{Shah2025AIDB,Lubis2025ERDOpt}. Dalam konteks sistem \textit{Business Intelligence}, aturan-aturan kueri dapat dirancang untuk memetakan permintaan bisnis yang sering muncul (misalnya, ``total penjualan per bulan per segmen pelanggan'') ke pola kueri yang terstandarisasi terhadap gudang data, sehingga mempercepat proses pengambilan data dan menjaga konsistensi hasil analisis.
+Meskipun perkembangan terkini banyak mengarah pada optimisasi kueri berbasis kecerdasan buatan, sejumlah kajian menegaskan bahwa teknik berbasis aturan masih relevan dan sering digunakan sebagai fondasi, terutama untuk pola kueri yang berulang dan terstruktur dengan baik \autocite{Shah2025AIDB,Lubis2025ERDOpt}. Dalam konteks sistem \textit{Business Intelligence}, aturan-aturan kueri dapat dirancang untuk memetakan permintaan bisnis yang sering muncul (misalnya, ``total penjualan per bulan per segmen pelanggan'') ke pola kueri yang terstandarisasi terhadap gudang data sehingga mempercepat proses pengambilan data dan menjaga konsistensi hasil analisis.
 
 \subsection{\textit{Chatbot} Berbasis Aturan dan Pencocokan Pola}
 
@@ -70,7 +70,7 @@ Penelitian terbaru di Indonesia juga mengimplementasikan pendekatan pencocokan p
 
 Dalam konteks \textit{Business Intelligence}, beberapa kajian mengusulkan penggunaan \textit{chatbot} sebagai antarmuka percakapan untuk eksplorasi data dan kolaborasi analitik, dengan komponen percakapan (\textit{conversational agent}) bekerja berdampingan dengan agen eksplorasi data dan agen rekomendasi \autocite{Cherednichenko2023CBIRefModel}. Pendekatan ini sering kali memanfaatkan arsitektur berbasis aturan untuk menerjemahkan permintaan dalam bahasa alami menjadi perintah atau kueri terstruktur terhadap sistem BI dan gudang data. Aturan-aturan tersebut dapat mencakup pemetaan intent tertentu ke templat kueri, pengisian parameter kueri dari entitas yang diekstraksi, serta penentuan agregasi dan dimensi pelaporan berdasarkan frasa waktu atau hierarki bisnis yang disebutkan pengguna.
 
-\textit{Chatbot} berbasis aturan memerlukan basis pengetahuan yang menyimpan aturan-aturan yang dirancang secara manual untuk menjamin kekokohan dan konsistensi perilaku sistem \autocite{Singh2025ChatbotsSurvey}. Dalam kerangka \textit{chatbot} BI, basis pengetahuan ini tidak hanya berisi pasangan pola–jawaban, tetapi juga aturan pemetaan ke \textit{rule-based query engine} yang mengakses gudang data. Studi-studi tersebut mendukung pendekatan yang digunakan dalam penelitian ini, yaitu menggabungkan klasifikasi intent berbasis pola dengan \textit{rule-based query} yang terdokumentasi dengan baik, sehingga sistem dapat menjawab pertanyaan bisnis terstruktur secara andal dan transparan, sembari tetap membuka ruang pengembangan lebih lanjut untuk integrasi teknik pembelajaran mesin yang lebih canggih jika cakupan intent dan kompleksitas kebutuhan analitik meningkat.
+\textit{Chatbot} berbasis aturan memerlukan basis pengetahuan yang menyimpan aturan-aturan yang dirancang secara manual untuk menjamin kekokohan dan konsistensi perilaku sistem \autocite{Singh2025ChatbotsSurvey}. Dalam kerangka \textit{chatbot} BI, basis pengetahuan ini tidak hanya berisi pasangan pola–jawaban, tetapi juga aturan pemetaan ke \textit{rule-based query engine} yang mengakses gudang data. Studi-studi tersebut mendukung pendekatan yang digunakan dalam penelitian ini, yaitu menggabungkan klasifikasi intent berbasis pola dengan \textit{rule-based query} yang terdokumentasi dengan baik sehingga sistem dapat menjawab pertanyaan bisnis terstruktur secara andal dan transparan, sembari tetap membuka ruang pengembangan lebih lanjut untuk integrasi teknik pembelajaran mesin yang lebih canggih jika cakupan intent dan kompleksitas kebutuhan analitik meningkat.
 
 
 % ==============================================================================
@@ -98,7 +98,7 @@ Klasifikasi \textit{intent} berbasis \textit{Transformer} merupakan pendekatan m
 
 Berbagai penelitian melaporkan bahwa model berbasis \textit{Transformer} mampu melampaui pendekatan tradisional seperti LSTM, CNN, maupun metode berbasis fitur manual dalam hal akurasi, skor F1, dan kemampuan menangkap nuansa konteks \autocite{Gehweiler2024IntentModeration}. Studi yang membandingkan BERT, RoBERTa, dan IndoBERT untuk klasifikasi \textit{intent} \textit{chatbot} berbahasa Indonesia menunjukkan bahwa IndoBERT dapat mencapai akurasi hingga sekitar 0{,}94 berkat proses prapelatihan yang selaras dengan struktur bahasa Indonesia dan korpus yang digunakan. Penelitian lain yang memanfaatkan MiniLM dan RoBERTa untuk modul deteksi \textit{intent} dalam asisten percakapan melaporkan peningkatan akurasi 10--15 persen dibandingkan solusi sebelumnya, sekaligus menekankan pentingnya memperhatikan kecepatan inferensi dan kebutuhan perangkat keras saat model \textit{Transformer} diintegrasikan ke dalam sistem produksi \autocite{Ozerova2022IntentModule}.
 
-Perkembangan model bahasa besar berbasis \textit{Transformer} juga mendorong kajian terbaru yang mengevaluasi penggunaan \textit{sentence transformer}, model BERT terkontrasif, dan bahkan model bahasa besar generatif untuk tugas deteksi \textit{intent} pada agen percakapan tugas-orientasi \autocite{Merugu2024IntentLLM,Gehweiler2025IntentSurvey}. Hasil kajian tersebut menyoroti adanya kompromi yang jelas antara kualitas prediksi, kemampuan menangani \textit{intent} di luar cakupan (\textit{out-of-scope}), latensi sistem, serta konsumsi sumber daya komputasi, sehingga pemilihan arsitektur perlu mempertimbangkan kebutuhan dan batasan operasional sistem yang dibangun \autocite{Merugu2024IntentLLM}.
+Perkembangan model bahasa besar berbasis \textit{Transformer} juga mendorong kajian terbaru yang mengevaluasi penggunaan \textit{sentence transformer}, model BERT terkontrasif, dan bahkan model bahasa besar generatif untuk tugas deteksi \textit{intent} pada agen percakapan tugas-orientasi \autocite{Merugu2024IntentLLM,Gehweiler2025IntentSurvey}. Hasil kajian tersebut menyoroti adanya kompromi yang jelas antara kualitas prediksi, kemampuan menangani \textit{intent} di luar cakupan (\textit{out-of-scope}), latensi sistem, serta konsumsi sumber daya komputasi sehingga pemilihan arsitektur perlu mempertimbangkan kebutuhan dan batasan operasional sistem yang dibangun \autocite{Merugu2024IntentLLM}.
 
 Dalam konteks penelitian ini, klasifikasi \textit{intent} berbasis \textit{Transformer} diposisikan sebagai pendekatan yang relevan dan dikaji secara teoretis, tetapi tidak diimplementasikan secara langsung pada prototipe sistem. Pertimbangan utama adalah ruang lingkup pertanyaan yang relatif terbatas pada kebutuhan internal, pola kueri yang cenderung berulang, serta prioritas untuk menjaga efisiensi pemrosesan dan menghemat penggunaan sumber daya komputasi berbiaya tinggi seperti unit pemroses grafis (GPU) \autocite{Ozerova2022IntentModule,Gehweiler2024IntentModeration}. Oleh karena itu, penelitian ini memilih pendekatan klasifikasi \textit{intent} berbasis pola dengan mekanisme nilai keyakinan (\textit{pattern-based intent classification with confidence scoring}) yang lebih ringan secara komputasi, sembari menjadikan pendekatan berbasis \textit{Transformer} sebagai acuan pengembangan lanjutan ketika cakupan \textit{intent} dan beban sistem meningkat di masa mendatang.
 
@@ -128,7 +128,7 @@ Evaluasi performa klasifikasi \textit{intent} dilakukan dengan mengukur beberapa
 
 \subsubsection{Metrik Evaluasi Klasifikasi \textit{Intent} Multi-Kelas}
 
-Model klasifikasi \textit{intent} dalam penelitian ini dievaluasi menggunakan metrik standar yang disesuaikan untuk masalah klasifikasi multi-kelas (38 kelas \textit{intent} yang saling eksklusif), bukan multi-label. Pendekatan evaluasi harus mengakomodasi bahwa setiap kueri pengguna hanya dapat diklasifikasikan ke dalam satu kelas yang benar, sehingga metrik klasifikasi biner harus diperluas menggunakan strategi \textit{one-vs-all} dan agregasi yang tepat \autocite{Grandini2020MultiClassMetrics,EvidentlyMultiClass}.
+Model klasifikasi \textit{intent} dalam penelitian ini dievaluasi menggunakan metrik standar yang disesuaikan untuk masalah klasifikasi multi-kelas (38 kelas \textit{intent} yang saling eksklusif), bukan multi-label. Pendekatan evaluasi harus mengakomodasi bahwa setiap kueri pengguna hanya dapat diklasifikasikan ke dalam satu kelas yang benar sehingga metrik klasifikasi biner harus diperluas menggunakan strategi \textit{one-vs-all} dan agregasi yang tepat \autocite{Grandini2020MultiClassMetrics,EvidentlyMultiClass}.
 
 Perbedaan utama antara klasifikasi multi-kelas dan biner adalah pada interpretasi elemen matriks kebingungan (\textit{confusion matrix}) dan agregasi metrik per-kelas. Dalam 38 kelas, matriks kebingungan berukuran 38×38, dengan setiap baris merepresentasikan kelas hasil prediksi dan setiap kolom merepresentasikan kelas sebenarnya. Prediksi yang benar terletak pada diagonal utama, sedangkan prediksi salah tersebar pada sel off-diagonal. Pola sebaran kesalahan pada matriks kebingungan multi-kelas memberikan wawasan berharga tentang persamaan atau kebingungan antar kelas, misalnya prediksi kelas ``Penjualan-Bulanan'' yang sering disalahklasifikasikan sebagai ``Penjualan-Triwulanan'' menunjukkan kesamaan semantik yang perlu ditangani dengan aturan atau templat yang lebih jelas \autocite{EvidentlyMultiClass}.
 
@@ -144,7 +144,7 @@ Dalam menghitung metrik per kelas-\(i\), masalah klasifikasi multi-kelas diubah 
 
 Dalam konteks Agregasi Metrik (\textit{Macro-Average} dengan \textit{Micro-Average}) dan adanya 38 kelas dalam sistem ini, diperlukan strategi agregasi untuk memperoleh metrik keseluruhan performa sistem. Dua pendekatan utama yang umum digunakan dalam klasifikasi multi-kelas adalah \textit{macro-averaging} dan \textit{micro-averaging} \autocite{EvidentlyMultiClass}
 
-Pendekatan \textbf{\textit{Micro-Averaging}} ini menghitung metrik (\textit{Precision}, \textit{Recall}, \textit{F1-Score}) untuk setiap kelas secara individual, kemudian mengambil rata-rata aritmatik dari 38 nilai metrik tersebut. Strategi ini memberikan bobot yang sama untuk setiap kelas, sehingga mengutamakan performa pada kelas minoritas dan mencegah kelas mayoritas mendominasi hasil evaluasi \autocite{Grandini2020MultiClassMetrics}.
+Pendekatan \textbf{\textit{Micro-Averaging}} ini menghitung metrik (\textit{Precision}, \textit{Recall}, \textit{F1-Score}) untuk setiap kelas secara individual, kemudian mengambil rata-rata aritmatik dari 38 nilai metrik tersebut. Strategi ini memberikan bobot yang sama untuk setiap kelas sehingga mengutamakan performa pada kelas minoritas dan mencegah kelas mayoritas mendominasi hasil evaluasi \autocite{Grandini2020MultiClassMetrics}.
 
 \begin{align}
 \text{Presisi}_{\text{makro}} &= \frac{1}{38}\sum_{i=1}^{38} \text{Presisi}_i \\
@@ -152,7 +152,7 @@ Pendekatan \textbf{\textit{Micro-Averaging}} ini menghitung metrik (\textit{Prec
 \text{Skor-F1}_{\text{makro}} &= \frac{1}{38}\sum_{i=1}^{38} \text{Skor-F1}_i
 \end{align}
 
-Pendekatan \textbf{\textit{Micro-Averaging}} menjumlahkan seluruh nilai TP, FP, dan FN dari semua kelas terlebih dahulu, kemudian menghitung metrik secara global berdasarkan jumlahan tersebut. Strategi ini memberikan bobot yang sama untuk setiap sampel, sehingga metrik cenderung didominasi oleh kelas mayoritas dan mengabaikan performa pada kelas minoritas. Dalam klasifikasi multi-kelas, mikro-rata presisi = mikro-rata daya ingat = akurasi\autocite{EvidentlyMultiClass}.
+Pendekatan \textbf{\textit{Micro-Averaging}} menjumlahkan seluruh nilai TP, FP, dan FN dari semua kelas terlebih dahulu, kemudian menghitung metrik secara global berdasarkan jumlahan tersebut. Strategi ini memberikan bobot yang sama untuk setiap sampel sehingga metrik cenderung didominasi oleh kelas mayoritas dan mengabaikan performa pada kelas minoritas. Dalam klasifikasi multi-kelas, mikro-rata presisi = mikro-rata daya ingat = akurasi\autocite{EvidentlyMultiClass}.
 
 \begin{align}
 \text{Presisi}_{\text{mikro}} &= \frac{\sum_{i=1}^{38} \text{TP}_i}{\sum_{i=1}^{38} (\text{TP}_i + \text{FP}_i)} \\
@@ -279,7 +279,7 @@ Teknik mitigasi mencakup pemfilteran output untuk memeriksa dan menyensor inform
 
 \subsection{Evaluasi Kualitas \textit{Natural Language Generation}}
 
-Evaluasi kualitas keluaran \textit{Natural Language Generation} (NLG) merupakan aspek penting untuk memastikan bahwa teks yang dihasilkan tidak hanya benar secara faktual, tetapi juga mudah dipahami, wajar, dan bermanfaat bagi pengguna. Dalam konteks penelitian ini, fungsi utama modul NLG adalah menyajikan hasil analisis dan prediksi dalam bentuk jawaban yang lebih ramah pengguna, sehingga penilaian kualitas dari sudut pandang pengguna menjadi sangat sentral. Meskipun demikian, sejumlah penelitian terdahulu menunjukkan bahwa kombinasi antara metrik evaluasi otomatis dan penilaian manusia (subjektif) memberikan gambaran yang lebih komprehensif mengenai kualitas keluaran NLG \autocite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey,vanDerLee2021HumanEval}.
+Evaluasi kualitas keluaran \textit{Natural Language Generation} (NLG) merupakan aspek penting untuk memastikan bahwa teks yang dihasilkan tidak hanya benar secara faktual, tetapi juga mudah dipahami, wajar, dan bermanfaat bagi pengguna. Dalam konteks penelitian ini, fungsi utama modul NLG adalah menyajikan hasil analisis dan prediksi dalam bentuk jawaban yang lebih ramah pengguna sehingga penilaian kualitas dari sudut pandang pengguna menjadi sangat sentral. Meskipun demikian, sejumlah penelitian terdahulu menunjukkan bahwa kombinasi antara metrik evaluasi otomatis dan penilaian manusia (subjektif) memberikan gambaran yang lebih komprehensif mengenai kualitas keluaran NLG \autocite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey,vanDerLee2021HumanEval}.
 
 \subsubsection{Metrik Otomatis untuk Evaluasi NLG}
 
@@ -323,7 +323,7 @@ Dimensi-dimensi tersebut dapat diukur menggunakan skala Likert oleh sejumlah pen
 
 \subsubsection{Kriteria Performa NLG dalam Literatur}
 
-Survei-survei terkini mengenai evaluasi NLG menekankan bahwa tidak ada satu nilai ambang (\textit{threshold}) numerik yang bersifat universal untuk menyatakan bahwa suatu sistem ``cukup baik'', karena nilai metrik sangat bergantung pada tugas, data, dan desain sistem yang dievaluasi \autocite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey,Gao2024LLMNLG}. Oleh karena itu, karya-karya ilmiah umumnya:
+Survei-survei terkini mengenai evaluasi NLG menekankan bahwa tidak ada satu nilai ambang (\textit{threshold}) numerik yang bersifat universal untuk menyatakan bahwa suatu sistem ``cukup baik'' karena nilai metrik sangat bergantung pada tugas, data, dan desain sistem yang dievaluasi \autocite{Celikyilmaz2020EvalTextGen,Sai2020NLGSurvey,Gao2024LLMNLG}. Oleh karena itu, karya-karya ilmiah umumnya:
 \begin{enumerate}[label=\alph*.]
     \item Membandingkan metrik otomatis (seperti BLEU, ROUGE, BERTScore) relatif terhadap model dasar atau pendekatan lain pada tugas yang sama, dan
     \item Menggunakan penilaian manusia sebagai landasan utama, dengan rata-rata skor pada skala 1--5 atau 1--7 untuk dimensi seperti kewajaran, kelancaran, dan kecukupan, dengan skor rata-rata yang mendekati ujung atas skala lazim dipandang sebagai indikasi kualitas tinggi \autocite{vanDerLee2021HumanEval,Celikyilmaz2020EvalTextGen}.
@@ -413,7 +413,7 @@ Berbeda dengan RNN yang memproses data secara sekuensial, TFT dapat memproses se
 
 \subsubsection{Model Hibrida dan \textit{Ensemble}}
 
-Penelitian terkini menunjukkan bahwa kombinasi hibrida dari arsitektur yang berbeda sering memberikan hasil yang lebih baik daripada model tunggal, karena setiap arsitektur menangkap aspek berbeda dari pola temporal dalam data \autocite{Yunita2025NNComparison,Zhang2024ComprehensiveTSFSurvey}.
+Penelitian terkini menunjukkan bahwa kombinasi hibrida dari arsitektur yang berbeda sering memberikan hasil yang lebih baik daripada model tunggal karena setiap arsitektur menangkap aspek berbeda dari pola temporal dalam data \autocite{Yunita2025NNComparison,Zhang2024ComprehensiveTSFSurvey}.
 
 Model hibrida \textbf{GRU-LSTM} menggabungkan keunggulan komplementer dari kedua arsitektur berulang. Studi pada prediksi suhu harian menunjukkan bahwa model hibrida GRU-LSTM mencapai RMSE sebesar 0{,}07499 dan MAE sebesar 0{,}0578 pada skenario masukan 15 hari, dengan \(R^2\) mendekati 1 (0{,}9937), menunjukkan performa yang sangat baik \autocite{Diqi2023GRULSTMHybrid}. Keuntungan pendekatan hibrida terletak pada fleksibilitas untuk memanfaatkan kapabilitas pemrosesan lokal GRU yang efisien sekaligus pembelajaran dependensi jangka panjang yang kuat dari LSTM.
 
@@ -570,7 +570,7 @@ Evaluasi performa model peramalan deret waktu merupakan langkah kritis untuk mem
 
 \subsubsection{Metrik Evaluasi \textit{Forecasting}}
 
-Model peramalan deret waktu multivariat dievaluasi menggunakan empat metrik utama yang komprehensif: \textit{Mean Absolute Error} (MAE), \textit{Root Mean Square Error} (RMSE), \textit{Symmetric Mean Absolute Percentage Error} (sMAPE), dan \textit{Mean Absolute Scaled Error} (MASE) \autocite{Petropoulos2023ForecastEval}. Setiap metrik memberikan perspektif berbeda terhadap akurasi prediksi, sehingga kombinasinya menghasilkan penilaian yang lebih robust dan komprehensif.
+Model peramalan deret waktu multivariat dievaluasi menggunakan empat metrik utama yang komprehensif: \textit{Mean Absolute Error} (MAE), \textit{Root Mean Square Error} (RMSE), \textit{Symmetric Mean Absolute Percentage Error} (sMAPE), dan \textit{Mean Absolute Scaled Error} (MASE) \autocite{Petropoulos2023ForecastEval}. Setiap metrik memberikan perspektif berbeda terhadap akurasi prediksi sehingga kombinasinya menghasilkan penilaian yang lebih robust dan komprehensif.
 
 \textit{Mean Absolute Error} (MAE) mengukur rata-rata nilai absolut kesalahan prediksi:
 \begin{equation}
@@ -591,14 +591,14 @@ RMSE memberikan penalti yang lebih besar untuk kesalahan yang lebih besar, menja
 \text{sMAPE} = \frac{100\%}{n} \sum_{i=1}^n \frac{2|y_i - \hat{y}_i|}{|y_i| + |\hat{y}_i|}
 \end{equation}
 
-sMAPE lebih stabil daripada MAPE (\textit{Mean Absolute Percentage Error}) ketika nilai aktual mendekati nol, karena pembagi mencakup baik nilai aktual maupun nilai prediksi. Hal ini membuat sMAPE lebih cocok untuk data multivariat dengan skala dan nilai yang bervariasi \autocite{Petropoulos2023ForecastEval}.
+sMAPE lebih stabil daripada MAPE (\textit{Mean Absolute Percentage Error}) ketika nilai aktual mendekati nol karena pembagi mencakup baik nilai aktual maupun nilai prediksi. Hal ini membuat sMAPE lebih cocok untuk data multivariat dengan skala dan nilai yang bervariasi \autocite{Petropoulos2023ForecastEval}.
 
 \textit{Mean Absolute Scaled Error} (MASE) menormalkan kesalahan terhadap model referensi sederhana:
 \begin{equation}
 \text{MASE} = \frac{\text{MAE}}{\text{MAE}_{\text{baseline}}}
 \end{equation}
 
-MASE memudahkan perbandingan antar-deret waktu yang berbeda skala dan antar-model yang berbeda, karena kesalahan dinormalkan relatif terhadap garis dasar (\textit{baseline}). MASE bernilai kurang dari 1 menunjukkan bahwa model mengungguli garis dasar, sedangkan nilai lebih dari 1 menunjukkan performa yang lebih buruk \autocite{Petropoulos2023ForecastEval}.
+MASE memudahkan perbandingan antar-deret waktu yang berbeda skala dan antar-model yang berbeda karena kesalahan dinormalkan relatif terhadap garis dasar (\textit{baseline}). MASE bernilai kurang dari 1 menunjukkan bahwa model mengungguli garis dasar, sedangkan nilai lebih dari 1 menunjukkan performa yang lebih buruk \autocite{Petropoulos2023ForecastEval}.
 
 Dalam formula-formula di atas, \(y_i\) adalah nilai aktual, \(\hat{y}_i\) adalah nilai prediksi, dan \(n\) adalah jumlah observasi.
 

@@ -862,6 +862,82 @@
       \field{volume}{X}
       \field{year}{2024}
     \endentry
+    \entry{hengst2024conformal}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0740256089d32d104fdf47a637f2f554}{%
+           family={Hengst},
+           familyi={H\bibinitperiod},
+           given={Floris},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{fullhash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{fullhashraw}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{bibnamehash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{authorbibnamehash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{authornamehash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{authorfullhash}{c62184db768581eaefadf5f0edf3b8b1}
+      \strng{authorfullhashraw}{c62184db768581eaefadf5f0edf3b8b1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Findings of the Association for Computational Linguistics: NAACL 2024}
+      \field{title}{Conformal Intent Classification and Clarification for Fast and Accurate Intent Recognition}
+      \field{year}{2024}
+      \field{pages}{2410\bibrangedash 2418}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://aclanthology.org/2024.findings-naacl.156.pdf
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2024.findings-naacl.156.pdf
+      \endverb
+    \endentry
+    \entry{hsu2023chatbotsatisfaction}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d1baab8b152e17fe4ce40b1bcd8d0130}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chin-Lung},
+           giveni={C\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de19ad965f22eaaa1b3b720c7df6f643}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Judy\bibnamedelima Chuan-Chuan},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{fullhash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{fullhashraw}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{bibnamehash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{authorbibnamehash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{authornamehash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{authorfullhash}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \strng{authorfullhashraw}{399ad9834f27dec3ba22ce7cb6194e2a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{author}
+      \field{journaltitle}{Journal of Retailing and Consumer Services}
+      \field{title}{Understanding the User Satisfaction and Loyalty of Customer Service Chatbots}
+      \field{volume}{71}
+      \field{year}{2023}
+      \field{pages}{103211}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jretconser.2022.103211
+      \endverb
+    \endentry
     \entry{huang2021chatbot}{thesis}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1f890a0bfb0194138f0e074768094250}{%
@@ -1499,45 +1575,45 @@
     \endentry
     \entry{Mena2023}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=eead2d6fe3176b6830253af5ba0b1574}{%
+        {{un=0,uniquepart=base,hash=af7584ec2acf70e4eeacdcc6d7f0f48e}{%
            family={Mena},
            familyi={M\bibinitperiod},
-           given={C.\bibnamedelimi G.},
-           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Gary},
+           giveni={G\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=bdb7dbe596bbca6afd04f500ebf1ca45}{%
-           family={De\bibnamedelima Caigny},
-           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5966346f43ec6cf84ead504b6ddd2c2a}{%
+        {{un=0,uniquepart=base,hash=c32e210116be04b0c1dc12fc29caaad5}{%
            family={Coussement},
            familyi={C\bibinitperiod},
-           given={K.},
+           given={Kristof},
            giveni={K\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=f189120598d324482d24eabcb6ab1bff}{%
+        {{un=0,uniquepart=base,hash=0ebe8462dbe4c72b1de247991f9f8ff3}{%
            family={De\bibnamedelima Bock},
            familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={K.\bibnamedelimi W.},
+           given={Koen\bibnamedelima W.},
            giveni={K\bibinitperiod\bibinitdelim W\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=2ef8545eccc82340776d291a71b689bf}{%
+        {{un=0,uniquepart=base,hash=46675ed593b2f3c84b27c9b387253ae7}{%
+           family={De\bibnamedelima Caigny},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Arno},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9bccaa7649c82b23838f00ba291960cc}{%
            family={Lessmann},
            familyi={L\bibinitperiod},
-           given={S.},
+           given={Stefan},
            giveni={S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{297d8ee7499f63b6a5122f5366ba56d9}
-      \strng{fullhash}{1d8a0824ae7f0c03dafde4252a98abf7}
-      \strng{fullhashraw}{1d8a0824ae7f0c03dafde4252a98abf7}
-      \strng{bibnamehash}{1d8a0824ae7f0c03dafde4252a98abf7}
-      \strng{authorbibnamehash}{1d8a0824ae7f0c03dafde4252a98abf7}
-      \strng{authornamehash}{297d8ee7499f63b6a5122f5366ba56d9}
-      \strng{authorfullhash}{1d8a0824ae7f0c03dafde4252a98abf7}
-      \strng{authorfullhashraw}{1d8a0824ae7f0c03dafde4252a98abf7}
+      \strng{namehash}{ec2bbbdbaf8217a2ec8e7a0a176ff5f7}
+      \strng{fullhash}{fb2dff65319f8457f683fa1c25c8a6a5}
+      \strng{fullhashraw}{fb2dff65319f8457f683fa1c25c8a6a5}
+      \strng{bibnamehash}{fb2dff65319f8457f683fa1c25c8a6a5}
+      \strng{authorbibnamehash}{fb2dff65319f8457f683fa1c25c8a6a5}
+      \strng{authornamehash}{ec2bbbdbaf8217a2ec8e7a0a176ff5f7}
+      \strng{authorfullhash}{fb2dff65319f8457f683fa1c25c8a6a5}
+      \strng{authorfullhashraw}{fb2dff65319f8457f683fa1c25c8a6a5}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -1545,18 +1621,14 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
       \field{journaltitle}{Annals of Operations Research}
-      \field{note}{Diakses: Tanggal Akses Anda}
       \field{number}{1-2}
-      \field{title}{Exploiting time-varying RFM measures for customer churn prediction with deep neural networks}
+      \field{title}{Exploiting Time-Varying {RFM} Measures for Customer Churn Prediction with Deep Neural Networks}
       \field{volume}{339}
-      \field{year}{2023}
+      \field{year}{2024}
       \field{pages}{765\bibrangedash 787}
       \range{pages}{23}
-      \verb{urlraw}
-      \verb URL_ATAU_DOI_DISINI
-      \endverb
-      \verb{url}
-      \verb URL_ATAU_DOI_DISINI
+      \verb{doi}
+      \verb 10.1007/s10479-023-05259-9
       \endverb
     \endentry
     \entry{Merugu2024IntentLLM}{inproceedings}{}{}
@@ -1669,7 +1741,7 @@
       \field{title}{Reproducible Subjective Evaluation}
       \field{year}{2021}
     \endentry
-    \entry{mulyatun2021pendekatan}{article}{}{}
+    \entry{mulyatun2021chatbot}{article}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=08af2c185911750d767bcdbb30f0a116}{%
            family={Mulyatun},
@@ -1701,15 +1773,21 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{journaltitle}{Jurnal Teknologi Sistem Informasi dan Aplikasi}
-      \field{number}{1}
+      \field{journaltitle}{Journal of Information System Management (JOISM)}
+      \field{number}{2}
       \field{title}{Pendekatan Natural Language Processing pada Aplikasi Chatbot sebagai Alat Bantu Customer Service}
-      \field{volume}{4}
+      \field{volume}{2}
       \field{year}{2021}
-      \field{pages}{55\bibrangedash 62}
-      \range{pages}{8}
+      \field{pages}{12\bibrangedash 17}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.32493/jtsi.v4i1.7751
+      \verb 10.24076/joism.2021v3i1.404
+      \endverb
+      \verb{urlraw}
+      \verb https://jurnal.amikom.ac.id/index.php/joism/article/view/404
+      \endverb
+      \verb{url}
+      \verb https://jurnal.amikom.ac.id/index.php/joism/article/view/404
       \endverb
     \endentry
     \entry{svm2025comparative}{article}{}{}
@@ -1755,47 +1833,12 @@
       \verb 10.61628/jsce.v6i3.2058
       \endverb
     \endentry
-    \entry{LearningGate2024ChatbotQuality}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=146f9e979d0e293359461759de2f4228}{%
-           family={Nama},
-           familyi={N\bibinitperiod},
-           given={Penulis},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5fa45b0e7626e000929a4c8e023c02d4}{%
-           family={Penulis},
-           familyi={P\bibinitperiod},
-           given={Lainnya},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{fullhash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{fullhashraw}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{bibnamehash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{authorbibnamehash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{authornamehash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{authorfullhash}{d3cf2e767f7370f7465259dab3492eea}
-      \strng{authorfullhashraw}{d3cf2e767f7370f7465259dab3492eea}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{author}
-      \field{journaltitle}{Learning Gate Journal}
-      \field{number}{Y}
-      \field{title}{{AI} Chatbot Quality in Customer Service: Extending Service Quality Models}
-      \field{volume}{X}
-      \field{year}{2024}
-    \endentry
     \entry{ouaddi2025comparative}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e16267c792dd3e86f9b321ca22699e89}{%
+        {{un=0,uniquepart=base,hash=8fc0f9d3fd8eb6f68e4542ce7f99852f}{%
            family={Ouaddi},
            familyi={O\bibinitperiod},
-           given={Chaimae},
+           given={Charaf},
            giveni={C\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=acdf217a0391a7b4d817b3e76f532699}{%
@@ -1811,29 +1854,28 @@
            giveni={N\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{fullhash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{fullhashraw}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{bibnamehash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{authorbibnamehash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{authornamehash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{authorfullhash}{9ff8b52752b951f6a82ccebe653f687f}
-      \strng{authorfullhashraw}{9ff8b52752b951f6a82ccebe653f687f}
+      \strng{namehash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{fullhash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{fullhashraw}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{bibnamehash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{authorbibnamehash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{authornamehash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{authorfullhash}{a889fcb79c21ab11996088430d87e0c5}
+      \strng{authorfullhashraw}{a889fcb79c21ab11996088430d87e0c5}
       \field{sortinit}{O}
       \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{author}
-      \field{journaltitle}{Journal of Big Data}
-      \field{number}{1}
-      \field{title}{A Comparative Analysis and Performance Evaluation of Deep Learning Techniques for Intent Detection in Conversational AI Chatbots}
-      \field{volume}{12}
+      \field{journaltitle}{Scientific African}
+      \field{title}{Assessing the Effectiveness of Large Language Models for Intent Detection in Tourism Chatbots: A Comparative Analysis and Performance Evaluation}
+      \field{volume}{28}
       \field{year}{2025}
-      \field{pages}{1\bibrangedash 25}
-      \range{pages}{25}
+      \field{pages}{e02649}
+      \range{pages}{-1}
       \verb{doi}
-      \verb 10.1186/s40537-024-00996-6
+      \verb 10.1016/j.sciaf.2025.e02649
       \endverb
     \endentry
     \entry{Ouali2024ArabicChatbots}{article}{}{}
@@ -2399,13 +2441,19 @@
       \field{labeltitlesource}{author}
       \field{journaltitle}{World Journal of Advanced Engineering Technology and Sciences}
       \field{number}{02}
-      \field{title}{Hybrid Analytics Architecture: Integrating Traditional BI with AI-Driven Insights}
+      \field{title}{Hybrid Analytics Architecture: Integrating Traditional {BI} with {AI-Powered} Insights}
       \field{volume}{14}
       \field{year}{2025}
       \field{pages}{256\bibrangedash 271}
       \range{pages}{16}
       \verb{doi}
-      \verb 10.30574/wjaets.2025.14.2.0037
+      \verb 10.30574/wjaets.2025.15.1.0351
+      \endverb
+      \verb{urlraw}
+      \verb https://journalwjaets.com/content/hybrid-analytics-architecture-integrating-traditional-bi-ai-powered-insights
+      \endverb
+      \verb{url}
+      \verb https://journalwjaets.com/content/hybrid-analytics-architecture-integrating-traditional-bi-ai-powered-insights
       \endverb
     \endentry
     \entry{ijirt2024rulebased}{article}{}{}
@@ -2720,39 +2768,6 @@
       \field{year}{2025}
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
-    \endentry
-    \entry{teneo2022intent}{online}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=da5618e06ce654437361b8b783a910f9}{%
-           family={{Teneo Developers}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{da5618e06ce654437361b8b783a910f9}
-      \strng{fullhash}{da5618e06ce654437361b8b783a910f9}
-      \strng{fullhashraw}{da5618e06ce654437361b8b783a910f9}
-      \strng{bibnamehash}{da5618e06ce654437361b8b783a910f9}
-      \strng{authorbibnamehash}{da5618e06ce654437361b8b783a910f9}
-      \strng{authornamehash}{da5618e06ce654437361b8b783a910f9}
-      \strng{authorfullhash}{da5618e06ce654437361b8b783a910f9}
-      \strng{authorfullhashraw}{da5618e06ce654437361b8b783a910f9}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Intent Classification: Confidence Threshold}
-      \field{urlday}{4}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://developers.teneo.ai/documentation/7.5.0/reference/conceptual-overviews/intent-classification
-      \endverb
-      \verb{url}
-      \verb https://developers.teneo.ai/documentation/7.5.0/reference/conceptual-overviews/intent-classification
-      \endverb
     \endentry
     \entry{velotix2025security}{online}{}{}
       \name{author}{1}{}{%
